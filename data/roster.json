@@ -17327,27 +17327,39 @@
     "id": "mdb_Olaf_Scholz",
     "name": "Olaf Scholz",
     "party": "SPD",
-    "tier": 2,
+    "tier": 4,
     "domains": [
-      "justice",
+      "economy",
       "social",
-      "economy"
+      "justice",
+      "foreign"
     ],
-    "resources": 2,
-    "leadership": 3,
+    "resources": 4,
+    "leadership": 5,
     "as_of": "2025-03-25",
     "verified_on": "2026-11-05",
     "source": "https://www.bundeswahlleiterin.de/dam/jcr/eeb02132-caeb-430a-ae1f-6cd5907f1809/btw25_gewaehlte_utf8.zip",
     "sources": [
-      "https://www.bundeswahlleiterin.de/dam/jcr/eeb02132-caeb-430a-ae1f-6cd5907f1809/btw25_gewaehlte_utf8.zip"
+      "https://www.bundeswahlleiterin.de/dam/jcr/eeb02132-caeb-430a-ae1f-6cd5907f1809/btw25_gewaehlte_utf8.zip",
+      "https://www.bundestag.de/abgeordnete/biografien/S/scholz_olaf-1047228"
     ],
     "data_status": "21ST_BUNDESTAG_CONSTITUTING_SNAPSHOT",
     "attribute_status": "GAME_DESIGN_ASSUMPTION_NOT_MEASURED_ABILITY",
     "election_party": "SPD",
-    "negotiation": 1,
+    "negotiation": 4,
     "oratory": 3,
-    "expertise": 1,
-    "resilience": 1
+    "expertise": 4,
+    "resilience": 4,
+    "careerNote": {
+      "zh": "前联邦总理 · 前联邦财政部长",
+      "en": "Former Federal Chancellor · Former Federal Minister of Finance",
+      "de": "Ehem. Bundeskanzler · Ehem. Bundesfinanzminister"
+    },
+    "assessment": {
+      "status": "official_profile_reviewed",
+      "source": "https://www.bundestag.de/abgeordnete/biografien/S/scholz_olaf-1047228",
+      "profession": "Fachanwalt für Arbeitsrecht"
+    }
   },
   {
     "id": "mdb_Johannes_Schraps",

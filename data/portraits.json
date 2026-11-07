@@ -47,5 +47,61 @@
     "faceX": 0.725,
     "faceY": 0.28,
     "faceHeight": 0.32
+  },
+  "mdb_Olaf_Scholz": {
+    "file": "Olaf-Scholz.png",
+    "aspect": 1.24,
+    "faceX": 0.661,
+    "faceY": 0.282,
+    "faceHeight": 0.252
+  },
+  "mdb_Bodo_Ramelow": {
+    "file": "2025-01-18_Außerordentlicher_Bundesparteitag_Die_Linke_2025_in_Berlin_by_Sandro_Halank–111.jpg",
+    "aspect": 1.09651628,
+    "faceX": 0.559,
+    "faceY": 0.181,
+    "faceHeight": 0.28
+  },
+  "Pistorius": {
+    "file": "Secretary_of_Defense_Pete_Hegseth_hosts_a_bilateral_exchange_with_German_Minister_of_Defense_Boris_Pistorius_at_the_Pentagon_(54654861391).jpg",
+    "aspect": 1.5,
+    "faceX": 0.286,
+    "faceY": 0.242,
+    "faceHeight": 0.25
+  },
+  "Droege": {
+    "file": "Katharina_Dröge_(Pressefoto).jpg",
+    "aspect": 1.49911817,
+    "faceX": 0.502,
+    "faceY": 0.277,
+    "faceHeight": 0.41
+  },
+  "mdb_Ricarda_Lang": {
+    "file": "Ricarda_Lang_at_Republica25_2025-05-27_01.jpg",
+    "aspect": 1.50117279,
+    "faceX": 0.42,
+    "faceY": 0.496,
+    "faceHeight": 0.27
+  },
+  "Reichinnek": {
+    "file": "Außerordentlicher_Bundesparteitag_in_Berlin_(3).jpg",
+    "aspect": 1.5,
+    "faceX": 0.432,
+    "faceY": 0.287,
+    "faceHeight": 0.4
+  },
+  "Chrupalla": {
+    "file": "2019-04-10_Tino_Chrupalla_MdB_by_Olaf_Kosinsky-7651.jpg",
+    "aspect": 1.07442641,
+    "faceX": 0.466,
+    "faceY": 0.222,
+    "faceHeight": 0.283
+  },
+  "Weidel": {
+    "file": "Alice_Weidel_at_CPAC_Hungary_2025.jpg",
+    "aspect": 1.40145985,
+    "faceX": 0.724,
+    "faceY": 0.304,
+    "faceHeight": 0.25
   }
 }
