@@ -1,13 +1,14 @@
 # Koalitionsprotokoll
 
-## 发布到 GitHub Pages
+一款八回合的德国联邦议院策略游戏。你扮演执政党，与电脑控制的反对党较量。
 
-1. 解压 ZIP，把解压出来的文件和目录上传到仓库根目录，保留原有层级。确认 `index.html` 和 `foto/` 位于同一层。`.nojekyll` 也一起提交。
-2. 在仓库打开 **Settings → Pages**，Source 选 **Deploy from a branch**，选择已上传的分支（通常为 `main`）和 **/(root)**，保存。
-3. 等待 Pages 完成部署，从该设置页打开站点链接。
+## 怎么打开
 
-直接打开 `index.html` 也可以在本机游玩。游玩只需浏览器。修改源码后，如需重建 HTML，请在根目录用装有 Pillow 的 Python 运行 `python3 build.py`。
+- **在线游玩**：打开本仓库的 GitHub Pages 网站。
+- **本地游玩**：下载并解压后，用浏览器打开根目录的 **`index.html`**。让 `foto/` 文件夹和它放在同一层。无需安装。
 
-代码许可证及第三方声明见 `LICENSE-GPL-3.0` 和 `THIRD_PARTY_NOTICES.md`，字体许可见 `web/assets/news/OFL.txt`。
+## 怎么玩
 
-[GitHub Pages 官方配置说明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+开局选择 CDU、CSU 或 SPD。每轮先读新闻、竞拍议员，再选最多五人出战并决定谈判方案。符合条件的盟约和人物技能会在选人时显示。八轮结束后，累计政策成果更高的一方获胜。
+
+游戏会自动保存在当前浏览器，下次可从首页继续。
