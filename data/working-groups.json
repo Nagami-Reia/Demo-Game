@@ -1,0 +1,2576 @@
+[
+  {
+    "id": "union_ag_angelegenheiten_der_europaeischen_union",
+    "name": "Arbeitsgruppe Angelegenheiten der Europäischen Union der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Angelegenheiten der Europäischen Union",
+    "nameZh": "CDU/CSU联邦议院党团欧盟事务工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "foreign"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Alexander_Gamal_Radwan",
+        "name": "Alexander Radwan",
+        "source": "https://www.cducsu.de/abgeordnete/alexander-radwan",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_David_Gregosz",
+        "name": "David Gregosz",
+        "source": "https://www.cducsu.de/abgeordnete/dipl-pol-bs-sc-david-gregosz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_David_Sebastian_Preisendanz",
+        "name": "David Preisendanz",
+        "source": "https://www.cducsu.de/abgeordnete/dr-david-preisendanz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Detlef_Seif",
+        "name": "Detlef Seif",
+        "source": "https://www.cducsu.de/abgeordnete/detlef-seif",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Georg_Gunther",
+        "name": "Georg Günther",
+        "source": "https://www.cducsu.de/abgeordnete/georg-guenther",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jan_Metzler",
+        "name": "Jan Metzler",
+        "source": "https://www.cducsu.de/abgeordnete/jan-metzler",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Kai_Thorsten_Whittaker",
+        "name": "Kai Whittaker",
+        "source": "https://www.cducsu.de/abgeordnete/kai-whittaker",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Roland_Theis",
+        "name": "Roland Theis",
+        "source": "https://www.cducsu.de/abgeordnete/roland-theis",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Tilman_Moritz_Kuban",
+        "name": "Tilman Kuban",
+        "source": "https://www.cducsu.de/abgeordnete/tilman-kuban",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Tobias_Winkler",
+        "name": "Tobias Winkler",
+        "source": "https://www.cducsu.de/abgeordnete/tobias-winkler",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Vivian_Tauschwitz",
+        "name": "Vivian Tauschwitz",
+        "source": "https://www.cducsu.de/abgeordnete/vivian-tauschwitz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_arbeit_und_soziales",
+    "name": "Arbeitsgruppe Arbeit und Soziales der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Arbeit und Soziales",
+    "nameZh": "CDU/CSU联邦议院党团劳动与社会事务工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "social"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Florian_Bilic",
+        "name": "Florian Bilic",
+        "source": "https://www.cducsu.de/abgeordnete/florian-bilic",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hulya_Duber",
+        "name": "Hülya Düber",
+        "source": "https://www.cducsu.de/abgeordnete/dr-huelya-dueber",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Kai_Thorsten_Whittaker",
+        "name": "Kai Whittaker",
+        "source": "https://www.cducsu.de/abgeordnete/kai-whittaker",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Lars_Andre_Ehm",
+        "name": "Lars Andre Ehm",
+        "source": "https://www.cducsu.de/abgeordnete/lars-andre-ehm",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Lutz_Brinkmann",
+        "name": "Lutz Brinkmann",
+        "source": "https://www.cducsu.de/abgeordnete/lutz-brinkmann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Marc_Josef_Biadacz",
+        "name": "Marc Biadacz",
+        "source": "https://www.cducsu.de/abgeordnete/marc-biadacz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Markus_Alexander_Reichel",
+        "name": "Markus Alexander Reichel",
+        "source": "https://www.cducsu.de/abgeordnete/dr-markus-alexander-reichel",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Nora_Seitz",
+        "name": "Nora Seitz",
+        "source": "https://www.cducsu.de/abgeordnete/nora-seitz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Ottilie_Paola_Klein",
+        "name": "Ottilie Paola Klein",
+        "source": "https://www.cducsu.de/abgeordnete/dr-ottilie-paola-klein",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Pascal_Reddig",
+        "name": "Pascal Reddig",
+        "source": "https://www.cducsu.de/abgeordnete/pascal-reddig",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Peter_Aumer",
+        "name": "Peter Aumer",
+        "source": "https://www.cducsu.de/abgeordnete/peter-aumer",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Sandra_Carstensen",
+        "name": "Sandra Carstensen",
+        "source": "https://www.cducsu.de/abgeordnete/sandra-carstensen",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Stefan_Nacke",
+        "name": "Stefan Nacke",
+        "source": "https://www.cducsu.de/abgeordnete/dr-stefan-nacke",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Wilfried_Oellers",
+        "name": "Wilfried Oellers",
+        "source": "https://www.cducsu.de/abgeordnete/wilfried-oellers",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_auswaertiges",
+    "name": "Arbeitsgruppe Auswärtiges der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Auswärtiges",
+    "nameZh": "CDU/CSU联邦议院党团外交事务工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "foreign"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Alexander_Gamal_Radwan",
+        "name": "Alexander Radwan",
+        "source": "https://www.cducsu.de/abgeordnete/alexander-radwan",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Armin_Laschet",
+        "name": "Armin Laschet",
+        "source": "https://www.cducsu.de/abgeordnete/armin-laschet",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Ellen_Demuth",
+        "name": "Ellen Demuth",
+        "source": "https://www.cducsu.de/abgeordnete/ellen-demuth",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Johannes_Volkmann",
+        "name": "Johannes Volkmann",
+        "source": "https://www.cducsu.de/abgeordnete/johannes-volkmann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jurgen_Hardt",
+        "name": "Jürgen Hardt",
+        "source": "https://www.cducsu.de/abgeordnete/juergen-hardt",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Knut_Friedrich_Alexander_Abraham",
+        "name": "Knut Friedrich Alexander Abraham",
+        "source": "https://www.cducsu.de/abgeordnete/knut-friedrich-alexander-abraham",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Markus_Benjamin_Koob",
+        "name": "Markus Koob",
+        "source": "https://www.cducsu.de/abgeordnete/markus-koob",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Nicolas_Benjamin_Zippelius",
+        "name": "Nicolas Zippelius",
+        "source": "https://www.cducsu.de/abgeordnete/nicolas-zippelius",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Paul_Ziemiak",
+        "name": "Paul Ziemiak",
+        "source": "https://www.cducsu.de/abgeordnete/paul-ziemiak",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Peter_Beyer",
+        "name": "Peter Beyer",
+        "source": "https://www.cducsu.de/abgeordnete/peter-beyer",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Roderich_Kiesewetter",
+        "name": "Roderich Kiesewetter",
+        "source": "https://www.cducsu.de/abgeordnete/roderich-kiesewetter",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Stephan_Mayer",
+        "name": "Stephan Mayer",
+        "source": "https://www.cducsu.de/abgeordnete/stephan-mayer",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Walther_Rachel",
+        "name": "Thomas Rachel",
+        "source": "https://www.cducsu.de/abgeordnete/thomas-rachel",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Tobias_Winkler",
+        "name": "Tobias Winkler",
+        "source": "https://www.cducsu.de/abgeordnete/tobias-winkler",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_bildung_familie_senioren_frauen_und_jugend",
+    "name": "Arbeitsgruppe Bildung, Familie, Senioren, Frauen und Jugend der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Bildung, Familie, Senioren, Frauen und Jugend",
+    "nameZh": "CDU/CSU联邦议院党团教育、家庭、老年人、妇女与青年工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "social"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Anja_Weisgerber",
+        "name": "Anja Weisgerber",
+        "source": "https://www.cducsu.de/abgeordnete/dr-anja-weisgerber",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Anne_Konig",
+        "name": "Anne König",
+        "source": "https://www.cducsu.de/abgeordnete/anne-koenig",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Astrid_Timmermann_Fechter",
+        "name": "Astrid Timmermann-Fechter",
+        "source": "https://www.cducsu.de/abgeordnete/astrid-timmermann-fechter",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Harald_Stefan_Orthey",
+        "name": "Harald Orthey",
+        "source": "https://www.cducsu.de/abgeordnete/harald-orthey",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Konrad_Korner",
+        "name": "Konrad Körner",
+        "source": "https://www.cducsu.de/abgeordnete/dr-konrad-koerner",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Marvin_Schulz",
+        "name": "Marvin Schulz",
+        "source": "https://www.cducsu.de/abgeordnete/marvin-schulz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Hose",
+        "name": "Michael Hose",
+        "source": "https://www.cducsu.de/abgeordnete/michael-hose",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Oliver_Reinhold_Popsel",
+        "name": "Oliver Reinhold Pöpsel",
+        "source": "https://www.cducsu.de/abgeordnete/oliver-reinhold-poepsel",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Ralph_Rene_Edelhauer",
+        "name": "Ralph Edelhäußer",
+        "source": "https://www.cducsu.de/abgeordnete/ralph-edelhaeusser",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Stephan_Theodor_Johannes_Albani",
+        "name": "Stephan Albani",
+        "source": "https://www.cducsu.de/abgeordnete/stephan-albani",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Wolfgang_Jochen_Dahler",
+        "name": "Wolfgang Dahler",
+        "source": "https://www.cducsu.de/abgeordnete/wolfgang-dahler",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_digitales_und_staatsmodernisierung",
+    "name": "Arbeitsgruppe Digitales und Staatsmodernisierung der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Digitales und Staatsmodernisierung",
+    "nameZh": "CDU/CSU联邦议院党团数字与国家现代化工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "digital"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Franziska_Christina_Brigitte_Hoppermann",
+        "name": "Franziska Hoppermann",
+        "source": "https://www.cducsu.de/abgeordnete/franziska-hoppermann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hansjorg_Durz",
+        "name": "Hansjörg Durz",
+        "source": "https://www.cducsu.de/abgeordnete/hansjoerg-durz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Henri_Schmidt",
+        "name": "Henri Schmidt",
+        "source": "https://www.cducsu.de/abgeordnete/henri-schmidt",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Joachim_Simon_Ebmeyer",
+        "name": "Joachim Ebmeyer",
+        "source": "https://www.cducsu.de/abgeordnete/joachim-ebmeyer",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Konrad_Korner",
+        "name": "Konrad Körner",
+        "source": "https://www.cducsu.de/abgeordnete/dr-konrad-koerner",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Markus_Alexander_Reichel",
+        "name": "Markus Alexander Reichel",
+        "source": "https://www.cducsu.de/abgeordnete/dr-markus-alexander-reichel",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Marvin_Schulz",
+        "name": "Marvin Schulz",
+        "source": "https://www.cducsu.de/abgeordnete/marvin-schulz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Ralph_Brinkhaus",
+        "name": "Ralph Brinkhaus",
+        "source": "https://www.cducsu.de/abgeordnete/ralph-brinkhaus",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Pauls",
+        "name": "Thomas Pauls",
+        "source": "https://www.cducsu.de/abgeordnete/dr-thomas-pauls",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_finanzen",
+    "name": "Arbeitsgruppe Finanzen der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Finanzen",
+    "nameZh": "CDU/CSU联邦议院党团财政税务工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "economy"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Anja_Maria_Antonia_Karliczek",
+        "name": "Anja Karliczek",
+        "source": "https://www.cducsu.de/abgeordnete/anja-karliczek",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Carsten_Brodesser",
+        "name": "Carsten Brodesser",
+        "source": "https://www.cducsu.de/abgeordnete/dr-carsten-brodesser",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Florian_Johannes_Dorn",
+        "name": "Florian Dorn",
+        "source": "https://www.cducsu.de/abgeordnete/dr-florian-dorn",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Fritz_Guntzler",
+        "name": "Fritz Güntzler",
+        "source": "https://www.cducsu.de/abgeordnete/fritz-guentzler",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Georg_Gunther",
+        "name": "Georg Günther",
+        "source": "https://www.cducsu.de/abgeordnete/georg-guenther",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Heiko_Hain",
+        "name": "Heiko Hain",
+        "source": "https://www.cducsu.de/abgeordnete/heiko-hain",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Lukas_Albrecht_Krieger",
+        "name": "Lukas Krieger",
+        "source": "https://www.cducsu.de/abgeordnete/lukas-krieger",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Matthias_Fabian_Hiller",
+        "name": "Matthias Hiller",
+        "source": "https://www.cducsu.de/abgeordnete/prof-dr-matthias-hiller",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Mechthilde_Wittmann",
+        "name": "Mechthilde Wittmann",
+        "source": "https://www.cducsu.de/abgeordnete/mechthilde-wittmann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Gunther_Meister",
+        "name": "Michael Meister",
+        "source": "https://www.cducsu.de/abgeordnete/dr-michael-meister",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Olav_Steffen_Gutting",
+        "name": "Olav Gutting",
+        "source": "https://www.cducsu.de/abgeordnete/olav-gutting",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Oliver_Reinhold_Popsel",
+        "name": "Oliver Reinhold Pöpsel",
+        "source": "https://www.cducsu.de/abgeordnete/oliver-reinhold-poepsel",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Stefan_Korbach",
+        "name": "Stefan Korbach",
+        "source": "https://www.cducsu.de/abgeordnete/dr-stefan-korbach",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_forschung_technologie_und_raumfahrt",
+    "name": "Arbeitsgruppe Forschung, Technologie und Raumfahrt der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Forschung, Technologie und Raumfahrt",
+    "nameZh": "CDU/CSU联邦议院党团科研、技术与航天工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "digital"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Adrian_Grasse",
+        "name": "Adrian Grasse",
+        "source": "https://www.cducsu.de/abgeordnete/adrian-grasse",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Fabian_Benedikt_Meinrad_Gramling",
+        "name": "Fabian Gramling",
+        "source": "https://www.cducsu.de/abgeordnete/fabian-gramling",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Florian_Matthias_Muller",
+        "name": "Florian Müller",
+        "source": "https://www.cducsu.de/abgeordnete/florian-mueller",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Florian_Oest",
+        "name": "Florian Oest",
+        "source": "https://www.cducsu.de/abgeordnete/florian-oest",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hans_Diogenes_Theiss",
+        "name": "Hans Theiss",
+        "source": "https://www.cducsu.de/abgeordnete/prof-dr-med-hans-theiss",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hansjorg_Durz",
+        "name": "Hansjörg Durz",
+        "source": "https://www.cducsu.de/abgeordnete/hansjoerg-durz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Joachim_Simon_Ebmeyer",
+        "name": "Joachim Ebmeyer",
+        "source": "https://www.cducsu.de/abgeordnete/joachim-ebmeyer",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Stephan_Theodor_Johannes_Albani",
+        "name": "Stephan Albani",
+        "source": "https://www.cducsu.de/abgeordnete/stephan-albani",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Tino_Sorge",
+        "name": "Tino Sorge",
+        "source": "https://www.cducsu.de/abgeordnete/tino-sorge",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_gesundheit",
+    "name": "Arbeitsgruppe Gesundheit der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Gesundheit",
+    "nameZh": "CDU/CSU联邦议院党团卫生工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "social"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Anne_Janssen",
+        "name": "Anne Janssen",
+        "source": "https://www.cducsu.de/abgeordnete/anne-janssen",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Axel_Karl_Muller",
+        "name": "Axel Müller",
+        "source": "https://www.cducsu.de/abgeordnete/axel-mueller",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Emmi_Zeulner",
+        "name": "Emmi Zeulner",
+        "source": "https://www.cducsu.de/abgeordnete/emmi-zeulner",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hans_Diogenes_Theiss",
+        "name": "Hans Theiss",
+        "source": "https://www.cducsu.de/abgeordnete/prof-dr-med-hans-theiss",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hendrik_Streeck",
+        "name": "Hendrik Streeck",
+        "source": "https://www.cducsu.de/abgeordnete/prof-dr-hendrik-streeck",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Maria_Lena_Weiss",
+        "name": "Maria-Lena Weiss",
+        "source": "https://www.cducsu.de/abgeordnete/dr-jur-maria-lena-weiss",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Matthias_Fabian_Hiller",
+        "name": "Matthias Hiller",
+        "source": "https://www.cducsu.de/abgeordnete/prof-dr-matthias-hiller",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Nora_Seitz",
+        "name": "Nora Seitz",
+        "source": "https://www.cducsu.de/abgeordnete/nora-seitz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Sascha_van_Beek",
+        "name": "Sascha van Beek",
+        "source": "https://www.cducsu.de/abgeordnete/sascha-van-beek",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Sebastian_Schmidt",
+        "name": "Sebastian Schmidt",
+        "source": "https://www.cducsu.de/abgeordnete/sebastian-schmidt",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Simone_Borchardt",
+        "name": "Simone Borchardt",
+        "source": "https://www.cducsu.de/abgeordnete/simone-borchardt",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Stephan_Nikolaus_Pilsinger",
+        "name": "Stephan Pilsinger",
+        "source": "https://www.cducsu.de/abgeordnete/dr-med-stephan-pilsinger",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Pauls",
+        "name": "Thomas Pauls",
+        "source": "https://www.cducsu.de/abgeordnete/dr-thomas-pauls",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_haushalt",
+    "name": "Arbeitsgruppe Haushalt der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Haushalt",
+    "nameZh": "CDU/CSU联邦议院党团预算工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "economy"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Andreas_Mattfeldt",
+        "name": "Andreas Mattfeldt",
+        "source": "https://www.cducsu.de/abgeordnete/andreas-mattfeldt",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Carsten_Korber",
+        "name": "Carsten Körber",
+        "source": "https://www.cducsu.de/abgeordnete/carsten-koerber",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christian_Karl_Friedhelm_Haase",
+        "name": "Christian Haase",
+        "source": "https://www.cducsu.de/abgeordnete/christian-haase",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Florian_Oner",
+        "name": "Florian Oßner",
+        "source": "https://www.cducsu.de/abgeordnete/florian-ossner",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jan_Metzler",
+        "name": "Jan Metzler",
+        "source": "https://www.cducsu.de/abgeordnete/jan-metzler",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Kerstin_Christiane_Radomski",
+        "name": "Kerstin Radomski",
+        "source": "https://www.cducsu.de/abgeordnete/kerstin-radomski",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Klaus_Peter_Willsch",
+        "name": "Klaus-Peter Willsch",
+        "source": "https://www.cducsu.de/abgeordnete/klaus-peter-willsch",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Mechthilde_Wittmann",
+        "name": "Mechthilde Wittmann",
+        "source": "https://www.cducsu.de/abgeordnete/mechthilde-wittmann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Melanie_Bernstein",
+        "name": "Melanie Bernstein",
+        "source": "https://www.cducsu.de/abgeordnete/melanie-bernstein",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Olav_Steffen_Gutting",
+        "name": "Olav Gutting",
+        "source": "https://www.cducsu.de/abgeordnete/olav-gutting",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Oliver_Vogt",
+        "name": "Oliver Vogt",
+        "source": "https://www.cducsu.de/abgeordnete/dr-oliver-vogt",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Peter_Aumer",
+        "name": "Peter Aumer",
+        "source": "https://www.cducsu.de/abgeordnete/peter-aumer",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Uwe_Wolfgang_Werner_Feiler",
+        "name": "Uwe Feiler",
+        "source": "https://www.cducsu.de/abgeordnete/uwe-feiler",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Yannick_Bury",
+        "name": "Yannick Bury",
+        "source": "https://www.cducsu.de/abgeordnete/dr-yannick-bury",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_innen",
+    "name": "Arbeitsgruppe Innen der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Innen",
+    "nameZh": "CDU/CSU联邦议院党团内政工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "security"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Alexander_Richard_Throm",
+        "name": "Alexander Throm",
+        "source": "https://www.cducsu.de/abgeordnete/alexander-throm",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Cornell_Anette_Babendererde",
+        "name": "Cornell-Anette Babendererde",
+        "source": "https://www.cducsu.de/abgeordnete/dr-cornell-anette-babendererde",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_David_Gregosz",
+        "name": "David Gregosz",
+        "source": "https://www.cducsu.de/abgeordnete/dipl-pol-bs-sc-david-gregosz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_David_Sebastian_Preisendanz",
+        "name": "David Preisendanz",
+        "source": "https://www.cducsu.de/abgeordnete/dr-david-preisendanz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Detlef_Seif",
+        "name": "Detlef Seif",
+        "source": "https://www.cducsu.de/abgeordnete/detlef-seif",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Florian_Oest",
+        "name": "Florian Oest",
+        "source": "https://www.cducsu.de/abgeordnete/florian-oest",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Heiko_Hain",
+        "name": "Heiko Hain",
+        "source": "https://www.cducsu.de/abgeordnete/heiko-hain",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Johannes_Thomas_Maria_Wiegelmann",
+        "name": "Johannes Thomas Maria Wiegelmann",
+        "source": "https://www.cducsu.de/abgeordnete/johannes-thomas-maria-wiegelmann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Josef_Oster",
+        "name": "Josef Oster",
+        "source": "https://www.cducsu.de/abgeordnete/josef-oster",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Katja_Strauss_Koster",
+        "name": "Katja Strauss-Köster",
+        "source": "https://www.cducsu.de/abgeordnete/dr-katja-strauss-koester",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Marc_Henrichmann",
+        "name": "Marc Henrichmann",
+        "source": "https://www.cducsu.de/abgeordnete/marc-henrichmann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Sebastian_Schmidt",
+        "name": "Sebastian Schmidt",
+        "source": "https://www.cducsu.de/abgeordnete/sebastian-schmidt",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Siegfried_Sebastian_Walch",
+        "name": "Siegfried Sebastian Walch",
+        "source": "https://www.cducsu.de/abgeordnete/siegfried-sebastian-walch",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Silberhorn",
+        "name": "Thomas Silberhorn",
+        "source": "https://www.cducsu.de/abgeordnete/thomas-silberhorn",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_kultur_und_medien",
+    "name": "Arbeitsgruppe Kultur und Medien der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Kultur und Medien",
+    "nameZh": "CDU/CSU联邦议院党团文化与媒体工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "social",
+      "digital"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Ellen_Demuth",
+        "name": "Ellen Demuth",
+        "source": "https://www.cducsu.de/abgeordnete/ellen-demuth",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Johannes_Volkmann",
+        "name": "Johannes Volkmann",
+        "source": "https://www.cducsu.de/abgeordnete/johannes-volkmann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Edwin_Frieser",
+        "name": "Michael Frieser",
+        "source": "https://www.cducsu.de/abgeordnete/michael-frieser",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Hose",
+        "name": "Michael Hose",
+        "source": "https://www.cducsu.de/abgeordnete/michael-hose",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Ottilie_Paola_Klein",
+        "name": "Ottilie Paola Klein",
+        "source": "https://www.cducsu.de/abgeordnete/dr-ottilie-paola-klein",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Pascal_Reddig",
+        "name": "Pascal Reddig",
+        "source": "https://www.cducsu.de/abgeordnete/pascal-reddig",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_landwirtschaft_ernaehrung_und_heimat",
+    "name": "Arbeitsgruppe Landwirtschaft, Ernährung und Heimat der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Landwirtschaft, Ernährung und Heimat",
+    "nameZh": "CDU/CSU联邦议院党团农业、食品与家园工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Alexander_Karl_Engelhard",
+        "name": "Alexander Engelhard",
+        "source": "https://www.cducsu.de/abgeordnete/alexander-engelhard",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Alexander_Jordan",
+        "name": "Alexander Jordan",
+        "source": "https://www.cducsu.de/abgeordnete/alexander-jordan",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Anna_Elisabeth_Christine_Sophie_Aeikens",
+        "name": "Anna Aeikens",
+        "source": "https://www.cducsu.de/abgeordnete/anna-aeikens",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Artur_Friedrich_Auernhammer",
+        "name": "Artur Auernhammer",
+        "source": "https://www.cducsu.de/abgeordnete/artur-auernhammer",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Benedikt_Budenbender",
+        "name": "Benedikt Büdenbender",
+        "source": "https://www.cducsu.de/abgeordnete/benedikt-buedenbender",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Caroline_Bosbach",
+        "name": "Caroline Bosbach",
+        "source": "https://www.cducsu.de/abgeordnete/caroline-bosbach",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christina_Daniela_Stumpp",
+        "name": "Christina Stumpp",
+        "source": "https://www.cducsu.de/abgeordnete/christina-stumpp",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christoph_Frauenprei",
+        "name": "Christoph Frauenpreiß",
+        "source": "https://www.cducsu.de/abgeordnete/christoph-frauenpreiss",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Dieter_Stier",
+        "name": "Dieter Stier",
+        "source": "https://www.cducsu.de/abgeordnete/dieter-stier",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hermann_Klaus_Farber",
+        "name": "Hermann Färber",
+        "source": "https://www.cducsu.de/abgeordnete/hermann-faerber",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_menschenrechte_und_humanitaere_hilfe",
+    "name": "Arbeitsgruppe Menschenrechte und humanitäre Hilfe der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Menschenrechte und humanitäre Hilfe",
+    "nameZh": "CDU/CSU联邦议院党团人权与人道援助工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "foreign",
+      "social"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Elisabeth_Winkelmeier_Becker",
+        "name": "Elisabeth Winkelmeier-Becker",
+        "source": "https://www.cducsu.de/abgeordnete/elisabeth-winkelmeier-becker",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jonas_Alexander_Tecumseh_Geissler",
+        "name": "Jonas Geissler",
+        "source": "https://www.cducsu.de/abgeordnete/dr-jonas-geissler",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Knut_Friedrich_Alexander_Abraham",
+        "name": "Knut Friedrich Alexander Abraham",
+        "source": "https://www.cducsu.de/abgeordnete/knut-friedrich-alexander-abraham",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Mechthild_Heil",
+        "name": "Mechthild Heil",
+        "source": "https://www.cducsu.de/abgeordnete/mechthild-heil",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Norbert_Maria_Altenkamp",
+        "name": "Norbert Altenkamp",
+        "source": "https://www.cducsu.de/abgeordnete/norbert-altenkamp",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_petitionen",
+    "name": "Arbeitsgruppe Petitionen der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Petitionen",
+    "nameZh": "CDU/CSU联邦议院党团请愿工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "security",
+      "social"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Andreas_Mattfeldt",
+        "name": "Andreas Mattfeldt",
+        "source": "https://www.cducsu.de/abgeordnete/andreas-mattfeldt",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Benedikt_Budenbender",
+        "name": "Benedikt Büdenbender",
+        "source": "https://www.cducsu.de/abgeordnete/benedikt-buedenbender",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Heiko_Hain",
+        "name": "Heiko Hain",
+        "source": "https://www.cducsu.de/abgeordnete/heiko-hain",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hulya_Duber",
+        "name": "Hülya Düber",
+        "source": "https://www.cducsu.de/abgeordnete/dr-huelya-dueber",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Johannes_Rothenberger",
+        "name": "Johannes Rothenberger",
+        "source": "https://www.cducsu.de/abgeordnete/johannes-rothenberger",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Marlon_Andreas_Paul_Brohr",
+        "name": "Marlon Bröhr",
+        "source": "https://www.cducsu.de/abgeordnete/dr-marlon-broehr",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Nicklas_Kappe",
+        "name": "Nicklas Kappe",
+        "source": "https://www.cducsu.de/abgeordnete/nicklas-kappe",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Simone_Borchardt",
+        "name": "Simone Borchardt",
+        "source": "https://www.cducsu.de/abgeordnete/simone-borchardt",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Wolfgang_Jochen_Dahler",
+        "name": "Wolfgang Dahler",
+        "source": "https://www.cducsu.de/abgeordnete/wolfgang-dahler",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_recht_und_verbraucherschutz",
+    "name": "Arbeitsgruppe Recht und Verbraucherschutz der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Recht und Verbraucherschutz",
+    "nameZh": "CDU/CSU联邦议院党团法律与消费者保护工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "security"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Axel_Karl_Muller",
+        "name": "Axel Müller",
+        "source": "https://www.cducsu.de/abgeordnete/axel-mueller",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Carl_Philipp_Martin_Gerhard_Sassenrath",
+        "name": "Carl-Philipp Sassenrath",
+        "source": "https://www.cducsu.de/abgeordnete/carl-philipp-sassenrath",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Carsten_Muller",
+        "name": "Carsten Müller",
+        "source": "https://www.cducsu.de/abgeordnete/carsten-mueller",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christian_Anton_Moser",
+        "name": "Christian Moser",
+        "source": "https://www.cducsu.de/abgeordnete/christian-moser",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_David_Sebastian_Preisendanz",
+        "name": "David Preisendanz",
+        "source": "https://www.cducsu.de/abgeordnete/dr-david-preisendanz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Johannes_Rothenberger",
+        "name": "Johannes Rothenberger",
+        "source": "https://www.cducsu.de/abgeordnete/johannes-rothenberger",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Johannes_Thomas_Maria_Wiegelmann",
+        "name": "Johannes Thomas Maria Wiegelmann",
+        "source": "https://www.cducsu.de/abgeordnete/johannes-thomas-maria-wiegelmann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Konrad_Korner",
+        "name": "Konrad Körner",
+        "source": "https://www.cducsu.de/abgeordnete/dr-konrad-koerner",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Martin_Plum",
+        "name": "Martin Plum",
+        "source": "https://www.cducsu.de/abgeordnete/dr-martin-plum",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Sebastian_Steineke",
+        "name": "Sebastian Steineke",
+        "source": "https://www.cducsu.de/abgeordnete/sebastian-steineke",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Susanne_Hierl",
+        "name": "Susanne Hierl",
+        "source": "https://www.cducsu.de/abgeordnete/susanne-hierl",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Tijen_Ataoglu",
+        "name": "Tijen Ataoğlu",
+        "source": "https://www.cducsu.de/abgeordnete/llm-tijen-ataoglu",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_sport_und_ehrenamt",
+    "name": "Arbeitsgruppe Sport und Ehrenamt der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Sport und Ehrenamt",
+    "nameZh": "CDU/CSU联邦议院党团体育与志愿服务工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "social"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Artur_Friedrich_Auernhammer",
+        "name": "Artur Auernhammer",
+        "source": "https://www.cducsu.de/abgeordnete/artur-auernhammer",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Dieter_Stier",
+        "name": "Dieter Stier",
+        "source": "https://www.cducsu.de/abgeordnete/dieter-stier",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Fritz_Guntzler",
+        "name": "Fritz Güntzler",
+        "source": "https://www.cducsu.de/abgeordnete/fritz-guentzler",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jens_Lehmann",
+        "name": "Jens Lehmann",
+        "source": "https://www.cducsu.de/abgeordnete/jens-lehmann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Stephan_Mayer",
+        "name": "Stephan Mayer",
+        "source": "https://www.cducsu.de/abgeordnete/stephan-mayer",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_tourismus",
+    "name": "Arbeitsgruppe Tourismus der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Tourismus",
+    "nameZh": "CDU/CSU联邦议院党团旅游工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "economy"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Anja_Maria_Antonia_Karliczek",
+        "name": "Anja Karliczek",
+        "source": "https://www.cducsu.de/abgeordnete/anja-karliczek",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Cornell_Anette_Babendererde",
+        "name": "Cornell-Anette Babendererde",
+        "source": "https://www.cducsu.de/abgeordnete/dr-cornell-anette-babendererde",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Leif_Erik_Bodin",
+        "name": "Leif Erik Bodin",
+        "source": "https://www.cducsu.de/abgeordnete/leif-erik-bodin",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Donth",
+        "name": "Michael Donth",
+        "source": "https://www.cducsu.de/abgeordnete/michael-donth",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Hannes_Kieling",
+        "name": "Michael Kießling",
+        "source": "https://www.cducsu.de/abgeordnete/dipl-ing-fh-michael-kiessling",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_umwelt_klimaschutz_naturschutz_nukleare_sicherheit",
+    "name": "Arbeitsgruppe Umwelt, Klimaschutz, Naturschutz, nukleare Sicherheit der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Umwelt, Klimaschutz, Naturschutz, nukleare Sicherheit",
+    "nameZh": "CDU/CSU联邦议院党团环境、气候保护、自然保护与核安全工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "climate"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Alexander_Karl_Engelhard",
+        "name": "Alexander Engelhard",
+        "source": "https://www.cducsu.de/abgeordnete/alexander-engelhard",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Anna_Elisabeth_Christine_Sophie_Aeikens",
+        "name": "Anna Aeikens",
+        "source": "https://www.cducsu.de/abgeordnete/anna-aeikens",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Benedikt_Budenbender",
+        "name": "Benedikt Büdenbender",
+        "source": "https://www.cducsu.de/abgeordnete/benedikt-buedenbender",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christian_Anton_Moser",
+        "name": "Christian Moser",
+        "source": "https://www.cducsu.de/abgeordnete/christian-moser",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Florian_Bilic",
+        "name": "Florian Bilic",
+        "source": "https://www.cducsu.de/abgeordnete/florian-bilic",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Leif_Erik_Bodin",
+        "name": "Leif Erik Bodin",
+        "source": "https://www.cducsu.de/abgeordnete/leif-erik-bodin",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Mark_Helfrich",
+        "name": "Mark Helfrich",
+        "source": "https://www.cducsu.de/abgeordnete/mark-helfrich",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Sascha_van_Beek",
+        "name": "Sascha van Beek",
+        "source": "https://www.cducsu.de/abgeordnete/sascha-van-beek",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Gebhart",
+        "name": "Thomas Gebhart",
+        "source": "https://www.cducsu.de/abgeordnete/dr-thomas-gebhart",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Volker_Fred_Mayer_Lay",
+        "name": "Volker Mayer-Lay",
+        "source": "https://www.cducsu.de/abgeordnete/volker-mayer-lay",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_verkehr",
+    "name": "Arbeitsgruppe Verkehr der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Verkehr",
+    "nameZh": "CDU/CSU联邦议院党团交通工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "economy"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Alexander_Jordan",
+        "name": "Alexander Jordan",
+        "source": "https://www.cducsu.de/abgeordnete/alexander-jordan",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Bjorn_Manuel_Simon",
+        "name": "Björn Simon",
+        "source": "https://www.cducsu.de/abgeordnete/bjoern-simon",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Carl_Philipp_Martin_Gerhard_Sassenrath",
+        "name": "Carl-Philipp Sassenrath",
+        "source": "https://www.cducsu.de/abgeordnete/carl-philipp-sassenrath",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christoph_Johannes_Plo",
+        "name": "Christoph Ploß",
+        "source": "https://www.cducsu.de/abgeordnete/dr-christoph-ploss",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Daniel_Kolbl",
+        "name": "Daniel Kölbl",
+        "source": "https://www.cducsu.de/abgeordnete/daniel-koelbl",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Gunter_Baumgartner",
+        "name": "Günter Baumgartner",
+        "source": "https://www.cducsu.de/abgeordnete/guenter-baumgartner",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Harald_Stefan_Orthey",
+        "name": "Harald Orthey",
+        "source": "https://www.cducsu.de/abgeordnete/harald-orthey",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Henning_Rehbaum",
+        "name": "Henning Rehbaum",
+        "source": "https://www.cducsu.de/abgeordnete/henning-rehbaum",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jonas_Alexander_Tecumseh_Geissler",
+        "name": "Jonas Geissler",
+        "source": "https://www.cducsu.de/abgeordnete/dr-jonas-geissler",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Donth",
+        "name": "Michael Donth",
+        "source": "https://www.cducsu.de/abgeordnete/michael-donth",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_verteidigung",
+    "name": "Arbeitsgruppe Verteidigung der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Verteidigung",
+    "nameZh": "CDU/CSU联邦议院党团国防工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "security",
+      "foreign"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Bastian_Alfons_Ernst",
+        "name": "Bastian Alfons Ernst",
+        "source": "https://www.cducsu.de/abgeordnete/bastian-alfons-ernst",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Diana_Herbstreuth",
+        "name": "Diana Herbstreuth",
+        "source": "https://www.cducsu.de/abgeordnete/diana-herbstreuth",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Florian_Johannes_Dorn",
+        "name": "Florian Dorn",
+        "source": "https://www.cducsu.de/abgeordnete/dr-florian-dorn",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jan_Wilhelm_Pohlmann",
+        "name": "Jan-Wilhelm Pohlmann",
+        "source": "https://www.cducsu.de/abgeordnete/jan-wilhelm-pohlmann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jens_Lehmann",
+        "name": "Jens Lehmann",
+        "source": "https://www.cducsu.de/abgeordnete/jens-lehmann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Kerstin_Vieregge",
+        "name": "Kerstin Vieregge",
+        "source": "https://www.cducsu.de/abgeordnete/kerstin-vieregge",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Marlon_Andreas_Paul_Brohr",
+        "name": "Marlon Bröhr",
+        "source": "https://www.cducsu.de/abgeordnete/dr-marlon-broehr",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Ralph_Rene_Edelhauer",
+        "name": "Ralph Edelhäußer",
+        "source": "https://www.cducsu.de/abgeordnete/ralph-edelhaeusser",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Roland_Theis",
+        "name": "Roland Theis",
+        "source": "https://www.cducsu.de/abgeordnete/roland-theis",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Maximilian_Erndl",
+        "name": "Thomas Erndl",
+        "source": "https://www.cducsu.de/abgeordnete/thomas-erndl",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Rowekamp",
+        "name": "Thomas Röwekamp",
+        "source": "https://www.cducsu.de/abgeordnete/thomas-roewekamp",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Vivian_Tauschwitz",
+        "name": "Vivian Tauschwitz",
+        "source": "https://www.cducsu.de/abgeordnete/vivian-tauschwitz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Volker_Fred_Mayer_Lay",
+        "name": "Volker Mayer-Lay",
+        "source": "https://www.cducsu.de/abgeordnete/volker-mayer-lay",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_wirtschaft_und_energie",
+    "name": "Arbeitsgruppe Wirtschaft und Energie der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Wirtschaft und Energie",
+    "nameZh": "CDU/CSU联邦议院党团经济与能源工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Andreas_Lenz",
+        "name": "Andreas Lenz",
+        "source": "https://www.cducsu.de/abgeordnete/dr-andreas-lenz",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christian_Alexander_Freiherr_von_Stetten",
+        "name": "Christian von Stetten",
+        "source": "https://www.cducsu.de/abgeordnete/christian-frhr-von-stetten",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Elisabeth_Winkelmeier_Becker",
+        "name": "Elisabeth Winkelmeier-Becker",
+        "source": "https://www.cducsu.de/abgeordnete/elisabeth-winkelmeier-becker",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Fabian_Benedikt_Meinrad_Gramling",
+        "name": "Fabian Gramling",
+        "source": "https://www.cducsu.de/abgeordnete/fabian-gramling",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Gunter_Baumgartner",
+        "name": "Günter Baumgartner",
+        "source": "https://www.cducsu.de/abgeordnete/guenter-baumgartner",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Klaus_Wiener",
+        "name": "Klaus Wiener",
+        "source": "https://www.cducsu.de/abgeordnete/dr-klaus-wiener",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Lars_Rohwer",
+        "name": "Lars Rohwer",
+        "source": "https://www.cducsu.de/abgeordnete/lars-rohwer",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Leif_Erik_Bodin",
+        "name": "Leif Erik Bodin",
+        "source": "https://www.cducsu.de/abgeordnete/leif-erik-bodin",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Nicklas_Kappe",
+        "name": "Nicklas Kappe",
+        "source": "https://www.cducsu.de/abgeordnete/nicklas-kappe",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Saskia_Ludwig",
+        "name": "Saskia Ludwig",
+        "source": "https://www.cducsu.de/abgeordnete/dr-saskia-ludwig",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Tilman_Moritz_Kuban",
+        "name": "Tilman Kuban",
+        "source": "https://www.cducsu.de/abgeordnete/tilman-kuban",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Vanessa_Kim_Zobel",
+        "name": "Vanessa Zobel",
+        "source": "https://www.cducsu.de/abgeordnete/vanessa-zobel",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Wilhelm_Gebhard",
+        "name": "Wilhelm Gebhard",
+        "source": "https://www.cducsu.de/abgeordnete/wilhelm-gebhard",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_wirtschaftliche_zusammenarbeit_und_entwicklung",
+    "name": "Arbeitsgruppe Wirtschaftliche Zusammenarbeit und Entwicklung der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Wirtschaftliche Zusammenarbeit und Entwicklung",
+    "nameZh": "CDU/CSU联邦议院党团经济合作与发展工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "foreign",
+      "economy"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Johannes_Volkmann",
+        "name": "Johannes Volkmann",
+        "source": "https://www.cducsu.de/abgeordnete/johannes-volkmann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Nicolas_Benjamin_Zippelius",
+        "name": "Nicolas Zippelius",
+        "source": "https://www.cducsu.de/abgeordnete/nicolas-zippelius",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Walther_Rachel",
+        "name": "Thomas Rachel",
+        "source": "https://www.cducsu.de/abgeordnete/thomas-rachel",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Wolfgang_Dieter_Stefinger",
+        "name": "Wolfgang Stefinger",
+        "source": "https://www.cducsu.de/abgeordnete/prof-dr-wolfgang-stefinger",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  },
+  {
+    "id": "union_ag_wohnen_stadtentwicklung_bauwesen",
+    "name": "Arbeitsgruppe Wohnen, Stadtentwicklung, Bauwesen der CDU/CSU-Bundestagsfraktion",
+    "sourceName": "AG Wohnen, Stadtentwicklung, Bauwesen",
+    "nameZh": "CDU/CSU联邦议院党团住房、城市发展与建设工作组",
+    "organization": "CDU/CSU-Bundestagsfraktion",
+    "category": "working_group",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "effect": "coordination",
+    "memberRequirement": 2,
+    "members": [
+      {
+        "id": "mdb_Axel_Knoerig",
+        "name": "Axel Knoerig",
+        "source": "https://www.cducsu.de/abgeordnete/axel-knoerig",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Emmi_Zeulner",
+        "name": "Emmi Zeulner",
+        "source": "https://www.cducsu.de/abgeordnete/emmi-zeulner",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jan_Marco_Luczak",
+        "name": "Jan-Marco Luczak",
+        "source": "https://www.cducsu.de/abgeordnete/dr-jan-marco-luczak",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Johannes_Rothenberger",
+        "name": "Johannes Rothenberger",
+        "source": "https://www.cducsu.de/abgeordnete/johannes-rothenberger",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Katja_Strauss_Koster",
+        "name": "Katja Strauss-Köster",
+        "source": "https://www.cducsu.de/abgeordnete/dr-katja-strauss-koester",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Lars_Rohwer",
+        "name": "Lars Rohwer",
+        "source": "https://www.cducsu.de/abgeordnete/lars-rohwer",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships",
+          "official_profile_named_working_group_chair_role"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Lutz_Brinkmann",
+        "name": "Lutz Brinkmann",
+        "source": "https://www.cducsu.de/abgeordnete/lutz-brinkmann",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Mechthild_Heil",
+        "name": "Mechthild Heil",
+        "source": "https://www.cducsu.de/abgeordnete/mechthild-heil",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Hannes_Kieling",
+        "name": "Michael Kießling",
+        "source": "https://www.cducsu.de/abgeordnete/dipl-ing-fh-michael-kiessling",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Wilhelm_Gebhard",
+        "name": "Wilhelm Gebhard",
+        "source": "https://www.cducsu.de/abgeordnete/wilhelm-gebhard",
+        "evidenceKinds": [
+          "official_profile_fraktion_memberships"
+        ],
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "evidenceStatus": "OFFICIAL_PROFILE_EVIDENCED",
+    "designStatus": "DOMAIN_COLOR_EFFECT_AND_THRESHOLD_ARE_GAME_DESIGN",
+    "sourceOverview": "https://www.cducsu.de/fraktion/gruppen"
+  }
+]

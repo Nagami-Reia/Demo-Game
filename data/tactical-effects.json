@@ -1,0 +1,187 @@
+{
+  "enabled": true,
+  "version": 1,
+  "growthLayers": 8,
+  "rules": [
+    {
+      "id": "law",
+      "name": {
+        "zh": "条文保留",
+        "en": "Text retained",
+        "de": "Text vorbehalten"
+      },
+      "description": {
+        "zh": "首个失败修正由另一名法律成员在后续阶段补救。",
+        "en": "Another law member retries the first failed amendment in a later stage.",
+        "de": "Ein anderes Rechtsmitglied übernimmt den ersten gescheiterten Änderungsantrag später."
+      },
+      "grownDescription": {
+        "zh": "最多保留一项失败修正到下一轮。",
+        "en": "Carry at most one failed amendment into the next round.",
+        "de": "Höchstens einen gescheiterten Antrag in die nächste Runde mitnehmen."
+      }
+    },
+    {
+      "id": "budget",
+      "name": {
+        "zh": "分期通过",
+        "en": "Staged passage",
+        "de": "Stufenweise Verabschiedung"
+      },
+      "description": {
+        "zh": "谈判可缩小提案范围，剩余部分下轮续审。",
+        "en": "Narrow the proposal in negotiations; continue the remainder next round.",
+        "de": "Vorlage in der Verhandlung verkleinern; den Rest in der Folgerunde fortsetzen."
+      },
+      "grownDescription": {
+        "zh": "完成续审时兑现原提案尚未领取的政策奖励。",
+        "en": "Completion pays only the original proposal’s unclaimed policy reward.",
+        "de": "Beim Abschluss nur die noch offenen Politikpunkte der ursprünglichen Vorlage erhalten."
+      }
+    },
+    {
+      "id": "finance",
+      "name": {
+        "zh": "附带拨款",
+        "en": "Conditional appropriation",
+        "de": "Zweckgebundene Mittel"
+      },
+      "description": {
+        "zh": "一笔财政奖励可延迟到下轮，获得对应领域的竞拍候选机会。",
+        "en": "Defer one fiscal payout to the next round for a matching auction candidate.",
+        "de": "Eine Finanzzahlung für einen passenden Auktionskandidaten in die Folgerunde verschieben."
+      },
+      "grownDescription": {
+        "zh": "可以指定候选领域；仍须竞拍，遵守招募限制。",
+        "en": "Choose the field; recruitment rules and normal bidding still apply.",
+        "de": "Bereich wählen; Rekrutierungsregeln und normale Gebote gelten weiter."
+      }
+    },
+    {
+      "id": "energy",
+      "name": {
+        "zh": "项目接力",
+        "en": "Project relay",
+        "de": "Projektstaffel"
+      },
+      "description": {
+        "zh": "成功推进经济议题后留下下轮项目，由对应专家完成修正兑现。",
+        "en": "Advancing an economic proposal leaves a follow-up project requiring an expert amendment.",
+        "de": "Ein vorangetriebenes Wirtschaftsprojekt braucht nächste Runde einen passenden Fachantrag."
+      },
+      "grownDescription": {
+        "zh": "从两个配套领域中选择接力方向。",
+        "en": "Choose one of two follow-up fields.",
+        "de": "Einen von zwei Anschlussbereichen wählen."
+      }
+    },
+    {
+      "id": "digital",
+      "name": {
+        "zh": "流程复用",
+        "en": "Process reuse",
+        "de": "Ablauf wiederverwenden"
+      },
+      "description": {
+        "zh": "成功修正后，同一人物下一次相同行动跳过准备消耗。",
+        "en": "After an amendment succeeds, reuse preparation for the same person’s next matching action.",
+        "de": "Nach erfolgreichem Antrag die Vorbereitung für dieselbe nächste Aktion der Person wiederverwenden."
+      },
+      "grownDescription": {
+        "zh": "可将复用机会交给另一名数字化成员。",
+        "en": "Transfer the reuse to another digital member.",
+        "de": "Wiederverwendung an ein anderes Digitalmitglied übertragen."
+      }
+    },
+    {
+      "id": "foreign",
+      "name": {
+        "zh": "门",
+        "en": "An open door",
+        "de": "Eine offene Tür"
+      },
+      "description": {
+        "zh": "跨党谈判失败后，另一名外交成员用自己的下一次行动继续谈。",
+        "en": "Another foreign-affairs member continues failed cross-party talks using their next action.",
+        "de": "Ein anderes Außenpolitikmitglied setzt gescheiterte Gespräche mit seiner nächsten Aktion fort."
+      },
+      "grownDescription": {
+        "zh": "成功合作为下轮留下一个特别谈判方案。",
+        "en": "Successful cooperation leaves a special negotiation option next round.",
+        "de": "Erfolgreiche Kooperation hinterlässt eine besondere Verhandlungsoption für die Folgerunde."
+      }
+    },
+    {
+      "id": "health",
+      "name": {
+        "zh": "会诊",
+        "en": "Consultation",
+        "de": "Konsilium"
+      },
+      "description": {
+        "zh": "另一名卫生成员接手失败行动，消耗接手者自己的下一次行动。",
+        "en": "Another health member takes over a failed action at the cost of their own next action.",
+        "de": "Ein anderes Gesundheitsmitglied übernimmt auf Kosten seiner eigenen nächsten Aktion."
+      },
+      "grownDescription": {
+        "zh": "可以选择接手补救或保留接手者自己的行动。",
+        "en": "Choose rescue or keep the helper’s own action.",
+        "de": "Zwischen Übernahme und eigener Aktion wählen."
+      }
+    },
+    {
+      "id": "labor",
+      "name": {
+        "zh": "以人的名义",
+        "en": "In people’s name",
+        "de": "Im Namen der Menschen"
+      },
+      "description": {
+        "zh": "共同签署需要两个不同党派各完成一次有效行动。",
+        "en": "A co-signed text needs effective actions from two different parties.",
+        "de": "Ein gemeinsam unterzeichneter Text braucht wirksame Aktionen aus zwei Parteien."
+      },
+      "grownDescription": {
+        "zh": "合作成功后下轮第一次协商可沿用文本。",
+        "en": "After cooperation succeeds, reuse the text in next round’s first eligible talks.",
+        "de": "Nach Erfolg den Text beim ersten passenden Gespräch der Folgerunde wiederverwenden."
+      }
+    },
+    {
+      "id": "interior",
+      "name": {
+        "zh": "应急预案",
+        "en": "Emergency plan",
+        "de": "Notfallplan"
+      },
+      "description": {
+        "zh": "牺牲首次监督，抵消一项公共服务或交通中断造成的执行影响。",
+        "en": "Sacrifice the first scrutiny action to protect against one disruption’s execution effect.",
+        "de": "Erste Kontrolle aufgeben, um einen Umsetzungseffekt einer Störung abzufangen."
+      },
+      "grownDescription": {
+        "zh": "可选择保护资金、执行或协调中的一项。",
+        "en": "Choose cash, execution or coordination protection.",
+        "de": "Geld, Umsetzung oder Koordination gezielt schützen."
+      }
+    },
+    {
+      "id": "local",
+      "name": {
+        "zh": "从这里，到柏林",
+        "en": "From here to Berlin",
+        "de": "Von hier nach Berlin"
+      },
+      "description": {
+        "zh": "同州三人可以选择范围更窄、带地方收益的谈判配套。",
+        "en": "Three members from one state unlock a narrower local package with local proceeds.",
+        "de": "Drei Mitglieder eines Landes ermöglichen ein engeres lokales Paket mit lokalen Erträgen."
+      },
+      "grownDescription": {
+        "zh": "同州四人后可留下下一轮联邦接续项目。",
+        "en": "Four state members can leave a federal follow-up project.",
+        "de": "Vier Landesmitglieder ermöglichen ein Anschlussprojekt auf Bundesebene."
+      }
+    }
+  ]
+}

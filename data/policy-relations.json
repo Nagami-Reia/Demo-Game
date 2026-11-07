@@ -1,0 +1,188 @@
+[
+  {
+    "a": "CDU",
+    "b": "SPD",
+    "cooperation": 0.7,
+    "sharedDomains": [
+      "digital",
+      "security"
+    ],
+    "frictionDomains": [
+      "social",
+      "economy"
+    ],
+    "description": {
+      "zh": "2025联合执政提供协调框架，但财政、福利和移民条款仍需谈判。",
+      "en": "The 2025 coalition provides coordination, while fiscal, welfare and migration provisions remain negotiable.",
+      "de": "Die Koalition 2025 bietet Koordination; Finanz-, Sozial- und Migrationsregeln bleiben Verhandlungssache."
+    },
+    "sources": [
+      "https://www.spd.de/fileadmin/Dokumente/Koalitionsvertrag2025_bf.pdf",
+      "https://www.cdu.de/app/uploads/2025/01/politikwechsel-fuer-deutschland-wahlprogramm-von-cdu-csu-kurzfassung.pdf",
+      "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf"
+    ],
+    "numeric_status": "GAME_ASSUMPTION_NOT_MEASURED_TRUST"
+  },
+  {
+    "a": "CSU",
+    "b": "SPD",
+    "cooperation": 0.65,
+    "sharedDomains": [
+      "digital",
+      "security"
+    ],
+    "frictionDomains": [
+      "social",
+      "economy"
+    ],
+    "description": {
+      "zh": "同属2025执政联盟；区域分配和社会政策不自动一致。",
+      "en": "Partners in the 2025 coalition; regional allocation and welfare policy do not automatically align.",
+      "de": "Partner der Koalition 2025; regionale Verteilung und Sozialpolitik sind nicht automatisch deckungsgleich."
+    },
+    "sources": [
+      "https://www.spd.de/fileadmin/Dokumente/Koalitionsvertrag2025_bf.pdf",
+      "https://www.csu.de/common/download/Bayern-Agenda_zur_Bundestagswahl2025.pdf",
+      "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf"
+    ],
+    "numeric_status": "GAME_ASSUMPTION_NOT_MEASURED_TRUST"
+  },
+  {
+    "a": "CDU",
+    "b": "CSU",
+    "cooperation": 0.9,
+    "sharedDomains": [
+      "economy",
+      "security",
+      "foreign"
+    ],
+    "frictionDomains": [
+      "climate"
+    ],
+    "description": {
+      "zh": "联合纲领及共同党团支持协调，CSU区域诉求仍可产生分配摩擦。",
+      "en": "A joint platform and parliamentary group support coordination; regional claims may still create friction.",
+      "de": "Gemeinsames Programm und Fraktion erleichtern Koordination; regionale Interessen können Verteilungskonflikte erzeugen."
+    },
+    "sources": [
+      "https://www.cdu.de/app/uploads/2025/01/politikwechsel-fuer-deutschland-wahlprogramm-von-cdu-csu-kurzfassung.pdf",
+      "https://www.csu.de/common/download/Bayern-Agenda_zur_Bundestagswahl2025.pdf"
+    ],
+    "numeric_status": "GAME_ASSUMPTION_NOT_MEASURED_TRUST"
+  },
+  {
+    "a": "SPD",
+    "b": "Grüne",
+    "cooperation": 0.6,
+    "sharedDomains": [
+      "social",
+      "climate",
+      "digital"
+    ],
+    "frictionDomains": [
+      "economy",
+      "security"
+    ],
+    "description": {
+      "zh": "公共投资与社会气候措施有交集，具体财政与安全方案不必相同。",
+      "en": "Public investment and social-climate measures overlap; detailed fiscal and security choices may differ.",
+      "de": "Investitionen und sozialer Klimaschutz überschneiden sich; Finanzierungs- und Sicherheitsdetails können abweichen."
+    },
+    "sources": [
+      "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf",
+      "https://cms.gruene.de/uploads/assets/Regierungsprogramm_DIGITAL_DINA5.pdf"
+    ],
+    "numeric_status": "GAME_ASSUMPTION_NOT_MEASURED_TRUST"
+  },
+  {
+    "a": "SPD",
+    "b": "Linke",
+    "cooperation": 0.45,
+    "sharedDomains": [
+      "social"
+    ],
+    "frictionDomains": [
+      "security",
+      "foreign"
+    ],
+    "description": {
+      "zh": "工资与社会保障有交集，防务与外交差异限制自动合作。",
+      "en": "Wages and welfare overlap, but defence and foreign-policy differences limit automatic cooperation.",
+      "de": "Bei Löhnen und Sicherung gibt es Überschneidungen; Verteidigungs- und Außenpolitik begrenzen automatische Kooperation."
+    },
+    "sources": [
+      "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf",
+      "https://www.die-linke.de/bundestagswahl-2025/wahlprogramm/"
+    ],
+    "numeric_status": "GAME_ASSUMPTION_NOT_MEASURED_TRUST"
+  },
+  {
+    "a": "CDU",
+    "b": "Grüne",
+    "cooperation": 0.4,
+    "sharedDomains": [
+      "digital",
+      "foreign"
+    ],
+    "frictionDomains": [
+      "climate",
+      "social"
+    ],
+    "description": {
+      "zh": "数字化及国际合作可提供议题桥梁，转型路径与社会政策仍有分歧。",
+      "en": "Digitalisation and international cooperation can bridge issues; transition pathways and welfare remain contested.",
+      "de": "Digitalisierung und internationale Kooperation können Brücken bilden; Transformationswege und Sozialpolitik bleiben umstritten."
+    },
+    "sources": [
+      "https://www.cdu.de/app/uploads/2025/01/politikwechsel-fuer-deutschland-wahlprogramm-von-cdu-csu-kurzfassung.pdf",
+      "https://cms.gruene.de/uploads/assets/Regierungsprogramm_DIGITAL_DINA5.pdf"
+    ],
+    "numeric_status": "GAME_ASSUMPTION_NOT_MEASURED_TRUST"
+  },
+  {
+    "a": "CDU",
+    "b": "AfD",
+    "cooperation": 0.05,
+    "sharedDomains": [
+      "security"
+    ],
+    "frictionDomains": [
+      "climate",
+      "foreign"
+    ],
+    "description": {
+      "zh": "部分议题关注可能重合，但CDU明确排除政治合作；重合不等于联盟或互信。",
+      "en": "Some issue attention may overlap, but the CDU explicitly rejects political cooperation; overlap is not alliance or trust.",
+      "de": "Einzelne Aufmerksamkeitsschwerpunkte können sich überschneiden; die CDU lehnt politische Zusammenarbeit ab. Das bedeutet weder Bündnis noch Vertrauen."
+    },
+    "sources": [
+      "https://www.cdu.de/aktuelles/zusammenhalt/merz-keine-gemeinsamkeiten-mit-der-afd/",
+      "https://www.cdu.de/app/uploads/2025/01/politikwechsel-fuer-deutschland-wahlprogramm-von-cdu-csu-kurzfassung.pdf",
+      "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf"
+    ],
+    "numeric_status": "GAME_ASSUMPTION_NOT_MEASURED_TRUST"
+  },
+  {
+    "a": "Grüne",
+    "b": "Linke",
+    "cooperation": 0.5,
+    "sharedDomains": [
+      "social",
+      "climate"
+    ],
+    "frictionDomains": [
+      "security",
+      "foreign"
+    ],
+    "description": {
+      "zh": "社会与气候目标有交集，防务和对外安全路线存在分歧。",
+      "en": "Social and climate goals overlap, while defence and external-security approaches differ.",
+      "de": "Sozial- und Klimaziele überschneiden sich; Verteidigungs- und außenpolitische Sicherheitslinien unterscheiden sich."
+    },
+    "sources": [
+      "https://cms.gruene.de/uploads/assets/Regierungsprogramm_DIGITAL_DINA5.pdf",
+      "https://www.die-linke.de/bundestagswahl-2025/wahlprogramm/"
+    ],
+    "numeric_status": "GAME_ASSUMPTION_NOT_MEASURED_TRUST"
+  }
+]

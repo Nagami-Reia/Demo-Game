@@ -1,0 +1,268 @@
+[
+  {
+    "id": "merz_linnemann",
+    "a": "Merz",
+    "b": "Linnemann",
+    "label": {
+      "zh": "换挡搭档",
+      "en": "Documented party work",
+      "de": "Dokumentierte Parteiarbeit"
+    },
+    "description": {
+      "zh": "CDU原始报道明确记载双方共同推进党务。仅据公开合作提供议题协调，不推断私人亲密。",
+      "en": "A CDU account describes joint party work. This supports issue coordination, not a claim of private friendship.",
+      "de": "Ein CDU-Bericht beschreibt gemeinsame Parteiarbeit. Daraus folgt keine Aussage über private Freundschaft."
+    },
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "effect": "cooperation",
+    "strength": 0.35,
+    "source": "https://www.cdu.de/aktuelles/cdu-deutschlands/carsten-linnemann-verantwortung-fuer-deutschland-und-die-cdu/",
+    "as_of": "2025-04-28",
+    "trigger": "BOTH_DEPLOYED_AND_MATCHING_DOMAIN",
+    "strength_status": "GAME_ASSUMPTION_NOT_MEASURED_RELATIONSHIP",
+    "evidence_scope": "PUBLIC_WORKING_RELATIONSHIP_NOT_PRIVATE_AFFECTION",
+    "category": "partnership",
+    "labelOrigin": "game_title_inspired_by_documented_work"
+  },
+  {
+    "id": "merz_frei",
+    "a": "Merz",
+    "b": "Frei",
+    "label": {
+      "zh": "总理的右手",
+      "en": "Government–group coordination",
+      "de": "Verzahnung von Regierung und Fraktion"
+    },
+    "description": {
+      "zh": "官方记载Merz任命Frei领导总理府，后提名其任党团主席。游戏模拟既有工作衔接，不假定无限服从。",
+      "en": "Official records document Merz appointing Frei to the Chancellery and later proposing him as group leader. The game models working coordination, not unlimited obedience.",
+      "de": "Amtliche Berichte dokumentieren Merz’ Ernennung Freis zum Kanzleramtschef und späteren Vorschlag zum Fraktionsvorsitz. Das Spiel modelliert Arbeitskoordination, keinen grenzenlosen Gehorsam."
+    },
+    "domains": [],
+    "effect": "coordination",
+    "strength": 0.6,
+    "source": "https://www.cducsu.de/aktuelles/thorsten-frei-neuer-vorsitzender-der-cducsu-fraktion",
+    "as_of": "2026-07-29",
+    "trigger": "BOTH_DEPLOYED_AND_MATCHING_DOMAIN",
+    "strength_status": "GAME_ASSUMPTION_NOT_MEASURED_RELATIONSHIP",
+    "evidence_scope": "PUBLIC_WORKING_RELATIONSHIP_NOT_PRIVATE_AFFECTION",
+    "category": "partnership",
+    "labelOrigin": "media_metaphor_translated",
+    "sources": [
+      "https://www.cducsu.de/aktuelles/thorsten-frei-neuer-vorsitzender-der-cducsu-fraktion",
+      "https://www.tagesschau.de/inland/innenpolitik/thorsten-frei-portraet-100.html"
+    ]
+  },
+  {
+    "id": "weidel_chrupalla",
+    "a": "Weidel",
+    "b": "Chrupalla",
+    "label": {
+      "zh": "双头驾驶舱",
+      "en": "Experience of joint leadership",
+      "de": "Erfahrung gemeinsamer Führung"
+    },
+    "description": {
+      "zh": "官方选举公告确认共同领导党与党团。协同仅代表共同任职经验，不声称所有政策立场一致。",
+      "en": "The official election statement documents joint party and parliamentary leadership; this does not imply agreement on every policy.",
+      "de": "Die Wahlmitteilung dokumentiert gemeinsame Partei- und Fraktionsführung, nicht Übereinstimmung in jeder Sachfrage."
+    },
+    "domains": [
+      "security",
+      "foreign"
+    ],
+    "effect": "coordination",
+    "strength": 0.35,
+    "source": "https://www.afd.de/pressemitteilung-der-afd-bundesparteitag-waehlt-neuen-bundesvorstand/",
+    "as_of": "2026-07-04",
+    "trigger": "BOTH_DEPLOYED_AND_MATCHING_DOMAIN",
+    "strength_status": "GAME_ASSUMPTION_NOT_MEASURED_RELATIONSHIP",
+    "evidence_scope": "PUBLIC_WORKING_RELATIONSHIP_NOT_PRIVATE_AFFECTION",
+    "category": "partnership",
+    "labelOrigin": "game_title_inspired_by_documented_work"
+  },
+  {
+    "id": "hasselmann_droege",
+    "a": "Hasselmann",
+    "b": "Droege",
+    "label": {
+      "zh": "双人领航",
+      "en": "Joint parliamentary work",
+      "de": "Gemeinsame Fraktionsarbeit"
+    },
+    "description": {
+      "zh": "官方领导页记录双方共同担任党团主席及共同组织工作。效果系游戏设计，不是现实投票保证。",
+      "en": "The official leadership page records shared parliamentary leadership and organisational duties. Effects are game design, not a real voting guarantee.",
+      "de": "Die offizielle Seite nennt gemeinsame Fraktionsführung und Organisationsaufgaben. Effekte sind Spielannahmen, keine Abstimmungsgarantie."
+    },
+    "domains": [
+      "climate",
+      "economy"
+    ],
+    "effect": "cooperation",
+    "strength": 0.35,
+    "source": "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fraktionsvorsitz-und-fraktionsvorstand/",
+    "as_of": "2026-11-05",
+    "trigger": "BOTH_DEPLOYED_AND_MATCHING_DOMAIN",
+    "strength_status": "GAME_ASSUMPTION_NOT_MEASURED_RELATIONSHIP",
+    "evidence_scope": "PUBLIC_WORKING_RELATIONSHIP_NOT_PRIVATE_AFFECTION",
+    "category": "partnership",
+    "labelOrigin": "game_title_inspired_by_documented_work"
+  },
+  {
+    "id": "reichinnek_pellmann",
+    "a": "Reichinnek",
+    "b": "Pellmann",
+    "label": {
+      "zh": "红色双人组",
+      "en": "Building joint group leadership",
+      "de": "Gemeinsame Fraktionsführung"
+    },
+    "description": {
+      "zh": "联邦议院记录双方共同担任Linke党团主席。只模拟公开工作关系，不推断私人情感。",
+      "en": "Bundestag records joint leadership of the Left parliamentary group. Only the public working relationship is modelled.",
+      "de": "Der Bundestag dokumentiert den gemeinsamen Vorsitz der Linksfraktion. Modelliert wird ausschließlich die öffentliche Arbeitsbeziehung."
+    },
+    "domains": [
+      "social",
+      "economy"
+    ],
+    "effect": "cooperation",
+    "strength": 0.35,
+    "source": "https://www.bundestag.de/dokumente/textarchiv/2025/kw10-fraktionsvorstaende-1056150",
+    "as_of": "2025-06-24",
+    "trigger": "BOTH_DEPLOYED_AND_MATCHING_DOMAIN",
+    "strength_status": "GAME_ASSUMPTION_NOT_MEASURED_RELATIONSHIP",
+    "evidence_scope": "PUBLIC_WORKING_RELATIONSHIP_NOT_PRIVATE_AFFECTION",
+    "category": "partnership",
+    "labelOrigin": "game_title_inspired_by_documented_work"
+  },
+  {
+    "id": "klingbeil_miersch",
+    "a": "Klingbeil",
+    "b": "Miersch",
+    "label": {
+      "zh": "下萨克森热线",
+      "en": "Coalition-negotiation network",
+      "de": "Arbeitsnetz der Koalitionsverhandlungen"
+    },
+    "description": {
+      "zh": "报道记载双方长期相识、互为政治亲信；游戏名“下萨克森热线”是创作，不把政治信任等同于无条件支持。",
+      "en": "The official 2025 coalition structure places both in the party-leader-plus-one negotiation round. The link reflects this specific shared assignment.",
+      "de": "Das offizielle Organigramm 2025 nennt beide in der Runde der Parteivorsitzenden plus eins. Die Verbindung beruht auf diesem konkreten gemeinsamen Auftrag."
+    },
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "effect": "coordination",
+    "strength": 0.3,
+    "source": "https://www.cdu.de/app/uploads/2025/03/Organigramm_CDU_CSU-und-SPD_Koalitionsverhandlungen_2025.pdf",
+    "as_of": "2026-11-05",
+    "trigger": "BOTH_DEPLOYED_AND_MATCHING_DOMAIN",
+    "strength_status": "GAME_ASSUMPTION_NOT_MEASURED_RELATIONSHIP",
+    "evidence_scope": "PUBLIC_WORKING_RELATIONSHIP_NOT_PRIVATE_AFFECTION",
+    "evidence_period": "2025 coalition negotiations (historical working experience)",
+    "category": "partnership",
+    "labelOrigin": "game_title_inspired_by_documented_work",
+    "sources": [
+      "https://www.cdu.de/app/uploads/2025/03/Organigramm_CDU_CSU-und-SPD_Koalitionsverhandlungen_2025.pdf",
+      "https://www.tagesschau.de/inland/innenpolitik/miersch-spd-fraktion-100.html"
+    ]
+  },
+  {
+    "id": "frei_miersch",
+    "a": "Frei",
+    "b": "Miersch",
+    "label": {
+      "zh": "走廊里的接线员",
+      "en": "Cross-party negotiating coordination",
+      "de": "Parteiübergreifende Verhandlungskoordination"
+    },
+    "description": {
+      "zh": "2025官方组阁架构将双方列入协调组。游戏中仅在相应议题和双方同时出战时提供有限协同。",
+      "en": "The official 2025 structure places both in the steering group. A limited game benefit requires both to be deployed on a matching issue.",
+      "de": "Das offizielle Organigramm nennt beide in der Steuerungsgruppe. Ein begrenzter Spieleffekt setzt beide im Einsatz und ein passendes Thema voraus."
+    },
+    "domains": [
+      "economy",
+      "social",
+      "digital"
+    ],
+    "effect": "policy_bridge",
+    "strength": 0.3,
+    "source": "https://www.cdu.de/app/uploads/2025/03/Organigramm_CDU_CSU-und-SPD_Koalitionsverhandlungen_2025.pdf",
+    "as_of": "2026-11-05",
+    "trigger": "BOTH_DEPLOYED_AND_MATCHING_DOMAIN",
+    "strength_status": "GAME_ASSUMPTION_NOT_MEASURED_RELATIONSHIP",
+    "evidence_scope": "PUBLIC_WORKING_RELATIONSHIP_NOT_PRIVATE_AFFECTION",
+    "evidence_period": "2025 coalition negotiations (historical working experience)",
+    "category": "partnership",
+    "labelOrigin": "game_title_inspired_by_documented_work"
+  },
+  {
+    "id": "troika_old_friends",
+    "a": "Spahn",
+    "b": "Linnemann",
+    "members": [
+      {
+        "id": "Spahn",
+        "source": "https://www.focus.de/magazin/archiv/union-mission-merz_id_259911150.html"
+      },
+      {
+        "id": "Linnemann",
+        "source": "https://www.focus.de/magazin/archiv/union-mission-merz_id_259911150.html"
+      },
+      {
+        "id": "mdb_Paul_Ziemiak",
+        "source": "https://www.focus.de/magazin/archiv/union-mission-merz_id_259911150.html"
+      }
+    ],
+    "label": {
+      "zh": "Troika · 旧日三人组",
+      "en": "Troika · old allies",
+      "de": "Troika · alte Weggefährten"
+    },
+    "description": {
+      "zh": "2023年报道记载Spahn、Linnemann与Ziemiak常一起徒步、喝啤酒，并引述Spahn称其为朋友。两人出战即可触发，三人不重复叠算；历史关系不保证今天政治立场一致。"
+    },
+    "effect": "negotiation",
+    "strength": 0.6,
+    "domains": [],
+    "category": "personal",
+    "typed": true,
+    "source": "https://www.focus.de/magazin/archiv/union-mission-merz_id_259911150.html",
+    "sources": [
+      "https://www.focus.de/magazin/archiv/union-mission-merz_id_259911150.html",
+      "https://www.presseportal.de/pm/65487/5654745"
+    ],
+    "labelOrigin": "reported_Troika_with_game_subtitle",
+    "as_of": "2023",
+    "evidence_scope": "HISTORICAL_SELF_REPORTED_RELATIONSHIP"
+  },
+  {
+    "id": "miersch_ahmetovic_history",
+    "a": "Miersch",
+    "b": "mdb_Adis_Ahmetovic",
+    "label": {
+      "zh": "原来是当年的律师",
+      "en": "The lawyer from back then",
+      "de": "Der Anwalt von damals"
+    },
+    "description": {
+      "zh": "ARD人物报道记载Miersch曾帮助Ahmetović一家避免被遣返，二人多年后成为议会同事。这是有报道的个人经历联系，不推断私交或政策服从。游戏名为创作；末段行动获得有限稳定作用。"
+    },
+    "effect": "resilience",
+    "strength": 0.5,
+    "domains": [],
+    "category": "personal",
+    "typed": true,
+    "source": "https://www.tagesschau.de/inland/innenpolitik/miersch-spd-fraktion-100.html",
+    "labelOrigin": "game_title_from_reported_biography",
+    "as_of": "2025-05-07",
+    "evidence_scope": "DOCUMENTED_PERSONAL_HISTORY_NOT_FRIENDSHIP"
+  }
+]

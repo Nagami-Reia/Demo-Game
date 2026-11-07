@@ -1,0 +1,329 @@
+[
+  {
+    "id": "implementation_delay",
+    "title": {
+      "zh": "工程进度落后，原定交付日期再受质疑",
+      "en": "Delayed projects put delivery promises in doubt",
+      "de": "Bauverzug stellt Zusagen infrage"
+    },
+    "domain": "economy",
+    "impact": -2,
+    "description": {
+      "zh": "数项公共工程未能按原定计划推进，承包方与主管部门就追加费用继续协商。地方代表要求公布新的工期。",
+      "en": "Several public projects have fallen behind schedule. Contractors and officials remain in talks over additional costs as local representatives demand revised deadlines.",
+      "de": "Mehrere öffentliche Vorhaben liegen hinter dem Zeitplan. Auftragnehmer und Behörden verhandeln über Mehrkosten; Kommunalvertreter verlangen neue Termine."
+    },
+    "source": "GAME_ASSUMPTION: synthetic external event; not a claim of a historical occurrence",
+    "editorial": {
+      "zh": "项目清单越列越长，能够按期交付的承诺却越来越少。",
+      "en": "The list of projects grows longer; firm delivery commitments remain scarce.",
+      "de": "Die Projektliste wächst, belastbare Fertigstellungstermine bleiben selten."
+    }
+  },
+  {
+    "id": "revenue_revision",
+    "title": {
+      "zh": "税收预期下调，预算磋商再添变数",
+      "en": "Lower revenue forecast complicates budget talks",
+      "de": "Steuerschätzung fällt niedriger aus"
+    },
+    "domain": "economy",
+    "impact": -1,
+    "description": {
+      "zh": "新一轮税收预测低于此前估计，财政部门要求各部门重新审视支出计划。尚未落实的项目面临进一步审查。",
+      "en": "The latest tax forecast falls short of earlier estimates. Finance officials want departments to review spending plans, with unfunded projects facing fresh scrutiny.",
+      "de": "Die neue Steuerschätzung bleibt hinter den Erwartungen zurück. Die Finanzverwaltung verlangt eine Prüfung der Ausgabenpläne; ungesicherte Projekte stehen erneut auf dem Prüfstand."
+    },
+    "source": "GAME_ASSUMPTION: synthetic external event; not a claim of a historical occurrence",
+    "editorial": {
+      "zh": "减税与新增开支如何兼顾，执政联盟仍需给出答案。",
+      "en": "The coalition still has to reconcile tax relief with new spending commitments.",
+      "de": "Wie Entlastungen und neue Ausgaben zusammenpassen, muss die Koalition noch klären."
+    }
+  },
+  {
+    "id": "committee_expertise",
+    "title": {
+      "zh": "技术听证厘清争议，修订方案浮出水面",
+      "en": "Expert hearing brings revised proposal into view",
+      "de": "Anhörung bringt überarbeiteten Vorschlag voran"
+    },
+    "domain": "digital",
+    "impact": 2,
+    "description": {
+      "zh": "受邀专家在委员会听证中逐项回应技术疑问，并提出调整实施顺序的建议。部分此前争执不下的细节出现折中方案。",
+      "en": "Experts have addressed technical questions in committee and proposed a revised implementation order. Compromises are emerging on previously disputed details.",
+      "de": "Sachverständige beantworten im Ausschuss technische Fragen und empfehlen eine andere Reihenfolge der Umsetzung. Bei umstrittenen Einzelheiten zeichnen sich Kompromisse ab."
+    },
+    "source": "GAME_ASSUMPTION: synthetic external event; not a claim of a historical occurrence",
+    "editorial": {
+      "zh": "委员会将继续审查修订文本，落实时间表仍待确认。",
+      "en": "The committee will examine the revised text; a delivery timetable remains to be agreed.",
+      "de": "Der überarbeitete Text wird weiter geprüft; der Zeitplan ist noch offen."
+    }
+  },
+  {
+    "id": "social_pressure",
+    "title": {
+      "zh": "社会团体联署，要求重审保障方案",
+      "en": "Social groups demand review of welfare proposal",
+      "de": "Sozialverbände verlangen Nachbesserungen"
+    },
+    "domain": "social",
+    "impact": -1,
+    "description": {
+      "zh": "多家社会团体发表联合声明，批评现有保障方案未能覆盖最困难的家庭。联署者要求委员会追加听证。",
+      "en": "Social organisations have issued a joint statement saying the welfare proposal leaves the hardest-hit households behind. They are asking for another committee hearing.",
+      "de": "Mehrere Sozialverbände kritisieren in einer gemeinsamen Erklärung Lücken im Sicherungskonzept und fordern eine weitere Anhörung."
+    },
+    "source": "GAME_ASSUMPTION: synthetic external event; not a claim of a historical occurrence",
+    "editorial": {
+      "zh": "主管部门表示愿意听取意见，但尚未承诺修改核心条款。",
+      "en": "The ministry says it will hear their concerns but has not committed to changing the central provisions.",
+      "de": "Das Ministerium will die Einwände prüfen, sagt aber noch keine Änderung der Kernregelungen zu."
+    }
+  },
+  {
+    "id": "local_cooperation",
+    "title": {
+      "zh": "联邦与地方敲定分工，项目准备重新提速",
+      "en": "Federal and local officials agree on project responsibilities",
+      "de": "Bund und Kommunen klären Zuständigkeiten"
+    },
+    "domain": "climate",
+    "impact": 2,
+    "description": {
+      "zh": "联邦与地方代表就项目分工达成一致，部分长期悬而未决的手续开始办理。地方部门准备公布后续安排。",
+      "en": "Federal and local representatives have settled their division of responsibilities, allowing stalled preparations to resume. Local offices are preparing the next steps.",
+      "de": "Vertreter von Bund und Kommunen einigen sich auf die Aufgabenverteilung. Aufgeschobene Vorbereitungen laufen wieder an."
+    },
+    "source": "GAME_ASSUMPTION: synthetic external event; not a claim of a historical occurrence",
+    "editorial": {
+      "zh": "协议能否落到工地，仍要看资金拨付与人员到位的速度。",
+      "en": "Progress on the ground will depend on timely funding and staffing.",
+      "de": "Ob die Einigung auf den Baustellen ankommt, hängt von Geld und Personal ab."
+    }
+  },
+  {
+    "id": "legal_review",
+    "title": {
+      "zh": "法学界质疑草案，委员会要求补充说明",
+      "en": "Legal objections send draft back for clarification",
+      "de": "Rechtliche Einwände führen zu Nachfragen"
+    },
+    "domain": "security",
+    "impact": -2,
+    "description": {
+      "zh": "受邀法律专家对草案中的权限边界提出异议，委员会要求主管部门解释依据，并研究修改措辞。",
+      "en": "Legal experts have questioned the powers set out in the draft. The committee wants the ministry to explain its basis and consider revised wording.",
+      "de": "Sachverständige bezweifeln die Reichweite der vorgesehenen Befugnisse. Der Ausschuss verlangt eine Begründung und prüft neue Formulierungen."
+    },
+    "source": "GAME_ASSUMPTION: synthetic external event; not a claim of a historical occurrence",
+    "editorial": {
+      "zh": "争论集中在措施是否必要、限制是否过宽。各方将围绕修订文本继续磋商。",
+      "en": "Talks will focus on whether the measures are necessary and whether their limits are drawn too broadly.",
+      "de": "Im Mittelpunkt stehen Notwendigkeit und Verhältnismäßigkeit der Maßnahmen."
+    }
+  },
+  {
+    "id": "international_consultation",
+    "title": {
+      "zh": "盟友磋商取得进展，共同行动仍待细化",
+      "en": "Partner talks narrow differences over joint action",
+      "de": "Partnergespräche nähern Positionen an"
+    },
+    "domain": "foreign",
+    "impact": 2,
+    "description": {
+      "zh": "与伙伴国家的磋商结束后，各方表示已缩小分歧，接下来将商定具体分工与执行安排。",
+      "en": "Officials say talks with partner countries have narrowed their differences. Responsibilities and delivery arrangements will be negotiated next.",
+      "de": "Nach Gesprächen mit Partnerstaaten sprechen die Beteiligten von kleineren Differenzen. Zuständigkeiten und Umsetzung sollen nun geklärt werden."
+    },
+    "source": "GAME_ASSUMPTION: synthetic external event; not a claim of a historical occurrence",
+    "editorial": {
+      "zh": "国内议会仍将审查有关承诺，以及履行承诺所需的经费。",
+      "en": "Parliament will examine the commitments and the funding needed to fulfil them.",
+      "de": "Das Parlament wird die Zusagen und ihre Finanzierung prüfen."
+    }
+  },
+  {
+    "id": "public_scrutiny",
+    "title": {
+      "zh": "承诺何时兑现？部门被追问执行进度",
+      "en": "When will promises be delivered? Ministry faces questions",
+      "de": "Wann werden Zusagen eingelöst? Ministerium unter Druck"
+    },
+    "domain": "digital",
+    "impact": -1,
+    "description": {
+      "zh": "有关项目的最新报道列出多项仍未完成的承诺，要求主管部门说明延期原因。议员准备就执行细节提出质询。",
+      "en": "New reporting lists commitments still awaiting delivery and asks the ministry to explain the delays. Members are preparing questions on implementation.",
+      "de": "Neue Berichte nennen unerfüllte Zusagen und fragen nach den Gründen der Verzögerung. Abgeordnete bereiten Nachfragen zur Umsetzung vor."
+    },
+    "source": "GAME_ASSUMPTION: synthetic external event; not a claim of a historical occurrence",
+    "editorial": {
+      "zh": "回应若仍停留在原则表态，下一轮争论恐怕难以平息。",
+      "en": "General assurances alone are unlikely to settle the next round of scrutiny.",
+      "de": "Allgemeine Versicherungen dürften die Debatte kaum beenden."
+    }
+  },
+  {
+    "id": "cross_party_hearing",
+    "title": {
+      "zh": "听证出现共识，跨党修正进入讨论",
+      "en": "Hearing opens path to cross-party amendments",
+      "de": "Anhörung eröffnet Weg zu gemeinsamen Änderungen"
+    },
+    "domain": "social",
+    "impact": 2,
+    "description": {
+      "zh": "公开听证后，多党议员表示愿意就部分条款继续协商。与会者提出缩小争议范围，先处理已有共识的内容。",
+      "en": "Members from several parties say they are ready to negotiate specific provisions after a public hearing. Participants propose settling agreed points before returning to the larger disputes.",
+      "de": "Nach einer Anhörung wollen Abgeordnete mehrerer Parteien über einzelne Vorschriften weiterverhandeln. Einvernehmliche Punkte sollen zuerst bearbeitet werden."
+    },
+    "source": "GAME_ASSUMPTION: synthetic external event; not a claim of a historical occurrence",
+    "editorial": {
+      "zh": "分歧没有消失，但一份能够继续讨论的文本已经摆上桌面。",
+      "en": "Differences remain, but there is now a text around which talks can continue.",
+      "de": "Die Differenzen bleiben, doch ein verhandlungsfähiger Text liegt auf dem Tisch."
+    }
+  },
+  {
+    "id": "transport_strike",
+    "title": {
+      "zh": "GDL发动铁路罢工，柏林与汉堡多班列车取消",
+      "en": "GDL strike cancels services between Berlin and Hamburg",
+      "de": "GDL-Streik trifft Züge zwischen Berlin und Hamburg"
+    },
+    "domain": "social",
+    "impact": -2,
+    "description": {
+      "zh": "德国火车司机工会GDL在薪资谈判破裂后发起停工。德国铁路取消柏林至汉堡等线路的大量班次，车站服务台前排起改签队伍。",
+      "en": "The train drivers’ union GDL has called a stoppage after wage talks broke down. Deutsche Bahn has cancelled services on routes including Berlin–Hamburg, leaving passengers queuing to rebook.",
+      "de": "Nach gescheiterten Tarifgesprächen ruft die GDL zum Streik auf. Die Deutsche Bahn streicht zahlreiche Verbindungen, darunter Berlin–Hamburg. Vor den Servicezentren bilden sich Schlangen."
+    },
+    "source": "GAME_ASSUMPTION: fictional event, not a historical claim",
+    "social": true,
+    "editorial": {
+      "zh": "争议集中在夜班补贴和连续值勤时长。工会要求资方提交新方案，铁路方面称扩大加薪将挤压维修预算；双方尚未确定重返谈判桌的时间。",
+      "en": "Night-shift allowances and consecutive duty hours are disputed. The union wants a new offer; the railway says larger increases would squeeze maintenance budgets. No date for renewed talks has been agreed.",
+      "de": "Strittig sind Nachtzulagen und aufeinanderfolgende Dienstzeiten. Die GDL verlangt ein neues Angebot, die Bahn warnt vor Einschnitten bei der Instandhaltung. Ein neuer Gesprächstermin fehlt."
+    },
+    "durationRounds": 2
+  },
+  {
+    "id": "flood_emergency",
+    "title": {
+      "zh": "德累斯顿沿河街区进水，THW连夜转移居民",
+      "en": "THW evacuates riverside homes in Dresden",
+      "de": "THW evakuiert Häuser am Dresdner Elbufer"
+    },
+    "domain": "climate",
+    "impact": -2,
+    "description": {
+      "zh": "连续降雨推高易北河水位，德累斯顿部分沿河住宅区进水。消防队与联邦技术救援署THW使用小艇转移居民，市政府在学校体育馆开放临时安置点。",
+      "en": "Prolonged rain has raised the Elbe and flooded parts of Dresden’s riverside neighbourhoods. Fire crews and the Federal Agency for Technical Relief are evacuating residents by boat; the city has opened school gyms as shelters.",
+      "de": "Dauerregen lässt die Elbe steigen und setzt Teile der Dresdner Uferbebauung unter Wasser. Feuerwehr und THW bringen Bewohner mit Booten in Sicherheit; die Stadt öffnet Schulturnhallen als Notunterkünfte."
+    },
+    "source": "GAME_ASSUMPTION: fictional event, not a historical claim",
+    "social": true,
+    "editorial": {
+      "zh": "救援人员正在检查排水泵与防洪设施。上游降雨和局部排水受阻被列为主要原因，州政府要求尽快提交损毁清单。",
+      "en": "Teams are checking pumps and flood defences. Upstream rainfall and blocked local drainage are considered the main causes. State officials have requested a damage inventory.",
+      "de": "Pumpen und Schutzanlagen werden überprüft. Regen im Oberlauf und verstopfte Abflüsse gelten als Hauptursachen. Das Land fordert eine Schadensübersicht."
+    },
+    "durationRounds": 2
+  },
+  {
+    "id": "energy_relief",
+    "title": {
+      "zh": "莱比锡电力交易价格回落，化工企业恢复排班",
+      "en": "Power prices ease in Leipzig; industry restores shifts",
+      "de": "Strompreise in Leipzig fallen, Industrie fährt Schichten hoch"
+    },
+    "domain": "economy",
+    "impact": 2,
+    "description": {
+      "zh": "欧洲能源交易所莱比锡市场的电力远期报价回落，几家工业客户开始重新议价。鲁尔区一家化工厂撤回部分减班安排，称新的供应合同缓解了成本压力。",
+      "en": "Power futures on the Leipzig energy market have fallen, prompting industrial customers to renegotiate contracts. A Ruhr chemical plant has reversed some shift cuts, citing lower supply costs.",
+      "de": "Sinkende Stromterminpreise am Leipziger Energiemarkt lösen neue Vertragsgespräche aus. Ein Chemiewerk im Ruhrgebiet nimmt einen Teil seiner Schichtkürzungen zurück."
+    },
+    "source": "GAME_ASSUMPTION: fictional event, not a historical claim",
+    "social": true,
+    "editorial": {
+      "zh": "交易商将这一变化归因于较暖天气与天然气库存增加。居民合同多有固定期限，家庭电费何时下调仍待供应商说明。",
+      "en": "Traders point to milder weather and larger gas stocks. Household contracts often have fixed terms, leaving the timing of retail price cuts uncertain.",
+      "de": "Händler verweisen auf mildes Wetter und gut gefüllte Gasspeicher. Bei Haushaltsverträgen mit festen Laufzeiten bleibt offen, wann die Entlastung ankommt."
+    },
+    "durationRounds": 3
+  },
+  {
+    "id": "housing_protest",
+    "title": {
+      "zh": "柏林租户在红色市政厅前集会，要求公开公房建设进度",
+      "en": "Berlin tenants rally at Red City Hall over stalled housing",
+      "de": "Berliner Mieter verlangen vor dem Roten Rathaus Bautermine"
+    },
+    "domain": "social",
+    "impact": -2,
+    "description": {
+      "zh": "柏林租户团体在红色市政厅前集会，举出近期涨租通知，要求市政府公布保障性住房的开工与交付清单。现场发言者称，建筑成本上涨并未解释所有租金变化。",
+      "en": "Tenant groups have gathered outside Berlin’s Red City Hall with recent rent notices, demanding a public list of social housing starts and completions. Speakers say construction costs do not explain every rent increase.",
+      "de": "Mietergruppen versammeln sich mit Mieterhöhungsschreiben vor dem Roten Rathaus. Sie fordern Listen zu Baubeginn und Übergabe von Sozialwohnungen. Steigende Baukosten erklärten nicht jede Erhöhung, heißt es."
+    },
+    "source": "GAME_ASSUMPTION: fictional event, not a historical claim",
+    "social": true,
+    "editorial": {
+      "zh": "市政府将交付延误归因于融资成本和审批积压。租户代表要求把承诺写成可核对的时间表，联邦住房部门也被要求回应补贴缺口。",
+      "en": "City officials cite borrowing costs and approval backlogs. Tenant representatives want a timetable they can check, while the federal housing ministry faces questions over funding gaps.",
+      "de": "Der Senat verweist auf Finanzierungskosten und Genehmigungsstaus. Mieter verlangen überprüfbare Termine; das Bundesbauministerium soll Förderlücken erläutern."
+    },
+    "durationRounds": 2
+  },
+  {
+    "id": "infrastructure_reopening",
+    "title": {
+      "zh": "慕尼黑市民服务中心恢复预约，积压证件开始发放",
+      "en": "Munich restores appointments and clears document backlog",
+      "de": "München vergibt wieder Termine und arbeitet Ausweise ab"
+    },
+    "domain": "digital",
+    "impact": 1,
+    "description": {
+      "zh": "慕尼黑市政部门重新开放部分线上预约，并向此前排队的居民发送补办通知。服务中心表示，新服务器已完成切换，工作人员正处理停机期间积压的证件申请。",
+      "en": "Munich has reopened some online bookings and contacted residents whose appointments were delayed. Service centres say the replacement server is running and staff are processing applications held up during the outage.",
+      "de": "München öffnet Teile der Online-Terminvergabe und benachrichtigt Betroffene. Nach dem Serverwechsel bearbeiten die Bürgerbüros liegen gebliebene Ausweisanträge."
+    },
+    "source": "GAME_ASSUMPTION: fictional event, not a historical claim",
+    "social": true,
+    "editorial": {
+      "zh": "初步检查将故障指向一次数据库迁移。市议员要求公开采购与验收记录，居民则希望首先拿到迟到的证件。",
+      "en": "An initial review points to a database migration. Councillors want procurement and acceptance records released; residents are waiting for their documents.",
+      "de": "Eine erste Prüfung verweist auf eine Datenbankmigration. Stadträte verlangen Vergabe- und Abnahmeunterlagen; Bürger warten auf ihre Dokumente."
+    },
+    "durationRounds": 2
+  },
+  {
+    "id": "security_incident",
+    "title": {
+      "zh": "汉堡中央车站信号失灵，警方封锁设备区",
+      "en": "Signal failure shuts lines at Hamburg Central",
+      "de": "Signalstörung legt Strecken am Hamburger Hauptbahnhof lahm"
+    },
+    "domain": "security",
+    "impact": -1,
+    "description": {
+      "zh": "德国铁路报告，汉堡中央车站一处信号机房发生电缆火灾，多条城际线路临时停运。消防部门已扑灭明火，联邦警察封锁设备区并开始排查。",
+      "en": "Deutsche Bahn reports a cable fire in a signalling room at Hamburg Central. Intercity services have been suspended; firefighters have extinguished the blaze and federal police have sealed the equipment area.",
+      "de": "Die Deutsche Bahn meldet einen Kabelbrand in einem Signalraum am Hamburger Hauptbahnhof. Fernzüge fallen aus. Die Feuerwehr hat gelöscht, die Bundespolizei sperrt den Technikbereich."
+    },
+    "source": "GAME_ASSUMPTION: fictional event, not a historical claim",
+    "social": true,
+    "editorial": {
+      "zh": "初步检查发现线路绝缘层受损，起火究竟由设备老化还是外部施工引起，尚待鉴定。内政与交通部门被要求说明关键设施的保护安排。",
+      "en": "Inspectors found damaged insulation. Whether ageing equipment or nearby works caused the fire remains under investigation. Interior and transport officials face questions over protection of critical facilities.",
+      "de": "Die Isolierung mehrerer Leitungen ist beschädigt. Ob Alterung oder Bauarbeiten den Brand auslösten, wird noch untersucht. Innen- und Verkehrsressort sollen zum Schutz kritischer Anlagen Stellung nehmen."
+    },
+    "durationRounds": 2
+  }
+]

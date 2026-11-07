@@ -1,0 +1,832 @@
+[
+  {
+    "id": "infrastructure",
+    "title": {
+      "zh": "基建特别基金：额外投资还是预算替代？",
+      "en": "Infrastructure fund: additional investment?",
+      "de": "Sondervermögen: zusätzliche Investitionen?"
+    },
+    "domain": "economy",
+    "procedure": "budget",
+    "summary": {
+      "zh": "讨论基建与气候中和特别基金的拨款、额外性和地方分配。",
+      "en": "Debate allocations, additionality and regional distribution of infrastructure funding.",
+      "de": "Beratung über Zuweisungen, Zusätzlichkeit und regionale Verteilung der Infrastrukturmittel."
+    },
+    "source": "Official Bundestag / Federal Government / Federal legislation; see URL",
+    "url": "https://www.gesetze-im-internet.de/svikg/BJNR0E60A0025.html",
+    "policy": {
+      "axis": "investment",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "economy": 0.65,
+      "climate": 0.25,
+      "social": 0.1
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "federal_budget",
+    "title": {
+      "zh": "联邦预算与投资空间",
+      "en": "Federal budget and investment capacity",
+      "de": "Bundeshaushalt und Investitionsspielraum"
+    },
+    "domain": "economy",
+    "procedure": "budget",
+    "summary": {
+      "zh": "在投资、债务和经常支出之间寻找可执行的预算方案。",
+      "en": "Balance investment, borrowing and recurring spending in a workable budget.",
+      "de": "Investitionen, Kreditaufnahme und laufende Ausgaben in einem tragfähigen Haushalt abwägen."
+    },
+    "source": "Official Bundestag / Federal Government / Federal legislation; see URL",
+    "url": "https://www.bundesregierung.de/breg-de/aktuelles/faq-bundeshaushalt-2025-2356272",
+    "policy": {
+      "axis": "investment",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "economy": 0.7,
+      "social": 0.2,
+      "security": 0.1
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "military_service",
+    "title": {
+      "zh": "新兵役：自愿招募与人员目标",
+      "en": "Military service: recruitment and targets",
+      "de": "Neuer Wehrdienst: Freiwilligkeit und Personalziele"
+    },
+    "domain": "security",
+    "procedure": "law",
+    "summary": {
+      "zh": "讨论招募、登记与人员目标；不将改革简单等同于全面恢复义务兵役。",
+      "en": "Debate recruitment, registration and staffing targets without equating reform with universal conscription.",
+      "de": "Werbung, Erfassung und Personalziele beraten; die Reform ist nicht mit allgemeiner Wehrpflicht gleichzusetzen."
+    },
+    "source": "Official Bundestag / Federal Government / Federal legislation; see URL",
+    "url": "https://dserver.bundestag.de/brd/2025/0731-25.pdf",
+    "policy": {
+      "axis": "defence",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "security": 0.65,
+      "social": 0.2,
+      "foreign": 0.15
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "border_question",
+    "title": {
+      "zh": "边境拒绝入境：政府如何解释？",
+      "en": "Border refusals: government accountability",
+      "de": "Zurückweisungen: Rechenschaft der Regierung"
+    },
+    "domain": "security",
+    "procedure": "question",
+    "summary": {
+      "zh": "围绕法律依据、个案保护和执行情况开展质询。质询结果是解释与监督，不是通过法律。",
+      "en": "Question the legal basis, individual safeguards and implementation. This produces accountability, not a statute.",
+      "de": "Rechtsgrundlage, Einzelfallschutz und Vollzug hinterfragen. Das Ergebnis ist Rechenschaft, kein Gesetz."
+    },
+    "source": "Official Bundestag / Federal Government / Federal legislation; see URL",
+    "url": "https://dserver.bundestag.de/btd/21/006/2100625.pdf",
+    "policy": {
+      "axis": "migration",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "security": 0.6,
+      "foreign": 0.3,
+      "social": 0.1
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "pensions",
+    "title": {
+      "zh": "养老金保障与代际负担",
+      "en": "Pension security and intergenerational costs",
+      "de": "Rentensicherung und Generationengerechtigkeit"
+    },
+    "domain": "social",
+    "procedure": "law",
+    "summary": {
+      "zh": "讨论养老金水平保障及其财政、缴费和代际成本。",
+      "en": "Debate pension-level protection and its fiscal, contribution and intergenerational costs.",
+      "de": "Sicherung des Rentenniveaus und Folgen für Haushalt, Beiträge und Generationen beraten."
+    },
+    "source": "Official Bundestag / Federal Government / Federal legislation; see URL",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw49-de-rentenpaket-1128720",
+    "policy": {
+      "axis": "welfare",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "social": 0.7,
+      "economy": 0.3
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "welfare",
+    "title": {
+      "zh": "基本保障：就业激励与社会保护",
+      "en": "Basic security: work incentives and protection",
+      "de": "Grundsicherung: Arbeitsanreize und sozialer Schutz"
+    },
+    "domain": "social",
+    "procedure": "law",
+    "summary": {
+      "zh": "以本届基本保障改革争议为背景，讨论义务、资格与社会保护。游戏不复现真实表决结果。",
+      "en": "Use this term’s welfare reform debate to examine obligations, eligibility and protection; game votes are fictional.",
+      "de": "Anhand der Reformdebatte Pflichten, Anspruch und Schutz beraten; Spielabstimmungen sind fiktiv."
+    },
+    "source": "Official Bundestag / Federal Government / Federal legislation; see URL",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw10-de-grundsicherung-1150460",
+    "policy": {
+      "axis": "welfare",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "social": 0.65,
+      "economy": 0.35
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "electricity",
+    "title": {
+      "zh": "电力税减免应覆盖谁？",
+      "en": "Who should receive electricity-tax relief?",
+      "de": "Wem soll die Stromsteuerentlastung zugutekommen?"
+    },
+    "domain": "economy",
+    "procedure": "law",
+    "summary": {
+      "zh": "比较产业定向减税与更广泛减负的财政代价和覆盖范围。",
+      "en": "Compare targeted industrial tax relief with broader relief and its fiscal cost.",
+      "de": "Gezielte Entlastung der Wirtschaft und breitere Entlastung nach Reichweite und Kosten abwägen."
+    },
+    "source": "Official Bundestag / Federal Government / Federal legislation; see URL",
+    "url": "https://dserver.bundestag.de/btd/21/027/2102753.pdf",
+    "policy": {
+      "axis": "investment",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "economy": 0.6,
+      "climate": 0.3,
+      "social": 0.1
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "climate_fund",
+    "title": {
+      "zh": "气候转型资金与实施能力",
+      "en": "Climate-transition funding and delivery",
+      "de": "Klimafinanzierung und Umsetzung"
+    },
+    "domain": "climate",
+    "procedure": "budget",
+    "summary": {
+      "zh": "讨论气候与转型基金的拨款、减排用途和项目实施。",
+      "en": "Debate funding, emissions-related priorities and delivery of climate projects.",
+      "de": "Mittel, Klimaschutzzwecke und Umsetzung von Transformationsprojekten beraten."
+    },
+    "source": "Official Bundestag / Federal Government / Federal legislation; see URL",
+    "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/wirksam-regieren/faq-bundeshaushalt-2025-2356272",
+    "policy": {
+      "axis": "climate",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "climate": 0.55,
+      "economy": 0.35,
+      "social": 0.1
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "digital_question",
+    "title": {
+      "zh": "数字部进展：服务还是新官僚？",
+      "en": "Digital ministry: services or bureaucracy?",
+      "de": "Digitalministerium: Service oder neue Bürokratie?"
+    },
+    "domain": "digital",
+    "procedure": "question",
+    "summary": {
+      "zh": "围绕新数字部的行政服务、标准和可见成果开展监督。",
+      "en": "Scrutinise administrative services, standards and visible results of the new digital ministry.",
+      "de": "Verwaltungsleistungen, Standards und sichtbare Ergebnisse des neuen Digitalministeriums prüfen."
+    },
+    "source": "Official Bundestag / Federal Government / Federal legislation; see URL",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw19-de-aktuelle-stunde-digitalministerium-1174108",
+    "policy": {
+      "axis": "digital",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "digital": 0.7,
+      "economy": 0.2,
+      "social": 0.1
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "ukraine_question",
+    "title": {
+      "zh": "援乌承诺与预算透明度",
+      "en": "Ukraine support and budget transparency",
+      "de": "Ukraine-Unterstützung und Haushaltstransparenz"
+    },
+    "domain": "foreign",
+    "procedure": "question",
+    "summary": {
+      "zh": "质询援助承诺、执行和预算监督；敏感信息不因游戏质询自动公开。",
+      "en": "Question aid commitments, delivery and budget oversight; sensitive information is not automatically disclosed.",
+      "de": "Zusagen, Umsetzung und Haushaltskontrolle hinterfragen; sensible Daten werden nicht automatisch offengelegt."
+    },
+    "source": "Official Bundestag / Federal Government / Federal legislation; see URL",
+    "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/wirksam-regieren/deutschland-hilft-der-ukraine-2160274",
+    "policy": {
+      "axis": "defence",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "foreign": 0.45,
+      "security": 0.35,
+      "economy": 0.2
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "rent_extension",
+    "title": {
+      "zh": "租金刹车延长",
+      "en": "Extending rent controls",
+      "de": "Verlängerung der Mietpreisbremse"
+    },
+    "domain": "social",
+    "procedure": "law",
+    "summary": {
+      "zh": "讨论租金限制的延长期限、保障范围与住房供给。",
+      "en": "Debate the duration, coverage and housing-supply effects of rent controls.",
+      "de": "Laufzeit, Schutzumfang und Folgen der Mietpreisbremse für das Wohnungsangebot beraten."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw23-de-mietpreisbremse-1083644",
+    "policy": {
+      "axis": "welfare",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "social": 0.65,
+      "economy": 0.35
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "rent_enforcement",
+    "title": {
+      "zh": "租金限制如何执行？",
+      "en": "Enforcing rent controls",
+      "de": "Durchsetzung der Mietpreisbremse"
+    },
+    "domain": "social",
+    "procedure": "question",
+    "summary": {
+      "zh": "以延长租金刹车争议为背景，监督规则覆盖与执行；不是另一部真实法案。",
+      "en": "Scrutinise coverage and enforcement within the rent-control debate; not a separate historical bill.",
+      "de": "Reichweite und Vollzug in der Mietpreisdebatte prüfen; kein eigenständiges historisches Gesetz."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw23-de-mietpreisbremse-1083644",
+    "policy": {
+      "axis": "welfare",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "social": 0.55,
+      "security": 0.25,
+      "economy": 0.2
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "investment_depreciation",
+    "title": {
+      "zh": "投资加速器：折旧激励",
+      "en": "Investment booster: depreciation",
+      "de": "Investitions-Booster: Abschreibung"
+    },
+    "domain": "economy",
+    "procedure": "law",
+    "summary": {
+      "zh": "围绕投资即时计划的折旧规则，比较投资激励与税收损失。",
+      "en": "Compare investment incentives and revenue losses from depreciation rules in the immediate investment programme.",
+      "de": "Investitionsanreize und Steuerausfälle der Abschreibungsregeln des Sofortprogramms abwägen."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw23-de-investitionssofortprogramm-1083898",
+    "policy": {
+      "axis": "investment",
+      "proposalDirection": -1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "economy": 0.8,
+      "digital": 0.2
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "corporate_tax",
+    "title": {
+      "zh": "企业税率与财政分担",
+      "en": "Corporate taxes and fiscal burdens",
+      "de": "Unternehmensteuern und Haushaltslasten"
+    },
+    "domain": "economy",
+    "procedure": "law",
+    "summary": {
+      "zh": "讨论同一投资计划中的企业税减免与公共财政负担。",
+      "en": "Debate company tax relief and public-finance costs within the same investment programme.",
+      "de": "Unternehmenssteuerentlastung und öffentliche Finanzierung im selben Investitionsprogramm beraten."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw23-de-investitionssofortprogramm-1083898",
+    "policy": {
+      "axis": "investment",
+      "proposalDirection": -1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "economy": 0.85,
+      "social": 0.15
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "investment_evaluation",
+    "title": {
+      "zh": "投资激励带来了什么？",
+      "en": "What did investment incentives deliver?",
+      "de": "Was bewirken die Investitionsanreize?"
+    },
+    "domain": "economy",
+    "procedure": "question",
+    "summary": {
+      "zh": "监督投资计划的评估和财政影响；游戏不声称已证实增长效果。",
+      "en": "Scrutinise evaluation and fiscal effects; the game does not assert proven growth outcomes.",
+      "de": "Evaluation und Haushaltsfolgen prüfen; das Spiel behauptet keine nachgewiesenen Wachstumseffekte."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw23-de-investitionssofortprogramm-1083898",
+    "policy": {
+      "axis": "investment",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "economy": 0.75,
+      "digital": 0.25
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "family_reunion",
+    "title": {
+      "zh": "补充保护者家庭团聚暂停",
+      "en": "Suspending family reunification",
+      "de": "Aussetzung des Familiennachzugs"
+    },
+    "domain": "security",
+    "procedure": "law",
+    "summary": {
+      "zh": "讨论两年暂停安排、接纳能力与家庭保护。",
+      "en": "Debate a two-year suspension, reception capacity and family protection.",
+      "de": "Zweijährige Aussetzung, Aufnahmekapazitäten und Familienschutz beraten."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw26-pa-inneres-familiennachzug-1086756",
+    "policy": {
+      "axis": "migration",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "security": 0.5,
+      "foreign": 0.3,
+      "social": 0.2
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "family_hardship",
+    "title": {
+      "zh": "家庭团聚：困难个案监督",
+      "en": "Family reunification: hardship safeguards",
+      "de": "Familiennachzug: Härtefallschutz"
+    },
+    "domain": "social",
+    "procedure": "question",
+    "summary": {
+      "zh": "在家庭团聚暂停的同一政策背景下，监督人道保护与执行。",
+      "en": "Scrutinise humanitarian safeguards and implementation within the same family-reunification policy.",
+      "de": "Humanitäre Schutzvorkehrungen und Vollzug derselben Familiennachzugspolitik prüfen."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw26-pa-inneres-familiennachzug-1086756",
+    "policy": {
+      "axis": "migration",
+      "proposalDirection": -1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "social": 0.5,
+      "security": 0.3,
+      "foreign": 0.2
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "safe_origins",
+    "title": {
+      "zh": "安全来源国：授权与审查",
+      "en": "Safe countries: delegation and review",
+      "de": "Sichere Herkunftsstaaten: Ermächtigung und Prüfung"
+    },
+    "domain": "security",
+    "procedure": "law",
+    "summary": {
+      "zh": "讨论通过行政法规确定安全来源国的程序和个案保护。",
+      "en": "Debate designation by regulation and individual safeguards.",
+      "de": "Bestimmung durch Rechtsverordnung und Einzelfallschutz beraten."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/neuregelungen-migrationspolitik-2351746",
+    "policy": {
+      "axis": "migration",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "security": 0.5,
+      "foreign": 0.4,
+      "social": 0.1
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "detention_counsel",
+    "title": {
+      "zh": "遣返拘押中的法律援助",
+      "en": "Legal counsel in removal detention",
+      "de": "Rechtsbeistand in Abschiebehaft"
+    },
+    "domain": "security",
+    "procedure": "law",
+    "summary": {
+      "zh": "讨论同一改革中法律代表安排与程序保障；不与安全来源国混成相同法律问题。",
+      "en": "Debate representation and procedural safeguards in the same reform, distinct from country designation.",
+      "de": "Rechtsvertretung und Verfahrensschutz derselben Reform getrennt von Herkunftsstaaten beraten."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/neuregelungen-migrationspolitik-2351746",
+    "policy": {
+      "axis": "migration",
+      "proposalDirection": -1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "security": 0.65,
+      "social": 0.2,
+      "foreign": 0.15
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "municipal_funds",
+    "title": {
+      "zh": "地方基建拨款如何分配？",
+      "en": "Allocating regional infrastructure funds",
+      "de": "Verteilung regionaler Infrastrukturmittel"
+    },
+    "domain": "economy",
+    "procedure": "budget",
+    "summary": {
+      "zh": "讨论特别基金内地方份额的分配与实施条件。",
+      "en": "Debate allocation and implementation conditions for the regional share of the special fund.",
+      "de": "Verteilung und Umsetzungsbedingungen des Länderanteils am Sondervermögen beraten."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.gesetze-im-internet.de/svikg/BJNR0E60A0025.html",
+    "policy": {
+      "axis": "investment",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "economy": 0.65,
+      "social": 0.25,
+      "climate": 0.1
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "additionality_question",
+    "title": {
+      "zh": "特别基金是否替代原有投资？",
+      "en": "Does the special fund replace existing investment?",
+      "de": "Ersetzt das Sondervermögen bestehende Investitionen?"
+    },
+    "domain": "economy",
+    "procedure": "question",
+    "summary": {
+      "zh": "监督特别基金的额外性和资金用途，不预设违规已发生。",
+      "en": "Scrutinise additionality and use of funds without presuming misconduct.",
+      "de": "Zusätzlichkeit und Mittelverwendung prüfen, ohne Fehlverhalten vorauszusetzen."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.gesetze-im-internet.de/svikg/BJNR0E60A0025.html",
+    "policy": {
+      "axis": "investment",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "economy": 0.75,
+      "climate": 0.25
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "climate_allocation",
+    "title": {
+      "zh": "气候基金与产业转型拨款",
+      "en": "Climate funding and industrial transition",
+      "de": "Klimamittel und Industrietransformation"
+    },
+    "domain": "climate",
+    "procedure": "budget",
+    "summary": {
+      "zh": "从同一资金框架讨论气候用途和产业转型之间的优先级。",
+      "en": "Discuss priorities between climate purposes and industrial transition within the same funding framework.",
+      "de": "Prioritäten zwischen Klimaschutzzwecken und Industrietransformation im selben Finanzrahmen beraten."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/wirksam-regieren/faq-bundeshaushalt-2025-2356272",
+    "policy": {
+      "axis": "climate",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "climate": 0.55,
+      "economy": 0.45
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "pension_generation",
+    "title": {
+      "zh": "养老金成本由谁承担？",
+      "en": "Who bears pension costs?",
+      "de": "Wer trägt die Rentenkosten?"
+    },
+    "domain": "social",
+    "procedure": "question",
+    "summary": {
+      "zh": "围绕养老金方案监督财政与代际分担；不是另一部真实法案。",
+      "en": "Scrutinise fiscal and intergenerational burdens of the pension package; not a separate historical bill.",
+      "de": "Haushalts- und Generationenlasten des Rentenpakets prüfen; kein weiteres historisches Gesetz."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw49-de-rentenpaket-1128720",
+    "policy": {
+      "axis": "welfare",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "social": 0.6,
+      "economy": 0.4
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "active_retirement",
+    "title": {
+      "zh": "继续工作与退休税收激励",
+      "en": "Working longer and retirement tax incentives",
+      "de": "Weiterarbeit und Aktivrente"
+    },
+    "domain": "social",
+    "procedure": "law",
+    "summary": {
+      "zh": "讨论退休年龄后继续工作的税收激励与公平性。",
+      "en": "Debate tax incentives and fairness for employment beyond retirement age.",
+      "de": "Steueranreize und Gerechtigkeit bei Arbeit nach dem Rentenalter beraten."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw49-de-rentenpaket-1128720",
+    "policy": {
+      "axis": "welfare",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "social": 0.5,
+      "economy": 0.5
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "occupational_pension",
+    "title": {
+      "zh": "企业年金覆盖与保障",
+      "en": "Occupational pension coverage",
+      "de": "Betriebliche Altersversorgung"
+    },
+    "domain": "social",
+    "procedure": "law",
+    "summary": {
+      "zh": "讨论养老金相关立法中的企业年金覆盖与保障。",
+      "en": "Debate coverage and protection in related occupational-pension legislation.",
+      "de": "Abdeckung und Sicherung der betrieblichen Altersversorgung in der Rentengesetzgebung beraten."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw49-de-rentenpaket-1128720",
+    "policy": {
+      "axis": "welfare",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "social": 0.6,
+      "economy": 0.4
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "welfare_sanctions",
+    "title": {
+      "zh": "基本保障：义务与制裁边界",
+      "en": "Basic security: obligations and sanctions",
+      "de": "Grundsicherung: Pflichten und Sanktionen"
+    },
+    "domain": "social",
+    "procedure": "law",
+    "summary": {
+      "zh": "讨论同一基本保障改革中的制裁与最低保障边界。",
+      "en": "Debate sanctions and minimum protection within the same welfare reform.",
+      "de": "Sanktionen und Mindestsicherung innerhalb derselben Grundsicherungsreform beraten."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw10-de-grundsicherung-1150460",
+    "policy": {
+      "axis": "welfare",
+      "proposalDirection": -1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "social": 0.6,
+      "economy": 0.25,
+      "security": 0.15
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "training_priority",
+    "title": {
+      "zh": "就业优先还是培训投资？",
+      "en": "Job placement or investment in training?",
+      "de": "Vermittlung oder Weiterbildung?"
+    },
+    "domain": "social",
+    "procedure": "law",
+    "summary": {
+      "zh": "比较同一改革中就业介绍优先与职业培训保障。",
+      "en": "Compare placement priority and training safeguards in the same reform.",
+      "de": "Vermittlungsvorrang und Weiterbildungsschutz derselben Reform abwägen."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw10-de-grundsicherung-1150460",
+    "policy": {
+      "axis": "welfare",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "social": 0.6,
+      "economy": 0.25,
+      "digital": 0.15
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "electricity_scope",
+    "title": {
+      "zh": "电力税减负：家庭与中小企业",
+      "en": "Electricity relief: households and smaller firms",
+      "de": "Stromsteuerentlastung: Haushalte und Mittelstand"
+    },
+    "domain": "economy",
+    "procedure": "question",
+    "summary": {
+      "zh": "监督减负覆盖及未覆盖群体，不把产业减税描述为全民减税。",
+      "en": "Scrutinise coverage and excluded groups without presenting industrial relief as universal relief.",
+      "de": "Reichweite und nicht erfasste Gruppen prüfen; Industrieentlastung ist keine allgemeine Steuersenkung."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://dserver.bundestag.de/btd/21/027/2102753.pdf",
+    "policy": {
+      "axis": "investment",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "economy": 0.5,
+      "climate": 0.3,
+      "social": 0.2
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "digital_sovereignty",
+    "title": {
+      "zh": "数字主权与公共采购",
+      "en": "Digital sovereignty and procurement",
+      "de": "Digitale Souveränität und Beschaffung"
+    },
+    "domain": "digital",
+    "procedure": "question",
+    "summary": {
+      "zh": "根据数字部辩论监督数字主权、竞争和行政服务。",
+      "en": "Use the digital-ministry debate to scrutinise sovereignty, competition and public services.",
+      "de": "Anhand der Digitalministeriumsdebatte Souveränität, Wettbewerb und Verwaltungsleistungen prüfen."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw19-de-aktuelle-stunde-digitalministerium-1174108",
+    "policy": {
+      "axis": "digital",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "digital": 0.5,
+      "economy": 0.25,
+      "foreign": 0.15,
+      "security": 0.1
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "military_targets",
+    "title": {
+      "zh": "兵役改革：人员目标监督",
+      "en": "Military reform: staffing oversight",
+      "de": "Wehrdienstreform: Kontrolle der Personalziele"
+    },
+    "domain": "security",
+    "procedure": "question",
+    "summary": {
+      "zh": "监督招募与人员目标；不得自动触发新的强制兵役。",
+      "en": "Scrutinise recruitment and staffing targets without automatically triggering compulsory service.",
+      "de": "Werbung und Personalziele prüfen; keine automatische Auslösung einer neuen Dienstpflicht."
+    },
+    "source": "Official source; game scenario / subtopic, not a claim of an additional historical bill",
+    "url": "https://dserver.bundestag.de/brd/2025/0731-25.pdf",
+    "policy": {
+      "axis": "defence",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "security": 0.6,
+      "foreign": 0.25,
+      "economy": 0.15
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  }
+]

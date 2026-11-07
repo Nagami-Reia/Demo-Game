@@ -1,0 +1,2374 @@
+[
+  {
+    "id": "news_001",
+    "category": "federal",
+    "title": {
+      "zh": "联邦预算谈判再陷僵局",
+      "en": "Federal budget talks stall again",
+      "de": "Haushaltsgespräche geraten erneut ins Stocken"
+    },
+    "body": {
+      "zh": "柏林——联合政府围绕公共投资、社会保障与财政纪律继续磋商。财政部门要求明确支出优先次序，地方政府则催促公布拨款时间，党团领导层尚未就预算文本达成一致。",
+      "en": "Berlin — Federal budget talks stall again. Federal ministries and coalition leaders are preparing parliamentary consultations.",
+      "de": "Berlin — Haushaltsgespräche geraten erneut ins Stocken. Ministerien und Koalitionsspitzen bereiten parlamentarische Beratungen vor."
+    },
+    "brief": {
+      "zh": "柏林——联合政府围绕公共投资、社会保障与财政纪律继续磋商。各方将在下一轮磋商中提出具体要求。",
+      "en": "Federal budget talks stall again. Federal ministries and coalition leaders are preparing parliamentary consultations.",
+      "de": "Haushaltsgespräche geraten erneut ins Stocken. Ministerien und Koalitionsspitzen bereiten parlamentarische Beratungen vor."
+    },
+    "region": "Berlin",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "durationRounds": 3,
+    "effects": [
+      {
+        "kind": "income",
+        "value": -2,
+        "target": {
+          "role": "government"
+        }
+      },
+      {
+        "kind": "policyScore",
+        "value": 0.2,
+        "domains": [
+          "economy"
+        ]
+      },
+      {
+        "kind": "coordinationEfficiency",
+        "value": -0.12
+      }
+    ],
+    "followUp": {
+      "parties": 0.5
+    },
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_002",
+    "category": "federal",
+    "title": {
+      "zh": "内阁就公共投资框架达成初步协议",
+      "en": "Cabinet reaches initial investment agreement",
+      "de": "Kabinett einigt sich auf Investitionsrahmen"
+    },
+    "body": {
+      "zh": "柏林——内阁同意把铁路、电网与学校改造纳入新的投资框架。各部仍需说明项目排序及审计办法，反对党要求财政委员会逐项审议，地方承包商开始准备投标材料。",
+      "en": "Bund — Cabinet reaches initial investment agreement. Federal ministries and coalition leaders are preparing parliamentary consultations.",
+      "de": "Bund — Kabinett einigt sich auf Investitionsrahmen. Ministerien und Koalitionsspitzen bereiten parlamentarische Beratungen vor."
+    },
+    "brief": {
+      "zh": "柏林——内阁同意把铁路、电网与学校改造纳入新的投资框架。各方将在下一轮磋商中提出具体要求。",
+      "en": "Cabinet reaches initial investment agreement. Federal ministries and coalition leaders are preparing parliamentary consultations.",
+      "de": "Kabinett einigt sich auf Investitionsrahmen. Ministerien und Koalitionsspitzen bereiten parlamentarische Beratungen vor."
+    },
+    "region": "Bund",
+    "domains": [
+      "economy",
+      "digital"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.16,
+        "domains": [
+          "economy",
+          "digital"
+        ]
+      },
+      {
+        "kind": "executionCost",
+        "value": 1,
+        "domains": [
+          "economy"
+        ]
+      },
+      {
+        "kind": "conditionalScore",
+        "value": 0.6,
+        "domains": [
+          "economy"
+        ],
+        "condition": "passed"
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": 0.2
+  },
+  {
+    "id": "news_003",
+    "category": "federal",
+    "title": {
+      "zh": "部长听证延长，改革时间表受到追问",
+      "en": "Minister faces extended reform hearing",
+      "de": "Minister muss Reformfahrplan erläutern"
+    },
+    "body": {
+      "zh": "柏林——行政改革听证会上，部长被要求解释多个项目推迟的原因。反对党提交了补充问题，执政党议员要求部门统一数据口径，委员会决定增加一次专门讨论。",
+      "en": "Bund — Minister faces extended reform hearing. Federal ministries and coalition leaders are preparing parliamentary consultations.",
+      "de": "Bund — Minister muss Reformfahrplan erläutern. Ministerien und Koalitionsspitzen bereiten parlamentarische Beratungen vor."
+    },
+    "brief": {
+      "zh": "柏林——行政改革听证会上，部长被要求解释多个项目推迟的原因。",
+      "en": "Minister faces extended reform hearing. Federal ministries and coalition leaders are preparing parliamentary consultations.",
+      "de": "Minister muss Reformfahrplan erläutern. Ministerien und Koalitionsspitzen bereiten parlamentarische Beratungen vor."
+    },
+    "region": "Bund",
+    "domains": [
+      "digital",
+      "security"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.12,
+        "domains": [
+          "digital"
+        ],
+        "target": {
+          "role": "opposition"
+        }
+      },
+      {
+        "kind": "stability",
+        "value": -0.08,
+        "target": {
+          "role": "government"
+        }
+      },
+      {
+        "kind": "negotiationCost",
+        "value": 1
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_004",
+    "category": "federal",
+    "title": {
+      "zh": "议事规则修订进入跨党协商",
+      "en": "Cross-party talks open on parliamentary rules",
+      "de": "Fraktionen beraten über Geschäftsordnung"
+    },
+    "body": {
+      "zh": "柏林——联邦议院各党团讨论质询时长与委员会资料提交期限。议会事务负责人希望先就程序问题形成共识，部分议员坚持保留少数党团的调查空间，修订文本仍待协调。",
+      "en": "Bund — Cross-party talks open on parliamentary rules. Federal ministries and coalition leaders are preparing parliamentary consultations.",
+      "de": "Bund — Fraktionen beraten über Geschäftsordnung. Ministerien und Koalitionsspitzen bereiten parlamentarische Beratungen vor."
+    },
+    "brief": {
+      "zh": "柏林——联邦议院各党团讨论质询时长与委员会资料提交期限。各方将在下一轮磋商中提出具体要求。",
+      "en": "Cross-party talks open on parliamentary rules. Federal ministries and coalition leaders are preparing parliamentary consultations.",
+      "de": "Fraktionen beraten über Geschäftsordnung. Ministerien und Koalitionsspitzen bereiten parlamentarische Beratungen vor."
+    },
+    "region": "Bund",
+    "domains": [
+      "security"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "negotiationEfficiency",
+        "value": 0.15
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "routeWords": "法律|Recht|Legal"
+        }
+      },
+      {
+        "kind": "conditionalCash",
+        "value": 2,
+        "condition": "negotiated"
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": 0.2
+  },
+  {
+    "id": "news_005",
+    "category": "economy",
+    "title": {
+      "zh": "工业订单回落，企业要求稳定能源安排",
+      "en": "Manufacturers seek stable energy arrangements",
+      "de": "Industrie fordert verlässliche Energieplanung"
+    },
+    "body": {
+      "zh": "杜塞尔多夫——多家制造企业报告新订单减少，商会将原因指向能源成本与审批周期。工会要求稳定就业，经济部门准备与企业和州政府举行会谈，投资项目是否推迟尚无定论。",
+      "en": "Nordrhein-Westfalen — Manufacturers seek stable energy arrangements. Employers, unions and the finance ministry disagree on costs and implementation.",
+      "de": "Nordrhein-Westfalen — Industrie fordert verlässliche Energieplanung. Arbeitgeber, Gewerkschaften und Finanzministerium streiten über Kosten und Umsetzung."
+    },
+    "brief": {
+      "zh": "杜塞尔多夫——多家制造企业报告新订单减少，商会将原因指向能源成本与审批周期。",
+      "en": "Manufacturers seek stable energy arrangements. Employers, unions and the finance ministry disagree on costs and implementation.",
+      "de": "Industrie fordert verlässliche Energieplanung. Arbeitgeber, Gewerkschaften und Finanzministerium streiten über Kosten und Umsetzung."
+    },
+    "region": "Nordrhein-Westfalen",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "durationRounds": 3,
+    "effects": [
+      {
+        "kind": "income",
+        "value": -1
+      },
+      {
+        "kind": "auctionCost",
+        "value": 1,
+        "domains": [
+          "economy"
+        ]
+      },
+      {
+        "kind": "policyEfficiency",
+        "value": 0.12,
+        "domains": [
+          "economy"
+        ]
+      },
+      {
+        "kind": "recruitWeight",
+        "value": 0.5,
+        "domains": [
+          "economy"
+        ]
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_006",
+    "category": "economy",
+    "title": {
+      "zh": "工资谈判破裂，铁路工会宣布警告罢工",
+      "en": "Rail union announces warning strike",
+      "de": "Bahngewerkschaft kündigt Warnstreik an"
+    },
+    "body": {
+      "zh": "法兰克福——铁路工资谈判未能弥合夜班补贴与轮班安排分歧，工会宣布短期警告罢工。铁路方面准备削减班次，通勤者组织要求尽快公布替代交通安排，调解人正尝试重开磋商。",
+      "en": "Bund — Rail union announces warning strike. Employers, unions and the finance ministry disagree on costs and implementation.",
+      "de": "Bund — Bahngewerkschaft kündigt Warnstreik an. Arbeitgeber, Gewerkschaften und Finanzministerium streiten über Kosten und Umsetzung."
+    },
+    "brief": {
+      "zh": "法兰克福——铁路工资谈判未能弥合夜班补贴与轮班安排分歧，工会宣布短期警告罢工。",
+      "en": "Rail union announces warning strike. Employers, unions and the finance ministry disagree on costs and implementation.",
+      "de": "Bahngewerkschaft kündigt Warnstreik an. Arbeitgeber, Gewerkschaften und Finanzministerium streiten über Kosten und Umsetzung."
+    },
+    "region": "Bund",
+    "domains": [
+      "social",
+      "economy"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "income",
+        "value": -1
+      },
+      {
+        "kind": "negotiationEfficiency",
+        "value": 0.15,
+        "domains": [
+          "social"
+        ]
+      },
+      {
+        "kind": "coordinationEfficiency",
+        "value": -0.1,
+        "domains": [
+          "economy"
+        ]
+      },
+      {
+        "kind": "poll",
+        "value": 0.3,
+        "axis": "welfare",
+        "position": 0.8
+      }
+    ],
+    "followUp": {
+      "society": 0.5
+    },
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_007",
+    "category": "economy",
+    "title": {
+      "zh": "城市租金上涨，住房企业讨论新建项目",
+      "en": "Housing groups debate construction as rents rise",
+      "de": "Steigende Mieten setzen Wohnungsbau unter Druck"
+    },
+    "body": {
+      "zh": "柏林——租户组织报告多个城区的续租成本上升，住房企业称融资与施工费用阻碍新建项目。市政府邀请联邦住房部门和州代表协商，争论集中在公共住房、租金规则与审批速度。",
+      "en": "Bund — Housing groups debate construction as rents rise. Employers, unions and the finance ministry disagree on costs and implementation.",
+      "de": "Bund — Steigende Mieten setzen Wohnungsbau unter Druck. Arbeitgeber, Gewerkschaften und Finanzministerium streiten über Kosten und Umsetzung."
+    },
+    "brief": {
+      "zh": "柏林——租户组织报告多个城区的续租成本上升，住房企业称融资与施工费用阻碍新建项目。",
+      "en": "Housing groups debate construction as rents rise. Employers, unions and the finance ministry disagree on costs and implementation.",
+      "de": "Steigende Mieten setzen Wohnungsbau unter Druck. Arbeitgeber, Gewerkschaften und Finanzministerium streiten über Kosten und Umsetzung."
+    },
+    "region": "Bund",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyScore",
+        "value": 0.15,
+        "domains": [
+          "social"
+        ]
+      },
+      {
+        "kind": "executionCost",
+        "value": 1,
+        "domains": [
+          "social"
+        ]
+      },
+      {
+        "kind": "poll",
+        "value": 0.25,
+        "axis": "welfare",
+        "position": 0.7
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": 0.2
+  },
+  {
+    "id": "news_008",
+    "category": "economy",
+    "title": {
+      "zh": "贸易企业欢迎关税磋商取得进展",
+      "en": "Exporters welcome progress in tariff talks",
+      "de": "Exporteure begrüßen Fortschritte bei Zollgesprächen"
+    },
+    "body": {
+      "zh": "汉堡——出口企业欢迎新一轮关税磋商传出的缓和信号，但港口物流商提醒协议细节仍未确定。经济界希望扩大订单，工会则要求把劳动标准列入谈判，联邦代表准备协调共同立场。",
+      "en": "Hamburg — Exporters welcome progress in tariff talks. Employers, unions and the finance ministry disagree on costs and implementation.",
+      "de": "Hamburg — Exporteure begrüßen Fortschritte bei Zollgesprächen. Arbeitgeber, Gewerkschaften und Finanzministerium streiten über Kosten und Umsetzung."
+    },
+    "brief": {
+      "zh": "汉堡——出口企业欢迎新一轮关税磋商传出的缓和信号，但港口物流商提醒协议细节仍未确定。",
+      "en": "Exporters welcome progress in tariff talks. Employers, unions and the finance ministry disagree on costs and implementation.",
+      "de": "Exporteure begrüßen Fortschritte bei Zollgesprächen. Arbeitgeber, Gewerkschaften und Finanzministerium streiten über Kosten und Umsetzung."
+    },
+    "region": "Hamburg",
+    "domains": [
+      "economy",
+      "foreign"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "income",
+        "value": 1
+      },
+      {
+        "kind": "policyEfficiency",
+        "value": 0.1,
+        "domains": [
+          "foreign",
+          "economy"
+        ]
+      },
+      {
+        "kind": "conditionalCash",
+        "value": 3,
+        "domains": [
+          "foreign"
+        ],
+        "condition": "negotiated"
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": 0.2
+  },
+  {
+    "id": "news_009",
+    "category": "society",
+    "title": {
+      "zh": "气候团体游行要求加快电网改造",
+      "en": "Climate march calls for faster grid upgrades",
+      "de": "Klimademonstration fordert schnelleren Netzausbau"
+    },
+    "body": {
+      "zh": "科隆——环保团体与部分地方能源合作社举行游行，要求加快电网改造并加强居民参与。工业协会支持扩大供电能力，但担心新增合规成本，市政府呼吁各方提交可执行的项目建议。",
+      "en": "Nordrhein-Westfalen — Climate march calls for faster grid upgrades. Organisers and local authorities are discussing demands and public services.",
+      "de": "Nordrhein-Westfalen — Klimademonstration fordert schnelleren Netzausbau. Organisationen und örtliche Behörden beraten über Forderungen und öffentliche Leistungen."
+    },
+    "brief": {
+      "zh": "科隆——环保团体与部分地方能源合作社举行游行，要求加快电网改造并加强居民参与。",
+      "en": "Climate march calls for faster grid upgrades. Organisers and local authorities are discussing demands and public services.",
+      "de": "Klimademonstration fordert schnelleren Netzausbau. Organisationen und örtliche Behörden beraten über Forderungen und öffentliche Leistungen."
+    },
+    "region": "Nordrhein-Westfalen",
+    "domains": [
+      "climate",
+      "economy"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.13,
+        "domains": [
+          "climate"
+        ]
+      },
+      {
+        "kind": "poll",
+        "value": 0.35,
+        "axis": "climate",
+        "position": 0.9
+      },
+      {
+        "kind": "conditionalScore",
+        "value": 0.5,
+        "domains": [
+          "climate"
+        ],
+        "condition": "effective"
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": 0.2
+  },
+  {
+    "id": "news_010",
+    "category": "society",
+    "title": {
+      "zh": "大学学生会要求公开助学金调整方案",
+      "en": "Student councils demand details of grant changes",
+      "de": "Studierendenvertretungen verlangen Klarheit beim BAföG"
+    },
+    "body": {
+      "zh": "海德堡——多所大学学生会要求教育部门公开助学金调整依据，称住宿与生活费用正在挤压学习时间。大学管理层支持提前说明改革安排，财政部门则要求核算长期支出，听证会报名人数增加。",
+      "en": "Baden-Württemberg — Student councils demand details of grant changes. Organisers and local authorities are discussing demands and public services.",
+      "de": "Baden-Württemberg — Studierendenvertretungen verlangen Klarheit beim BAföG. Organisationen und örtliche Behörden beraten über Forderungen und öffentliche Leistungen."
+    },
+    "brief": {
+      "zh": "海德堡——多所大学学生会要求教育部门公开助学金调整依据，称住宿与生活费用正在挤压学习时间。",
+      "en": "Student councils demand details of grant changes. Organisers and local authorities are discussing demands and public services.",
+      "de": "Studierendenvertretungen verlangen Klarheit beim BAföG. Organisationen und örtliche Behörden beraten über Forderungen und öffentliche Leistungen."
+    },
+    "region": "Baden-Württemberg",
+    "domains": [
+      "social"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "negotiationEfficiency",
+        "value": 0.12,
+        "domains": [
+          "social"
+        ]
+      },
+      {
+        "kind": "policyScore",
+        "value": 0.1,
+        "domains": [
+          "social"
+        ]
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "domains": [
+          "social"
+        ]
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_011",
+    "category": "society",
+    "title": {
+      "zh": "宗教与社会团体联合推动社区救助",
+      "en": "Community organisations coordinate local aid",
+      "de": "Kirchen und Sozialverbände organisieren Hilfe"
+    },
+    "body": {
+      "zh": "埃森——教会、社会救助机构与社区志愿者联合提出冬季服务计划，要求稳定庇护所与咨询机构经费。市政府支持加强协调，同时希望联邦和州明确费用承担方式，党团议员将参与公开讨论。",
+      "en": "Nordrhein-Westfalen — Community organisations coordinate local aid. Organisers and local authorities are discussing demands and public services.",
+      "de": "Nordrhein-Westfalen — Kirchen und Sozialverbände organisieren Hilfe. Organisationen und örtliche Behörden beraten über Forderungen und öffentliche Leistungen."
+    },
+    "brief": {
+      "zh": "埃森——教会、社会救助机构与社区志愿者联合提出冬季服务计划，要求稳定庇护所与咨询机构经费。",
+      "en": "Community organisations coordinate local aid. Organisers and local authorities are discussing demands and public services.",
+      "de": "Kirchen und Sozialverbände organisieren Hilfe. Organisationen und örtliche Behörden beraten über Forderungen und öffentliche Leistungen."
+    },
+    "region": "Nordrhein-Westfalen",
+    "domains": [
+      "social",
+      "security"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "coordinationEfficiency",
+        "value": 0.12,
+        "domains": [
+          "social"
+        ]
+      },
+      {
+        "kind": "allianceCash",
+        "value": 0.2,
+        "target": {
+          "category": "social_group"
+        }
+      },
+      {
+        "kind": "conditionalCash",
+        "value": 2,
+        "domains": [
+          "social"
+        ],
+        "condition": "effective"
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": 0.2
+  },
+  {
+    "id": "news_012",
+    "category": "society",
+    "title": {
+      "zh": "居民要求医院改革保留地区急诊服务",
+      "en": "Residents seek guarantees for local emergency care",
+      "de": "Bürger fordern Erhalt regionaler Notaufnahmen"
+    },
+    "body": {
+      "zh": "马格德堡——居民代表和医护人员要求医院改革保留地区急诊能力。州卫生部门承认人手不足，但反对在没有替代方案时关闭服务点，联邦议员准备把争议带到卫生委员会讨论。",
+      "en": "Sachsen-Anhalt — Residents seek guarantees for local emergency care. Organisers and local authorities are discussing demands and public services.",
+      "de": "Sachsen-Anhalt — Bürger fordern Erhalt regionaler Notaufnahmen. Organisationen und örtliche Behörden beraten über Forderungen und öffentliche Leistungen."
+    },
+    "brief": {
+      "zh": "马格德堡——居民代表和医护人员要求医院改革保留地区急诊能力。",
+      "en": "Residents seek guarantees for local emergency care. Organisers and local authorities are discussing demands and public services.",
+      "de": "Bürger fordern Erhalt regionaler Notaufnahmen. Organisationen und örtliche Behörden beraten über Forderungen und öffentliche Leistungen."
+    },
+    "region": "Sachsen-Anhalt",
+    "domains": [
+      "social"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyScore",
+        "value": 0.2,
+        "domains": [
+          "social"
+        ]
+      },
+      {
+        "kind": "risk",
+        "value": 0.03,
+        "domains": [
+          "social"
+        ]
+      },
+      {
+        "kind": "negotiationEfficiency",
+        "value": 0.1,
+        "domains": [
+          "social"
+        ]
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": 0.2
+  },
+  {
+    "id": "news_013",
+    "category": "parties",
+    "title": {
+      "zh": "黑红协调会推迟，双方先提交财政清单",
+      "en": "Coalition delays coordination pending fiscal lists",
+      "de": "Schwarz-Rot vertagt Koordinierung bis zu Finanzlisten"
+    },
+    "body": {
+      "zh": "柏林——联盟党与社民党把原定协调会推迟到各自提交财政清单之后。双方均表示愿意继续合作，但对社会支出与税收安排仍有分歧，党团办公室正逐条比对可能纳入共同文本的提议。",
+      "en": "Bund — Coalition delays coordination pending fiscal lists. Parliamentary groups seek common wording while retaining different policy priorities.",
+      "de": "Bund — Schwarz-Rot vertagt Koordinierung bis zu Finanzlisten. Die Fraktionen suchen gemeinsame Formulierungen, halten aber an unterschiedlichen Prioritäten fest."
+    },
+    "brief": {
+      "zh": "柏林——联盟党与社民党把原定协调会推迟到各自提交财政清单之后。",
+      "en": "Coalition delays coordination pending fiscal lists. Parliamentary groups seek common wording while retaining different policy priorities.",
+      "de": "Schwarz-Rot vertagt Koordinierung bis zu Finanzlisten. Die Fraktionen suchen gemeinsame Formulierungen, halten aber an unterschiedlichen Prioritäten fest."
+    },
+    "region": "Bund",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "coordinationEfficiency",
+        "value": -0.12,
+        "target": {
+          "parties": [
+            "CDU",
+            "CSU",
+            "SPD"
+          ]
+        }
+      },
+      {
+        "kind": "negotiationEfficiency",
+        "value": 0.1
+      },
+      {
+        "kind": "negotiationCost",
+        "value": 1
+      }
+    ],
+    "followUp": {
+      "federal": 0.5
+    },
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_014",
+    "category": "parties",
+    "title": {
+      "zh": "绿党与左翼党就住房措施各提方案",
+      "en": "Greens and Left submit competing housing proposals",
+      "de": "Grüne und Linke legen unterschiedliche Mietpläne vor"
+    },
+    "body": {
+      "zh": "柏林——绿党与左翼党分别公布住房政策提议，双方支持改善租户处境，但对补贴、公共建设与限制租金的重点不同。议会观察人士预计，两党可能在委员会阶段寻找部分共识。",
+      "en": "Bund — Greens and Left submit competing housing proposals. Parliamentary groups seek common wording while retaining different policy priorities.",
+      "de": "Bund — Grüne und Linke legen unterschiedliche Mietpläne vor. Die Fraktionen suchen gemeinsame Formulierungen, halten aber an unterschiedlichen Prioritäten fest."
+    },
+    "brief": {
+      "zh": "柏林——绿党与左翼党分别公布住房政策提议，双方支持改善租户处境，但对补贴、公共建设与限制租金的重点不同。",
+      "en": "Greens and Left submit competing housing proposals. Parliamentary groups seek common wording while retaining different policy priorities.",
+      "de": "Grüne und Linke legen unterschiedliche Mietpläne vor. Die Fraktionen suchen gemeinsame Formulierungen, halten aber an unterschiedlichen Prioritäten fest."
+    },
+    "region": "Bund",
+    "domains": [
+      "social",
+      "climate"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "negotiationEfficiency",
+        "value": 0.12,
+        "domains": [
+          "social"
+        ],
+        "target": {
+          "parties": [
+            "Grüne",
+            "Linke"
+          ]
+        }
+      },
+      {
+        "kind": "policyScore",
+        "value": 0.12,
+        "domains": [
+          "social"
+        ]
+      },
+      {
+        "kind": "stability",
+        "value": -0.05,
+        "target": {
+          "parties": [
+            "Grüne",
+            "Linke"
+          ]
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_015",
+    "category": "parties",
+    "title": {
+      "zh": "CSU要求联邦澄清地方财政承诺",
+      "en": "CSU seeks clarification of federal fiscal pledges",
+      "de": "CSU verlangt Klarheit über Finanzzusagen des Bundes"
+    },
+    "body": {
+      "zh": "慕尼黑——CSU议会代表要求联邦明确地方财政承诺的执行顺序，称市镇不能只等待原则性表态。联盟党内部准备补充协商，社民党财政议员则要求同时说明资金来源和监督方式。",
+      "en": "Bayern — CSU seeks clarification of federal fiscal pledges. Parliamentary groups seek common wording while retaining different policy priorities.",
+      "de": "Bayern — CSU verlangt Klarheit über Finanzzusagen des Bundes. Die Fraktionen suchen gemeinsame Formulierungen, halten aber an unterschiedlichen Prioritäten fest."
+    },
+    "brief": {
+      "zh": "慕尼黑——CSU议会代表要求联邦明确地方财政承诺的执行顺序，称市镇不能只等待原则性表态。",
+      "en": "CSU seeks clarification of federal fiscal pledges. Parliamentary groups seek common wording while retaining different policy priorities.",
+      "de": "CSU verlangt Klarheit über Finanzzusagen des Bundes. Die Fraktionen suchen gemeinsame Formulierungen, halten aber an unterschiedlichen Prioritäten fest."
+    },
+    "region": "Bayern",
+    "domains": [
+      "economy"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "coordinationEfficiency",
+        "value": -0.1,
+        "target": {
+          "parties": [
+            "CDU",
+            "CSU"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Bayern"
+          ],
+          "category": "state"
+        }
+      },
+      {
+        "kind": "conditionalCash",
+        "value": 2,
+        "domains": [
+          "economy"
+        ],
+        "condition": "negotiated"
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_016",
+    "category": "parties",
+    "title": {
+      "zh": "小党团要求调查委员会扩大资料公开",
+      "en": "Opposition groups seek wider inquiry disclosures",
+      "de": "Kleinere Fraktionen verlangen mehr Untersuchungstransparenz"
+    },
+    "body": {
+      "zh": "柏林——数个反对党团要求调查委员会扩大资料公开范围，称现有文件不足以解释行政项目的延期。执政党强调保密程序不能省略，委员会主席要求各方先提交具体的阅卷申请。",
+      "en": "Bund — Opposition groups seek wider inquiry disclosures. Parliamentary groups seek common wording while retaining different policy priorities.",
+      "de": "Bund — Kleinere Fraktionen verlangen mehr Untersuchungstransparenz. Die Fraktionen suchen gemeinsame Formulierungen, halten aber an unterschiedlichen Prioritäten fest."
+    },
+    "brief": {
+      "zh": "柏林——数个反对党团要求调查委员会扩大资料公开范围，称现有文件不足以解释行政项目的延期。",
+      "en": "Opposition groups seek wider inquiry disclosures. Parliamentary groups seek common wording while retaining different policy priorities.",
+      "de": "Kleinere Fraktionen verlangen mehr Untersuchungstransparenz. Die Fraktionen suchen gemeinsame Formulierungen, halten aber an unterschiedlichen Prioritäten fest."
+    },
+    "region": "Bund",
+    "domains": [
+      "security",
+      "digital"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.13,
+        "domains": [
+          "security",
+          "digital"
+        ],
+        "target": {
+          "role": "opposition"
+        }
+      },
+      {
+        "kind": "risk",
+        "value": 0.02,
+        "domains": [
+          "security"
+        ]
+      },
+      {
+        "kind": "allianceCash",
+        "value": 0.15,
+        "target": {
+          "routeWords": "监督|Kontrolle|scrutiny"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": 0.2
+  },
+  {
+    "id": "news_017",
+    "category": "international",
+    "title": {
+      "zh": "欧洲理事会讨论产业投资新框架",
+      "en": "European Council debates industrial investment framework",
+      "de": "Europäischer Rat berät über Industrieinvestitionen"
+    },
+    "body": {
+      "zh": "布鲁塞尔——欧洲理事会讨论新的产业投资框架，成员国对补贴边界与共同融资仍有分歧。德国代表团准备与企业及工会交换意见，议会外交与经济工作组要求提前了解谈判授权。",
+      "en": "EU — European Council debates industrial investment framework. German representatives are preparing a position for talks with European partners.",
+      "de": "EU — Europäischer Rat berät über Industrieinvestitionen. Die deutsche Delegation bereitet ihre Position für Gespräche mit europäischen Partnern vor."
+    },
+    "brief": {
+      "zh": "布鲁塞尔——欧洲理事会讨论新的产业投资框架，成员国对补贴边界与共同融资仍有分歧。",
+      "en": "European Council debates industrial investment framework. German representatives are preparing a position for talks with European partners.",
+      "de": "Europäischer Rat berät über Industrieinvestitionen. Die deutsche Delegation bereitet ihre Position für Gespräche mit europäischen Partnern vor."
+    },
+    "region": "EU",
+    "domains": [
+      "foreign",
+      "economy"
+    ],
+    "durationRounds": 3,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.15,
+        "domains": [
+          "foreign",
+          "economy"
+        ]
+      },
+      {
+        "kind": "auctionCost",
+        "value": 1,
+        "domains": [
+          "foreign"
+        ]
+      },
+      {
+        "kind": "conditionalCash",
+        "value": 3,
+        "domains": [
+          "foreign"
+        ],
+        "condition": "negotiated"
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": 0.2
+  },
+  {
+    "id": "news_018",
+    "category": "international",
+    "title": {
+      "zh": "北约磋商推动防务采购议题升温",
+      "en": "NATO talks raise defence procurement stakes",
+      "de": "NATO-Beratungen rücken Beschaffung in den Fokus"
+    },
+    "body": {
+      "zh": "布鲁塞尔——北约成员国继续讨论防务能力与采购协调，德国代表强调议会预算程序必须得到尊重。安全政策专家要求说明长期维护成本，财政议员则希望分阶段审议相关承诺。",
+      "en": "NATO — NATO talks raise defence procurement stakes. German representatives are preparing a position for talks with European partners.",
+      "de": "NATO — NATO-Beratungen rücken Beschaffung in den Fokus. Die deutsche Delegation bereitet ihre Position für Gespräche mit europäischen Partnern vor."
+    },
+    "brief": {
+      "zh": "布鲁塞尔——北约成员国继续讨论防务能力与采购协调，德国代表强调议会预算程序必须得到尊重。",
+      "en": "NATO talks raise defence procurement stakes. German representatives are preparing a position for talks with European partners.",
+      "de": "NATO-Beratungen rücken Beschaffung in den Fokus. Die deutsche Delegation bereitet ihre Position für Gespräche mit europäischen Partnern vor."
+    },
+    "region": "NATO",
+    "domains": [
+      "foreign",
+      "security",
+      "economy"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyScore",
+        "value": 0.15,
+        "domains": [
+          "security",
+          "foreign"
+        ]
+      },
+      {
+        "kind": "executionCost",
+        "value": 1,
+        "domains": [
+          "security"
+        ]
+      },
+      {
+        "kind": "poll",
+        "value": 0.25,
+        "axis": "defence",
+        "position": 0.8
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": 0.2
+  },
+  {
+    "id": "news_019",
+    "category": "international",
+    "title": {
+      "zh": "国际天然气报价上涨，进口商调整预期",
+      "en": "Gas price rise prompts importers to revise plans",
+      "de": "Steigende Gaspreise verändern Importplanung"
+    },
+    "body": {
+      "zh": "鹿特丹——国际天然气报价上升促使德国进口商重新核算冬季采购安排。能源部门强调储备仍需统筹，消费者组织要求透明说明价格传导过程，企业正在评估是否推迟部分投资。",
+      "en": "International — Gas price rise prompts importers to revise plans. German representatives are preparing a position for talks with European partners.",
+      "de": "International — Steigende Gaspreise verändern Importplanung. Die deutsche Delegation bereitet ihre Position für Gespräche mit europäischen Partnern vor."
+    },
+    "brief": {
+      "zh": "鹿特丹——国际天然气报价上升促使德国进口商重新核算冬季采购安排。",
+      "en": "Gas price rise prompts importers to revise plans. German representatives are preparing a position for talks with European partners.",
+      "de": "Steigende Gaspreise verändern Importplanung. Die deutsche Delegation bereitet ihre Position für Gespräche mit europäischen Partnern vor."
+    },
+    "region": "International",
+    "domains": [
+      "economy",
+      "climate",
+      "foreign"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "income",
+        "value": -2
+      },
+      {
+        "kind": "policyScore",
+        "value": 0.2,
+        "domains": [
+          "climate"
+        ]
+      },
+      {
+        "kind": "risk",
+        "value": 0.03,
+        "domains": [
+          "economy"
+        ]
+      },
+      {
+        "kind": "recruitWeight",
+        "value": 0.4,
+        "domains": [
+          "climate"
+        ]
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_020",
+    "category": "international",
+    "title": {
+      "zh": "德法代表团讨论跨境铁路与技术标准",
+      "en": "German-French delegations discuss rail standards",
+      "de": "Deutsch-französische Gespräche über Bahnstandards"
+    },
+    "body": {
+      "zh": "斯特拉斯堡——德国与法国代表团讨论跨境铁路连接及技术标准，地方交通机构要求协调施工时段。企业欢迎缩短货运等待时间，议员关注审批与环境要求能否在不同层级之间衔接。",
+      "en": "EU — German-French delegations discuss rail standards. German representatives are preparing a position for talks with European partners.",
+      "de": "EU — Deutsch-französische Gespräche über Bahnstandards. Die deutsche Delegation bereitet ihre Position für Gespräche mit europäischen Partnern vor."
+    },
+    "brief": {
+      "zh": "斯特拉斯堡——德国与法国代表团讨论跨境铁路连接及技术标准，地方交通机构要求协调施工时段。",
+      "en": "German-French delegations discuss rail standards. German representatives are preparing a position for talks with European partners.",
+      "de": "Deutsch-französische Gespräche über Bahnstandards. Die deutsche Delegation bereitet ihre Position für Gespräche mit europäischen Partnern vor."
+    },
+    "region": "EU",
+    "domains": [
+      "foreign",
+      "economy",
+      "digital"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "negotiationEfficiency",
+        "value": 0.14,
+        "domains": [
+          "foreign"
+        ]
+      },
+      {
+        "kind": "conditionalScore",
+        "value": 0.7,
+        "domains": [
+          "foreign"
+        ],
+        "condition": "negotiated"
+      },
+      {
+        "kind": "allianceRepeat",
+        "value": 1,
+        "target": {
+          "routeWords": "外交|Auswärt|Außenpolitik"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": 0.2
+  },
+  {
+    "id": "news_021",
+    "category": "unexpected",
+    "title": {
+      "zh": "汉堡信号设备故障，多条列车线路中断",
+      "en": "Signal fault disrupts Hamburg rail services",
+      "de": "Signalstörung unterbricht Hamburger Bahnverkehr"
+    },
+    "body": {
+      "zh": "汉堡——中央车站附近信号设备故障导致多条线路中断，铁路公司安排人员抢修并调整班次。通勤者排队办理改签，市政府要求公布恢复进度，事故原因仍需技术人员进一步检查。",
+      "en": "Hamburg — Signal fault disrupts Hamburg rail services. Officials are assessing the disruption and preparing an explanation to parliament.",
+      "de": "Hamburg — Signalstörung unterbricht Hamburger Bahnverkehr. Die Behörden prüfen die Störung und bereiten eine Erklärung für das Parlament vor."
+    },
+    "brief": {
+      "zh": "汉堡——中央车站附近信号设备故障导致多条线路中断，铁路公司安排人员抢修并调整班次。",
+      "en": "Signal fault disrupts Hamburg rail services. Officials are assessing the disruption and preparing an explanation to parliament.",
+      "de": "Signalstörung unterbricht Hamburger Bahnverkehr. Die Behörden prüfen die Störung und bereiten eine Erklärung für das Parlament vor."
+    },
+    "region": "Hamburg",
+    "domains": [
+      "economy",
+      "digital"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "income",
+        "value": -1
+      },
+      {
+        "kind": "policyEfficiency",
+        "value": -0.1,
+        "domains": [
+          "economy"
+        ]
+      },
+      {
+        "kind": "conditionalCash",
+        "value": 2,
+        "domains": [
+          "digital"
+        ],
+        "condition": "effective"
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_022",
+    "category": "unexpected",
+    "title": {
+      "zh": "数字化改革会议因登录故障推迟",
+      "en": "Digital reform meeting delayed by login failure",
+      "de": "Digitalisierungskonferenz scheitert an Anmeldung"
+    },
+    "body": {
+      "zh": "柏林——数字化改革协调会因参会账户无法登录而推迟，技术部门建议先开一次线下说明会。各部门已互相确认收到故障邮件，议员要求下一次演示至少允许与会者进入系统。",
+      "en": "Bund — Digital reform meeting delayed by login failure. Officials are assessing the disruption and preparing an explanation to parliament.",
+      "de": "Bund — Digitalisierungskonferenz scheitert an Anmeldung. Die Behörden prüfen die Störung und bereiten eine Erklärung für das Parlament vor."
+    },
+    "brief": {
+      "zh": "柏林——数字化改革协调会因参会账户无法登录而推迟，技术部门建议先开一次线下说明会。",
+      "en": "Digital reform meeting delayed by login failure. Officials are assessing the disruption and preparing an explanation to parliament.",
+      "de": "Digitalisierungskonferenz scheitert an Anmeldung. Die Behörden prüfen die Störung und bereiten eine Erklärung für das Parlament vor."
+    },
+    "region": "Bund",
+    "domains": [
+      "digital"
+    ],
+    "durationRounds": 1,
+    "effects": [
+      {
+        "kind": "coordinationEfficiency",
+        "value": -0.1,
+        "domains": [
+          "digital"
+        ]
+      },
+      {
+        "kind": "policyScore",
+        "value": 0.2,
+        "domains": [
+          "digital"
+        ]
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "routeWords": "数字|Digital"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_023",
+    "category": "unexpected",
+    "title": {
+      "zh": "简化行政程序的新申请表增加三页",
+      "en": "Simplified procedure arrives with three extra pages",
+      "de": "Vereinfachtes Verfahren bringt drei neue Formularseiten"
+    },
+    "body": {
+      "zh": "柏林——一个联邦部门公布行政程序简化方案，配套申请表却比旧版增加三页。部门解释新增内容旨在减少后续补件，市镇办事窗口要求先测试，反对党准备在质询中索取实例。",
+      "en": "Bund — Simplified procedure arrives with three extra pages. Officials are assessing the disruption and preparing an explanation to parliament.",
+      "de": "Bund — Vereinfachtes Verfahren bringt drei neue Formularseiten. Die Behörden prüfen die Störung und bereiten eine Erklärung für das Parlament vor."
+    },
+    "brief": {
+      "zh": "柏林——一个联邦部门公布行政程序简化方案，配套申请表却比旧版增加三页。",
+      "en": "Simplified procedure arrives with three extra pages. Officials are assessing the disruption and preparing an explanation to parliament.",
+      "de": "Vereinfachtes Verfahren bringt drei neue Formularseiten. Die Behörden prüfen die Störung und bereiten eine Erklärung für das Parlament vor."
+    },
+    "region": "Bund",
+    "domains": [
+      "digital",
+      "security"
+    ],
+    "durationRounds": 1,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.12,
+        "domains": [
+          "digital"
+        ],
+        "target": {
+          "role": "opposition"
+        }
+      },
+      {
+        "kind": "executionCost",
+        "value": 1,
+        "domains": [
+          "digital"
+        ]
+      },
+      {
+        "kind": "negotiationCost",
+        "value": -1
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_024",
+    "category": "unexpected",
+    "title": {
+      "zh": "协调会尚未敲定下次协调会日期",
+      "en": "Coordination meeting cannot agree its next date",
+      "de": "Koordinierungsrunde findet keinen nächsten Termin"
+    },
+    "body": {
+      "zh": "柏林——党团协调会议讨论了下一次会议的时间，但数个办公室提交的日程表互不重叠。与会者同意先成立联络小组，议会事务负责人要求各方在周末前确认能够到场的代表。",
+      "en": "Bund — Coordination meeting cannot agree its next date. Officials are assessing the disruption and preparing an explanation to parliament.",
+      "de": "Bund — Koordinierungsrunde findet keinen nächsten Termin. Die Behörden prüfen die Störung und bereiten eine Erklärung für das Parlament vor."
+    },
+    "brief": {
+      "zh": "柏林——党团协调会议讨论了下一次会议的时间，但数个办公室提交的日程表互不重叠。",
+      "en": "Coordination meeting cannot agree its next date. Officials are assessing the disruption and preparing an explanation to parliament.",
+      "de": "Koordinierungsrunde findet keinen nächsten Termin. Die Behörden prüfen die Störung und bereiten eine Erklärung für das Parlament vor."
+    },
+    "region": "Bund",
+    "domains": [
+      "security",
+      "social"
+    ],
+    "durationRounds": 1,
+    "effects": [
+      {
+        "kind": "coordinationEfficiency",
+        "value": -0.12
+      },
+      {
+        "kind": "negotiationEfficiency",
+        "value": 0.1
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "category": "social_group"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_025",
+    "category": "state",
+    "title": {
+      "zh": "斯图加特讨论汽车供应链技术转型",
+      "en": "Stuttgart debates automotive supply chains",
+      "de": "Stuttgart berät über Zuliefererwandel"
+    },
+    "body": {
+      "zh": "州经济部门召集汽车供应商、工会和研究机构讨论技术转型。中小企业要求稳定研发支持，员工代表关注培训与岗位安排，州政府希望联邦明确项目审核标准。",
+      "en": "Baden-Württemberg — Stuttgart debates automotive supply chains. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Baden-Württemberg — Stuttgart berät über Zuliefererwandel. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "州经济部门召集汽车供应商、工会和研究机构讨论技术转型。各方将在下一轮磋商中提出具体要求。",
+      "en": "Stuttgart debates automotive supply chains. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Stuttgart berät über Zuliefererwandel. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Baden-Württemberg",
+    "domains": [
+      "economy",
+      "digital"
+    ],
+    "durationRounds": 3,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "economy",
+          "digital"
+        ],
+        "target": {
+          "states": [
+            "Baden-Württemberg"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Baden-Württemberg"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Baden-Württemberg"
+          ],
+          "category": "state"
+        }
+      },
+      {
+        "kind": "risk",
+        "value": 0.025,
+        "domains": [
+          "economy",
+          "digital"
+        ]
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_026",
+    "category": "state",
+    "title": {
+      "zh": "巴伐利亚要求扩大市镇财政自主权",
+      "en": "Bavaria seeks greater municipal fiscal autonomy",
+      "de": "Bayern fordert mehr kommunale Finanzautonomie"
+    },
+    "body": {
+      "zh": "慕尼黑州政府要求扩大市镇财政自主权，地方代表称基础设施维护不能再依赖临时拨款。CSU议会代表支持进一步讨论，联邦财政部门要求先澄清支出责任。",
+      "en": "Bayern — Bavaria seeks greater municipal fiscal autonomy. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Bayern — Bayern fordert mehr kommunale Finanzautonomie. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "慕尼黑州政府要求扩大市镇财政自主权，地方代表称基础设施维护不能再依赖临时拨款。",
+      "en": "Bavaria seeks greater municipal fiscal autonomy. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Bayern fordert mehr kommunale Finanzautonomie. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Bayern",
+    "domains": [
+      "economy",
+      "digital"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "economy",
+          "digital"
+        ],
+        "target": {
+          "states": [
+            "Bayern"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Bayern"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Bayern"
+          ],
+          "category": "state"
+        }
+      },
+      {
+        "kind": "allianceCash",
+        "value": 0.25,
+        "target": {
+          "states": [
+            "Bayern"
+          ],
+          "category": "state"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_027",
+    "category": "state",
+    "title": {
+      "zh": "柏林窗口排队增加，数字政务平台受质疑",
+      "en": "Berlin queues fuel criticism of digital services",
+      "de": "Warteschlangen belasten Berlins Digitalverwaltung"
+    },
+    "body": {
+      "zh": "柏林多个市民服务窗口预约紧张，线上平台仍要求部分材料现场提交。市政府准备增派人员，居民组织要求公布处理期限，联邦行政改革工作组收到地方议员的情况说明。",
+      "en": "Berlin — Berlin queues fuel criticism of digital services. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Berlin — Warteschlangen belasten Berlins Digitalverwaltung. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "柏林多个市民服务窗口预约紧张，线上平台仍要求部分材料现场提交。",
+      "en": "Berlin queues fuel criticism of digital services. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Warteschlangen belasten Berlins Digitalverwaltung. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Berlin",
+    "domains": [
+      "digital",
+      "security"
+    ],
+    "durationRounds": 3,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "digital",
+          "security"
+        ],
+        "target": {
+          "states": [
+            "Berlin"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Berlin"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Berlin"
+          ],
+          "category": "state"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_028",
+    "category": "state",
+    "title": {
+      "zh": "勃兰登堡工业园用水方案引发听证",
+      "en": "Brandenburg holds industrial water hearing",
+      "de": "Brandenburg hört zu Wasserbedarf der Industrie an"
+    },
+    "body": {
+      "zh": "勃兰登堡工业园扩建用水方案进入公开听证，企业希望尽快确定产能安排。环保协会要求保护地下水，地方政府需要在就业承诺与供水安全之间协调具体条件。",
+      "en": "Brandenburg — Brandenburg holds industrial water hearing. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Brandenburg — Brandenburg hört zu Wasserbedarf der Industrie an. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "勃兰登堡工业园扩建用水方案进入公开听证，企业希望尽快确定产能安排。",
+      "en": "Brandenburg holds industrial water hearing. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Brandenburg hört zu Wasserbedarf der Industrie an. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Brandenburg",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "economy",
+          "climate"
+        ],
+        "target": {
+          "states": [
+            "Brandenburg"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Brandenburg"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Brandenburg"
+          ],
+          "category": "state"
+        }
+      },
+      {
+        "kind": "risk",
+        "value": 0.025,
+        "domains": [
+          "economy",
+          "climate"
+        ]
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_029",
+    "category": "state",
+    "title": {
+      "zh": "不来梅港口改造方案寻求联邦支持",
+      "en": "Bremen seeks federal backing for port upgrades",
+      "de": "Bremen sucht Bundesmittel für den Hafen"
+    },
+    "body": {
+      "zh": "不来梅港口机构提出码头与铁路连接改造计划，物流企业希望缩短转运时间。州政府要求联邦共同承担费用，工会则要求项目同时改善轮班与安全设施。",
+      "en": "Bremen — Bremen seeks federal backing for port upgrades. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Bremen — Bremen sucht Bundesmittel für den Hafen. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "不来梅港口机构提出码头与铁路连接改造计划，物流企业希望缩短转运时间。",
+      "en": "Bremen seeks federal backing for port upgrades. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Bremen sucht Bundesmittel für den Hafen. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Bremen",
+    "domains": [
+      "economy",
+      "foreign"
+    ],
+    "durationRounds": 3,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "economy",
+          "foreign"
+        ],
+        "target": {
+          "states": [
+            "Bremen"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Bremen"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Bremen"
+          ],
+          "category": "state"
+        }
+      },
+      {
+        "kind": "allianceCash",
+        "value": 0.25,
+        "target": {
+          "states": [
+            "Bremen"
+          ],
+          "category": "state"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_030",
+    "category": "state",
+    "title": {
+      "zh": "汉堡港岸电项目进入造价审议",
+      "en": "Hamburg reviews port shore-power costs",
+      "de": "Hamburg prüft Kosten für Landstrom"
+    },
+    "body": {
+      "zh": "汉堡港岸电项目进入造价审议，港口企业与市政府对接入费用分担意见不同。环保团体支持减少停泊排放，地方议员要求公布施工时段和对货运的影响。",
+      "en": "Hamburg — Hamburg reviews port shore-power costs. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Hamburg — Hamburg prüft Kosten für Landstrom. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "汉堡港岸电项目进入造价审议，港口企业与市政府对接入费用分担意见不同。",
+      "en": "Hamburg reviews port shore-power costs. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Hamburg prüft Kosten für Landstrom. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Hamburg",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "economy",
+          "climate"
+        ],
+        "target": {
+          "states": [
+            "Hamburg"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Hamburg"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Hamburg"
+          ],
+          "category": "state"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_031",
+    "category": "state",
+    "title": {
+      "zh": "黑森金融监管讨论聚焦中小企业融资",
+      "en": "Hesse debates finance for smaller firms",
+      "de": "Hessen berät Finanzierung des Mittelstands"
+    },
+    "body": {
+      "zh": "法兰克福金融机构与黑森州代表讨论中小企业融资条件。企业协会称审核周期延长影响投资，监管部门强调风险评估不能省略，联邦财政议员准备听取双方意见。",
+      "en": "Hessen — Hesse debates finance for smaller firms. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Hessen — Hessen berät Finanzierung des Mittelstands. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "法兰克福金融机构与黑森州代表讨论中小企业融资条件。各方将在下一轮磋商中提出具体要求。",
+      "en": "Hesse debates finance for smaller firms. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Hessen berät Finanzierung des Mittelstands. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Hessen",
+    "domains": [
+      "economy"
+    ],
+    "durationRounds": 3,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "economy"
+        ],
+        "target": {
+          "states": [
+            "Hessen"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Hessen"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Hessen"
+          ],
+          "category": "state"
+        }
+      },
+      {
+        "kind": "risk",
+        "value": 0.025,
+        "domains": [
+          "economy"
+        ]
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_032",
+    "category": "state",
+    "title": {
+      "zh": "梅前州海上风电接网方案再审议",
+      "en": "Coastal state revisits offshore grid plans",
+      "de": "Mecklenburg-Vorpommern prüft Offshore-Anbindung"
+    },
+    "body": {
+      "zh": "梅克伦堡-前波莫瑞州重新审议海上风电接网安排，沿海市镇要求协调渔业与施工时间。州政府支持扩大能源投资，但希望联邦电网规划明确费用分担。",
+      "en": "Mecklenburg-Vorpommern — Coastal state revisits offshore grid plans. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Mecklenburg-Vorpommern — Mecklenburg-Vorpommern prüft Offshore-Anbindung. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "梅克伦堡-前波莫瑞州重新审议海上风电接网安排，沿海市镇要求协调渔业与施工时间。",
+      "en": "Coastal state revisits offshore grid plans. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Mecklenburg-Vorpommern prüft Offshore-Anbindung. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Mecklenburg-Vorpommern",
+    "domains": [
+      "climate",
+      "economy"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "climate",
+          "economy"
+        ],
+        "target": {
+          "states": [
+            "Mecklenburg-Vorpommern"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Mecklenburg-Vorpommern"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Mecklenburg-Vorpommern"
+          ],
+          "category": "state"
+        }
+      },
+      {
+        "kind": "allianceCash",
+        "value": 0.25,
+        "target": {
+          "states": [
+            "Mecklenburg-Vorpommern"
+          ],
+          "category": "state"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_033",
+    "category": "state",
+    "title": {
+      "zh": "下萨克森港口与电池产业项目争取拨款",
+      "en": "Lower Saxony seeks port and battery funding",
+      "de": "Niedersachsen wirbt für Hafen- und Batterieprojekte"
+    },
+    "body": {
+      "zh": "下萨克森州提出港口物流与电池产业项目清单，企业要求连续的基础设施支持。州议会各方对补贴期限存在分歧，工会希望把职业培训纳入投资承诺。",
+      "en": "Niedersachsen — Lower Saxony seeks port and battery funding. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Niedersachsen — Niedersachsen wirbt für Hafen- und Batterieprojekte. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "下萨克森州提出港口物流与电池产业项目清单，企业要求连续的基础设施支持。",
+      "en": "Lower Saxony seeks port and battery funding. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Niedersachsen wirbt für Hafen- und Batterieprojekte. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Niedersachsen",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "durationRounds": 3,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "economy",
+          "climate"
+        ],
+        "target": {
+          "states": [
+            "Niedersachsen"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Niedersachsen"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Niedersachsen"
+          ],
+          "category": "state"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_034",
+    "category": "state",
+    "title": {
+      "zh": "北威州城市要求明确工业转型财政安排",
+      "en": "NRW cities seek clarity on transition funding",
+      "de": "NRW-Städte fordern Klarheit beim Strukturwandel"
+    },
+    "body": {
+      "zh": "杜伊斯堡与周边城市要求明确工业转型资金的拨付顺序。钢铁企业关注能源基础设施，市长担心地方配套费用挤压公共服务，州政府将与联邦部门重新核对项目。",
+      "en": "Nordrhein-Westfalen — NRW cities seek clarity on transition funding. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Nordrhein-Westfalen — NRW-Städte fordern Klarheit beim Strukturwandel. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "杜伊斯堡与周边城市要求明确工业转型资金的拨付顺序。各方将在下一轮磋商中提出具体要求。",
+      "en": "NRW cities seek clarity on transition funding. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "NRW-Städte fordern Klarheit beim Strukturwandel. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Nordrhein-Westfalen",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "economy",
+          "social"
+        ],
+        "target": {
+          "states": [
+            "Nordrhein-Westfalen"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Nordrhein-Westfalen"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Nordrhein-Westfalen"
+          ],
+          "category": "state"
+        }
+      },
+      {
+        "kind": "risk",
+        "value": 0.025,
+        "domains": [
+          "economy",
+          "social"
+        ]
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_035",
+    "category": "state",
+    "title": {
+      "zh": "莱法州讨论洪水预警系统跨区协作",
+      "en": "Rhineland-Palatinate reviews flood alerts",
+      "de": "Rheinland-Pfalz prüft Zusammenarbeit beim Hochwasserschutz"
+    },
+    "body": {
+      "zh": "莱茵兰-普法尔茨州讨论跨区洪水预警与应急通信建设。地方消防机构要求统一设备标准，居民代表关注疏散信息能否及时到达，联邦与州之间仍需协调维护经费。",
+      "en": "Rheinland-Pfalz — Rhineland-Palatinate reviews flood alerts. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Rheinland-Pfalz — Rheinland-Pfalz prüft Zusammenarbeit beim Hochwasserschutz. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "莱茵兰-普法尔茨州讨论跨区洪水预警与应急通信建设。各方将在下一轮磋商中提出具体要求。",
+      "en": "Rhineland-Palatinate reviews flood alerts. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Rheinland-Pfalz prüft Zusammenarbeit beim Hochwasserschutz. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Rheinland-Pfalz",
+    "domains": [
+      "climate",
+      "digital"
+    ],
+    "durationRounds": 3,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "climate",
+          "digital"
+        ],
+        "target": {
+          "states": [
+            "Rheinland-Pfalz"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Rheinland-Pfalz"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Rheinland-Pfalz"
+          ],
+          "category": "state"
+        }
+      },
+      {
+        "kind": "allianceCash",
+        "value": 0.25,
+        "target": {
+          "states": [
+            "Rheinland-Pfalz"
+          ],
+          "category": "state"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_036",
+    "category": "state",
+    "title": {
+      "zh": "萨尔州钢铁转型项目进入就业协商",
+      "en": "Saarland steel project enters jobs talks",
+      "de": "Saarländischer Stahlumbau führt zu Beschäftigungsgesprächen"
+    },
+    "body": {
+      "zh": "萨尔州钢铁转型项目进入就业保障磋商，企业希望尽快确认能源和设备支持。工会要求培训方案与岗位承诺同步落实，州政府正与联邦经济部门讨论融资条件。",
+      "en": "Saarland — Saarland steel project enters jobs talks. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Saarland — Saarländischer Stahlumbau führt zu Beschäftigungsgesprächen. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "萨尔州钢铁转型项目进入就业保障磋商，企业希望尽快确认能源和设备支持。",
+      "en": "Saarland steel project enters jobs talks. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Saarländischer Stahlumbau führt zu Beschäftigungsgesprächen. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Saarland",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "economy",
+          "social"
+        ],
+        "target": {
+          "states": [
+            "Saarland"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Saarland"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Saarland"
+          ],
+          "category": "state"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_037",
+    "category": "state",
+    "title": {
+      "zh": "萨克森芯片产业讨论人才与住房配套",
+      "en": "Saxony chip plans raise staffing and housing questions",
+      "de": "Sachsens Chipindustrie berät Personal und Wohnen"
+    },
+    "body": {
+      "zh": "德累斯顿周边芯片产业项目引发人才和住房配套讨论。研究机构欢迎扩大合作，地方议员要求同步建设交通与学校，州政府希望联邦明确科研支持期限。",
+      "en": "Sachsen — Saxony chip plans raise staffing and housing questions. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Sachsen — Sachsens Chipindustrie berät Personal und Wohnen. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "德累斯顿周边芯片产业项目引发人才和住房配套讨论。各方将在下一轮磋商中提出具体要求。",
+      "en": "Saxony chip plans raise staffing and housing questions. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Sachsens Chipindustrie berät Personal und Wohnen. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Sachsen",
+    "domains": [
+      "digital",
+      "economy"
+    ],
+    "durationRounds": 3,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "digital",
+          "economy"
+        ],
+        "target": {
+          "states": [
+            "Sachsen"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Sachsen"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Sachsen"
+          ],
+          "category": "state"
+        }
+      },
+      {
+        "kind": "risk",
+        "value": 0.025,
+        "domains": [
+          "digital",
+          "economy"
+        ]
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_038",
+    "category": "state",
+    "title": {
+      "zh": "萨安州市镇讨论学校校车服务缺口",
+      "en": "Saxony-Anhalt towns debate school transport gaps",
+      "de": "Sachsen-Anhalts Kommunen beraten Schulbuslücken"
+    },
+    "body": {
+      "zh": "萨克森-安哈尔特州部分市镇反映学校校车班次不足，家长要求缩短学生候车时间。县政府希望获得稳定补助，州议会准备就公共交通和教育服务安排举行听证。",
+      "en": "Sachsen-Anhalt — Saxony-Anhalt towns debate school transport gaps. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Sachsen-Anhalt — Sachsen-Anhalts Kommunen beraten Schulbuslücken. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "萨克森-安哈尔特州部分市镇反映学校校车班次不足，家长要求缩短学生候车时间。",
+      "en": "Saxony-Anhalt towns debate school transport gaps. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Sachsen-Anhalts Kommunen beraten Schulbuslücken. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Sachsen-Anhalt",
+    "domains": [
+      "social",
+      "economy"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "social",
+          "economy"
+        ],
+        "target": {
+          "states": [
+            "Sachsen-Anhalt"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Sachsen-Anhalt"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Sachsen-Anhalt"
+          ],
+          "category": "state"
+        }
+      },
+      {
+        "kind": "allianceCash",
+        "value": 0.25,
+        "target": {
+          "states": [
+            "Sachsen-Anhalt"
+          ],
+          "category": "state"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_039",
+    "category": "state",
+    "title": {
+      "zh": "石荷州电网扩建面临居民路线异议",
+      "en": "Northern grid plans face route objections",
+      "de": "Schleswig-Holsteins Netzausbau stößt auf Trassenkritik"
+    },
+    "body": {
+      "zh": "石勒苏益格-荷尔斯泰因州电网扩建方案面临居民路线异议。能源企业希望缩短审批周期，地方议员要求完善补偿与景观保护安排，州政府准备组织新一轮技术说明会。",
+      "en": "Schleswig-Holstein — Northern grid plans face route objections. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Schleswig-Holstein — Schleswig-Holsteins Netzausbau stößt auf Trassenkritik. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "石勒苏益格-荷尔斯泰因州电网扩建方案面临居民路线异议。各方将在下一轮磋商中提出具体要求。",
+      "en": "Northern grid plans face route objections. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Schleswig-Holsteins Netzausbau stößt auf Trassenkritik. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Schleswig-Holstein",
+    "domains": [
+      "climate",
+      "economy"
+    ],
+    "durationRounds": 3,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "climate",
+          "economy"
+        ],
+        "target": {
+          "states": [
+            "Schleswig-Holstein"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Schleswig-Holstein"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Schleswig-Holstein"
+          ],
+          "category": "state"
+        }
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  },
+  {
+    "id": "news_040",
+    "category": "state",
+    "title": {
+      "zh": "图林根研究园区争取长期技术支持",
+      "en": "Thuringia research parks seek long-term support",
+      "de": "Thüringer Forschungsparks werben um langfristige Förderung"
+    },
+    "body": {
+      "zh": "图林根研究园区要求稳定技术转移与设备维护支持，中小企业希望更容易使用公共实验设施。州议会对融资期限仍有争论，地方代表将向联邦科研工作组提交建议。",
+      "en": "Thüringen — Thuringia research parks seek long-term support. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Thüringen — Thüringer Forschungsparks werben um langfristige Förderung. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "brief": {
+      "zh": "图林根研究园区要求稳定技术转移与设备维护支持，中小企业希望更容易使用公共实验设施。",
+      "en": "Thuringia research parks seek long-term support. State officials and municipal representatives seek a timetable and clarify federal responsibilities.",
+      "de": "Thüringer Forschungsparks werben um langfristige Förderung. Land und Kommunen verlangen einen Zeitplan und Klarheit über die Zuständigkeit des Bundes."
+    },
+    "region": "Thüringen",
+    "domains": [
+      "digital",
+      "economy"
+    ],
+    "durationRounds": 2,
+    "effects": [
+      {
+        "kind": "policyEfficiency",
+        "value": 0.18,
+        "domains": [
+          "digital",
+          "economy"
+        ],
+        "target": {
+          "states": [
+            "Thüringen"
+          ]
+        }
+      },
+      {
+        "kind": "auctionCost",
+        "value": -1,
+        "target": {
+          "states": [
+            "Thüringen"
+          ]
+        }
+      },
+      {
+        "kind": "allianceLayers",
+        "value": 1,
+        "target": {
+          "states": [
+            "Thüringen"
+          ],
+          "category": "state"
+        }
+      },
+      {
+        "kind": "risk",
+        "value": 0.025,
+        "domains": [
+          "digital",
+          "economy"
+        ]
+      }
+    ],
+    "followUp": {},
+    "provenance": "AUTHORED_FICTIONAL_GAME_EVENT",
+    "weight": 1,
+    "pressure": -0.3
+  }
+]

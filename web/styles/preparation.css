@@ -1,0 +1,128 @@
+/* Keep the choice itself at one baseline, regardless of copy length or locale. */
+.negotiation-options {
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));
+ grid-auto-rows:1fr;
+ gap:12px;
+ align-items:stretch;
+}
+.negotiation-option {
+ display:flex;
+ flex-direction:column;
+ min-width:0;
+ gap:14px;
+ padding:16px;
+ border:1px solid var(--line);
+ border-radius:7px;
+ background:var(--paper);
+}
+.negotiation-option h3 {font-size:15px;line-height:1.6;margin:0;overflow-wrap:anywhere}
+.negotiation-option p {flex:1;font-size:12px;line-height:1.8;margin:0;overflow-wrap:anywhere}
+.negotiation-option button {
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ gap:8px;
+ flex:0 0 44px;
+ height:44px;
+ min-height:44px;
+ width:100%;
+ margin-top:auto;
+ padding:0 12px;
+ line-height:20px;
+}
+
+/* All growing readouts share one viewport, including hidden and named links. */
+.deployment-preparation {min-width:0;overflow-anchor:none}
+.deployment-effects {
+ height:clamp(168px,24vh,208px);
+ padding:12px 14px;
+ background:var(--soft);
+ border:1px solid var(--line);
+ border-radius:7px;
+ overflow-y:auto;
+ overflow-x:hidden;
+ overscroll-behavior:contain;
+ scrollbar-gutter:stable;
+ overflow-anchor:none;
+}
+.deployment-effects .alliance-preview {margin:0;padding:0;border:0;background:none}
+.deployment-effects .alliance-strip {max-height:none;overflow:visible;align-items:flex-start}
+.deployment-effects .alliance-chip {max-width:100%;white-space:normal;flex-wrap:wrap;overflow-wrap:anywhere}
+.deployment-effects .alliance-chip b {min-width:0;overflow-wrap:anywhere}
+.deployment-effects .tactical-ready {margin:12px 0 0}
+.deployment-effects #pair-preview:empty {display:none}
+.deployment-effects #pair-preview:not(:empty) {margin-top:10px}
+.deployment-effects .combination-box {max-width:100%;overflow-wrap:anywhere}
+.deployment-roster {display:grid;gap:12px;margin:14px 0}
+.deployment-roster .deployment-grid {min-width:0;margin:0;overflow-anchor:none}
+.deployment-skill-rail {
+ display:flex;
+ flex-direction:column;
+ min-width:0;
+ padding:12px;
+ border:1px solid var(--line);
+ border-radius:7px;
+ background:var(--soft);
+}
+.deployment-skill-rail h4 {margin:0 0 10px;font-size:13px}
+.deployment-skill-scroll {min-height:0;overflow:auto;overscroll-behavior:contain}
+.deployment-skill-scroll p {margin:0}
+.hidden-skill-list {display:grid;gap:7px}
+.hidden-skill-list .hidden-chip {display:block;white-space:normal;overflow-wrap:anywhere;padding:0 9px}
+.hidden-skill-list summary {padding:8px 0}
+.hidden-skill-list summary span {margin-inline-start:5px;color:var(--muted)}
+.hidden-skill-list .hidden-chip p {padding:0 0 9px;color:var(--muted);font-size:11px;line-height:1.6}
+@media(min-width:1050px) {
+ .deployment-roster {grid-template-columns:minmax(0,1fr) clamp(148px,17vw,194px)}
+ .deployment-skill-rail {contain:size}
+}
+@media(max-width:1049px) {
+ .deployment-skill-rail {height:100px}
+}
+.deployment-controls {
+ position:sticky;
+ bottom:0;
+ z-index:3;
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ gap:12px;
+ padding:12px 0;
+ border-top:1px solid var(--line);
+ background:var(--paper);
+}
+.deployment-controls p {margin:0;color:var(--muted);font-size:12px;white-space:nowrap}
+.deployment-controls button {
+ min-height:44px;
+ padding:10px 16px;
+ background:var(--accent);
+ color:var(--on-accent);
+ border-color:var(--accent);
+ line-height:22px;
+}
+@media(max-width:600px) {
+ .deployment-effects {height:180px;padding:10px}
+ .deployment-controls {align-items:stretch;flex-direction:column;gap:8px}
+ .deployment-controls button {width:100%;font-size:13px}
+}
+
+.policy-score-ring svg {display:none}
+@media(min-width:801px) {
+ .result-page .policy-score-ring {
+  display:inline-grid;
+  grid-template:1fr / 1fr;
+  place-items:center;
+  width:76px;
+  height:76px;
+  margin-top:6px;
+  vertical-align:middle;
+ }
+ .policy-score-metric {display:flex;flex-direction:column;align-items:flex-start}
+ .policy-score-ring svg {display:block;width:100%;height:100%}
+ .policy-score-ring svg,.policy-score-ring b {grid-area:1 / 1}
+ .policy-score-ring circle {fill:none;stroke-width:3}
+ .policy-score-track {stroke:var(--line)}
+ .policy-score-arc {color:var(--accent);stroke:currentColor;stroke-linecap:round}
+ .result-page .policy-score-ring b {margin:0;font-size:22px;font-variant-numeric:tabular-nums}
+}

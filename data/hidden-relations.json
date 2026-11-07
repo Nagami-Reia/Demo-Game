@@ -1,0 +1,672 @@
+[
+  {
+    "id": "right_hand",
+    "name": {
+      "zh": "总理的右手",
+      "en": "The Chancellor’s right hand",
+      "de": "Die rechte Hand des Kanzlers"
+    },
+    "description": {
+      "zh": "首次政策执行费用−3；每个行政盟约触发时+2组织点。",
+      "en": "First execution costs 3 less; +2 organisation per activated administrative alliance.",
+      "de": "Erste Politikumsetzung: Kosten −3. Je aktiviertem Verwaltungsbündnis +2 Organisationspunkte."
+    },
+    "members": [
+      "Merz",
+      "Frei"
+    ],
+    "threshold": 2,
+    "effects": {
+      "firstExecutionDiscount": 3,
+      "onNormal": {
+        "selector": "admin",
+        "organization": 2
+      }
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false,
+    "tacticalDescription": {
+      "zh": "办公室接管：Merz首次协调失败后，可以让Frei占用自己的下一次行动接手。",
+      "en": "Office takeover: after Merz’s first coordination failure, Frei may spend his next action taking over.",
+      "de": "Büroübernahme: Nach Merz’ erstem Koordinationsfehler kann Frei seine nächste Aktion zur Übernahme nutzen."
+    }
+  },
+  {
+    "id": "boss_right",
+    "name": {
+      "zh": "老板说得对",
+      "en": "The boss is right",
+      "de": "Der Chef hat recht"
+    },
+    "description": {
+      "zh": "每个CDU盟约触发+2组织点；Merz参与的激活盟约额外+1层。",
+      "en": "+2 organisation per CDU alliance; activated alliances involving Merz gain 1 extra layer.",
+      "de": "Je CDU-Bündnis +2 Organisationspunkte; aktivierte Bündnisse mit Merz erhalten 1 zusätzliche Schicht."
+    },
+    "members": [
+      "Merz",
+      "Linnemann"
+    ],
+    "threshold": 2,
+    "effects": {
+      "onNormal": {
+        "selector": "cdu",
+        "organization": 2
+      },
+      "layers": {
+        "selector": "merz",
+        "amount": 1
+      }
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false,
+    "tacticalDescription": {
+      "zh": "统一口径：谈判时锁定本轮重点领域，两人的后续行动沿用该领域。",
+      "en": "Common line: lock a field in preparation; both keep that focus for this round.",
+      "de": "Einheitliche Linie: Schwerpunkt vorab festlegen; beide behalten ihn in dieser Runde."
+    }
+  },
+  {
+    "id": "new_star",
+    "name": {
+      "zh": "新星",
+      "en": "Rising star",
+      "de": "Nachwuchsstern"
+    },
+    "description": {
+      "zh": "Amthor参与的每个已激活盟约额外+5层。",
+      "en": "Each activated alliance involving Amthor gains 5 extra layers.",
+      "de": "Jedes aktivierte Bündnis mit Amthor erhält 5 zusätzliche Schichten."
+    },
+    "members": [
+      "Merz",
+      "mdb_Philipp_Amthor"
+    ],
+    "threshold": 2,
+    "effects": {
+      "layers": {
+        "selector": "amthor",
+        "amount": 5
+      }
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false,
+    "tacticalDescription": {
+      "zh": "获得授权：为一个已有真实成员的工作组临时补充1人；不改变真实标签。",
+      "en": "Authorisation: temporarily add one member to an already represented group; factual tags stay intact.",
+      "de": "Vollmacht: Eine bereits vertretene Arbeitsgruppe temporär um eine Person ergänzen; echte Zuordnung bleibt bestehen."
+    }
+  },
+  {
+    "id": "law_money",
+    "name": {
+      "zh": "有法可依，有钱再议",
+      "en": "Law first, budget next",
+      "de": "Erst das Recht, dann das Geld"
+    },
+    "description": {
+      "zh": "法律盟约触发+2立法效率；财政触发+3资金。",
+      "en": "Law: +2 legislative efficiency; finance: +3 cash.",
+      "de": "Recht: +2 Gesetzgebungseffizienz. Finanzen: +3 Geld."
+    },
+    "members": [
+      "mdb_Gunter_Krings",
+      "mdb_Mathias_Middelberg"
+    ],
+    "threshold": 2,
+    "effects": {
+      "onNormals": [
+        {
+          "selector": "law",
+          "legislativeEfficiency": 2
+        },
+        {
+          "selector": "finance",
+          "cash": 3
+        }
+      ],
+      "scoreIfBoth": {
+        "selectors": [
+          "law",
+          "finance"
+        ],
+        "score": 5
+      }
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false,
+    "tacticalDescription": {
+      "zh": "合法，但钱呢？Krings先完成修正、Middelberg再落实财政安排，才获得5分；未落实部分可保留一轮。",
+      "en": "Legal, but funded? Krings amends first, Middelberg finances next for 5 points; unfinished financing survives one round.",
+      "de": "Rechtmäßig, aber finanziert? Erst Krings’ Antrag, dann Middelbergs Finanzierung für 5 Punkte; offene Finanzierung eine Runde behalten."
+    }
+  },
+  {
+    "id": "both_lawyers",
+    "name": {
+      "zh": "异议，部分成立。",
+      "en": "Objection, partly sustained.",
+      "de": "Einwand, teilweise stattgegeben."
+    },
+    "description": {
+      "zh": "法律政策谈判效率+20%；成功谈判+3分。",
+      "en": "Legal negotiation skill +20%; successful negotiations award 3 points.",
+      "de": "Juristische Verhandlungen: Fähigkeit +20 %. Erfolgreiche Verhandlung: +3 Punkte."
+    },
+    "members": [
+      "mdb_Gunter_Krings",
+      "mdb_Sonja_Katharina_Eichwede"
+    ],
+    "threshold": 2,
+    "effects": {
+      "lawNegotiationMultiplier": 1.2,
+      "successNegotiationScore": 3
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false,
+    "tacticalDescription": {
+      "zh": "交换修订稿：跨党谈判失败后，可让出20%政策范围换取较小共同文本。",
+      "en": "Exchange drafts: concede 20% of policy scope after failed cross-party talks for a smaller common text.",
+      "de": "Entwürfe tauschen: Nach gescheitertem Gespräch 20% Umfang für einen kleineren gemeinsamen Text abgeben."
+    }
+  },
+  {
+    "id": "bavarian_handover",
+    "name": {
+      "zh": "巴伐利亚交接手续",
+      "en": "Bavarian handover",
+      "de": "Bayerische Übergabe"
+    },
+    "description": {
+      "zh": "CSU成员参与的激活盟约+2层；每轮首次获得资金额外+3。",
+      "en": "Activated CSU alliances gain 2 layers; first cash gain each round awards 3 extra.",
+      "de": "Aktivierte CSU-Bündnisse erhalten 2 Schichten; erster Geldzufluss pro Runde zusätzlich +3."
+    },
+    "members": [
+      "Dobrindt",
+      "mdb_Alexander_Hoffmann"
+    ],
+    "threshold": 2,
+    "effects": {
+      "layers": {
+        "selector": "csu",
+        "amount": 2
+      },
+      "firstCashBonus": 3
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false,
+    "tacticalDescription": {
+      "zh": "交接文件：其中一人换下时，可把一项未兑现CSU项目交给另一人，保管期只延长一轮。",
+      "en": "Handover file: when one leaves the lineup, entrust one pending CSU project to the other for one extra round.",
+      "de": "Aktenübergabe: Beim Auswechseln ein offenes CSU-Projekt einmal für eine weitere Runde dem anderen anvertrauen."
+    }
+  },
+  {
+    "id": "munich_call",
+    "name": {
+      "zh": "慕尼黑来电",
+      "en": "Munich calling",
+      "de": "München ruft"
+    },
+    "description": {
+      "zh": "每轮首次触发CSU成员参与的盟约，获得4资金。",
+      "en": "First activated CSU alliance each round awards 4 cash.",
+      "de": "Das erste ausgelöste CSU-Bündnis pro Runde bringt 4 Geld."
+    },
+    "members": [
+      "mdb_Alexander_Hoffmann",
+      "mdb_Reinhard_Brandl"
+    ],
+    "threshold": 2,
+    "effects": {
+      "firstNormal": {
+        "selector": "csu",
+        "cash": 4
+      }
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false
+  },
+  {
+    "id": "state_group",
+    "name": {
+      "zh": "我们州组内部商量一下",
+      "en": "Let the state group handle this",
+      "de": "Das klärt unsere Landesgruppe"
+    },
+    "description": {
+      "zh": "每名出战CSU人物，让所有已激活州盟约额外+1层。",
+      "en": "Each deployed CSU member adds 1 layer to every activated state alliance.",
+      "de": "Je aufgestelltem CSU-Mitglied erhalten alle aktivierten Landesbündnisse 1 zusätzliche Schicht."
+    },
+    "members": [
+      "mdb_Anja_Weisgerber",
+      "mdb_Alexander_Hoffmann"
+    ],
+    "threshold": 2,
+    "effects": {
+      "layers": {
+        "selector": "state",
+        "perCSU": 1
+      }
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false
+  },
+  {
+    "id": "berlin_not_final",
+    "name": {
+      "zh": "柏林说了不算",
+      "en": "Berlin has no final say",
+      "de": "Berlin hat nicht das letzte Wort"
+    },
+    "description": {
+      "zh": "每轮+5资金；跨党谈判额外消耗1组织点。",
+      "en": "+5 cash per round; cross-party negotiations cost 1 extra organisation.",
+      "de": "+5 Geld pro Runde. Parteiübergreifende Verhandlungen kosten 1 zusätzlichen Organisationspunkt."
+    },
+    "members": [
+      "Merz",
+      "external_Markus_Soeder"
+    ],
+    "threshold": 2,
+    "effects": {
+      "cashRound": 5,
+      "crossOrgCost": 1
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": true,
+    "blockedReason": "REQUIRED_PERSON_NOT_IN_MDB_CARD_POOL"
+  },
+  {
+    "id": "munich_instructions",
+    "name": {
+      "zh": "来自慕尼黑的指示",
+      "en": "Instructions from Munich",
+      "de": "Weisung aus München"
+    },
+    "description": {
+      "zh": "每轮+3资金；每个CSU盟约触发再+2资金。",
+      "en": "+3 cash per round; +2 cash per activated CSU alliance.",
+      "de": "+3 Geld pro Runde; je ausgelöstem CSU-Bündnis weitere +2 Geld."
+    },
+    "members": [
+      "external_Markus_Soeder",
+      "Dobrindt"
+    ],
+    "threshold": 2,
+    "effects": {
+      "cashRound": 3,
+      "onNormal": {
+        "selector": "csu",
+        "cash": 2
+      }
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": true,
+    "blockedReason": "REQUIRED_PERSON_NOT_IN_MDB_CARD_POOL"
+  },
+  {
+    "id": "bavarian_agreement",
+    "name": {
+      "zh": "巴伐利亚方面一致同意",
+      "en": "Bavaria agrees",
+      "de": "Bayern ist sich einig"
+    },
+    "description": {
+      "zh": "每轮+8资金；CSU盟约额外结算一次，同源收益不递归。",
+      "en": "+8 cash per round; CSU alliances settle once more without recursive rewards.",
+      "de": "+8 Geld pro Runde. CSU-Bündnisse werden einmal zusätzlich abgerechnet; keine rekursiven Eigenbelohnungen."
+    },
+    "members": [
+      "external_Markus_Soeder",
+      "mdb_Alexander_Hoffmann",
+      "Dobrindt"
+    ],
+    "threshold": 3,
+    "effects": {
+      "cashRound": 8,
+      "repeatCSU": true
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": true,
+    "blockedReason": "REQUIRED_PERSON_NOT_IN_MDB_CARD_POOL"
+  },
+  {
+    "id": "two_chairs",
+    "name": {
+      "zh": "账本与社保",
+      "en": "The ledger and social security",
+      "de": "Kassenbuch und Sozialversicherung"
+    },
+    "description": {
+      "zh": "每轮+4资金；Bas完成劳动修正且Klingbeil完成财政协调或修正后+5分；部分成果可保留一轮。",
+      "en": "+4 cash per round; Bas amends and Klingbeil coordinates or amends financing for 5 points; retain partial work one round.",
+      "de": "+4 Geld pro Runde; Bas’ Antrag und Klingbeils Koordination oder Finanzantrag geben 5 Punkte; Teilstand eine Runde behalten."
+    },
+    "members": [
+      "Klingbeil",
+      "Bas"
+    ],
+    "threshold": 2,
+    "effects": {
+      "cashRound": 4,
+      "scoreIfBoth": {
+        "selectors": [
+          "labor",
+          "finance"
+        ],
+        "score": 5
+      }
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false
+  },
+  {
+    "id": "lower_saxony_line",
+    "name": {
+      "zh": "下萨克森内线",
+      "en": "Lower Saxony hotline",
+      "de": "Draht nach Niedersachsen"
+    },
+    "description": {
+      "zh": "SPD成员参与的盟约额外+1层；首次跨党谈判效率+15%。",
+      "en": "SPD alliances gain 1 extra layer; first cross-party negotiation skill +15%.",
+      "de": "SPD-Bündnisse erhalten 1 zusätzliche Schicht. Erste parteiübergreifende Verhandlung: Fähigkeit +15 %."
+    },
+    "members": [
+      "Klingbeil",
+      "Miersch"
+    ],
+    "threshold": 2,
+    "effects": {
+      "layers": {
+        "selector": "spd",
+        "amount": 1
+      },
+      "firstCrossNegotiationMultiplier": 1.15
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false,
+    "tacticalDescription": {
+      "zh": "先打个电话：战前多看一个谈判候选，可替换一个公开方案。",
+      "en": "A quick call: preview one extra negotiation candidate and replace one published option before combat.",
+      "de": "Erst anrufen: Vor dem Kampf einen zusätzlichen Entwurf sehen und eine offene Option ersetzen."
+    }
+  },
+  {
+    "id": "legal_office",
+    "name": {
+      "zh": "法务部请进",
+      "en": "Legal team, please",
+      "de": "Juristen bitte herein"
+    },
+    "description": {
+      "zh": "法律盟约额外+2层；政策执行费用−2。",
+      "en": "Law alliances gain 2 extra layers; execution costs 2 less.",
+      "de": "Rechtsbündnisse erhalten 2 zusätzliche Schichten; Umsetzungskosten −2."
+    },
+    "members": [
+      "Miersch",
+      "mdb_Sonja_Katharina_Eichwede"
+    ],
+    "threshold": 2,
+    "effects": {
+      "layers": {
+        "selector": "law",
+        "amount": 2
+      },
+      "executionDiscount": 2
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false
+  },
+  {
+    "id": "where_money",
+    "name": {
+      "zh": "钱从哪儿来？",
+      "en": "Where does the money come from?",
+      "de": "Woher kommt das Geld?"
+    },
+    "description": {
+      "zh": "每轮首次财政盟约结算，额外获得5资金。",
+      "en": "First finance alliance settlement each round awards 5 extra cash.",
+      "de": "Die erste Abrechnung eines Finanzbündnisses pro Runde bringt zusätzlich 5 Geld."
+    },
+    "members": [
+      "Klingbeil",
+      "mdb_Wiebke_Esdar"
+    ],
+    "threshold": 2,
+    "effects": {
+      "firstNormal": {
+        "selector": "finance",
+        "cash": 5
+      }
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false
+  },
+  {
+    "id": "digital_agenda",
+    "name": {
+      "zh": "数字化已经列入议程",
+      "en": "Digitalisation is on the agenda",
+      "de": "Digitalisierung steht auf der Tagesordnung"
+    },
+    "description": {
+      "zh": "首次数字化执行费用−3；成功数字化执行+3分。",
+      "en": "First digital execution costs 3 less; successful digital execution awards 3 points.",
+      "de": "Erste digitale Umsetzung: Kosten −3. Erfolgreiche digitale Umsetzung: +3 Punkte."
+    },
+    "members": [
+      "Miersch",
+      "mdb_Armand_Zorn"
+    ],
+    "threshold": 2,
+    "effects": {
+      "firstDigitalExecutionDiscount": 3,
+      "successDigitalExecutionScore": 3
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false,
+    "tacticalDescription": {
+      "zh": "插入议程：Zorn的一次协调改为数字化修正，占用原行动。",
+      "en": "Add to the agenda: convert one Zorn coordination into a digital amendment, using the original action.",
+      "de": "Auf die Tagesordnung: Eine Koordination Zorns in einen Digitalantrag umwandeln; dieselbe Aktion wird genutzt."
+    }
+  },
+  {
+    "id": "black_red_book",
+    "name": {
+      "zh": "黑红账本",
+      "en": "The black-red ledger",
+      "de": "Schwarz-rotes Kassenbuch"
+    },
+    "description": {
+      "zh": "每轮+6资金；每次跨党谈判成功+4分。",
+      "en": "+6 cash per round; successful cross-party negotiations award 4 points.",
+      "de": "+6 Geld pro Runde; erfolgreiche parteiübergreifende Verhandlungen bringen 4 Punkte."
+    },
+    "members": [
+      "Klingbeil",
+      "Merz"
+    ],
+    "threshold": 2,
+    "effects": {
+      "cashRound": 6,
+      "crossSuccessNegotiationScore": 4
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false
+  },
+  {
+    "id": "principle_agreed",
+    "name": {
+      "zh": "最后的签名",
+      "en": "The final signature",
+      "de": "Die letzte Unterschrift"
+    },
+    "description": {
+      "zh": "首次谈判成功后，选择立即支付2资金或延期到下轮先履约；不得再次延期。",
+      "en": "After the first successful negotiation, pay 2 now or fulfil first next round; no further deferral.",
+      "de": "Nach der ersten erfolgreichen Verhandlung 2 sofort zahlen oder zuerst in der Folgerunde erfüllen; kein weiterer Aufschub."
+    },
+    "members": [
+      "Merz",
+      "Klingbeil",
+      "Miersch"
+    ],
+    "threshold": 3,
+    "effects": {
+      "firstNegotiationForce": true,
+      "successNegotiationCost": 2
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false
+  },
+  {
+    "id": "ping_pong",
+    "name": {
+      "zh": "乒乓球联盟",
+      "en": "Table-tennis alliance",
+      "de": "Tischtennisbündnis"
+    },
+    "description": {
+      "zh": "卫生政策协调效率+20%，卫生谈判效率+15%。",
+      "en": "Health coordination skill +20%; health negotiation skill +15%.",
+      "de": "Gesundheitspolitische Koordination: Fähigkeit +20 %. Gesundheitsverhandlungen: +15 %."
+    },
+    "members": [
+      "Linnemann",
+      "mdb_Karl_Wilhelm_Lauterbach"
+    ],
+    "threshold": 2,
+    "effects": {
+      "healthCoordinationMultiplier": 1.2,
+      "healthNegotiationMultiplier": 1.15
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false,
+    "tacticalDescription": {
+      "zh": "来回球：卫生修正与质询交替成功形成接力；失败中断。",
+      "en": "Rally: alternating successful health amendments and scrutiny form a relay; failure breaks it.",
+      "de": "Ballwechsel: Abwechselnd erfolgreiche Gesundheitsanträge und Kontrollen bilden eine Staffel; Misserfolg beendet sie."
+    }
+  },
+  {
+    "id": "groups_first",
+    "name": {
+      "zh": "请党团先协调",
+      "en": "Let the caucuses coordinate",
+      "de": "Erst die Fraktionen koordinieren"
+    },
+    "description": {
+      "zh": "首次谈判费用−3；成功谈判额外+4分。",
+      "en": "First negotiation costs 3 less; successful negotiations award 4 points.",
+      "de": "Erste Verhandlung: Kosten −3. Erfolgreiche Verhandlung: +4 Punkte."
+    },
+    "members": [
+      "Frei",
+      "Miersch"
+    ],
+    "threshold": 2,
+    "effects": {
+      "firstNegotiationDiscount": 3,
+      "successNegotiationScore": 4
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false,
+    "tacticalDescription": {
+      "zh": "带回去谈：分歧可暂缓一次，下一轮必须履行或终止合作，不能继续延期。",
+      "en": "Take it back: defer one disagreement; next round fulfil or end cooperation, without another deferral.",
+      "de": "Zurück in die Fraktion: Streit einmal vertagen; nächste Runde erfüllen oder beenden, nicht erneut vertagen."
+    }
+  },
+  {
+    "id": "already_digital",
+    "name": {
+      "zh": "我们已经在数字化了！",
+      "en": "We are already digital!",
+      "de": "Wir sind schon digital!"
+    },
+    "description": {
+      "zh": "数字化盟约额外+3层；政策执行费用−2。",
+      "en": "Digital alliances gain 3 layers; execution costs 2 less.",
+      "de": "Digitale Bündnisse erhalten 3 zusätzliche Schichten; Umsetzungskosten −2."
+    },
+    "members": [
+      "mdb_Philipp_Amthor",
+      "external_Karsten_Wildberger"
+    ],
+    "threshold": 2,
+    "effects": {
+      "layers": {
+        "selector": "digital",
+        "amount": 3
+      },
+      "executionDiscount": 2
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": true,
+    "blockedReason": "REQUIRED_PERSON_NOT_IN_MDB_CARD_POOL"
+  },
+  {
+    "id": "two_offices",
+    "name": {
+      "zh": "老板的两个办公室",
+      "en": "The boss’s two offices",
+      "de": "Die beiden Büros des Chefs"
+    },
+    "description": {
+      "zh": "每轮+4组织点；每个Merz参与的激活盟约触发时额外+2资金。",
+      "en": "+4 organisation per round; each activated alliance involving Merz awards 2 cash.",
+      "de": "+4 Organisationspunkte pro Runde. Jedes aktivierte Bündnis mit Merz bringt zusätzlich 2 Geld."
+    },
+    "members": [
+      "Merz",
+      "Frei",
+      "Linnemann"
+    ],
+    "threshold": 3,
+    "effects": {
+      "organizationRound": 4,
+      "onNormal": {
+        "selector": "merz",
+        "cash": 2
+      }
+    },
+    "provenance": "USER_GAME_RULES_NOT_CLAIM_OF_PRIVATE_RELATIONSHIP",
+    "blocked": false
+  },
+  {
+    "id": "csu_bavaria",
+    "name": {
+      "zh": "巴伐利亚！",
+      "en": "Bavaria!",
+      "de": "Bayern!"
+    },
+    "description": {
+      "zh": "2/3/4/5人档位累计基础资金4/11/21/36；2人：CSU人物普通盟约触发+1资金；3人：每获得10资金随机CSU盟约+1层；4人：竞拍实付返20%；5人：每10资金所有CSU激活盟约+1层。同源链不递归。",
+      "en": "Cumulative base cash at 2/3/4/5 CSU: 4/11/21/36. Two: cash from ordinary alliances. Three: every 10 gained cash adds a random CSU alliance layer. Four: refund 20% of paid auctions. Five: every 10 cash adds a layer to all activated CSU alliances. No source-chain recursion.",
+      "de": "Bei 2/3/4/5 CSU-Mitgliedern kumuliert das Grundgeld auf 4/11/21/36. Ab 2 Geld aus gewöhnlichen Bündnissen; ab 3 je 10 Geld eine zufällige CSU-Schicht; ab 4 Rückzahlung von 20 % der Auktionskosten; bei 5 je 10 Geld eine Schicht für alle aktiven CSU-Bündnisse. Keine Rekursion derselben Quelle."
+    },
+    "party": "CSU",
+    "threshold": 2,
+    "thresholds": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "cashSteps": [
+      4,
+      7,
+      10,
+      15
+    ],
+    "auctionRefundRate": 0.2,
+    "provenance": "USER_GAME_RULES"
+  }
+]

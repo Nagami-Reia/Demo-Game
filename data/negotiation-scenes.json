@@ -1,0 +1,488 @@
+[
+  {
+    "id": "talks_economy",
+    "domains": [
+      "economy"
+    ],
+    "title": {
+      "zh": "预算与经济协调",
+      "en": "Budget and economic talks",
+      "de": "Haushalts- und Wirtschaftsgespräch"
+    },
+    "description": {
+      "zh": "议题进入正式审议前，先确定这轮的协商路线。",
+      "en": "Before deliberation, choose this round’s negotiating approach.",
+      "de": "Vor der Beratung wird die Verhandlungsroute dieser Runde festgelegt."
+    },
+    "options": [
+      {
+        "id": "open_hearing",
+        "title": {
+          "zh": "公开听证",
+          "en": "Open hearing",
+          "de": "Öffentliche Anhörung"
+        },
+        "description": {
+          "zh": "不花资金，加强监督；推进修正稍慢。",
+          "en": "Free: stronger scrutiny, slower amendments.",
+          "de": "Kostenlos: stärkere Kontrolle, langsamere Änderungsarbeit."
+        },
+        "cost": 0,
+        "effects": {
+          "negotiation": 0.1,
+          "scrutiny": 0.25,
+          "amendment": -0.15,
+          "coordination": 0,
+          "organization": 0
+        }
+      },
+      {
+        "id": "expert_consultation",
+        "title": {
+          "zh": "组织专家磋商",
+          "en": "Expert consultation",
+          "de": "Fachgespräch organisieren"
+        },
+        "description": {
+          "zh": "投入协调经费，加强谈判和专业修正；监督力度略降。",
+          "en": "Fund consultation for negotiation and amendments, with less scrutiny.",
+          "de": "Gespräche finanzieren: bessere Verhandlung und Fachänderungen, etwas weniger Kontrolle."
+        },
+        "cost": 3,
+        "effects": {
+          "negotiation": 0.4,
+          "amendment": 0.35,
+          "scrutiny": -0.1,
+          "coordination": 0.15,
+          "organization": 1
+        }
+      },
+      {
+        "id": "hold_position",
+        "title": {
+          "zh": "坚持立场",
+          "en": "Hold the line",
+          "de": "Position halten"
+        },
+        "description": {
+          "zh": "不花资金，集中协调和监督；跨党谈判更困难。",
+          "en": "Free: focus on coordination and scrutiny at the expense of negotiation.",
+          "de": "Kostenlos: Koordination und Kontrolle stärken, Verhandlungen erschweren."
+        },
+        "cost": 0,
+        "effects": {
+          "negotiation": -0.25,
+          "coordination": 0.25,
+          "scrutiny": 0.15,
+          "amendment": 0,
+          "organization": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "talks_foreign",
+    "domains": [
+      "foreign"
+    ],
+    "title": {
+      "zh": "外交立场协调",
+      "en": "Foreign-policy talks",
+      "de": "Außenpolitische Abstimmung"
+    },
+    "description": {
+      "zh": "议题进入正式审议前，先确定这轮的协商路线。",
+      "en": "Before deliberation, choose this round’s negotiating approach.",
+      "de": "Vor der Beratung wird die Verhandlungsroute dieser Runde festgelegt."
+    },
+    "options": [
+      {
+        "id": "open_hearing",
+        "title": {
+          "zh": "公开听证",
+          "en": "Open hearing",
+          "de": "Öffentliche Anhörung"
+        },
+        "description": {
+          "zh": "不花资金，加强监督；推进修正稍慢。",
+          "en": "Free: stronger scrutiny, slower amendments.",
+          "de": "Kostenlos: stärkere Kontrolle, langsamere Änderungsarbeit."
+        },
+        "cost": 0,
+        "effects": {
+          "negotiation": 0.1,
+          "scrutiny": 0.25,
+          "amendment": -0.15,
+          "coordination": 0,
+          "organization": 0
+        }
+      },
+      {
+        "id": "expert_consultation",
+        "title": {
+          "zh": "组织专家磋商",
+          "en": "Expert consultation",
+          "de": "Fachgespräch organisieren"
+        },
+        "description": {
+          "zh": "投入协调经费，加强谈判和专业修正；监督力度略降。",
+          "en": "Fund consultation for negotiation and amendments, with less scrutiny.",
+          "de": "Gespräche finanzieren: bessere Verhandlung und Fachänderungen, etwas weniger Kontrolle."
+        },
+        "cost": 3,
+        "effects": {
+          "negotiation": 0.4,
+          "amendment": 0.35,
+          "scrutiny": -0.1,
+          "coordination": 0.15,
+          "organization": 1
+        }
+      },
+      {
+        "id": "hold_position",
+        "title": {
+          "zh": "坚持立场",
+          "en": "Hold the line",
+          "de": "Position halten"
+        },
+        "description": {
+          "zh": "不花资金，集中协调和监督；跨党谈判更困难。",
+          "en": "Free: focus on coordination and scrutiny at the expense of negotiation.",
+          "de": "Kostenlos: Koordination und Kontrolle stärken, Verhandlungen erschweren."
+        },
+        "cost": 0,
+        "effects": {
+          "negotiation": -0.25,
+          "coordination": 0.25,
+          "scrutiny": 0.15,
+          "amendment": 0,
+          "organization": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "talks_security",
+    "domains": [
+      "security"
+    ],
+    "title": {
+      "zh": "内政与法律协调",
+      "en": "Interior and legal talks",
+      "de": "Innen- und Rechtspolitik"
+    },
+    "description": {
+      "zh": "议题进入正式审议前，先确定这轮的协商路线。",
+      "en": "Before deliberation, choose this round’s negotiating approach.",
+      "de": "Vor der Beratung wird die Verhandlungsroute dieser Runde festgelegt."
+    },
+    "options": [
+      {
+        "id": "open_hearing",
+        "title": {
+          "zh": "公开听证",
+          "en": "Open hearing",
+          "de": "Öffentliche Anhörung"
+        },
+        "description": {
+          "zh": "不花资金，加强监督；推进修正稍慢。",
+          "en": "Free: stronger scrutiny, slower amendments.",
+          "de": "Kostenlos: stärkere Kontrolle, langsamere Änderungsarbeit."
+        },
+        "cost": 0,
+        "effects": {
+          "negotiation": 0.1,
+          "scrutiny": 0.25,
+          "amendment": -0.15,
+          "coordination": 0,
+          "organization": 0
+        }
+      },
+      {
+        "id": "expert_consultation",
+        "title": {
+          "zh": "组织专家磋商",
+          "en": "Expert consultation",
+          "de": "Fachgespräch organisieren"
+        },
+        "description": {
+          "zh": "投入协调经费，加强谈判和专业修正；监督力度略降。",
+          "en": "Fund consultation for negotiation and amendments, with less scrutiny.",
+          "de": "Gespräche finanzieren: bessere Verhandlung und Fachänderungen, etwas weniger Kontrolle."
+        },
+        "cost": 3,
+        "effects": {
+          "negotiation": 0.4,
+          "amendment": 0.35,
+          "scrutiny": -0.1,
+          "coordination": 0.15,
+          "organization": 1
+        }
+      },
+      {
+        "id": "hold_position",
+        "title": {
+          "zh": "坚持立场",
+          "en": "Hold the line",
+          "de": "Position halten"
+        },
+        "description": {
+          "zh": "不花资金，集中协调和监督；跨党谈判更困难。",
+          "en": "Free: focus on coordination and scrutiny at the expense of negotiation.",
+          "de": "Kostenlos: Koordination und Kontrolle stärken, Verhandlungen erschweren."
+        },
+        "cost": 0,
+        "effects": {
+          "negotiation": -0.25,
+          "coordination": 0.25,
+          "scrutiny": 0.15,
+          "amendment": 0,
+          "organization": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "talks_social",
+    "domains": [
+      "social"
+    ],
+    "title": {
+      "zh": "社会政策协调",
+      "en": "Social-policy talks",
+      "de": "Sozialpolitische Abstimmung"
+    },
+    "description": {
+      "zh": "议题进入正式审议前，先确定这轮的协商路线。",
+      "en": "Before deliberation, choose this round’s negotiating approach.",
+      "de": "Vor der Beratung wird die Verhandlungsroute dieser Runde festgelegt."
+    },
+    "options": [
+      {
+        "id": "open_hearing",
+        "title": {
+          "zh": "公开听证",
+          "en": "Open hearing",
+          "de": "Öffentliche Anhörung"
+        },
+        "description": {
+          "zh": "不花资金，加强监督；推进修正稍慢。",
+          "en": "Free: stronger scrutiny, slower amendments.",
+          "de": "Kostenlos: stärkere Kontrolle, langsamere Änderungsarbeit."
+        },
+        "cost": 0,
+        "effects": {
+          "negotiation": 0.1,
+          "scrutiny": 0.25,
+          "amendment": -0.15,
+          "coordination": 0,
+          "organization": 0
+        }
+      },
+      {
+        "id": "expert_consultation",
+        "title": {
+          "zh": "组织专家磋商",
+          "en": "Expert consultation",
+          "de": "Fachgespräch organisieren"
+        },
+        "description": {
+          "zh": "投入协调经费，加强谈判和专业修正；监督力度略降。",
+          "en": "Fund consultation for negotiation and amendments, with less scrutiny.",
+          "de": "Gespräche finanzieren: bessere Verhandlung und Fachänderungen, etwas weniger Kontrolle."
+        },
+        "cost": 3,
+        "effects": {
+          "negotiation": 0.4,
+          "amendment": 0.35,
+          "scrutiny": -0.1,
+          "coordination": 0.15,
+          "organization": 1
+        }
+      },
+      {
+        "id": "hold_position",
+        "title": {
+          "zh": "坚持立场",
+          "en": "Hold the line",
+          "de": "Position halten"
+        },
+        "description": {
+          "zh": "不花资金，集中协调和监督；跨党谈判更困难。",
+          "en": "Free: focus on coordination and scrutiny at the expense of negotiation.",
+          "de": "Kostenlos: Koordination und Kontrolle stärken, Verhandlungen erschweren."
+        },
+        "cost": 0,
+        "effects": {
+          "negotiation": -0.25,
+          "coordination": 0.25,
+          "scrutiny": 0.15,
+          "amendment": 0,
+          "organization": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "talks_climate",
+    "domains": [
+      "climate"
+    ],
+    "title": {
+      "zh": "气候与能源协调",
+      "en": "Climate and energy talks",
+      "de": "Klima- und Energiegespräch"
+    },
+    "description": {
+      "zh": "议题进入正式审议前，先确定这轮的协商路线。",
+      "en": "Before deliberation, choose this round’s negotiating approach.",
+      "de": "Vor der Beratung wird die Verhandlungsroute dieser Runde festgelegt."
+    },
+    "options": [
+      {
+        "id": "open_hearing",
+        "title": {
+          "zh": "公开听证",
+          "en": "Open hearing",
+          "de": "Öffentliche Anhörung"
+        },
+        "description": {
+          "zh": "不花资金，加强监督；推进修正稍慢。",
+          "en": "Free: stronger scrutiny, slower amendments.",
+          "de": "Kostenlos: stärkere Kontrolle, langsamere Änderungsarbeit."
+        },
+        "cost": 0,
+        "effects": {
+          "negotiation": 0.1,
+          "scrutiny": 0.25,
+          "amendment": -0.15,
+          "coordination": 0,
+          "organization": 0
+        }
+      },
+      {
+        "id": "expert_consultation",
+        "title": {
+          "zh": "组织专家磋商",
+          "en": "Expert consultation",
+          "de": "Fachgespräch organisieren"
+        },
+        "description": {
+          "zh": "投入协调经费，加强谈判和专业修正；监督力度略降。",
+          "en": "Fund consultation for negotiation and amendments, with less scrutiny.",
+          "de": "Gespräche finanzieren: bessere Verhandlung und Fachänderungen, etwas weniger Kontrolle."
+        },
+        "cost": 3,
+        "effects": {
+          "negotiation": 0.4,
+          "amendment": 0.35,
+          "scrutiny": -0.1,
+          "coordination": 0.15,
+          "organization": 1
+        }
+      },
+      {
+        "id": "hold_position",
+        "title": {
+          "zh": "坚持立场",
+          "en": "Hold the line",
+          "de": "Position halten"
+        },
+        "description": {
+          "zh": "不花资金，集中协调和监督；跨党谈判更困难。",
+          "en": "Free: focus on coordination and scrutiny at the expense of negotiation.",
+          "de": "Kostenlos: Koordination und Kontrolle stärken, Verhandlungen erschweren."
+        },
+        "cost": 0,
+        "effects": {
+          "negotiation": -0.25,
+          "coordination": 0.25,
+          "scrutiny": 0.15,
+          "amendment": 0,
+          "organization": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "talks_digital",
+    "domains": [
+      "digital"
+    ],
+    "title": {
+      "zh": "数字政策协调",
+      "en": "Digital-policy talks",
+      "de": "Digitalpolitische Abstimmung"
+    },
+    "description": {
+      "zh": "议题进入正式审议前，先确定这轮的协商路线。",
+      "en": "Before deliberation, choose this round’s negotiating approach.",
+      "de": "Vor der Beratung wird die Verhandlungsroute dieser Runde festgelegt."
+    },
+    "options": [
+      {
+        "id": "open_hearing",
+        "title": {
+          "zh": "公开听证",
+          "en": "Open hearing",
+          "de": "Öffentliche Anhörung"
+        },
+        "description": {
+          "zh": "不花资金，加强监督；推进修正稍慢。",
+          "en": "Free: stronger scrutiny, slower amendments.",
+          "de": "Kostenlos: stärkere Kontrolle, langsamere Änderungsarbeit."
+        },
+        "cost": 0,
+        "effects": {
+          "negotiation": 0.1,
+          "scrutiny": 0.25,
+          "amendment": -0.15,
+          "coordination": 0,
+          "organization": 0
+        }
+      },
+      {
+        "id": "expert_consultation",
+        "title": {
+          "zh": "组织专家磋商",
+          "en": "Expert consultation",
+          "de": "Fachgespräch organisieren"
+        },
+        "description": {
+          "zh": "投入协调经费，加强谈判和专业修正；监督力度略降。",
+          "en": "Fund consultation for negotiation and amendments, with less scrutiny.",
+          "de": "Gespräche finanzieren: bessere Verhandlung und Fachänderungen, etwas weniger Kontrolle."
+        },
+        "cost": 3,
+        "effects": {
+          "negotiation": 0.4,
+          "amendment": 0.35,
+          "scrutiny": -0.1,
+          "coordination": 0.15,
+          "organization": 1
+        }
+      },
+      {
+        "id": "hold_position",
+        "title": {
+          "zh": "坚持立场",
+          "en": "Hold the line",
+          "de": "Position halten"
+        },
+        "description": {
+          "zh": "不花资金，集中协调和监督；跨党谈判更困难。",
+          "en": "Free: focus on coordination and scrutiny at the expense of negotiation.",
+          "de": "Kostenlos: Koordination und Kontrolle stärken, Verhandlungen erschweren."
+        },
+        "cost": 0,
+        "effects": {
+          "negotiation": -0.25,
+          "coordination": 0.25,
+          "scrutiny": 0.15,
+          "amendment": 0,
+          "organization": 0
+        }
+      }
+    ]
+  }
+]

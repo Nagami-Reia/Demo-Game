@@ -1,0 +1,30 @@
+{
+  "Linnemann": {
+    "file": "Carsten-Homepage.jpg",
+    "aspect": 1.4767255217,
+    "faceX": 0.512,
+    "faceY": 0.215,
+    "faceHeight": 0.3
+  },
+  "Spahn": {
+    "file": "jens-spahn.jpg",
+    "aspect": 0.6666666667,
+    "faceX": 0.475,
+    "faceY": 0.425,
+    "faceHeight": 0.225
+  },
+  "Frei": {
+    "file": "Thorsten-Frei.jpeg",
+    "aspect": 1.4992503748,
+    "faceX": 0.52,
+    "faceY": 0.28,
+    "faceHeight": 0.4
+  },
+  "Baer": {
+    "file": "dorothee-Baer.jpg",
+    "aspect": 0.6666666666666666,
+    "faceX": 0.497,
+    "faceY": 0.398,
+    "faceHeight": 0.095
+  }
+}

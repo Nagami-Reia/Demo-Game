@@ -1,0 +1,114 @@
+[
+  {
+    "id": "Spahn",
+    "role": "CDU/CSU-Fraktionsvorsitzender",
+    "scope": "fraktion",
+    "influence": 0.85,
+    "source": "https://www.bundestag.de/dokumente/textarchiv/2025/kw10-fraktionsvorstaende-1056150",
+    "as_of": "2025-05-07"
+  },
+  {
+    "id": "Merz",
+    "role": "CDU-Parteivorsitzender",
+    "scope": "party",
+    "influence": 0.8,
+    "source": "https://www.cdu.de/37-parteitag/",
+    "as_of": "2025-05-07"
+  },
+  {
+    "id": "Merz",
+    "role": "Bundeskanzler",
+    "scope": "executive",
+    "influence": 0.8,
+    "source": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskabinett",
+    "as_of": "2025-05-07"
+  },
+  {
+    "id": "Miersch",
+    "role": "SPD-Fraktionsvorsitzender",
+    "scope": "fraktion",
+    "influence": 0.85,
+    "source": "https://www.bundestag.de/dokumente/textarchiv/2025/kw10-fraktionsvorstaende-1056150",
+    "as_of": "2025-05-07"
+  },
+  {
+    "id": "Bas",
+    "role": "SPD-Ko-Parteivorsitzende",
+    "scope": "party",
+    "influence": 0.7,
+    "source": "https://www.spd.de/service/pressemitteilungen/detail/news/baerbel-bas-und-lars-klingbeil-als-spd-vorsitzende-gewaehlt/27/06/2025",
+    "as_of": "2025-06-27"
+  },
+  {
+    "id": "Klingbeil",
+    "role": "SPD-Ko-Parteivorsitzender",
+    "scope": "party",
+    "influence": 0.7,
+    "source": "https://www.spd.de/service/pressemitteilungen/detail/news/baerbel-bas-und-lars-klingbeil-als-spd-vorsitzende-gewaehlt/27/06/2025",
+    "as_of": "2025-06-27"
+  },
+  {
+    "id": "Klingbeil",
+    "role": "Bundesfinanzminister und Vizekanzler",
+    "scope": "executive",
+    "influence": 0.7,
+    "source": "https://www.bundestag.de/dokumente/textarchiv/2025/kw10-fraktionsvorstaende-1056150",
+    "as_of": "2025-05-07"
+  },
+  {
+    "id": "Weidel",
+    "role": "AfD-Ko-Fraktionsvorsitzende",
+    "scope": "fraktion",
+    "influence": 0.7,
+    "source": "https://www.bundestag.de/dokumente/textarchiv/2025/kw10-fraktionsvorstaende-1056150",
+    "as_of": "2025-05-07"
+  },
+  {
+    "id": "Chrupalla",
+    "role": "AfD-Ko-Fraktionsvorsitzender",
+    "scope": "fraktion",
+    "influence": 0.7,
+    "source": "https://www.bundestag.de/dokumente/textarchiv/2025/kw10-fraktionsvorstaende-1056150",
+    "as_of": "2025-05-07"
+  },
+  {
+    "id": "Hasselmann",
+    "role": "Grüne-Ko-Fraktionsvorsitzende",
+    "scope": "fraktion",
+    "influence": 0.7,
+    "source": "https://www.bundestag.de/dokumente/textarchiv/2025/kw10-fraktionsvorstaende-1056150",
+    "as_of": "2025-05-07"
+  },
+  {
+    "id": "Droege",
+    "role": "Grüne-Ko-Fraktionsvorsitzende",
+    "scope": "fraktion",
+    "influence": 0.7,
+    "source": "https://www.bundestag.de/dokumente/textarchiv/2025/kw10-fraktionsvorstaende-1056150",
+    "as_of": "2025-05-07"
+  },
+  {
+    "id": "Reichinnek",
+    "role": "Linke-Ko-Fraktionsvorsitzende",
+    "scope": "fraktion",
+    "influence": 0.7,
+    "source": "https://www.bundestag.de/dokumente/textarchiv/2025/kw10-fraktionsvorstaende-1056150",
+    "as_of": "2025-05-07"
+  },
+  {
+    "id": "Pellmann",
+    "role": "Linke-Ko-Fraktionsvorsitzender",
+    "scope": "fraktion",
+    "influence": 0.7,
+    "source": "https://www.bundestag.de/dokumente/textarchiv/2025/kw10-fraktionsvorstaende-1056150",
+    "as_of": "2025-05-07"
+  },
+  {
+    "id": "mdb_Jan_Paul_van_Aken",
+    "role": "Linke-Ko-Parteivorsitzender",
+    "scope": "party",
+    "influence": 0.7,
+    "source": "https://www.die-linke.de/partei/parteidemokratie/parteivorstand/parteivorstand-2024-2026/mitglieder-des-parteivorstandes/jan-van-aken/",
+    "as_of": "2025-05-07"
+  }
+]

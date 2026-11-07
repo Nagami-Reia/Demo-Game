@@ -1,0 +1,1592 @@
+[
+  {
+    "id": "regional_0",
+    "category": "regional",
+    "name": "Baden-Württemberg",
+    "members": [
+      {
+        "id": "mdb_Thomas_Barei",
+        "source": "https://www.cducsu.de/abgeordnete/thomas-bareiss",
+        "constituency": "295 - Zollernalb – Sigmaringen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Marc_Josef_Biadacz",
+        "source": "https://www.cducsu.de/abgeordnete/marc-biadacz",
+        "constituency": "260 - Böblingen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Steffen_Rudi_Bilger",
+        "source": "https://www.cducsu.de/abgeordnete/steffen-bilger",
+        "constituency": "265 - Ludwigsburg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Yannick_Bury",
+        "source": "https://www.cducsu.de/abgeordnete/dr-yannick-bury",
+        "constituency": "283 - Emmendingen – Lahr",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Wolfgang_Jochen_Dahler",
+        "source": "https://www.cducsu.de/abgeordnete/wolfgang-dahler",
+        "constituency": "292 - Biberach",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Donth",
+        "source": "https://www.cducsu.de/abgeordnete/michael-donth",
+        "constituency": "289 - Reutlingen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "Frei",
+        "source": "https://www.cducsu.de/abgeordnete/thorsten-frei",
+        "constituency": "286 - Schwarzwald-Baar",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hermann_Klaus_Farber",
+        "source": "https://www.cducsu.de/abgeordnete/hermann-faerber",
+        "constituency": "263 - Göppingen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Fabian_Benedikt_Meinrad_Gramling",
+        "source": "https://www.cducsu.de/abgeordnete/fabian-gramling",
+        "constituency": "266 - Neckar-Zaber",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Ingeborg_Gabriele_Grale",
+        "source": "https://www.cducsu.de/abgeordnete/dr-inge-graessle",
+        "constituency": "269 - Backnang – Schwäbisch Gmünd",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Olav_Steffen_Gutting",
+        "source": "https://www.cducsu.de/abgeordnete/olav-gutting",
+        "constituency": "278 - Bruchsal – Schwetzingen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Matthias_Fabian_Hiller",
+        "source": "https://www.cducsu.de/abgeordnete/prof-dr-matthias-hiller",
+        "constituency": "262 - Nürtingen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Roderich_Kiesewetter",
+        "source": "https://www.cducsu.de/abgeordnete/roderich-kiesewetter",
+        "constituency": "270 - Aalen – Heidenheim",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Gunther_Krichbaum",
+        "source": "https://www.cducsu.de/abgeordnete/gunther-krichbaum",
+        "constituency": "279 - Pforzheim",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Klaus_Jurgen_Mack",
+        "source": "https://www.cducsu.de/abgeordnete/klaus-mack",
+        "constituency": "280 - Calw",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Volker_Fred_Mayer_Lay",
+        "source": "https://www.cducsu.de/abgeordnete/volker-mayer-lay",
+        "constituency": "293 - Bodensee",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Axel_Karl_Muller",
+        "source": "https://www.cducsu.de/abgeordnete/axel-mueller",
+        "constituency": "294 - Ravensburg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_David_Sebastian_Preisendanz",
+        "source": "https://www.cducsu.de/abgeordnete/dr-david-preisendanz",
+        "constituency": "261 - Esslingen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Johannes_Rothenberger",
+        "source": "https://www.cducsu.de/abgeordnete/johannes-rothenberger",
+        "constituency": "284 - Offenburg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Felix_Schreiner",
+        "source": "https://www.cducsu.de/abgeordnete/felix-schreiner",
+        "constituency": "288 - Waldshut",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christian_Alexander_Freiherr_von_Stetten",
+        "source": "https://www.cducsu.de/abgeordnete/christian-frhr-von-stetten",
+        "constituency": "268 - Schwäbisch Hall – Hohenlohe",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christina_Daniela_Stumpp",
+        "source": "https://www.cducsu.de/abgeordnete/christina-stumpp",
+        "constituency": "264 - Waiblingen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Alexander_Richard_Throm",
+        "source": "https://www.cducsu.de/abgeordnete/alexander-throm",
+        "constituency": "267 - Heilbronn",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "Warken",
+        "source": "https://www.cducsu.de/abgeordnete/nina-warken",
+        "constituency": "276 - Odenwald – Tauber",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Maria_Lena_Weiss",
+        "source": "https://www.cducsu.de/abgeordnete/dr-jur-maria-lena-weiss",
+        "constituency": "285 - Rottweil – Tuttlingen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Kai_Thorsten_Whittaker",
+        "source": "https://www.cducsu.de/abgeordnete/kai-whittaker",
+        "constituency": "273 - Rastatt",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Nicolas_Benjamin_Zippelius",
+        "source": "https://www.cducsu.de/abgeordnete/nicolas-zippelius",
+        "constituency": "272 - Karlsruhe-Land",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "巴登－符腾堡"
+  },
+  {
+    "id": "regional_1",
+    "category": "regional",
+    "name": "Bayern",
+    "members": [
+      {
+        "id": "mdb_Artur_Friedrich_Auernhammer",
+        "source": "https://www.cducsu.de/abgeordnete/artur-auernhammer",
+        "constituency": "240 - Ansbach",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Peter_Aumer",
+        "source": "https://www.cducsu.de/abgeordnete/peter-aumer",
+        "constituency": "232 - Regensburg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Gunter_Baumgartner",
+        "source": "https://www.cducsu.de/abgeordnete/guenter-baumgartner",
+        "constituency": "229 - Rottal-Inn",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Reinhard_Brandl",
+        "source": "https://www.cducsu.de/abgeordnete/dr-reinhard-brandl",
+        "constituency": "215 - Ingolstadt",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "Baer",
+        "source": "https://www.cducsu.de/abgeordnete/dorothee-baer",
+        "constituency": "247 - Bad Kissingen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "Dobrindt",
+        "source": "https://www.cducsu.de/abgeordnete/alexander-dobrindt",
+        "constituency": "225 - Weilheim",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Florian_Johannes_Dorn",
+        "source": "https://www.cducsu.de/abgeordnete/dr-florian-dorn",
+        "constituency": "255 - Memmingen – Unterallgäu",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hansjorg_Durz",
+        "source": "https://www.cducsu.de/abgeordnete/hansjoerg-durz",
+        "constituency": "252 - Augsburg-Land",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hulya_Duber",
+        "source": "https://www.cducsu.de/abgeordnete/dr-huelya-dueber",
+        "constituency": "250 - Würzburg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Ralph_Rene_Edelhauer",
+        "source": "https://www.cducsu.de/abgeordnete/ralph-edelhaeusser",
+        "constituency": "245 - Roth",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Alexander_Karl_Engelhard",
+        "source": "https://www.cducsu.de/abgeordnete/alexander-engelhard",
+        "constituency": "254 - Neu-Ulm",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Martina_Englhardt_Kopf",
+        "source": "https://www.cducsu.de/abgeordnete/dipl-hdl-univ-martina-englhardt-kopf",
+        "constituency": "233 - Schwandorf",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Maximilian_Erndl",
+        "source": "https://www.cducsu.de/abgeordnete/thomas-erndl",
+        "constituency": "226 - Deggendorf",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Edwin_Frieser",
+        "source": "https://www.cducsu.de/abgeordnete/michael-frieser",
+        "constituency": "244 - Nürnberg-Süd",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jonas_Alexander_Tecumseh_Geissler",
+        "source": "https://www.cducsu.de/abgeordnete/dr-jonas-geissler",
+        "constituency": "237 - Coburg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Florian_Peter_Hahn",
+        "source": "https://www.cducsu.de/abgeordnete/florian-hahn",
+        "constituency": "220 - München-Land",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Heiko_Hain",
+        "source": "https://www.cducsu.de/abgeordnete/heiko-hain",
+        "constituency": "238 - Hof",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Susanne_Hierl",
+        "source": "https://www.cducsu.de/abgeordnete/susanne-hierl",
+        "constituency": "231 - Amberg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Alexander_Hoffmann",
+        "source": "https://www.cducsu.de/abgeordnete/alexander-hoffmann",
+        "constituency": "248 - Main-Spessart",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Hannes_Kieling",
+        "source": "https://www.cducsu.de/abgeordnete/dipl-ing-fh-michael-kiessling",
+        "constituency": "223 - Starnberg – Landsberg am Lech",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Konrad_Korner",
+        "source": "https://www.cducsu.de/abgeordnete/dr-konrad-koerner",
+        "constituency": "241 - Erlangen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Ulrich_Josef_Lange",
+        "source": "https://www.cducsu.de/abgeordnete/ulrich-lange",
+        "constituency": "253 - Donau-Ries",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Silke_Launert",
+        "source": "https://www.cducsu.de/abgeordnete/dr-silke-launert",
+        "constituency": "236 - Bayreuth",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Andreas_Lenz",
+        "source": "https://www.cducsu.de/abgeordnete/dr-andreas-lenz",
+        "constituency": "212 - Erding – Ebersberg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Andrea_Lindholz",
+        "source": "https://www.cducsu.de/abgeordnete/andrea-lindholz",
+        "constituency": "246 - Aschaffenburg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Daniela_Ludwig",
+        "source": "https://www.cducsu.de/abgeordnete/daniela-ludwig",
+        "constituency": "221 - Rosenheim",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Stephan_Mayer",
+        "source": "https://www.cducsu.de/abgeordnete/stephan-mayer",
+        "constituency": "211 - Altötting",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christian_Anton_Moser",
+        "source": "https://www.cducsu.de/abgeordnete/christian-moser",
+        "constituency": "213 - Freising",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Florian_Oner",
+        "source": "https://www.cducsu.de/abgeordnete/florian-ossner",
+        "constituency": "227 - Landshut",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Stephan_Nikolaus_Pilsinger",
+        "source": "https://www.cducsu.de/abgeordnete/dr-med-stephan-pilsinger",
+        "constituency": "219 - München-West/Mitte",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Alexander_Gamal_Radwan",
+        "source": "https://www.cducsu.de/abgeordnete/alexander-radwan",
+        "constituency": "222 - Bad Tölz-Wolfratshausen – Miesbach",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Alois_Georg_Josef_Rainer",
+        "source": "https://www.cducsu.de/abgeordnete/alois-rainer",
+        "constituency": "230 - Straubing",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Albert_Robert_Rupprecht",
+        "source": "https://www.cducsu.de/abgeordnete/albert-rupprecht",
+        "constituency": "234 - Weiden",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Silberhorn",
+        "source": "https://www.cducsu.de/abgeordnete/thomas-silberhorn",
+        "constituency": "235 - Bamberg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Katrin_Staffler",
+        "source": "https://www.cducsu.de/abgeordnete/katrin-staffler",
+        "constituency": "214 - Fürstenfeldbruck",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Wolfgang_Dieter_Stefinger",
+        "source": "https://www.cducsu.de/abgeordnete/prof-dr-wolfgang-stefinger",
+        "constituency": "217 - München-Ost",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Stephan_Stracke",
+        "source": "https://www.cducsu.de/abgeordnete/stephan-stracke",
+        "constituency": "257 - Ostallgäu",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hans_Diogenes_Theiss",
+        "source": "https://www.cducsu.de/abgeordnete/prof-dr-med-hans-theiss",
+        "constituency": "216 - München-Nord",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Siegfried_Sebastian_Walch",
+        "source": "https://www.cducsu.de/abgeordnete/siegfried-sebastian-walch",
+        "constituency": "224 - Traunstein",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Anja_Weisgerber",
+        "source": "https://www.cducsu.de/abgeordnete/dr-anja-weisgerber",
+        "constituency": "249 - Schweinfurt",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Tobias_Winkler",
+        "source": "https://www.cducsu.de/abgeordnete/tobias-winkler",
+        "constituency": "242 - Fürth",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Mechthilde_Wittmann",
+        "source": "https://www.cducsu.de/abgeordnete/mechthilde-wittmann",
+        "constituency": "256 - Oberallgäu",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Emmi_Zeulner",
+        "source": "https://www.cducsu.de/abgeordnete/emmi-zeulner",
+        "constituency": "239 - Kulmbach",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "巴伐利亚"
+  },
+  {
+    "id": "regional_2",
+    "category": "regional",
+    "name": "Berlin",
+    "members": [
+      {
+        "id": "mdb_Adrian_Grasse",
+        "source": "https://www.cducsu.de/abgeordnete/adrian-grasse",
+        "constituency": "78 - Berlin-Steglitz-Zehlendorf",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Ottilie_Paola_Klein",
+        "source": "https://www.cducsu.de/abgeordnete/dr-ottilie-paola-klein",
+        "constituency": "81 - Berlin-Neukölln",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Lukas_Albrecht_Krieger",
+        "source": "https://www.cducsu.de/abgeordnete/lukas-krieger",
+        "constituency": "79 - Berlin-Charlottenburg-Wilmersdorf",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jan_Marco_Luczak",
+        "source": "https://www.cducsu.de/abgeordnete/dr-jan-marco-luczak",
+        "constituency": "80 - Berlin-Tempelhof-Schöneberg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Marvin_Schulz",
+        "source": "https://www.cducsu.de/abgeordnete/marvin-schulz",
+        "constituency": "76 - Berlin-Reinickendorf",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "柏林"
+  },
+  {
+    "id": "regional_3",
+    "category": "regional",
+    "name": "Brandenburg",
+    "members": [
+      {
+        "id": "mdb_Knut_Friedrich_Alexander_Abraham",
+        "source": "https://www.cducsu.de/abgeordnete/knut-friedrich-alexander-abraham",
+        "constituency": "65 - Elbe-Elster – Oberspreewald-Lausitz",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Uwe_Wolfgang_Werner_Feiler",
+        "source": "https://www.cducsu.de/abgeordnete/uwe-feiler",
+        "constituency": "58 - Oberhavel – Havelland II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Saskia_Ludwig",
+        "source": "https://www.cducsu.de/abgeordnete/dr-saskia-ludwig",
+        "constituency": "60 - Brandenburg an der Havel – Potsdam-Mittelmark I – Havelland III – Teltow-Fläming I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Sebastian_Steineke",
+        "source": "https://www.cducsu.de/abgeordnete/sebastian-steineke",
+        "constituency": "56 - Prignitz – Ostprignitz-Ruppin – Havelland I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "勃兰登堡"
+  },
+  {
+    "id": "regional_4",
+    "category": "regional",
+    "name": "Bremen",
+    "members": [
+      {
+        "id": "mdb_Thomas_Rowekamp",
+        "source": "https://www.cducsu.de/abgeordnete/thomas-roewekamp",
+        "constituency": "54 - Bremen I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "不来梅"
+  },
+  {
+    "id": "regional_5",
+    "category": "regional",
+    "name": "Hamburg",
+    "members": [
+      {
+        "id": "mdb_Franziska_Christina_Brigitte_Hoppermann",
+        "source": "https://www.cducsu.de/abgeordnete/franziska-hoppermann",
+        "constituency": "22 - Hamburg-Wandsbek",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christoph_Johannes_Plo",
+        "source": "https://www.cducsu.de/abgeordnete/dr-christoph-ploss",
+        "constituency": "21 - Hamburg-Nord",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christoph_Bernhard_de_Vries",
+        "source": "https://www.cducsu.de/abgeordnete/christoph-de-vries",
+        "constituency": "18 - Hamburg-Mitte",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "汉堡"
+  },
+  {
+    "id": "regional_6",
+    "category": "regional",
+    "name": "Hessen",
+    "members": [
+      {
+        "id": "mdb_Norbert_Maria_Altenkamp",
+        "source": "https://www.cducsu.de/abgeordnete/norbert-altenkamp",
+        "constituency": "180 - Main-Taunus",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Frederik_Bouffier",
+        "source": "https://www.cducsu.de/abgeordnete/frederik-bouffier",
+        "constituency": "172 - Gießen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Karl_Brand",
+        "source": "https://www.cducsu.de/abgeordnete/michael-brand",
+        "constituency": "173 - Fulda",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Wilhelm_Gebhard",
+        "source": "https://www.cducsu.de/abgeordnete/wilhelm-gebhard",
+        "constituency": "168 - Werra-Meißner – Hersfeld-Rotenburg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Markus_Benjamin_Koob",
+        "source": "https://www.cducsu.de/abgeordnete/markus-koob",
+        "constituency": "175 - Hochtaunus",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Stefan_Korbach",
+        "source": "https://www.cducsu.de/abgeordnete/dr-stefan-korbach",
+        "constituency": "178 - Wiesbaden",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Patricia_Ingrid_Lips",
+        "source": "https://www.cducsu.de/abgeordnete/patricia-lips",
+        "constituency": "186 - Odenwald",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Gunther_Meister",
+        "source": "https://www.cducsu.de/abgeordnete/dr-michael-meister",
+        "constituency": "187 - Bergstraße",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Pauls",
+        "source": "https://www.cducsu.de/abgeordnete/dr-thomas-pauls",
+        "constituency": "176 - Wetterau I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jan_Wilhelm_Pohlmann",
+        "source": "https://www.cducsu.de/abgeordnete/jan-wilhelm-pohlmann",
+        "constituency": "166 - Waldeck",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Pascal_Reddig",
+        "source": "https://www.cducsu.de/abgeordnete/pascal-reddig",
+        "constituency": "179 - Hanau",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Bjorn_Manuel_Simon",
+        "source": "https://www.cducsu.de/abgeordnete/bjoern-simon",
+        "constituency": "184 - Offenbach",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Johannes_Volkmann",
+        "source": "https://www.cducsu.de/abgeordnete/johannes-volkmann",
+        "constituency": "171 - Lahn-Dill",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Johannes_Thomas_Maria_Wiegelmann",
+        "source": "https://www.cducsu.de/abgeordnete/johannes-thomas-maria-wiegelmann",
+        "constituency": "174 - Main-Kinzig – Wetterau II – Schotten",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Klaus_Peter_Willsch",
+        "source": "https://www.cducsu.de/abgeordnete/klaus-peter-willsch",
+        "constituency": "177 - Rheingau-Taunus – Limburg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "黑森"
+  },
+  {
+    "id": "regional_7",
+    "category": "regional",
+    "name": "Mecklenburg-Vorpommern",
+    "members": [
+      {
+        "id": "mdb_Philipp_Amthor",
+        "source": "https://www.cducsu.de/abgeordnete/philipp-amthor",
+        "constituency": "16 - Mecklenburgische Seenplatte I – Vorpommern-Greifswald II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Simone_Borchardt",
+        "source": "https://www.cducsu.de/abgeordnete/simone-borchardt",
+        "constituency": "13 - Ludwigslust-Parchim II – Nordwestmecklenburg II – Landkreis Rostock I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Georg_Gunther",
+        "source": "https://www.cducsu.de/abgeordnete/georg-guenther",
+        "constituency": "15 - Vorpommern-Rügen – Vorpommern-Greifswald I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "梅克伦堡－前波美拉尼亚"
+  },
+  {
+    "id": "regional_8",
+    "category": "regional",
+    "name": "Niedersachsen",
+    "members": [
+      {
+        "id": "mdb_Stephan_Theodor_Johannes_Albani",
+        "source": "https://www.cducsu.de/abgeordnete/stephan-albani",
+        "constituency": "27 - Oldenburg – Ammerland",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Cornell_Anette_Babendererde",
+        "source": "https://www.cducsu.de/abgeordnete/dr-cornell-anette-babendererde",
+        "constituency": "36 - Harburg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Silvia_Maria_Breher",
+        "source": "https://www.cducsu.de/abgeordnete/silvia-breher",
+        "constituency": "32 - Cloppenburg – Vechta",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Lutz_Brinkmann",
+        "source": "https://www.cducsu.de/abgeordnete/lutz-brinkmann",
+        "constituency": "38 - Osnabrück-Land",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Gitta_Connemann",
+        "source": "https://www.cducsu.de/abgeordnete/gitta-connemann",
+        "constituency": "25 - Unterems",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Bastian_Alfons_Ernst",
+        "source": "https://www.cducsu.de/abgeordnete/bastian-alfons-ernst",
+        "constituency": "28 - Delmenhorst – Wesermarsch – Oldenburg-Land",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christoph_Frauenprei",
+        "source": "https://www.cducsu.de/abgeordnete/christoph-frauenpreiss",
+        "constituency": "29 - Cuxhaven – Stade II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Fritz_Guntzler",
+        "source": "https://www.cducsu.de/abgeordnete/fritz-guentzler",
+        "constituency": "53 - Göttingen I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hendrik_Hoppenstedt",
+        "source": "https://www.cducsu.de/abgeordnete/dr-hendrik-hoppenstedt",
+        "constituency": "43 - Hannover-Land I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Anne_Janssen",
+        "source": "https://www.cducsu.de/abgeordnete/anne-janssen",
+        "constituency": "26 - Friesland – Wilhelmshaven – Wittmund",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Alexander_Jordan",
+        "source": "https://www.cducsu.de/abgeordnete/alexander-jordan",
+        "constituency": "51 - Helmstedt – Wolfsburg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Axel_Knoerig",
+        "source": "https://www.cducsu.de/abgeordnete/axel-knoerig",
+        "constituency": "33 - Diepholz – Nienburg I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Tilman_Moritz_Kuban",
+        "source": "https://www.cducsu.de/abgeordnete/tilman-kuban",
+        "constituency": "47 - Hannover-Land II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Andreas_Mattfeldt",
+        "source": "https://www.cducsu.de/abgeordnete/andreas-mattfeldt",
+        "constituency": "34 - Osterholz – Verden",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Mathias_Middelberg",
+        "source": "https://www.cducsu.de/abgeordnete/dr-mathias-middelberg",
+        "constituency": "39 - Stadt Osnabrück",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Carsten_Muller",
+        "source": "https://www.cducsu.de/abgeordnete/carsten-mueller",
+        "constituency": "50 - Braunschweig",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Albert_Stegeman",
+        "source": "https://www.cducsu.de/abgeordnete/albert-stegemann",
+        "constituency": "31 - Mittelems",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Vivian_Tauschwitz",
+        "source": "https://www.cducsu.de/abgeordnete/vivian-tauschwitz",
+        "constituency": "35 - Rotenburg I – Heidekreis",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Mareike_Lotte_Wulf",
+        "source": "https://www.cducsu.de/abgeordnete/mareike-lotte-wulf",
+        "constituency": "46 - Hameln-Pyrmont – Holzminden",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Vanessa_Kim_Zobel",
+        "source": "https://www.cducsu.de/abgeordnete/vanessa-zobel",
+        "constituency": "30 - Stade I – Rotenburg II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "下萨克森"
+  },
+  {
+    "id": "regional_9",
+    "category": "regional",
+    "name": "Nordrhein-Westfalen",
+    "members": [
+      {
+        "id": "mdb_Tijen_Ataoglu",
+        "source": "https://www.cducsu.de/abgeordnete/llm-tijen-ataoglu",
+        "constituency": "137 - Hagen – Ennepe-Ruhr-Kreis I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Sascha_van_Beek",
+        "source": "https://www.cducsu.de/abgeordnete/sascha-van-beek",
+        "constituency": "112 - Wesel I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Peter_Beyer",
+        "source": "https://www.cducsu.de/abgeordnete/peter-beyer",
+        "constituency": "104 - Mettmann II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Caroline_Bosbach",
+        "source": "https://www.cducsu.de/abgeordnete/caroline-bosbach",
+        "constituency": "99 - Rheinisch-Bergischer Kreis",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Ralph_Brinkhaus",
+        "source": "https://www.cducsu.de/abgeordnete/ralph-brinkhaus",
+        "constituency": "130 - Gütersloh I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Carsten_Brodesser",
+        "source": "https://www.cducsu.de/abgeordnete/dr-carsten-brodesser",
+        "constituency": "98 - Oberbergischer Kreis",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Benedikt_Budenbender",
+        "source": "https://www.cducsu.de/abgeordnete/benedikt-buedenbender",
+        "constituency": "147 - Siegen-Wittgenstein",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Joachim_Simon_Ebmeyer",
+        "source": "https://www.cducsu.de/abgeordnete/joachim-ebmeyer",
+        "constituency": "132 - Herford – Minden-Lübbecke II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Lars_Andre_Ehm",
+        "source": "https://www.cducsu.de/abgeordnete/lars-andre-ehm",
+        "constituency": "121 - Recklinghausen II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Serap_Guler",
+        "source": "https://www.cducsu.de/abgeordnete/serap-gueler",
+        "constituency": "92 - Köln I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christian_Karl_Friedhelm_Haase",
+        "source": "https://www.cducsu.de/abgeordnete/christian-haase",
+        "constituency": "135 - Höxter – Gütersloh III – Lippe II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jurgen_Hardt",
+        "source": "https://www.cducsu.de/abgeordnete/juergen-hardt",
+        "constituency": "102 - Solingen – Remscheid – Wuppertal II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Matthias_Hauer",
+        "source": "https://www.cducsu.de/abgeordnete/matthias-hauer",
+        "constituency": "119 - Essen III",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Marc_Henrichmann",
+        "source": "https://www.cducsu.de/abgeordnete/marc-henrichmann",
+        "constituency": "126 - Coesfeld – Steinfurt II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Jarzombek",
+        "source": "https://www.cducsu.de/abgeordnete/thomas-jarzombek",
+        "constituency": "105 - Düsseldorf I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Nicklas_Kappe",
+        "source": "https://www.cducsu.de/abgeordnete/nicklas-kappe",
+        "constituency": "124 - Bottrop – Recklinghausen III",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Anja_Maria_Antonia_Karliczek",
+        "source": "https://www.cducsu.de/abgeordnete/anja-karliczek",
+        "constituency": "127 - Steinfurt III",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Rudolf_Georg_Kippels",
+        "source": "https://www.cducsu.de/abgeordnete/dr-georg-kippels",
+        "constituency": "90 - Rhein-Erft-Kreis I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Gunter_Krings",
+        "source": "https://www.cducsu.de/abgeordnete/dr-guenter-krings",
+        "constituency": "108 - Mönchengladbach",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Anne_Konig",
+        "source": "https://www.cducsu.de/abgeordnete/anne-koenig",
+        "constituency": "125 - Borken II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Armin_Laschet",
+        "source": "https://www.cducsu.de/abgeordnete/armin-laschet",
+        "constituency": "86 - Aachen I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "Linnemann",
+        "source": "https://www.cducsu.de/abgeordnete/dr-carsten-linnemann",
+        "constituency": "136 - Paderborn",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "Merz",
+        "source": "https://www.cducsu.de/abgeordnete/friedrich-merz",
+        "constituency": "146 - Hochsauerlandkreis",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Florian_Matthias_Muller",
+        "source": "https://www.cducsu.de/abgeordnete/florian-mueller",
+        "constituency": "148 - Olpe – Märkischer Kreis I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Stefan_Nacke",
+        "source": "https://www.cducsu.de/abgeordnete/dr-stefan-nacke",
+        "constituency": "128 - Münster",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Wilfried_Oellers",
+        "source": "https://www.cducsu.de/abgeordnete/wilfried-oellers",
+        "constituency": "88 - Heinsberg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Martin_Plum",
+        "source": "https://www.cducsu.de/abgeordnete/dr-martin-plum",
+        "constituency": "110 - Viersen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Oliver_Reinhold_Popsel",
+        "source": "https://www.cducsu.de/abgeordnete/oliver-reinhold-poepsel",
+        "constituency": "145 - Soest",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Walther_Rachel",
+        "source": "https://www.cducsu.de/abgeordnete/thomas-rachel",
+        "constituency": "89 - Düren",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Kerstin_Christiane_Radomski",
+        "source": "https://www.cducsu.de/abgeordnete/kerstin-radomski",
+        "constituency": "113 - Krefeld II – Wesel II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Henning_Rehbaum",
+        "source": "https://www.cducsu.de/abgeordnete/henning-rehbaum",
+        "constituency": "129 - Warendorf",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Stefan_Rouenhoff",
+        "source": "https://www.cducsu.de/abgeordnete/stefan-rouenhoff",
+        "constituency": "111 - Kleve",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Norbert_Alois_Rottgen",
+        "source": "https://www.cducsu.de/abgeordnete/dr-norbert-roettgen",
+        "constituency": "97 - Rhein-Sieg-Kreis II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Catarina_dos_Santos_Wintz",
+        "source": "https://www.cducsu.de/abgeordnete/catarina-dos-santos-wintz",
+        "constituency": "87 - Aachen II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Carl_Philipp_Martin_Gerhard_Sassenrath",
+        "source": "https://www.cducsu.de/abgeordnete/carl-philipp-sassenrath",
+        "constituency": "107 - Neuss I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Detlef_Seif",
+        "source": "https://www.cducsu.de/abgeordnete/detlef-seif",
+        "constituency": "91 - Euskirchen – Rhein-Erft-Kreis II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "Spahn",
+        "source": "https://www.cducsu.de/abgeordnete/jens-spahn",
+        "constituency": "123 - Steinfurt I – Borken I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Katja_Strauss_Koster",
+        "source": "https://www.cducsu.de/abgeordnete/dr-katja-strauss-koester",
+        "constituency": "138 - Ennepe-Ruhr-Kreis II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Hendrik_Streeck",
+        "source": "https://www.cducsu.de/abgeordnete/prof-dr-hendrik-streeck",
+        "constituency": "95 - Bonn",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Astrid_Timmermann_Fechter",
+        "source": "https://www.cducsu.de/abgeordnete/astrid-timmermann-fechter",
+        "constituency": "117 - Mülheim – Essen I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Kerstin_Vieregge",
+        "source": "https://www.cducsu.de/abgeordnete/kerstin-vieregge",
+        "constituency": "134 - Lippe I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Oliver_Vogt",
+        "source": "https://www.cducsu.de/abgeordnete/dr-oliver-vogt",
+        "constituency": "133 - Minden-Lübbecke I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Klaus_Wiener",
+        "source": "https://www.cducsu.de/abgeordnete/dr-klaus-wiener",
+        "constituency": "103 - Mettmann I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Johannes_Winkel",
+        "source": "https://www.cducsu.de/abgeordnete/johannes-winkel",
+        "constituency": "106 - Düsseldorf II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Elisabeth_Winkelmeier_Becker",
+        "source": "https://www.cducsu.de/abgeordnete/elisabeth-winkelmeier-becker",
+        "constituency": "96 - Rhein-Sieg-Kreis I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Paul_Ziemiak",
+        "source": "https://www.cducsu.de/abgeordnete/paul-ziemiak",
+        "constituency": "149 - Märkischer Kreis II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "北莱茵－威斯特法伦"
+  },
+  {
+    "id": "regional_10",
+    "category": "regional",
+    "name": "Rheinland-Pfalz",
+    "members": [
+      {
+        "id": "mdb_Florian_Bilic",
+        "source": "https://www.cducsu.de/abgeordnete/florian-bilic",
+        "constituency": "209 - Pirmasens",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Marlon_Andreas_Paul_Brohr",
+        "source": "https://www.cducsu.de/abgeordnete/dr-marlon-broehr",
+        "constituency": "199 - Mosel/Rhein-Hunsrück",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Ellen_Demuth",
+        "source": "https://www.cducsu.de/abgeordnete/ellen-demuth",
+        "constituency": "196 - Neuwied",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Thomas_Gebhart",
+        "source": "https://www.cducsu.de/abgeordnete/dr-thomas-gebhart",
+        "constituency": "210 - Südpfalz",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Mechthild_Heil",
+        "source": "https://www.cducsu.de/abgeordnete/mechthild-heil",
+        "constituency": "197 - Ahrweiler",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "Kloeckner",
+        "source": "https://www.cducsu.de/abgeordnete/julia-kloeckner",
+        "constituency": "200 - Kreuznach",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jan_Metzler",
+        "source": "https://www.cducsu.de/abgeordnete/jan-metzler",
+        "constituency": "205 - Worms",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Harald_Stefan_Orthey",
+        "source": "https://www.cducsu.de/abgeordnete/harald-orthey",
+        "constituency": "203 - Montabaur",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Josef_Oster",
+        "source": "https://www.cducsu.de/abgeordnete/josef-oster",
+        "constituency": "198 - Koblenz",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Patrick_Schnieder",
+        "source": "https://www.cducsu.de/abgeordnete/patrick-schnieder",
+        "constituency": "201 - Bitburg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Johannes_Eberhard_Steiniger",
+        "source": "https://www.cducsu.de/abgeordnete/johannes-steiniger",
+        "constituency": "207 - Neustadt – Speyer",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "莱茵兰－普法尔茨"
+  },
+  {
+    "id": "regional_11",
+    "category": "regional",
+    "name": "Saarland",
+    "members": [
+      {
+        "id": "mdb_Roland_Theis",
+        "source": "https://www.cducsu.de/abgeordnete/roland-theis",
+        "constituency": "298 - St. Wendel",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "萨尔"
+  },
+  {
+    "id": "regional_12",
+    "category": "regional",
+    "name": "Sachsen",
+    "members": [
+      {
+        "id": "mdb_Carsten_Korber",
+        "source": "https://www.cducsu.de/abgeordnete/carsten-koerber",
+        "constituency": "164 - Zwickau",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Jens_Lehmann",
+        "source": "https://www.cducsu.de/abgeordnete/jens-lehmann",
+        "constituency": "151 - Leipzig I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Florian_Oest",
+        "source": "https://www.cducsu.de/abgeordnete/florian-oest",
+        "constituency": "156 - Görlitz",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Markus_Alexander_Reichel",
+        "source": "https://www.cducsu.de/abgeordnete/dr-markus-alexander-reichel",
+        "constituency": "158 - Dresden I",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Lars_Rohwer",
+        "source": "https://www.cducsu.de/abgeordnete/lars-rohwer",
+        "constituency": "159 - Dresden II – Bautzen II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christiane_Schenderlein",
+        "source": "https://www.cducsu.de/abgeordnete/dr-christiane-schenderlein",
+        "constituency": "150 - Nordsachsen",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Nora_Seitz",
+        "source": "https://www.cducsu.de/abgeordnete/nora-seitz",
+        "constituency": "161 - Chemnitz",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "萨克森"
+  },
+  {
+    "id": "regional_13",
+    "category": "regional",
+    "name": "Sachsen-Anhalt",
+    "members": [
+      {
+        "id": "mdb_Anna_Elisabeth_Christine_Sophie_Aeikens",
+        "source": "https://www.cducsu.de/abgeordnete/anna-aeikens",
+        "constituency": "67 - Börde – Salzlandkreis",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Sepp_Muller",
+        "source": "https://www.cducsu.de/abgeordnete/sepp-mueller",
+        "constituency": "70 - Anhalt – Dessau – Wittenberg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Tino_Sorge",
+        "source": "https://www.cducsu.de/abgeordnete/tino-sorge",
+        "constituency": "69 - Magdeburg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Dieter_Stier",
+        "source": "https://www.cducsu.de/abgeordnete/dieter-stier",
+        "constituency": "72 - Burgenland – Saalekreis",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "萨克森－安哈尔特"
+  },
+  {
+    "id": "regional_14",
+    "category": "regional",
+    "name": "Schleswig-Holstein",
+    "members": [
+      {
+        "id": "mdb_Melanie_Bernstein",
+        "source": "https://www.cducsu.de/abgeordnete/melanie-bernstein",
+        "constituency": "8 - Segeberg – Stormarn-Mitte",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Leif_Erik_Bodin",
+        "source": "https://www.cducsu.de/abgeordnete/leif-erik-bodin",
+        "constituency": "2 - Nordfriesland – Dithmarschen Nord",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Sandra_Carstensen",
+        "source": "https://www.cducsu.de/abgeordnete/sandra-carstensen",
+        "constituency": "6 - Plön – Neumünster",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Mark_Helfrich",
+        "source": "https://www.cducsu.de/abgeordnete/mark-helfrich",
+        "constituency": "3 - Steinburg – Dithmarschen Süd",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Daniel_Kolbl",
+        "source": "https://www.cducsu.de/abgeordnete/daniel-koelbl",
+        "constituency": "7 - Pinneberg",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Henri_Schmidt",
+        "source": "https://www.cducsu.de/abgeordnete/henri-schmidt",
+        "constituency": "10 - Herzogtum Lauenburg – Stormarn-Süd",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Sebastian_Schmidt",
+        "source": "https://www.cducsu.de/abgeordnete/sebastian-schmidt",
+        "constituency": "9 - Ostholstein – Stormarn-Nord",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "Wadephul",
+        "source": "https://www.cducsu.de/abgeordnete/dr-johann-david-wadephul",
+        "constituency": "4 - Rendsburg-Eckernförde",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "石勒苏益格－荷尔斯泰因"
+  },
+  {
+    "id": "regional_15",
+    "category": "regional",
+    "name": "Thüringen",
+    "members": [
+      {
+        "id": "mdb_David_Gregosz",
+        "source": "https://www.cducsu.de/abgeordnete/dipl-pol-bs-sc-david-gregosz",
+        "constituency": "188 - Eichsfeld – Nordhausen – Kyffhäuserkreis",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Diana_Herbstreuth",
+        "source": "https://www.cducsu.de/abgeordnete/diana-herbstreuth",
+        "constituency": "194 - Saalfeld-Rudolstadt – Saale-Holzland-Kreis – Saale-Orla-Kreis",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Christian_Hirte",
+        "source": "https://www.cducsu.de/abgeordnete/christian-hirte",
+        "constituency": "189 - Eisenach – Wartburgkreis – Unstrut-Hainich-Kreis",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      },
+      {
+        "id": "mdb_Michael_Hose",
+        "source": "https://www.cducsu.de/abgeordnete/michael-hose",
+        "constituency": "192 - Erfurt – Weimar – Weimarer Land II",
+        "basis": "official_profile_land_label",
+        "checkedOn": "2026-11-06"
+      }
+    ],
+    "memberRequirement": 2,
+    "effect": "negotiation",
+    "basis": "parliamentary_land_not_birthplace",
+    "nameZh": "图林根"
+  }
+]

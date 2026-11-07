@@ -1,0 +1,21 @@
+const news_effect_units={income:'€',auctionCost:'€',negotiationCost:'€',executionCost:'€',policyEfficiency:'%',negotiationEfficiency:'%',coordinationEfficiency:'%',policyScore:'%',risk:'%',stability:'%',poll:'pp',allianceLayers:'layers',allianceCash:'%',allianceRepeat:'times',conditionalCash:'€',conditionalScore:'points',recruitWeight:'%'};
+export function news_page(game,t,loc,esc,reopen=false){
+ const edition=game.news?.edition;if(!edition)return '';
+ const owner=game.players[0],entries=edition.entries;
+ const issue=String(game.round).padStart(3,'0'),round=String(game.round).padStart(2,'0');
+ const date=new Date(edition.publishedAt||Date.now()).toLocaleDateString('de-DE',{day:'2-digit',month:'long',year:'numeric'}).toUpperCase();
+ const article=(entry,headline)=>{const e=entry.event;return `<article class="${headline?'front-page news-main':'news-brief'}" data-news-id="${esc(e.id)}"><div class="news-dateline"><span>${t('newsCategory_'+e.category)}</span><span>${esc(e.region)} · ${t('duration')} ${entry.untilRound-game.round} ${t('round')}</span></div><h2 class="${headline?'news-headline':''}">${esc(loc(e.title))}</h2><p class="news-deck">${esc(loc(headline?e.body:e.brief))}</p><div class="news-tags">${e.domains.map(d=>`<span>${t(d)}</span>`).join(' · ')}${entry.startedRound<game.round?` · ${t('continuing')}`:''}</div></article>`;};
+ const analysis=entries.map(entry=>{
+  const effects=(entry.event.effects||[]).filter(e=>!e.target?.parties||e.target.parties.includes(owner.party)).filter(e=>!e.target?.role||e.target.role==='government');
+  return `<section class="news-impact"><b>${esc(loc(entry.event.title))}</b><ul>${effects.map(e=>{
+   const unit=news_effect_units[e.kind]||'',percentage=unit==='%',value=e.kind==='allianceRepeat'?(e.value>0?1:0):e.kind==='poll'&&entry.startedRound<game.round?0:e.value*entry.strength*(percentage?100:1)*(e.axis?(1-Math.abs((game.data.platforms?.[owner.party]?.positions?.[e.axis]??e.position)-e.position)):1),sign=value>0?'+':'';
+   const conditions=[e.domains?.map(d=>t(d)).join('/'),e.target?.states?.join('/'),e.target?.category?t('newsScope_'+e.target.category):'',e.target?.routeWords?t('newsSpecificAlliance'):'',e.axis?t('newsPolicyAlignment'):'',e.condition?t('newsCondition_'+e.condition):''].filter(Boolean).join(' · ');
+   return `<li><span>${t('newsEffect_'+e.kind)}</span> <b>${sign}${Number(value.toFixed(2))}${percentage?'%':unit==='€'?'€':unit==='pp'?' '+t('pollPoints'):unit?' '+t(unit):''}</b>${conditions?` <small>${esc(conditions)}</small>`:''}</li>`;
+  }).join('')}</ul></section>`;
+ }).join('');
+ return `<section class="news-page"><div class="news-system-header"><div><strong>${round}</strong><span>/ NACHRICHTEN</span></div><span>RUNDE ${round} / 08</span></div><div class="newspaper-paper"><div class="newspaper-content"><div class="newspaper-masthead">Das Parlament</div><div class="newspaper-edition-line">BERLIN · AUSGABE ${issue} · ${esc(date)}</div><div class="newspaper-status">${t(edition.startApplied?'newsApplied':'newsExpected')}</div><div class="news-edition">${article(entries[0],true)}<div class="news-briefs"><div class="eyebrow">${t('newsBriefs')}</div>${entries.slice(1).map(e=>article(e,false)).join('')}</div></div><section class="news-analysis"><div class="newspaper-effects-heading"><h2>POLITISCHE AUSWIRKUNGEN</h2><span>${esc(owner.party)} / ${t('newsAnalysis')}</span></div><p class="muted">${t('newsAnalysisNote')}</p><div class="news-impact-grid">${analysis}</div>${edition.startApplied?`<p>${t('newsApplied')}: ${t('cash')} ${edition.start?.[0]?.cash>=0?'+':''}${edition.start?.[0]?.cash||0}€</p>`:''}</section></div></div><div class="actions newspaper-controls"><button data-action="${reopen?'close_news':'ack_news'}">${t(reopen?'backToRound':'readContinue')}</button></div></section>`;
+}
+export function news_result_view(result,t,loc,esc){
+ if(!result.newsEffects?.some(r=>r.cash||r.score||r.gains.length))return '';
+ return `<section class="news-result"><h3>${t('newsSettlement')}</h3>${result.newsEffects.map((r,i)=>`<p>${t(i?'cpu':'you')}: ${t('cash')} ${r.cash>=0?'+':''}${r.cash}€ · ${t('score_news')} ${r.score>=0?'+':''}${r.score}${r.gains.length?' · '+r.gains.map(g=>`${esc(loc(g.name))} +${g.add} ${t('layers')}`).join(' · '):''}</p>`).join('')}</section>`;
+}

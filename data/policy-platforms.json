@@ -1,0 +1,201 @@
+{
+  "CDU": {
+    "title": {
+      "zh": "增长、减税与安全",
+      "en": "Growth, tax relief and security",
+      "de": "Wachstum, Entlastung und Sicherheit"
+    },
+    "priorities": {
+      "economy": 1,
+      "social": 0.6,
+      "climate": 0.45,
+      "security": 0.9,
+      "digital": 0.75,
+      "foreign": 0.8
+    },
+    "positions": {
+      "investment": -0.45,
+      "welfare": -0.3,
+      "climate": 0.25,
+      "migration": 0.8,
+      "defence": 0.8,
+      "digital": 0.8
+    },
+    "goals": {
+      "zh": "推进投资条件、行政效率和安全能力；在财政约束内保护社会保障。",
+      "en": "Improve investment conditions, administrative efficiency and security while respecting fiscal constraints.",
+      "de": "Investitionsbedingungen, Verwaltungseffizienz und Sicherheit verbessern; soziale Sicherung unter Haushaltsgrenzen erhalten."
+    },
+    "source": [
+      "https://www.cdu.de/app/uploads/2025/01/politikwechsel-fuer-deutschland-wahlprogramm-von-cdu-csu-kurzfassung.pdf"
+    ],
+    "as_of": "2025-election",
+    "numeric_status": "GAME_ABSTRACTION_NOT_OBJECTIVE_SCORE"
+  },
+  "CSU": {
+    "title": {
+      "zh": "经济、区域资源与秩序",
+      "en": "Economy, regional resources and order",
+      "de": "Wirtschaft, regionale Ressourcen und Ordnung"
+    },
+    "priorities": {
+      "economy": 0.95,
+      "social": 0.6,
+      "climate": 0.35,
+      "security": 1,
+      "digital": 0.65,
+      "foreign": 0.75
+    },
+    "positions": {
+      "investment": -0.45,
+      "welfare": -0.35,
+      "climate": 0.1,
+      "migration": 0.95,
+      "defence": 0.85,
+      "digital": 0.75
+    },
+    "goals": {
+      "zh": "争取区域资源、减负和边境治理，增强防务；目标来自联合纲领与巴伐利亚议程。",
+      "en": "Seek regional resources, relief, border management and defence, using the joint platform and Bavaria agenda.",
+      "de": "Regionale Mittel, Entlastung, Grenzsteuerung und Verteidigung nach Unionsprogramm und Bayern-Agenda fördern."
+    },
+    "source": [
+      "https://www.csu.de/common/download/Bayern-Agenda_zur_Bundestagswahl2025.pdf",
+      "https://www.cdu.de/app/uploads/2025/01/politikwechsel-fuer-deutschland-wahlprogramm-von-cdu-csu-kurzfassung.pdf"
+    ],
+    "as_of": "2025-election",
+    "numeric_status": "GAME_ABSTRACTION_NOT_OBJECTIVE_SCORE"
+  },
+  "SPD": {
+    "title": {
+      "zh": "就业、保障与公共投资",
+      "en": "Jobs, security and public investment",
+      "de": "Arbeit, soziale Sicherung und Investitionen"
+    },
+    "priorities": {
+      "economy": 0.85,
+      "social": 1,
+      "climate": 0.7,
+      "security": 0.65,
+      "digital": 0.75,
+      "foreign": 0.8
+    },
+    "positions": {
+      "investment": 0.7,
+      "welfare": 0.7,
+      "climate": 0.65,
+      "migration": 0.15,
+      "defence": 0.55,
+      "digital": 0.8
+    },
+    "goals": {
+      "zh": "保护工资、养老金与可负担生活，以公共投资促进就业并维持国际合作。",
+      "en": "Protect wages, pensions and affordable living through investment and international cooperation.",
+      "de": "Löhne, Renten und bezahlbares Leben durch Investitionen und internationale Zusammenarbeit sichern."
+    },
+    "source": [
+      "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf"
+    ],
+    "as_of": "2025-election",
+    "numeric_status": "GAME_ABSTRACTION_NOT_OBJECTIVE_SCORE"
+  },
+  "AfD": {
+    "title": {
+      "zh": "边境、税负与能源政策转向",
+      "en": "Borders, tax burdens and energy-policy reversal",
+      "de": "Grenzen, Steuerlast und energiepolitischer Kurswechsel"
+    },
+    "priorities": {
+      "economy": 0.85,
+      "social": 0.6,
+      "climate": 0.75,
+      "security": 1,
+      "digital": 0.55,
+      "foreign": 0.8
+    },
+    "positions": {
+      "investment": -0.7,
+      "welfare": -0.45,
+      "climate": -1,
+      "migration": 1,
+      "defence": 0.55,
+      "digital": 0.35
+    },
+    "goals": {
+      "zh": "推动更严格移民限制、税费减负并撤回气候约束；防务能力与对外军事支持分别判断。",
+      "en": "Seek stricter migration limits, tax relief and reversal of climate restrictions; distinguish defence capacity from external military support.",
+      "de": "Strengere Migrationsbegrenzung, Entlastung und Rücknahme von Klimavorgaben anstreben; Verteidigungsfähigkeit und Auslandshilfe unterscheiden."
+    },
+    "source": [
+      "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf"
+    ],
+    "as_of": "2025-election",
+    "numeric_status": "GAME_ABSTRACTION_NOT_OBJECTIVE_SCORE"
+  },
+  "Grüne": {
+    "title": {
+      "zh": "气候转型、公平与欧洲合作",
+      "en": "Climate transition, fairness and European cooperation",
+      "de": "Klimatransformation, Gerechtigkeit und Europa"
+    },
+    "priorities": {
+      "economy": 0.8,
+      "social": 0.85,
+      "climate": 1,
+      "security": 0.65,
+      "digital": 0.85,
+      "foreign": 0.95
+    },
+    "positions": {
+      "investment": 0.85,
+      "welfare": 0.6,
+      "climate": 1,
+      "migration": -0.5,
+      "defence": 0.65,
+      "digital": 0.9
+    },
+    "goals": {
+      "zh": "推动气候投资、社会补偿、数字服务和欧洲合作；支持防卫与保障权利并行。",
+      "en": "Advance climate investment, social compensation, digital services and European cooperation with defence and rights protections.",
+      "de": "Klimainvestitionen, sozialen Ausgleich, digitale Dienste und europäische Kooperation mit Verteidigung und Grundrechtsschutz verbinden."
+    },
+    "source": [
+      "https://cms.gruene.de/uploads/assets/Regierungsprogramm_DIGITAL_DINA5.pdf"
+    ],
+    "as_of": "2025-election",
+    "numeric_status": "GAME_ABSTRACTION_NOT_OBJECTIVE_SCORE"
+  },
+  "Linke": {
+    "title": {
+      "zh": "社会保障、住房与和平",
+      "en": "Social protection, housing and peace",
+      "de": "Soziale Sicherung, Wohnen und Frieden"
+    },
+    "priorities": {
+      "economy": 0.75,
+      "social": 1,
+      "climate": 0.85,
+      "security": 0.55,
+      "digital": 0.65,
+      "foreign": 0.8
+    },
+    "positions": {
+      "investment": 1,
+      "welfare": 1,
+      "climate": 0.85,
+      "migration": -0.9,
+      "defence": -0.9,
+      "digital": 0.65
+    },
+    "goals": {
+      "zh": "扩大社会保障和公共服务，降低住房负担，推动社会公平的气候措施并反对扩军方向。",
+      "en": "Expand social protection and public services, lower housing burdens and pursue socially fair climate measures while opposing military expansion.",
+      "de": "Soziale Sicherung und öffentliche Dienste ausbauen, Wohnkosten senken und sozial gerechten Klimaschutz statt Aufrüstung verfolgen."
+    },
+    "source": [
+      "https://www.die-linke.de/bundestagswahl-2025/wahlprogramm/"
+    ],
+    "as_of": "2025-election",
+    "numeric_status": "GAME_ABSTRACTION_NOT_OBJECTIVE_SCORE"
+  }
+}

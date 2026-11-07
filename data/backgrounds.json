@@ -1,0 +1,30 @@
+[
+  {
+    "id": "Linnemann",
+    "domains": [
+      "economy"
+    ],
+    "strength": 0.6,
+    "source": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskabinett/carsten-linnemann-2448406",
+    "as_of": "2026-11-05",
+    "description": {
+      "zh": "官方履历记载工商管理学位及经济学博士训练。既有经济专业背景与现卫生部长职责分别建模；强度为游戏假设，不是实测能力。",
+      "en": "The official CV records business-administration studies and doctoral training in economics. This background is distinct from the current health portfolio; strength is a game assumption.",
+      "de": "Der offizielle Lebenslauf nennt BWL-Studium und volkswirtschaftliche Promotion. Dieser Hintergrund ist vom heutigen Gesundheitsressort getrennt; die Stärke ist eine Spielannahme."
+    }
+  },
+  {
+    "id": "Pistorius",
+    "domains": [
+      "security"
+    ],
+    "strength": 0.45,
+    "source": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskabinett/lebenslauf-2342854",
+    "as_of": "2026-11-05",
+    "description": {
+      "zh": "官方履历记载此前任下萨克森州内政与体育部长。过往内政经验不等于医学或经济专业；强度为游戏假设。",
+      "en": "The official CV records prior service as Lower Saxony minister of the interior and sport. This is interior-policy experience, with game-designed strength.",
+      "de": "Der offizielle Lebenslauf dokumentiert das frühere Amt als niedersächsischer Innen- und Sportminister. Die fachliche Einordnung und Stärke sind Spielannahmen."
+    }
+  }
+]
