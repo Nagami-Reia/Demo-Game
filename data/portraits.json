@@ -20,11 +20,32 @@
     "faceY": 0.28,
     "faceHeight": 0.4
   },
+  "mdb_Karl_Wilhelm_Lauterbach": {
+    "file": "Kral-Lauterbach.jpg",
+    "aspect": 0.7211,
+    "faceX": 0.543,
+    "faceY": 0.18,
+    "faceHeight": 0.19
+  },
   "Baer": {
     "file": "dorothee-Baer.jpg",
     "aspect": 0.6666666666666666,
     "faceX": 0.497,
     "faceY": 0.398,
     "faceHeight": 0.095
+  },
+  "mdb_Konrad_Korner": {
+    "file": "Konrad-Körners.webp",
+    "aspect": 1.7777777778,
+    "faceX": 0.66,
+    "faceY": 0.37,
+    "faceHeight": 0.62
+  },
+  "mdb_Pascal_Reddig": {
+    "file": "Pascla-Reddig.jpg",
+    "aspect": 1.7777777778,
+    "faceX": 0.725,
+    "faceY": 0.28,
+    "faceHeight": 0.32
   }
 }

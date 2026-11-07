@@ -23,7 +23,8 @@ def portrait_catalog(root,roster):
         keys={portrait_key(n) for n in names if n}
         matches=[p for p in files if portrait_key(p.stem) in keys]
         if setting.get('file'):
-            matches=[p for p in files if p.name==setting['file']]
+            filename=unicodedata.normalize('NFC',setting['file'])
+            matches=[p for p in files if unicodedata.normalize('NFC',p.name)==filename]
         if len(matches)>1:
             print('Portrait ambiguous; set portraits.json file explicitly:',card['name']);continue
         if not matches:continue

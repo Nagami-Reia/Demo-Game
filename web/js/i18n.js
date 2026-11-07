@@ -7,20 +7,20 @@ Object.assign(strings.zh,{
  factionPassives:'党团天赋',faction_capital:'组织资本',faction_pressure:'党内压力',faction_momentum:'气候势头',faction_mobilization:'基层动员',
  faction_csu_budget:'地方拨款',faction_csu_refund:'CSU 招募返还',faction_csu_invest:'地方投资',faction_invest_unavailable:'本轮无法进行这项地方投资',
  factionInvested:'本轮地方投资已登记',faction_compromise_refund:'跨党协议返还',faction_grassroots_reward:'集体动员成果',
- faction_controversy_up:'争议动员奏效',faction_controversy_down:'争议动员反噬',faction_controversy_even:'争议动员持平',factionPollRaw:'民调变化（归一化前）',
+ faction_controversy_up:'争议动员奏效',faction_controversy_down:'争议动员反噬',faction_controversy_even:'争议动员持平',faction_poll_cushion:'缓冲民调跌幅',factionPollRaw:'民调变化（归一化前）',
  score_faction:'党团天赋'
 });
 Object.assign(strings.en,{
  factionPassives:'Faction passives',faction_capital:'Organizational capital',faction_pressure:'Internal pressure',faction_momentum:'Climate momentum',faction_mobilization:'Mobilization',
  faction_csu_budget:'Regional funding',faction_csu_refund:'CSU recruitment refund',faction_csu_invest:'Regional investment',faction_invest_unavailable:'This regional investment is unavailable this round',
  factionInvested:'Regional investment placed for this round',faction_compromise_refund:'Compromise refund',faction_grassroots_reward:'Collective mobilization outcome',
- faction_controversy_up:'Controversy surge',faction_controversy_down:'Controversy backlash',faction_controversy_even:'Controversy held steady',factionPollRaw:'Poll change (before normalization)',
+ faction_controversy_up:'Controversy surge',faction_controversy_down:'Controversy backlash',faction_controversy_even:'Controversy held steady',faction_poll_cushion:'Polling loss cushioned',factionPollRaw:'Poll change (before normalization)',
  score_faction:'Faction passive'
 });
 Object.assign(strings.de,{
  factionPassives:'Parteifähigkeiten',faction_capital:'Organisationskapital',faction_pressure:'Interner Druck',faction_momentum:'Klimapolitischer Schwung',faction_mobilization:'Mobilisierung',
  faction_csu_budget:'Regionale Mittel',faction_csu_refund:'CSU-Anwerbeerstattung',faction_csu_invest:'Regionale Investition',faction_invest_unavailable:'Diese regionale Investition ist in dieser Runde nicht verfügbar',
  factionInvested:'Regionale Investition für diese Runde registriert',faction_compromise_refund:'Kompromisserstattung',faction_grassroots_reward:'Ergebnis der Basismobilisierung',
- faction_controversy_up:'Kontroversenmobilisierung wirkt',faction_controversy_down:'Kontroversenmobilisierung schlägt zurück',faction_controversy_even:'Kontroversenmobilisierung ohne Ausschlag',factionPollRaw:'Umfrageänderung (vor Normierung)',
+ faction_controversy_up:'Kontroversenmobilisierung wirkt',faction_controversy_down:'Kontroversenmobilisierung schlägt zurück',faction_controversy_even:'Kontroversenmobilisierung ohne Ausschlag',faction_poll_cushion:'Umfrageverlust gedämpft',factionPollRaw:'Umfrageänderung (vor Normierung)',
  score_faction:'Parteifähigkeit'
 });

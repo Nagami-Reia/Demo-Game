@@ -6544,7 +6544,8 @@
     "role": "Bundesminister für Gesundheit",
     "scope": "minister",
     "domains": [
-      "social"
+      "social",
+      "health"
     ],
     "influence": 0.6,
     "source": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskabinett",

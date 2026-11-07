@@ -21,8 +21,9 @@
       "status": "GAME_ABSTRACTION"
     },
     "domainWeights": {
-      "economy": 0.65,
+      "economy": 0.5,
       "climate": 0.25,
+      "transport": 0.15,
       "social": 0.1
     },
     "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
@@ -826,6 +827,34 @@
       "security": 0.6,
       "foreign": 0.25,
       "economy": 0.15
+    },
+    "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
+  },
+  {
+    "id": "hospital_reform",
+    "title": {
+      "zh": "医院改革调整案",
+      "en": "Hospital reform adjustment",
+      "de": "Anpassung der Krankenhausreform"
+    },
+    "domain": "health",
+    "procedure": "law",
+    "summary": {
+      "zh": "审议医院转型基金、州级例外和实施期限。",
+      "en": "Debate the hospital transformation fund, exemptions for the Länder and implementation deadlines.",
+      "de": "Beratung über den Transformationsfonds, Ausnahmen für die Länder und Umsetzungsfristen."
+    },
+    "source": "Deutscher Bundestag",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw10-de-krankenhausreform-1151184",
+    "policy": {
+      "axis": "welfare",
+      "proposalDirection": 1,
+      "status": "GAME_ABSTRACTION"
+    },
+    "domainWeights": {
+      "health": 0.75,
+      "economy": 0.15,
+      "social": 0.1
     },
     "domainWeightStatus": "GAME_DESIGN_ESTIMATE"
   }

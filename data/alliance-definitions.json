@@ -38,35 +38,107 @@
   {
     "id": "legal",
     "name": {
-      "zh": "立法工作坊",
-      "en": "Legislative workshop",
-      "de": "Gesetzeswerkstatt"
+      "zh": "法律与司法",
+      "en": "Law and justice",
+      "de": "Recht und Justiz"
     },
-    "threshold": 2,
+    "category": "professional",
     "thresholds": [
       2,
       3
     ],
+    "threshold": 2,
+    "effectKind": "growth",
+    "layerCap": 24,
     "domains": [],
     "actions": [
       "amendment"
     ],
-    "layerCap": 24,
-    "roundCap": 3,
+    "description": {
+      "zh": "基于有来源的专业履历或职责。需要至少两人。",
+      "en": "Two or more members with sourced qualifications or relevant duties.",
+      "de": "Mindestens zwei Mitglieder mit belegter Ausbildung oder einschlägiger Tätigkeit."
+    },
+    "sources": [
+      "https://www.cducsu.de/abgeordnete/knut-friedrich-alexander-abraham",
+      "https://www.cducsu.de/abgeordnete/llm-tijen-ataoglu",
+      "https://www.cducsu.de/fraktion/gruppen/ag-recht-und-verbraucherschutz",
+      "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/",
+      "https://www.cducsu.de/abgeordnete/peter-beyer",
+      "https://www.bundesregierung.de/breg-de/suche/ernennung-neue-minister-2448632",
+      "https://www.cducsu.de/abgeordnete/steffen-bilger",
+      "https://www.cducsu.de/abgeordnete/silvia-breher",
+      "https://www.gruene-bundestag.de/abgeordnete/details/agnieszka-brugger/",
+      "https://www.cducsu.de/abgeordnete/gitta-connemann",
+      "https://www.spdfraktion.de/fraktion/arbeitsgruppen/arbeitsgruppe-recht-verbraucherschutz-0",
+      "https://www.spdfraktion.de/fraktion/arbeitsgruppen/arbeitsgruppe-wahlpruefung-immunitaet-geschaeftsordnung",
+      "https://www.cducsu.de/abgeordnete/lars-andre-ehm",
+      "https://www.spdfraktion.de/abgeordnete/eichwede",
+      "https://www.bundestag.de/parlament/fraktionen/spd/spd-245190",
+      "https://www.spdfraktion.de/arbeitsgruppen",
+      "https://www.cducsu.de/abgeordnete/thorsten-frei",
+      "https://www.cducsu.de/abgeordnete/michael-frieser",
+      "https://www.cducsu.de/abgeordnete/olav-gutting",
+      "https://www.cducsu.de/abgeordnete/matthias-hauer",
+      "https://www.cducsu.de/abgeordnete/marc-henrichmann",
+      "https://www.cducsu.de/abgeordnete/susanne-hierl",
+      "https://www.cducsu.de/abgeordnete/christian-hirte",
+      "https://www.cducsu.de/abgeordnete/alexander-hoffmann",
+      "https://www.cducsu.de/abgeordnete/dr-georg-kippels",
+      "https://www.cducsu.de/abgeordnete/gunther-krichbaum",
+      "https://www.cducsu.de/abgeordnete/lukas-krieger",
+      "https://www.cducsu.de/abgeordnete/dr-guenter-krings",
+      "https://www.cducsu.de/abgeordnete/dr-konrad-koerner",
+      "https://www.gruene-bundestag.de/abgeordnete/details/ricarda-lang/",
+      "https://www.cducsu.de/abgeordnete/ulrich-lange",
+      "https://www.cducsu.de/abgeordnete/dr-silke-launert",
+      "https://www.spdfraktion.de/abgeordnete/limbacher",
+      "https://www.gruene-bundestag.de/abgeordnete/details/helge-limburg/",
+      "https://www.cducsu.de/aktuelles/julia-kloeckner-ist-neue-bundestagspraesidentin",
+      "https://www.cducsu.de/abgeordnete/andrea-lindholz",
+      "https://www.cducsu.de/abgeordnete/dr-jan-marco-luczak",
+      "https://www.cducsu.de/abgeordnete/daniela-ludwig",
+      "https://www.cducsu.de/abgeordnete/stephan-mayer",
+      "https://www.cducsu.de/abgeordnete/dr-mathias-middelberg",
+      "https://www.spdfraktion.de/abgeordnete/miersch",
+      "https://www.gruene-bundestag.de/abgeordnete/details/dr-irene-mihalic/",
+      "https://www.cducsu.de/abgeordnete/christian-moser",
+      "https://www.cducsu.de/abgeordnete/axel-mueller",
+      "https://www.cducsu.de/abgeordnete/carsten-mueller",
+      "https://www.cducsu.de/abgeordnete/wilfried-oellers",
+      "https://www.cducsu.de/abgeordnete/dr-martin-plum",
+      "https://www.cducsu.de/abgeordnete/dr-david-preisendanz",
+      "https://www.cducsu.de/abgeordnete/alexander-radwan",
+      "https://www.spdfraktion.de/abgeordnete/rohde",
+      "https://www.cducsu.de/abgeordnete/johannes-rothenberger",
+      "https://www.cducsu.de/abgeordnete/dr-norbert-roettgen",
+      "https://www.cducsu.de/abgeordnete/catarina-dos-santos-wintz",
+      "https://www.cducsu.de/abgeordnete/carl-philipp-sassenrath",
+      "https://www.cducsu.de/abgeordnete/patrick-schnieder",
+      "https://www.cducsu.de/abgeordnete/detlef-seif",
+      "https://www.cducsu.de/abgeordnete/thomas-silberhorn",
+      "https://www.cducsu.de/abgeordnete/tino-sorge",
+      "https://www.cducsu.de/abgeordnete/sebastian-steineke",
+      "https://www.cducsu.de/abgeordnete/stephan-stracke",
+      "https://www.cducsu.de/abgeordnete/alexander-throm",
+      "https://www.cducsu.de/abgeordnete/dr-johann-david-wadephul",
+      "https://www.cducsu.de/abgeordnete/dr-anja-weisgerber",
+      "https://www.cducsu.de/abgeordnete/johannes-thomas-maria-wiegelmann",
+      "https://www.spdfraktion.de/abgeordnete/wiese",
+      "https://www.cducsu.de/abgeordnete/johannes-winkel",
+      "https://www.cducsu.de/abgeordnete/elisabeth-winkelmeier-becker"
+    ],
     "basePower": 0.08,
     "powerPerLayer": 0.01,
     "deepPower": 0.08,
+    "roundCap": 3,
     "milestones": [
       8,
       16,
       24
     ],
     "milestonePower": 0.04,
-    "description": {
-      "zh": "有效文本修正积累层数，持续增强后续修正能力。",
-      "en": "Effective amendments build persistent layers that strengthen later amendments.",
-      "de": "Wirksame Änderungsarbeit baut bleibende Schichten für spätere Änderungen auf."
-    }
+    "growthMode": "action"
   },
   {
     "id": "local",
@@ -163,7 +235,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -189,6 +261,9 @@
       "https://www.cducsu.de/abgeordnete?page=14",
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
+    ],
+    "legacyLinkIds": [
+      "regional_3"
     ]
   },
   {
@@ -241,7 +316,10 @@
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-auswaertiges"
     ],
-    "extraCoordinationPower": 0.2
+    "extraCoordinationPower": 0.2,
+    "legacyLinkIds": [
+      "union_ag_auswaertiges"
+    ]
   },
   {
     "id": "working_group_2a530baec6d2",
@@ -293,6 +371,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-menschenrechte-und-humanitaere-hilfe"
+    ],
+    "legacyLinkIds": [
+      "union_ag_menschenrechte_und_humanitaere_hilfe"
     ]
   },
   {
@@ -359,7 +440,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "foreign"
     ],
@@ -387,54 +468,6 @@
     ]
   },
   {
-    "id": "policy_domain_5f43ef557bec",
-    "name": {
-      "zh": "外交谈判",
-      "en": "Diplomatic Negotiations",
-      "de": "Diplomatische Verhandlungen"
-    },
-    "category": "policy_domain",
-    "organization": "",
-    "thresholds": [
-      2,
-      3
-    ],
-    "threshold": 2,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.035,
-      0.07
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "foreign"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/fraktion/gruppen/ag-auswaertiges",
-      "https://www.cducsu.de/abgeordnete/serap-gueler",
-      "https://www.cducsu.de/abgeordnete/florian-hahn",
-      "https://www.cducsu.de/abgeordnete/gunther-krichbaum",
-      "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskabinett",
-      "https://www.spdfraktion.de/fraktion/arbeitsgruppen/arbeitsgruppe-aussenpolitik",
-      "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
     "id": "policy_domain_54909ec8ea42",
     "name": {
       "zh": "人道主义援助",
@@ -456,7 +489,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "foreign"
     ],
@@ -500,7 +533,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "foreign"
     ],
@@ -550,7 +583,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "security"
     ],
@@ -600,7 +633,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -625,6 +658,9 @@
       "https://www.cducsu.de/abgeordnete?page=14",
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
+    ],
+    "legacyLinkIds": [
+      "regional_13"
     ]
   },
   {
@@ -677,6 +713,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-landwirtschaft-ernaehrung-und-heimat"
+    ],
+    "legacyLinkIds": [
+      "union_ag_landwirtschaft_ernaehrung_und_heimat"
     ]
   },
   {
@@ -729,6 +768,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-umwelt-klimaschutz-naturschutz-nukleare-sicherheit"
+    ],
+    "legacyLinkIds": [
+      "union_ag_umwelt_klimaschutz_naturschutz_nukleare_sicherheit"
     ]
   },
   {
@@ -835,7 +877,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy",
       "social"
@@ -884,7 +926,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "climate"
     ],
@@ -929,7 +971,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy"
     ],
@@ -978,7 +1020,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -1024,7 +1066,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "climate"
     ],
@@ -1070,7 +1112,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "climate",
       "security"
@@ -1115,7 +1157,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "climate"
     ],
@@ -1166,7 +1208,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -1203,6 +1245,9 @@
       "https://www.cducsu.de/abgeordnete?page=17",
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
+    ],
+    "legacyLinkIds": [
+      "regional_8"
     ]
   },
   {
@@ -1254,6 +1299,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-bildung-familie-senioren-frauen-und-jugend"
+    ],
+    "legacyLinkIds": [
+      "union_ag_bildung_familie_senioren_frauen_und_jugend"
     ]
   },
   {
@@ -1305,6 +1353,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-forschung-technologie-und-raumfahrt"
+    ],
+    "legacyLinkIds": [
+      "union_ag_forschung_technologie_und_raumfahrt"
     ]
   },
   {
@@ -1369,7 +1420,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "social"
     ],
@@ -1417,7 +1468,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "social"
     ],
@@ -1465,7 +1516,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "digital"
     ],
@@ -1514,7 +1565,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "social"
     ],
@@ -1561,7 +1612,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -1607,7 +1658,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "social"
     ],
@@ -1654,7 +1705,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "digital"
     ],
@@ -1702,7 +1753,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -1747,7 +1798,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "digital"
     ],
@@ -1800,7 +1851,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -1833,6 +1884,9 @@
       "https://www.cducsu.de/abgeordnete?page=16",
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
+    ],
+    "legacyLinkIds": [
+      "regional_6"
     ]
   },
   {
@@ -1862,7 +1916,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -1887,6 +1941,9 @@
       "https://www.cducsu.de/abgeordnete?page=5",
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
+    ],
+    "legacyLinkIds": [
+      "regional_7"
     ]
   },
   {
@@ -2027,7 +2084,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "digital"
     ],
@@ -2076,7 +2133,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "digital"
     ],
@@ -2124,7 +2181,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "digital"
     ],
@@ -2173,7 +2230,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -2227,7 +2284,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       3
     ],
@@ -2270,6 +2327,9 @@
       "https://www.cducsu.de/abgeordnete?page=17",
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
+    ],
+    "legacyLinkIds": [
+      "regional_9"
     ]
   },
   {
@@ -2326,99 +2386,9 @@
       0.1,
       0.2,
       0.35
-    ]
-  },
-  {
-    "id": "policy_domain_ef03d25a3396",
-    "name": {
-      "zh": "司法",
-      "en": "Justice",
-      "de": "Justiz"
-    },
-    "category": "policy_domain",
-    "organization": "",
-    "thresholds": [
-      2,
-      3
     ],
-    "threshold": 2,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.035,
-      0.07
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "security"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/fraktion/gruppen/ag-recht-und-verbraucherschutz",
-      "https://www.cducsu.de/aktuelles/julia-kloeckner-ist-neue-bundestagspraesidentin",
-      "https://www.spdfraktion.de/fraktion/arbeitsgruppen/arbeitsgruppe-recht-verbraucherschutz-0",
-      "https://www.spdfraktion.de/arbeitsgruppen",
-      "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
-    "id": "policy_domain_b37ee1f809cd",
-    "name": {
-      "zh": "法律",
-      "en": "Law",
-      "de": "Recht"
-    },
-    "category": "policy_domain",
-    "organization": "",
-    "thresholds": [
-      2,
-      3
-    ],
-    "threshold": 2,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.035,
-      0.07
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "security"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/fraktion/gruppen/ag-recht-und-verbraucherschutz",
-      "https://www.cducsu.de/aktuelles/julia-kloeckner-ist-neue-bundestagspraesidentin",
-      "https://www.spdfraktion.de/fraktion/arbeitsgruppen/arbeitsgruppe-recht-verbraucherschutz-0",
-      "https://www.spdfraktion.de/fraktion/arbeitsgruppen/arbeitsgruppe-wahlpruefung-immunitaet-geschaeftsordnung",
-      "https://www.bundestag.de/parlament/fraktionen/spd/spd-245190",
-      "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
+    "legacyLinkIds": [
+      "union_ag_recht_und_verbraucherschutz"
     ]
   },
   {
@@ -2443,7 +2413,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "security"
     ],
@@ -2493,7 +2463,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       2,
       3
     ],
@@ -2540,7 +2510,10 @@
     ],
     "incomeEveryLayers": 20,
     "incomePerMilestone": 1,
-    "incomeMinTier": 3
+    "incomeMinTier": 3,
+    "legacyLinkIds": [
+      "regional_1"
+    ]
   },
   {
     "id": "working_group_9368d5b99901",
@@ -2591,6 +2564,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-sport-und-ehrenamt"
+    ],
+    "legacyLinkIds": [
+      "union_ag_sport_und_ehrenamt"
     ]
   },
   {
@@ -2615,7 +2591,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "social"
     ],
@@ -2659,7 +2635,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "social"
     ],
@@ -2731,6 +2707,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-arbeit-und-soziales"
+    ],
+    "legacyLinkIds": [
+      "union_ag_arbeit_und_soziales"
     ]
   },
   {
@@ -2787,6 +2766,9 @@
       0.15,
       0.25,
       0.4
+    ],
+    "legacyLinkIds": [
+      "union_ag_haushalt"
     ]
   },
   {
@@ -2811,7 +2793,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "social"
     ],
@@ -2856,7 +2838,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy"
     ],
@@ -2904,7 +2886,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy"
     ],
@@ -2931,51 +2913,6 @@
     ]
   },
   {
-    "id": "policy_domain_114b4bd09def",
-    "name": {
-      "zh": "预算政策",
-      "en": "Budgetary Policy",
-      "de": "Haushaltspolitik"
-    },
-    "category": "policy_domain",
-    "organization": "",
-    "thresholds": [
-      2,
-      3
-    ],
-    "threshold": 2,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.035,
-      0.07
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "economy"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/fraktion/gruppen/ag-haushalt",
-      "https://www.cducsu.de/presse/wirtschaftsstandort-deutschland-zukunftsfest-gestalten",
-      "https://www.spdfraktion.de/fraktion/arbeitsgruppen/arbeitsgruppe-haushalt",
-      "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
     "id": "policy_domain_42a2a3e03742",
     "name": {
       "zh": "养老金",
@@ -2997,7 +2934,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "social"
     ],
@@ -3041,7 +2978,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "social"
     ],
@@ -3086,7 +3023,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "social"
     ],
@@ -3159,6 +3096,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-innen"
+    ],
+    "legacyLinkIds": [
+      "union_ag_innen"
     ]
   },
   {
@@ -3210,6 +3150,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-tourismus"
+    ],
+    "legacyLinkIds": [
+      "union_ag_tourismus"
     ]
   },
   {
@@ -3234,7 +3177,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "security"
     ],
@@ -3283,7 +3226,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "security"
     ],
@@ -3332,7 +3275,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "security"
     ],
@@ -3380,7 +3323,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy"
     ],
@@ -3424,7 +3367,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "security"
     ],
@@ -3478,7 +3421,7 @@
     "basePower": 0,
     "powerPerLayer": 0.006,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -3518,6 +3461,9 @@
       "https://www.cducsu.de/abgeordnete?page=17",
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
+    ],
+    "legacyLinkIds": [
+      "regional_0"
     ]
   },
   {
@@ -3542,7 +3488,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy",
       "climate"
@@ -3592,7 +3538,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -3638,7 +3584,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy"
     ],
@@ -3685,7 +3631,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy"
     ],
@@ -3712,46 +3658,6 @@
       "https://www.bundestag.de/abgeordnete",
       "https://www.bundestag.de/parlament/fraktionen/spd/spd-245190",
       "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
-    "id": "personal_b6eecb080038",
-    "name": {
-      "zh": "工商管理学专业毕业",
-      "en": "Business administration graduate",
-      "de": "Diplom-Betriebswirt (BA)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/abgeordnete/thomas-bareiss"
     ]
   },
   {
@@ -3803,6 +3709,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-verkehr"
+    ],
+    "legacyLinkIds": [
+      "union_ag_verkehr"
     ]
   },
   {
@@ -3855,6 +3764,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-wirtschaft-und-energie"
+    ],
+    "legacyLinkIds": [
+      "union_ag_wirtschaft_und_energie"
     ]
   },
   {
@@ -3879,7 +3791,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -3926,7 +3838,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy"
     ],
@@ -4002,6 +3914,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-gesundheit"
+    ],
+    "legacyLinkIds": [
+      "union_ag_gesundheit"
     ]
   },
   {
@@ -4026,7 +3941,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "social"
     ],
@@ -4055,55 +3970,6 @@
     ]
   },
   {
-    "id": "policy_domain_061e02dbc08e",
-    "name": {
-      "zh": "医疗保健",
-      "en": "Healthcare",
-      "de": "Gesundheitsversorgung"
-    },
-    "category": "policy_domain",
-    "organization": "",
-    "thresholds": [
-      2,
-      3
-    ],
-    "threshold": 2,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.035,
-      0.07
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "social"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/fraktion/gruppen/ag-gesundheit",
-      "https://www.cducsu.de/abgeordnete/dr-georg-kippels",
-      "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskabinett",
-      "https://www.cducsu.de/abgeordnete/dr-christiane-schenderlein",
-      "https://www.cducsu.de/abgeordnete/jens-spahn",
-      "https://www.cducsu.de/abgeordnete/katrin-staffler",
-      "https://www.spdfraktion.de/fraktion/arbeitsgruppen/arbeitsgruppe-gesundheit",
-      "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
     "id": "policy_domain_150645946f3d",
     "name": {
       "zh": "护理",
@@ -4125,7 +3991,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -4177,7 +4043,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -4205,53 +4071,9 @@
       "https://www.cducsu.de/abgeordnete?page=15",
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
-    ]
-  },
-  {
-    "id": "personal_5b1fc763e984",
-    "name": {
-      "zh": "法学专业人士",
-      "en": "Lawyer",
-      "de": "Jurist"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
     ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.bundesregierung.de/breg-de/suche/ernennung-neue-minister-2448632",
-      "https://www.cducsu.de/abgeordnete/matthias-hauer",
-      "https://www.cducsu.de/abgeordnete/dr-georg-kippels",
-      "https://www.cducsu.de/abgeordnete/ulrich-lange",
-      "https://www.cducsu.de/abgeordnete/andrea-lindholz",
-      "https://www.spdfraktion.de/abgeordnete/miersch",
-      "https://www.spdfraktion.de/abgeordnete/wiese",
-      "https://www.spdfraktion.de/abgeordnete/rohde"
+    "legacyLinkIds": [
+      "regional_14"
     ]
   },
   {
@@ -4281,7 +4103,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -4313,6 +4135,9 @@
       "https://www.cducsu.de/abgeordnete?page=14",
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
+    ],
+    "legacyLinkIds": [
+      "regional_10"
     ]
   },
   {
@@ -4362,6 +4187,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-petitionen"
+    ],
+    "legacyLinkIds": [
+      "union_ag_petitionen"
     ]
   },
   {
@@ -4386,7 +4214,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -4430,7 +4258,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -4449,48 +4277,6 @@
       "https://www.spdfraktion.de/fraktion/arbeitsgruppen/arbeitsgruppe-petitionen",
       "https://www.bundestag.de/parlament/fraktionen/spd/spd-245190",
       "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
-    "id": "policy_domain_5d25f47454dc",
-    "name": {
-      "zh": "党团管理",
-      "en": "Parliamentary Group Management",
-      "de": "Fraktionsmanagement"
-    },
-    "category": "policy_domain",
-    "organization": "",
-    "thresholds": [
-      2,
-      3
-    ],
-    "threshold": 2,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.035,
-      0.07
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/fraktion",
-      "https://www.bundestag.de/parlament/fraktionen/spd/spd-245190",
-      "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fraktionsvorsitz-und-fraktionsvorstand/"
     ]
   },
   {
@@ -4515,7 +4301,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -4537,49 +4323,6 @@
       "https://www.bundestag.de/abgeordnete",
       "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fraktionsvorsitz-und-fraktionsvorstand/",
       "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
-    "id": "personal_41c76126bd0c",
-    "name": {
-      "zh": "法律专业人士",
-      "en": "Qualified lawyer",
-      "de": "Volljuristin"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "security"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/abgeordnete/silvia-breher",
-      "https://www.cducsu.de/abgeordnete/gitta-connemann"
     ]
   },
   {
@@ -4631,6 +4374,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-digitales-und-staatsmodernisierung"
+    ],
+    "legacyLinkIds": [
+      "union_ag_digitales_und_staatsmodernisierung"
     ]
   },
   {
@@ -4682,6 +4428,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-wohnen-stadtentwicklung-bauwesen"
+    ],
+    "legacyLinkIds": [
+      "union_ag_wohnen_stadtentwicklung_bauwesen"
     ]
   },
   {
@@ -4706,7 +4455,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy"
     ],
@@ -4752,7 +4501,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -4796,7 +4545,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy"
     ],
@@ -4878,7 +4627,10 @@
     ],
     "incomeEveryLayers": 10,
     "incomePerMilestone": 1,
-    "incomeMinTier": 3
+    "incomeMinTier": 3,
+    "legacyLinkIds": [
+      "union_ag_finanzen"
+    ]
   },
   {
     "id": "policy_domain_fc92f0511888",
@@ -4902,7 +4654,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy"
     ],
@@ -4950,7 +4702,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy"
     ],
@@ -4994,7 +4746,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "economy"
     ],
@@ -5066,6 +4818,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-verteidigung"
+    ],
+    "legacyLinkIds": [
+      "union_ag_verteidigung"
     ]
   },
   {
@@ -5090,7 +4845,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -5134,7 +4889,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -5176,7 +4931,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "security",
       "foreign"
@@ -5251,6 +5006,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-kultur-und-medien"
+    ],
+    "legacyLinkIds": [
+      "union_ag_kultur_und_medien"
     ]
   },
   {
@@ -5275,7 +5033,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "social"
     ],
@@ -5322,7 +5080,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [],
     "actions": [
       "amendment",
@@ -5370,7 +5128,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -5398,7 +5156,10 @@
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
     ],
-    "extraCoordinationPower": 0.25
+    "extraCoordinationPower": 0.25,
+    "legacyLinkIds": [
+      "regional_2"
+    ]
   },
   {
     "id": "state_4887023adf28",
@@ -5427,7 +5188,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -5451,6 +5212,9 @@
       "https://www.cducsu.de/abgeordnete?page=6",
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
+    ],
+    "legacyLinkIds": [
+      "regional_15"
     ]
   },
   {
@@ -5502,6 +5266,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-angelegenheiten-der-europaeischen-union"
+    ],
+    "legacyLinkIds": [
+      "union_ag_angelegenheiten_der_europaeischen_union"
     ]
   },
   {
@@ -5526,7 +5293,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "foreign"
     ],
@@ -5573,7 +5340,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "foreign"
     ],
@@ -5596,48 +5363,6 @@
       "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskabinett",
       "https://www.spdfraktion.de/fraktion/arbeitsgruppen/arbeitsgruppe-angelegenheiten-europaeischen-union",
       "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
-    "id": "personal_6070fbe768cd",
-    "name": {
-      "zh": "律师／税法专业律师",
-      "en": "Lawyer, tax-law specialist",
-      "de": "Rechtsanwalt und Fachanwalt für Steuerrecht"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "economy"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/abgeordnete/christian-hirte"
     ]
   },
   {
@@ -5667,7 +5392,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -5691,6 +5416,9 @@
       "https://www.cducsu.de/abgeordnete?page=15",
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
+    ],
+    "legacyLinkIds": [
+      "regional_11"
     ]
   },
   {
@@ -5742,6 +5470,9 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.cducsu.de/fraktion/gruppen/ag-wirtschaftliche-zusammenarbeit-und-entwicklung"
+    ],
+    "legacyLinkIds": [
+      "union_ag_wirtschaftliche_zusammenarbeit_und_entwicklung"
     ]
   },
   {
@@ -5766,7 +5497,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "foreign"
     ],
@@ -5812,7 +5543,7 @@
     "basePower": 0,
     "powerPerLayer": 0,
     "layerRate": 0,
-    "layerCap": 999,
+    "layerCap": 0,
     "domains": [
       "foreign"
     ],
@@ -5864,7 +5595,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -5894,46 +5625,9 @@
       0,
       0,
       2
-    ]
-  },
-  {
-    "id": "personal_466f693e7e79",
-    "name": {
-      "zh": "记者／神学和政治学专业背景",
-      "en": "Journalist; theology and political science",
-      "de": "Journalistin, Theologie und Politikwissenschaft"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
     ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/abgeordnete/julia-kloeckner"
+    "legacyLinkIds": [
+      "regional_5"
     ]
   },
   {
@@ -5963,7 +5657,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -5990,172 +5684,9 @@
       "https://www.cducsu.de/abgeordnete?page=13",
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
-    ]
-  },
-  {
-    "id": "personal_0a069c762d10",
-    "name": {
-      "zh": "经济法专业人士",
-      "en": "Business lawyer",
-      "de": "Wirtschaftsjurist"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
     ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "economy"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/abgeordnete/gunther-krichbaum"
-    ]
-  },
-  {
-    "id": "personal_9053e0f2aa3b",
-    "name": {
-      "zh": "法官",
-      "en": "Judge",
-      "de": "Richterin"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/abgeordnete/dr-silke-launert",
-      "https://www.spdfraktion.de/abgeordnete/eichwede"
-    ]
-  },
-  {
-    "id": "personal_be39f815ef5f",
-    "name": {
-      "zh": "经济学专业毕业",
-      "en": "Economics graduate",
-      "de": "Diplom-Volkswirt"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "economy"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.bundesregierung.de/breg-de/suche/ernennung-neue-minister-2448632",
-      "https://www.cducsu.de/abgeordnete/albert-rupprecht"
-    ]
-  },
-  {
-    "id": "personal_1ab3438dc7cf",
-    "name": {
-      "zh": "法学专业毕业",
-      "en": "Law graduate",
-      "de": "Diplom-Juristin"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/abgeordnete/daniela-ludwig"
+    "legacyLinkIds": [
+      "regional_12"
     ]
   },
   {
@@ -6225,7 +5756,7 @@
     "basePower": 0,
     "powerPerLayer": 0.004,
     "layerRate": [
-      0,
+      1,
       1,
       2
     ],
@@ -6248,170 +5779,9 @@
       "https://www.cducsu.de/abgeordnete?page=12",
       "https://www.spdfraktion.de/landesgruppen-spd-bundestagsfraktion",
       "https://www.gruene-bundestag.de/abgeordnete/"
-    ]
-  },
-  {
-    "id": "personal_3b6d9a9cb0c0",
-    "name": {
-      "zh": "法律专业人士／前市长",
-      "en": "Lawyer and former mayor",
-      "de": "Volljurist, Bürgermeister a.D."
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
     ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "security"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/abgeordnete/patrick-schnieder"
-    ]
-  },
-  {
-    "id": "personal_2dc9fd5e42f2",
-    "name": {
-      "zh": "银行从业者／政治学背景",
-      "en": "Bank clerk, political scientist",
-      "de": "Bankkaufmann, Politikwissenschaftler"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/abgeordnete/jens-spahn"
-    ]
-  },
-  {
-    "id": "personal_75e9cdfde837",
-    "name": {
-      "zh": "中学数学与政治教师",
-      "en": "Secondary-school teacher of maths and politics",
-      "de": "Gymnasiallehrer für Mathematik und Politik"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/abgeordnete/johannes-steiniger"
-    ]
-  },
-  {
-    "id": "personal_482e9fd6ee9f",
-    "name": {
-      "zh": "社会学专业毕业",
-      "en": "Sociology graduate",
-      "de": "Diplom-Soziologe"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "social"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.cducsu.de/abgeordnete/christoph-de-vries"
+    "legacyLinkIds": [
+      "regional_4"
     ]
   },
   {
@@ -7659,822 +7029,6 @@
     ]
   },
   {
-    "id": "personal_5a832fb5d77b",
-    "name": {
-      "zh": "企业咨询顾问",
-      "en": "Management Consultant",
-      "de": "Unternehmensberater"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "economy"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/zorn"
-    ]
-  },
-  {
-    "id": "personal_70db20662734",
-    "name": {
-      "zh": "刑事警察",
-      "en": "Criminal Police Officer",
-      "de": "Kriminalbeamter"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "security"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/fiedler"
-    ]
-  },
-  {
-    "id": "personal_89a69c21cfe7",
-    "name": {
-      "zh": "警察／历史学家／军人",
-      "en": "Police Officer, Historian, Soldier",
-      "de": "Polizeibeamter, Historiker, Soldat"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "security"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/drossmann"
-    ]
-  },
-  {
-    "id": "personal_854c78ebc013",
-    "name": {
-      "zh": "科研管理人员",
-      "en": "Research Administrator",
-      "de": "Wissenschaftsmanagerin"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "digital"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/wallstein"
-    ]
-  },
-  {
-    "id": "personal_ba97698351eb",
-    "name": {
-      "zh": "医生",
-      "en": "Physician",
-      "de": "Arzt"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/pantazis"
-    ]
-  },
-  {
-    "id": "personal_f3fc79952846",
-    "name": {
-      "zh": "政治学研究人员",
-      "en": "Political Scientist",
-      "de": "Politologe"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "digital"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/toens"
-    ]
-  },
-  {
-    "id": "personal_ec46583d2e08",
-    "name": {
-      "zh": "组织管理顾问",
-      "en": "Organisational Consultant",
-      "de": "Organisationsberater"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/hartmann"
-    ]
-  },
-  {
-    "id": "personal_2c69666ad29c",
-    "name": {
-      "zh": "历史学家",
-      "en": "Historian",
-      "de": "Historikerin"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/schmidt-dagmar"
-    ]
-  },
-  {
-    "id": "personal_8f75213b75cf",
-    "name": {
-      "zh": "心理学专业毕业",
-      "en": "Psychologist",
-      "de": "Diplom-Psychologin"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/esdar"
-    ]
-  },
-  {
-    "id": "personal_2a09e2765137",
-    "name": {
-      "zh": "教师",
-      "en": "Teacher",
-      "de": "Lehrerin"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/moeller"
-    ]
-  },
-  {
-    "id": "personal_46df12b56f0f",
-    "name": {
-      "zh": "法律专业人士／律师",
-      "en": "Qualified Lawyer and Attorney",
-      "de": "Volljurist / Rechtsanwalt"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "security"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/limbacher"
-    ]
-  },
-  {
-    "id": "personal_d2b089a845a7",
-    "name": {
-      "zh": "地球科学家／行政管理专业人员",
-      "en": "Geoscientist and Public Administration Specialist",
-      "de": "Geowissenschaftlerin, Verwaltungsfachwirtin"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/lugk"
-    ]
-  },
-  {
-    "id": "personal_4470f2bda99e",
-    "name": {
-      "zh": "教育工作者",
-      "en": "Education Professional",
-      "de": "Pädagogische Fachkraft"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "social"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/tuerk-nachbaur"
-    ]
-  },
-  {
-    "id": "personal_089021342cf8",
-    "name": {
-      "zh": "工业商务专业人员",
-      "en": "Industrial Business Administrator",
-      "de": "Industriekauffrau"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "economy"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/heubach"
-    ]
-  },
-  {
-    "id": "personal_7f415dfbef15",
-    "name": {
-      "zh": "银行从业人员",
-      "en": "Bank Clerk",
-      "de": "Bankkaufmann"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/behrens"
-    ]
-  },
-  {
-    "id": "personal_79af1a577a75",
-    "name": {
-      "zh": "政治学硕士",
-      "en": "Master’s Degree in Political Science",
-      "de": "Masterabschluss in Politikwissenschaften"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/bettermann"
-    ]
-  },
-  {
-    "id": "personal_aff6fd4c0881",
-    "name": {
-      "zh": "工商管理专业人士",
-      "en": "Business Administrator",
-      "de": "Betriebswirtin (VWA)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/poschmann"
-    ]
-  },
-  {
-    "id": "personal_83681545c9dc",
-    "name": {
-      "zh": "政治与行政学背景",
-      "en": "Political and Administrative Sciences",
-      "de": "Politik- und Verwaltungswissenschaften"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/kaiser"
-    ]
-  },
-  {
-    "id": "personal_fedbc0a5db24",
-    "name": {
-      "zh": "行政管理学毕业／前市长",
-      "en": "Public Administration Graduate and Former Mayor",
-      "de": "Dipl.-Verwaltungswirt (FH)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/saathoff"
-    ]
-  },
-  {
-    "id": "personal_7eb9d65a98b5",
-    "name": {
-      "zh": "中学教师／批发及外贸从业人员",
-      "en": "Secondary School Teacher and Foreign Trade Clerk",
-      "de": "Gymnasiallehrer, Groß- und Außenhandelskaufmann"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.spdfraktion.de/abgeordnete/schrodi"
-    ]
-  },
-  {
     "id": "working_group_00bfdcce2ddc",
     "name": {
       "zh": "交通工作组",
@@ -8523,46 +7077,6 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
-    "id": "personal_c656144e08e9",
-    "name": {
-      "zh": "政治学家（德国传统文凭）",
-      "en": "Political scientist (Diplom)",
-      "de": "Diplom-Politologe"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/tarek-al-wazir/"
     ]
   },
   {
@@ -8824,91 +7338,6 @@
     ]
   },
   {
-    "id": "personal_319949bcb1c0",
-    "name": {
-      "zh": "政治学／公民可再生能源领域",
-      "en": "Political Science / community renewable energy",
-      "de": "Politikwissenschaft / Bürgerenergie"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "economy",
-      "climate"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/lisa-badum/"
-    ]
-  },
-  {
-    "id": "personal_b5e30807584c",
-    "name": {
-      "zh": "社会文化人类学／政治学学士",
-      "en": "Social and Cultural Anthropology / Political Science (BA)",
-      "de": "Sozial- und Kulturanthropologie / Politikwissenschaft (B.A.)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "social"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/felix-banaszak/"
-    ]
-  },
-  {
     "id": "working_group_e2f2067b8108",
     "name": {
       "zh": "农业、食品与家乡事务工作组",
@@ -9020,48 +7449,6 @@
     "incomeMinTier": 3
   },
   {
-    "id": "personal_fa5ce8a4aecd",
-    "name": {
-      "zh": "金融企业管理专才（IWW）",
-      "en": "Finance business administrator (IWW)",
-      "de": "Finanzbetriebswirtin (IWW)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "economy"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/katharina-beck/"
-    ]
-  },
-  {
     "id": "working_group_013e5077ee1f",
     "name": {
       "zh": "内政工作组",
@@ -9169,48 +7556,6 @@
     ]
   },
   {
-    "id": "personal_89074674d6cf",
-    "name": {
-      "zh": "政治学研究者（联合国改革博士研究）",
-      "en": "Political scientist (PhD on UN reform)",
-      "de": "Politikwissenschaftlerin (Promotion über UN-Reformen)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "digital"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/dr-franziska-brantner/"
-    ]
-  },
-  {
     "id": "working_group_cf62c73c40b3",
     "name": {
       "zh": "安全、和平与裁军工作组",
@@ -9259,48 +7604,6 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
-    "id": "personal_2ffb229649b6",
-    "name": {
-      "zh": "政治学与公法研究经历",
-      "en": "Studies in Political Science and Public Law",
-      "de": "Studium Politikwissenschaft und öffentliches Recht"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "digital"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/agnieszka-brugger/"
     ]
   },
   {
@@ -9355,46 +7658,6 @@
     ]
   },
   {
-    "id": "personal_a3cb98465c44",
-    "name": {
-      "zh": "创伤外科与急诊医学专科医生",
-      "en": "Physician specialising in trauma surgery and emergency medicine",
-      "de": "Facharzt für Unfallchirurgie und Notfallmedizin"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/dr-janosch-dahmen/"
-    ]
-  },
-  {
     "id": "working_group_10986cacfa53",
     "name": {
       "zh": "数字化与国家现代化工作组",
@@ -9443,48 +7706,6 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
-    "id": "personal_d140838bfaad",
-    "name": {
-      "zh": "经济学家（德国传统硕士文凭）",
-      "en": "Economist (Diplom)",
-      "de": "Diplom-Volkswirtin"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "economy"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/katharina-droege/"
     ]
   },
   {
@@ -9595,46 +7816,6 @@
     ]
   },
   {
-    "id": "personal_27538e4264d2",
-    "name": {
-      "zh": "政治与公共行政硕士；曾任广播记者",
-      "en": "Political Science and Public Administration (MA); former radio journalist",
-      "de": "Politik- und Verwaltungswissenschaften (M.A.); früher Radiojournalist"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/marcel-emmerich/"
-    ]
-  },
-  {
     "id": "working_group_b0f31bd8bd36",
     "name": {
       "zh": "经济合作与发展工作组",
@@ -9737,171 +7918,6 @@
     ]
   },
   {
-    "id": "policy_domain_c9aa977bb23c",
-    "name": {
-      "zh": "东部德国",
-      "en": "Eastern Germany",
-      "de": "Ostdeutschland"
-    },
-    "category": "policy_domain",
-    "organization": "",
-    "thresholds": [
-      2,
-      3
-    ],
-    "threshold": 2,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.035,
-      0.07
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/",
-      "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
-    "id": "personal_37279cdd7def",
-    "name": {
-      "zh": "社会工作者（德国传统文凭）",
-      "en": "Social worker (Diplom)",
-      "de": "Diplom-Sozialarbeiterin"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "social"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/britta-hasselmann/"
-    ]
-  },
-  {
-    "id": "personal_8c4b2132a2f8",
-    "name": {
-      "zh": "生物学家（博士）",
-      "en": "Biologist (PhD)",
-      "de": "Biologe (Promotion)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/dr-anton-hofreiter/"
-    ]
-  },
-  {
-    "id": "personal_3601c0a799a1",
-    "name": {
-      "zh": "政治学研究经历",
-      "en": "Studies in Political Science",
-      "de": "Studium Politikwissenschaft"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "digital"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/michael-kellner/"
-    ]
-  },
-  {
     "id": "working_group_f96ffa308970",
     "name": {
       "zh": "教育、家庭、老年人、妇女、青年与多元性别工作组",
@@ -9950,131 +7966,6 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
-    "id": "personal_a27e7f8d5b87",
-    "name": {
-      "zh": "法学学士（LL.B.）",
-      "en": "Bachelor of Laws (LLB)",
-      "de": "Bachelor of Laws (LL.B.)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/ricarda-lang/"
-    ]
-  },
-  {
-    "id": "personal_d6cf9e8fbf10",
-    "name": {
-      "zh": "政治学、罗曼语研究与教育学硕士",
-      "en": "Political Science, Romance Studies and Education (MA)",
-      "de": "Studium Politikwissenschaft, Romanistik und Pädagogik (M.A.)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "social",
-      "digital"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/sven-lehmann/"
-    ]
-  },
-  {
-    "id": "personal_379ad9def8a6",
-    "name": {
-      "zh": "法律学（第一次国家考试、法学硕士）",
-      "en": "Law studies (first state examination, LLM)",
-      "de": "Rechtswissenschaft (1. Staatsexamen, LL.M.)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "security"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/helge-limburg/"
     ]
   },
   {
@@ -10130,46 +8021,6 @@
     ]
   },
   {
-    "id": "personal_27a8f8b06647",
-    "name": {
-      "zh": "政治学家（博士）",
-      "en": "Political scientist (PhD)",
-      "de": "Politikwissenschaftlerin (Promotion)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/dr-anna-luehrmann/"
-    ]
-  },
-  {
     "id": "working_group_58233fe81ee5",
     "name": {
       "zh": "选举审查、豁免权与议事规则工作组",
@@ -10216,48 +8067,6 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
-    "id": "personal_bab680e1a288",
-    "name": {
-      "zh": "警官／犯罪学（硕士、法学博士）",
-      "en": "Police officer / Criminology (MA, doctorate in law)",
-      "de": "Polizeibeamtin / Kriminologie (M.A., Dr. iur.)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "security"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/dr-irene-mihalic/"
     ]
   },
   {
@@ -10309,126 +8118,6 @@
     "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
     "sources": [
       "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
-    "id": "personal_efdf8498ca52",
-    "name": {
-      "zh": "兽医（兽医学博士）",
-      "en": "Veterinarian (Dr med vet)",
-      "de": "Tierärztin (Dr. med. vet.)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/dr-ophelia-nick/"
-    ]
-  },
-  {
-    "id": "personal_7974d4d729f7",
-    "name": {
-      "zh": "曾任独立咨询顾问；大学学习未取得学位",
-      "en": "Former self-employed consultant; university studies without degree",
-      "de": "Selbstständiger Berater (bis 2006); Studium ohne Abschluss"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/omid-nouripour/"
-    ]
-  },
-  {
-    "id": "personal_e6b7ca94145e",
-    "name": {
-      "zh": "放射科专科医生",
-      "en": "Radiologist",
-      "de": "Fachärztin für Radiologie"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/dr-paula-piechotta/"
     ]
   },
   {
@@ -10583,129 +8272,6 @@
     ]
   },
   {
-    "id": "policy_domain_517308d0f010",
-    "name": {
-      "zh": "性少数群体政策",
-      "en": "Queer Policy",
-      "de": "Queerpolitik"
-    },
-    "category": "policy_domain",
-    "organization": "",
-    "thresholds": [
-      2,
-      3
-    ],
-    "threshold": 2,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.035,
-      0.07
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/wir-im-bundestag/unsere-fraktion/fachbereiche-und-arbeitsgruppen/"
-    ]
-  },
-  {
-    "id": "personal_cd89c151e391",
-    "name": {
-      "zh": "环境科学家（能源效率政策博士）",
-      "en": "Environmental scientist (PhD on energy efficiency)",
-      "de": "Umweltwissenschaftlerin (Promotion über Energieeffizienz)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [
-      "economy",
-      "climate"
-    ],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/dr-julia-verlinden/"
-    ]
-  },
-  {
-    "id": "personal_3ddfc3156ac8",
-    "name": {
-      "zh": "医生（医学第三次国家考试）",
-      "en": "Medical doctor (final state medical examination)",
-      "de": "Arzt (Humanmedizin, 3. Staatsexamen)"
-    },
-    "category": "personal",
-    "organization": "",
-    "thresholds": [
-      1,
-      2
-    ],
-    "threshold": 1,
-    "effectKind": "passive",
-    "powerByTier": [
-      0.025,
-      0.05
-    ],
-    "basePower": 0,
-    "powerPerLayer": 0,
-    "layerRate": 0,
-    "layerCap": 999,
-    "domains": [],
-    "actions": [
-      "amendment",
-      "coordination",
-      "negotiation",
-      "scrutiny"
-    ],
-    "description": {
-      "zh": "人数激活与历史成长分别计算；数值与机制为游戏设定。",
-      "en": "Membership activation and persistent growth are separate game rules.",
-      "de": "Aktivierung und bleibendes Wachstum sind getrennte Spielregeln."
-    },
-    "provenance": "USER_CSV_SNAPSHOT_NOT_INDEPENDENTLY_REVERIFIED",
-    "sources": [
-      "https://www.gruene-bundestag.de/abgeordnete/details/johannes-wagner/"
-    ]
-  },
-  {
     "id": "foresight",
     "name": {
       "zh": "远见",
@@ -10787,5 +8353,468 @@
       "en": "Game classification based on sourced duties.",
       "de": "Spielattribut aus belegten Aufgaben."
     }
+  },
+  {
+    "id": "local_administration",
+    "name": {
+      "zh": "地方行政领导",
+      "en": "Local executive administration",
+      "de": "Kommunale Verwaltungsleitung"
+    },
+    "category": "professional",
+    "thresholds": [
+      2,
+      3
+    ],
+    "threshold": 2,
+    "effectKind": "passive",
+    "powerByTier": [
+      0.08,
+      0.14
+    ],
+    "layerCap": 0,
+    "domains": [],
+    "actions": [
+      "negotiation",
+      "coordination"
+    ],
+    "description": {
+      "zh": "基于有来源的专业履历或职责。需要至少两人。",
+      "en": "Two or more members with sourced qualifications or relevant duties.",
+      "de": "Mindestens zwei Mitglieder mit belegter Ausbildung oder einschlägiger Tätigkeit."
+    },
+    "sources": [
+      "https://www.cducsu.de/abgeordnete/michael-donth",
+      "https://www.cducsu.de/abgeordnete/wilhelm-gebhard",
+      "https://www.cducsu.de/abgeordnete/klaus-mack",
+      "https://www.cducsu.de/abgeordnete/andreas-mattfeldt",
+      "https://www.cducsu.de/abgeordnete/josef-oster",
+      "https://www.cducsu.de/abgeordnete/alois-rainer",
+      "https://www.spdfraktion.de/abgeordnete/saathoff",
+      "https://www.cducsu.de/abgeordnete/patrick-schnieder"
+    ]
+  },
+  {
+    "id": "business_management",
+    "name": {
+      "zh": "经营与管理",
+      "en": "Business and management",
+      "de": "Unternehmen und Management"
+    },
+    "category": "professional",
+    "thresholds": [
+      2,
+      3
+    ],
+    "threshold": 2,
+    "effectKind": "passive",
+    "powerByTier": [
+      0.08,
+      0.14
+    ],
+    "layerCap": 0,
+    "domains": [
+      "economy"
+    ],
+    "actions": [
+      "coordination",
+      "negotiation"
+    ],
+    "description": {
+      "zh": "基于有来源的专业履历或职责。需要至少两人。",
+      "en": "Two or more members with sourced qualifications or relevant duties.",
+      "de": "Mindestens zwei Mitglieder mit belegter Ausbildung oder einschlägiger Tätigkeit."
+    },
+    "sources": [
+      "https://www.cducsu.de/abgeordnete/stephan-albani",
+      "https://www.cducsu.de/abgeordnete/peter-aumer",
+      "https://www.cducsu.de/abgeordnete/thomas-bareiss",
+      "https://www.gruene-bundestag.de/abgeordnete/details/katharina-beck/",
+      "https://www.cducsu.de/abgeordnete/melanie-bernstein",
+      "https://www.cducsu.de/abgeordnete/frederik-bouffier",
+      "https://www.cducsu.de/abgeordnete/dr-reinhard-brandl",
+      "https://www.cducsu.de/abgeordnete/ralph-edelhaeusser",
+      "https://www.cducsu.de/abgeordnete/bastian-alfons-ernst",
+      "https://www.cducsu.de/abgeordnete/wilhelm-gebhard",
+      "https://www.cducsu.de/abgeordnete/dr-thomas-gebhart",
+      "https://www.cducsu.de/abgeordnete/adrian-grasse",
+      "https://www.cducsu.de/abgeordnete/florian-hahn",
+      "https://www.spdfraktion.de/abgeordnete/hartmann",
+      "https://www.cducsu.de/abgeordnete/mark-helfrich",
+      "https://www.spdfraktion.de/abgeordnete/heubach",
+      "https://www.cducsu.de/abgeordnete/roderich-kiesewetter",
+      "https://www.cducsu.de/abgeordnete/carsten-koerber",
+      "https://www.cducsu.de/abgeordnete/dr-andreas-lenz",
+      "https://www.cducsu.de/abgeordnete/andreas-mattfeldt",
+      "https://www.cducsu.de/abgeordnete/jan-metzler",
+      "https://www.spdfraktion.de/abgeordnete/poschmann",
+      "https://www.cducsu.de/abgeordnete/henning-rehbaum",
+      "https://www.cducsu.de/abgeordnete/prof-dr-wolfgang-stefinger",
+      "https://www.cducsu.de/abgeordnete/christian-frhr-von-stetten",
+      "https://www.cducsu.de/abgeordnete/kerstin-vieregge",
+      "https://www.spdfraktion.de/abgeordnete/zorn"
+    ]
+  },
+  {
+    "id": "finance_economics",
+    "name": {
+      "zh": "经济与金融",
+      "en": "Economics and finance",
+      "de": "Wirtschaft und Finanzen"
+    },
+    "category": "professional",
+    "thresholds": [
+      2,
+      3
+    ],
+    "threshold": 2,
+    "effectKind": "passive",
+    "powerByTier": [
+      0.08,
+      0.14
+    ],
+    "layerCap": 0,
+    "domains": [
+      "economy"
+    ],
+    "actions": [
+      "amendment",
+      "coordination"
+    ],
+    "description": {
+      "zh": "基于有来源的专业履历或职责。需要至少两人。",
+      "en": "Two or more members with sourced qualifications or relevant duties.",
+      "de": "Mindestens zwei Mitglieder mit belegter Ausbildung oder einschlägiger Tätigkeit."
+    },
+    "sources": [
+      "https://www.cducsu.de/abgeordnete/norbert-altenkamp",
+      "https://www.gruene-bundestag.de/abgeordnete/details/katharina-beck/",
+      "https://www.spdfraktion.de/abgeordnete/behrens",
+      "https://www.cducsu.de/abgeordnete/dr-carsten-brodesser",
+      "https://www.cducsu.de/abgeordnete/dr-florian-dorn",
+      "https://www.gruene-bundestag.de/abgeordnete/details/katharina-droege/",
+      "https://www.cducsu.de/abgeordnete/hansjoerg-durz",
+      "https://www.cducsu.de/abgeordnete/joachim-ebmeyer",
+      "https://www.cducsu.de/abgeordnete/ralph-edelhaeusser",
+      "https://www.cducsu.de/abgeordnete/uwe-feiler",
+      "https://www.cducsu.de/abgeordnete/christoph-frauenpreiss",
+      "https://www.cducsu.de/abgeordnete/fabian-gramling",
+      "https://www.cducsu.de/abgeordnete/georg-guenther",
+      "https://www.cducsu.de/abgeordnete/fritz-guentzler",
+      "https://www.bundesregierung.de/breg-de/suche/ernennung-neue-minister-2448632",
+      "https://www.cducsu.de/abgeordnete/dr-carsten-linnemann",
+      "https://www.cducsu.de/abgeordnete/carsten-mueller",
+      "https://www.cducsu.de/abgeordnete/sepp-mueller",
+      "https://www.cducsu.de/abgeordnete/florian-ossner",
+      "https://www.cducsu.de/abgeordnete/lars-rohwer",
+      "https://www.cducsu.de/abgeordnete/albert-rupprecht",
+      "https://www.cducsu.de/abgeordnete/jens-spahn",
+      "https://www.cducsu.de/abgeordnete/johannes-volkmann",
+      "https://www.cducsu.de/abgeordnete/kai-whittaker",
+      "https://www.cducsu.de/abgeordnete/klaus-peter-willsch",
+      "https://www.cducsu.de/abgeordnete/vanessa-zobel"
+    ]
+  },
+  {
+    "id": "education",
+    "name": {
+      "zh": "教育专业",
+      "en": "Education",
+      "de": "Bildungsberufe"
+    },
+    "category": "professional",
+    "thresholds": [
+      2,
+      3
+    ],
+    "threshold": 2,
+    "effectKind": "passive",
+    "powerByTier": [
+      0.08,
+      0.14
+    ],
+    "layerCap": 0,
+    "domains": [
+      "social"
+    ],
+    "actions": [
+      "amendment",
+      "coordination"
+    ],
+    "description": {
+      "zh": "基于有来源的专业履历或职责。需要至少两人。",
+      "en": "Two or more members with sourced qualifications or relevant duties.",
+      "de": "Mindestens zwei Mitglieder mit belegter Ausbildung oder einschlägiger Tätigkeit."
+    },
+    "sources": [
+      "https://www.cducsu.de/abgeordnete/jens-lehmann",
+      "https://www.spdfraktion.de/abgeordnete/moeller",
+      "https://www.cducsu.de/abgeordnete/kerstin-radomski",
+      "https://www.spdfraktion.de/abgeordnete/schrodi",
+      "https://www.cducsu.de/abgeordnete/johannes-steiniger",
+      "https://www.spdfraktion.de/abgeordnete/tuerk-nachbaur",
+      "https://www.cducsu.de/abgeordnete/tobias-winkler"
+    ]
+  },
+  {
+    "id": "healthcare",
+    "name": {
+      "zh": "医疗专业",
+      "en": "Clinical and health professions",
+      "de": "Gesundheitsberufe"
+    },
+    "category": "professional",
+    "thresholds": [
+      2,
+      3
+    ],
+    "threshold": 2,
+    "effectKind": "passive",
+    "powerByTier": [
+      0.08,
+      0.14
+    ],
+    "layerCap": 0,
+    "domains": [
+      "social"
+    ],
+    "actions": [
+      "amendment",
+      "coordination"
+    ],
+    "description": {
+      "zh": "基于有来源的专业履历或职责。需要至少两人。",
+      "en": "Two or more members with sourced qualifications or relevant duties.",
+      "de": "Mindestens zwei Mitglieder mit belegter Ausbildung oder einschlägiger Tätigkeit."
+    },
+    "sources": [
+      "https://www.gruene-bundestag.de/abgeordnete/details/dr-janosch-dahmen/",
+      "https://www.spdfraktion.de/abgeordnete/pantazis",
+      "https://www.gruene-bundestag.de/abgeordnete/details/dr-paula-piechotta/",
+      "https://www.cducsu.de/abgeordnete/dr-med-stephan-pilsinger",
+      "https://www.gruene-bundestag.de/abgeordnete/details/johannes-wagner/",
+      "https://www.cducsu.de/abgeordnete/emmi-zeulner"
+    ]
+  },
+  {
+    "id": "public_safety",
+    "name": {
+      "zh": "公共安全与军务",
+      "en": "Public safety and military service",
+      "de": "Sicherheit und Militärdienst"
+    },
+    "category": "professional",
+    "thresholds": [
+      2,
+      3
+    ],
+    "threshold": 2,
+    "effectKind": "passive",
+    "powerByTier": [
+      0.08,
+      0.14
+    ],
+    "layerCap": 0,
+    "domains": [
+      "security"
+    ],
+    "actions": [
+      "scrutiny",
+      "coordination"
+    ],
+    "description": {
+      "zh": "基于有来源的专业履历或职责。需要至少两人。",
+      "en": "Two or more members with sourced qualifications or relevant duties.",
+      "de": "Mindestens zwei Mitglieder mit belegter Ausbildung oder einschlägiger Tätigkeit."
+    },
+    "sources": [
+      "https://www.spdfraktion.de/abgeordnete/drossmann",
+      "https://www.spdfraktion.de/abgeordnete/fiedler",
+      "https://www.cducsu.de/abgeordnete/roderich-kiesewetter",
+      "https://www.gruene-bundestag.de/abgeordnete/details/dr-irene-mihalic/",
+      "https://www.cducsu.de/abgeordnete/vivian-tauschwitz"
+    ]
+  },
+  {
+    "id": "stem",
+    "name": {
+      "zh": "科学与工程",
+      "en": "Science and engineering",
+      "de": "Naturwissenschaft und Technik"
+    },
+    "category": "professional",
+    "thresholds": [
+      2,
+      3
+    ],
+    "threshold": 2,
+    "effectKind": "passive",
+    "powerByTier": [
+      0.08,
+      0.14
+    ],
+    "layerCap": 0,
+    "domains": [
+      "digital",
+      "climate"
+    ],
+    "actions": [
+      "amendment"
+    ],
+    "description": {
+      "zh": "基于有来源的专业履历或职责。需要至少两人。",
+      "en": "Two or more members with sourced qualifications or relevant duties.",
+      "de": "Mindestens zwei Mitglieder mit belegter Ausbildung oder einschlägiger Tätigkeit."
+    },
+    "sources": [
+      "https://www.cducsu.de/abgeordnete/stephan-albani",
+      "https://www.cducsu.de/abgeordnete/dr-reinhard-brandl",
+      "https://www.cducsu.de/abgeordnete/alexander-engelhard",
+      "https://www.cducsu.de/abgeordnete/thomas-erndl",
+      "https://www.cducsu.de/abgeordnete/bastian-alfons-ernst",
+      "https://www.cducsu.de/abgeordnete/mechthild-heil",
+      "https://www.gruene-bundestag.de/abgeordnete/details/dr-anton-hofreiter/",
+      "https://www.cducsu.de/abgeordnete/dipl-ing-fh-michael-kiessling",
+      "https://www.spdfraktion.de/abgeordnete/lugk",
+      "https://www.cducsu.de/abgeordnete/dr-michael-meister",
+      "https://www.cducsu.de/abgeordnete/alexander-radwan",
+      "https://www.cducsu.de/abgeordnete/dieter-stier",
+      "https://www.gruene-bundestag.de/abgeordnete/details/dr-julia-verlinden/"
+    ]
+  },
+  {
+    "id": "agriculture",
+    "name": {
+      "zh": "农业专业",
+      "en": "Agricultural professions",
+      "de": "Landwirtschaftliche Berufe"
+    },
+    "category": "professional",
+    "thresholds": [
+      2,
+      3
+    ],
+    "threshold": 2,
+    "effectKind": "passive",
+    "powerByTier": [
+      0.08,
+      0.14
+    ],
+    "layerCap": 0,
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "actions": [
+      "amendment",
+      "coordination"
+    ],
+    "description": {
+      "zh": "基于有来源的专业履历或职责。需要至少两人。",
+      "en": "Two or more members with sourced qualifications or relevant duties.",
+      "de": "Mindestens zwei Mitglieder mit belegter Ausbildung oder einschlägiger Tätigkeit."
+    },
+    "sources": [
+      "https://www.cducsu.de/abgeordnete/artur-auernhammer",
+      "https://www.cducsu.de/abgeordnete/hermann-faerber",
+      "https://www.cducsu.de/abgeordnete/jan-metzler",
+      "https://www.cducsu.de/abgeordnete/albert-stegemann",
+      "https://www.cducsu.de/abgeordnete/dieter-stier"
+    ]
+  },
+  {
+    "id": "social_science",
+    "name": {
+      "zh": "社会科学",
+      "en": "Social sciences",
+      "de": "Sozialwissenschaften"
+    },
+    "category": "professional",
+    "thresholds": [
+      2,
+      3
+    ],
+    "threshold": 2,
+    "effectKind": "passive",
+    "powerByTier": [
+      0.08,
+      0.14
+    ],
+    "layerCap": 0,
+    "domains": [
+      "social",
+      "foreign"
+    ],
+    "actions": [
+      "scrutiny",
+      "negotiation"
+    ],
+    "description": {
+      "zh": "基于有来源的专业履历或职责。需要至少两人。",
+      "en": "Two or more members with sourced qualifications or relevant duties.",
+      "de": "Mindestens zwei Mitglieder mit belegter Ausbildung oder einschlägiger Tätigkeit."
+    },
+    "sources": [
+      "https://www.gruene-bundestag.de/abgeordnete/details/tarek-al-wazir/",
+      "https://www.gruene-bundestag.de/abgeordnete/details/lisa-badum/",
+      "https://www.gruene-bundestag.de/abgeordnete/details/felix-banaszak/",
+      "https://www.spdfraktion.de/abgeordnete/bettermann",
+      "https://www.gruene-bundestag.de/abgeordnete/details/dr-franziska-brantner/",
+      "https://www.gruene-bundestag.de/abgeordnete/details/agnieszka-brugger/",
+      "https://www.cducsu.de/abgeordnete/dorothee-baer",
+      "https://www.cducsu.de/abgeordnete/alexander-dobrindt",
+      "https://www.gruene-bundestag.de/abgeordnete/details/marcel-emmerich/",
+      "https://www.cducsu.de/abgeordnete/dr-thomas-gebhart",
+      "https://www.gruene-bundestag.de/abgeordnete/details/michael-kellner/",
+      "https://www.cducsu.de/abgeordnete/julia-kloeckner",
+      "https://www.cducsu.de/abgeordnete/axel-knoerig",
+      "https://www.gruene-bundestag.de/abgeordnete/details/sven-lehmann/",
+      "https://www.gruene-bundestag.de/abgeordnete/details/dr-anna-luehrmann/",
+      "https://www.cducsu.de/abgeordnete/thomas-rachel",
+      "https://www.cducsu.de/abgeordnete/bjoern-simon",
+      "https://www.cducsu.de/abgeordnete/jens-spahn",
+      "https://www.spdfraktion.de/abgeordnete/toens",
+      "https://www.cducsu.de/abgeordnete/christoph-de-vries"
+    ]
+  },
+  {
+    "id": "public_administration",
+    "name": {
+      "zh": "公共行政专业",
+      "en": "Public administration",
+      "de": "Öffentliche Verwaltung"
+    },
+    "category": "professional",
+    "thresholds": [
+      2,
+      3
+    ],
+    "threshold": 2,
+    "effectKind": "passive",
+    "powerByTier": [
+      0.08,
+      0.14
+    ],
+    "layerCap": 0,
+    "domains": [
+      "security",
+      "digital"
+    ],
+    "actions": [
+      "coordination"
+    ],
+    "description": {
+      "zh": "基于有来源的专业履历或职责。需要至少两人。",
+      "en": "Two or more members with sourced qualifications or relevant duties.",
+      "de": "Mindestens zwei Mitglieder mit belegter Ausbildung oder einschlägiger Tätigkeit."
+    },
+    "sources": [
+      "https://www.cducsu.de/abgeordnete/michael-donth",
+      "https://www.cducsu.de/abgeordnete/christian-haase",
+      "https://www.spdfraktion.de/abgeordnete/lugk",
+      "https://www.cducsu.de/abgeordnete/klaus-mack",
+      "https://www.cducsu.de/abgeordnete/josef-oster",
+      "https://www.spdfraktion.de/abgeordnete/saathoff"
+    ]
   }
 ]

@@ -11,7 +11,10 @@ export function prepare_negotiation(game,ids,player=0){
  const eligible=scenes.filter(s=>!s.domains?.length||s.domains.some(d=>(weights[d]||0)>0));
  if(!scenes.length)throw Error('negotiation_unavailable');
  const scene=game.pick(eligible.length?eligible:scenes);
- const state={player,round:game.round,ids:[...ids],sceneId:scene.id,title:scene.title,description:scene.description,resolved:false,options:scene.options.map(o=>{const environment=news_modifier(game,player,'negotiationCost',{agenda:game.agenda,team:game.players[player].owned.filter(c=>ids.includes(c.id))}).value;const baseCost=o.cost>0?negotiation_clamp(Math.round(o.cost+(cross?1:0)+(game.agenda.procedure==='question'?1:0)+environment),1,8):0;return {...o,baseCost,cost:negotiation_fee(game,ids,player,baseCost),effects:{...o.effects}};})};return tactical_prepare(game,player,state);
+ const state={player,round:game.round,ids:[...ids],sceneId:scene.id,title:scene.title,description:scene.description,resolved:false,options:scene.options.map(o=>{const environment=news_modifier(game,player,'negotiationCost',{agenda:game.agenda,team:game.players[player].owned.filter(c=>ids.includes(c.id))}).value;const baseCost=o.cost>0?negotiation_clamp(Math.round(o.cost+(cross?1:0)+(game.agenda.procedure==='question'?1:0)+environment),1,8):0;return {...o,baseCost,cost:negotiation_fee(game,ids,player,baseCost),effects:{...o.effects}};})};
+ tactical_prepare(game,player,state);
+ for(const option of state.options)if(option.tacticalKind)option.cost=negotiation_fee(game,ids,player,option.baseCost);
+ return state;
 }
 export function resolve_negotiation(game,choiceId,player=0,settings={}){
  const state=player===0?game.negotiation:game.cpuNegotiation;
@@ -20,7 +23,7 @@ export function resolve_negotiation(game,choiceId,player=0,settings={}){
  if(player===0&&game.phase!=='NEGOTIATION')throw Error('invalid_phase');
  const option=state.options.find(o=>o.id===choiceId);if(!option)throw Error('invalid_negotiation_choice');
  if(state.tactical)tactical_validate(state,settings);
- const paid=negotiation_fee(game,state.ids,player,option.baseCost),owner=game.players[player];if(!Number.isFinite(owner.cash)||owner.cash<paid)throw Error('negotiation_unaffordable');
+ const paid=Number.isFinite(option.cost)?option.cost:negotiation_fee(game,state.ids,player,option.baseCost),owner=game.players[player];if(!Number.isFinite(owner.cash)||owner.cash<paid)throw Error('negotiation_unaffordable');
  owner.cash-=paid;state.resolved=true;state.selected=choiceId;state.costPaid=paid;state.effects={...option.effects};
  const org=negotiation_clamp(option.effects.organization||0,-1,2);owner.organization=Math.max(0,(owner.organization||0)+org);
  tactical_commit(game,player,state,settings);

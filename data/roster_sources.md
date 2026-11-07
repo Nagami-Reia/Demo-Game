@@ -20,6 +20,8 @@
 
 ## 属性：明确为游戏设定
 
+领域已按联邦议院的 [议员履历 XML](https://www.bundestag.de/services/opendata)（2026-04-29 数据版）与项目内的职务、工作组记录重新分类。下文的六类领域和散列分工说明的是原型。现有领域没有每人数量上限。`research/career-domain-audit.json` 记录每张卡匹配的官方人物编号、分类所用证据，以及仍保留的旧游戏设计领域。过去任职可以作为领域证据，现职能力仍只取已核实的现职记录。
+
 `resources`、`leadership`、`negotiation`、`oratory`、`expertise`、`resilience` 全部为整数1–5。`tier` 为1–6游戏稀有度；`domains` 取 economy/social/climate/security/digital/foreign。
 
 **所有数值及领域均是游戏设计假设，不是客观个人能力、道德评价、心理测量或现实预测。** 官方CSV仅核实名字、当选身份与当选党派，不能引用它证明领导力、口才或韧性评分。全员含 `attribute_status: GAME_DESIGN_ASSUMPTION_NOT_MEASURED_ABILITY`。

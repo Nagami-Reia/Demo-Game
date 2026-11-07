@@ -34,7 +34,14 @@ export function begin_environment(game){
  game.log('social_event',{title:event.title});
 }
 export function settle_public_opinion(game,scores,firewall=[],factions=null){
- const changes={};for(let i=0;i<2;i++){let p=game.players[i];const change=(scores[i]-5)*.22;changes[p.party]=factions?faction_poll_change(p,game.round,change)+(factions[i]?.poll||0):change;}
+ const changes={};
+ for(let i=0;i<2;i++){
+  const p=game.players[i],change=(scores[i]-5)*.22;
+  const passive=factions?.[i],adjusted=passive?faction_poll_change(p,game.round,change):change;
+  const cushion=+(adjusted-change).toFixed(2);
+  if(cushion)passive.events.push({key:'poll_cushion',value:cushion});
+  changes[p.party]=adjusted+(passive?.poll||0);
+ }
  update_polls(game.polls,changes,`result:${game.round}`);
  const penalties={};game.players.forEach((p,i)=>{if(firewall[i])penalties[p.party]=-firewall[i];});if(Object.keys(penalties).length)update_polls(game.polls,penalties,`firewall:${game.round}`);refresh_poll_pressure(game);
 }
