@@ -4,6 +4,7 @@ import {agenda_weights} from './agenda-domains.js';
 import {firewall_penalty} from './team-effects.js';
 import {personal_links} from './personal-links.js';
 import {combined_relations,combination_view} from './combination-groups.js';
+import {alliance_preview} from './alliances.js';
 
 function deployment_coverage(game,ids){
  const team=game.players[0].owned.filter(c=>ids.has(c.id));
@@ -11,7 +12,8 @@ function deployment_coverage(game,ids){
 }
 function deployment_links(game,ids,t,loc,esc){
  const team=game.players[0].owned.filter(c=>ids.has(c.id)),warning=firewall_penalty(game.players[0].party,team);
- return (warning?`<p class="poll-debuff">${t('firewall')} · −${warning.toFixed(1)}</p>`:'')+combination_view(personal_links(team,game.agenda,combined_relations(game.data)).active,t,loc,esc);
+ const routes=alliance_preview(game,[...ids],0);
+ return (warning?`<p class="poll-debuff">${t('firewall')} · −${warning.toFixed(1)}</p>`:'')+combination_view(personal_links(team,game.agenda,combined_relations(game.data,team,routes)).active,t,loc,esc);
 }
 export function deployment_view(game,ids,t,loc,esc,card,maxDeployment){
  const agenda=game.agenda;

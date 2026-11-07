@@ -66,11 +66,11 @@ export function news_settle(game,teams,normalSettlements,trace,breakdowns,passed
   for(const route of settlement.before||[]){if(!route.active)continue;const rc={...context,route};
    const layer=news_modifier(game,player,'allianceLayers',rc),repeat=news_modifier(game,player,'allianceRepeat',rc),boost=news_modifier(game,player,'allianceCash',rc);
    const regularGrowth=(settlement.gains||[]).filter(g=>g.id===route.id).reduce((n,g)=>n+g.add,0),payout=(settlement.payouts||[]).filter(g=>g.id===route.id).reduce((n,g)=>n+g.cash,0);
-   const add=Math.max(0,Math.sign(layer.value)*Math.round(Math.abs(layer.value))+(repeat.value>0?1:0)*regularGrowth);
+   const add=route.layerCap===0?0:Math.max(0,Math.round(layer.value)+(repeat.value>0?1:0)*regularGrowth);
    if(add){owner.alliances??={layers:{}};owner.alliances.layers??={};const from=owner.alliances.layers[route.id]||0,to=Math.min(route.layerCap||999,from+add);owner.alliances.layers[route.id]=to;if(to>from)gains.push({id:route.id,name:route.name,from,to,add:to-from,source:'news'});}
    const boundedBoost=news_bound(boost.value,-.5,.75),boostScale=boost.value?boundedBoost/boost.value:1;
    const reward=payout*(boundedBoost+(repeat.value>0?1:0));cash+=reward;
-   for(const e of layer.contributions)events.push({...e,routeId:route.id});
+   if(route.layerCap!==0)for(const e of layer.contributions)events.push({...e,routeId:route.id});
    for(const e of repeat.contributions)events.push({...e,routeId:route.id,requestedCashAmount:e.value*payout,cashAmount:repeat.value>0?e.value/repeat.value*payout:0});
    for(const e of boost.contributions)events.push({...e,routeId:route.id,requestedCashAmount:e.value*payout,cashAmount:e.value*boostScale*payout});
   }

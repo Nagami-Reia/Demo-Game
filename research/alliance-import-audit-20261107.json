@@ -1,0 +1,82 @@
+{
+  "matched": 404,
+  "byPartyFile": {
+    "Union": 203,
+    "SPD": 118,
+    "Gruene": 83
+  },
+  "unmatched": [
+    {
+      "file": "Union",
+      "name": "Reza Asghari",
+      "mp_id": "UNION-006",
+      "candidates": []
+    },
+    {
+      "file": "Union",
+      "name": "Michael Breilmann",
+      "mp_id": "UNION-074",
+      "candidates": []
+    },
+    {
+      "file": "Union",
+      "name": "Stefan Glaser",
+      "mp_id": "UNION-086",
+      "candidates": []
+    },
+    {
+      "file": "Union",
+      "name": "Christoph Naser",
+      "mp_id": "UNION-089",
+      "candidates": []
+    },
+    {
+      "file": "Union",
+      "name": "Hans Koller",
+      "mp_id": "UNION-097",
+      "candidates": []
+    },
+    {
+      "file": "SPD",
+      "name": "David Mandrella",
+      "mp_id": "SPD-057",
+      "candidates": []
+    },
+    {
+      "file": "SPD",
+      "name": "Katrin Zschau",
+      "mp_id": "SPD-120",
+      "candidates": []
+    },
+    {
+      "file": "Gruene",
+      "name": "Andrea Lübcke",
+      "mp_id": "GRUENE-046",
+      "candidates": []
+    },
+    {
+      "file": "Gruene",
+      "name": "Mayra Vriesema",
+      "mp_id": "GRUENE-081",
+      "candidates": []
+    }
+  ],
+  "definitionsByCategory": {
+    "legacy": 3,
+    "professional": 11,
+    "state": 16,
+    "working_group": 71,
+    "social_group": 7,
+    "policy_domain": 64,
+    "special": 2
+  },
+  "excluded": {
+    "party": 404,
+    "official_office": 149,
+    "regional_group": 16,
+    "alternate_or_optional_working_group": 162,
+    "additional_working_group": 19,
+    "regional_role": 34
+  },
+  "note": "CSV memberships preserved as supplied, not independently web verified. Historical roster identities not replaced; missing current members not invented. Official offices/professions never overwrite active office metadata. Optional inferred policy tags enabled as game taxonomy; alternate AGs excluded."
+}

@@ -1,6 +1,6 @@
 // Issue weights are game-design estimates, not official policy measurements.
 export function agenda_weights(agenda){
- const valid=new Set(['economy','social','climate','security','digital','foreign']);
+ const valid=new Set(['economy','social','climate','security','digital','foreign','health','research','education','transport','housing','agriculture','culture','justice']);
  if(typeof agenda==='string')return valid.has(agenda)?{[agenda]:1}:{};
  const input=agenda?.domainWeights||{},entries=Object.entries(input).filter(([d,w])=>valid.has(d)&&Number.isFinite(w)&&w>0);
  const total=entries.reduce((n,[,w])=>n+w,0);

@@ -1,0 +1,57 @@
+.card-bookmarks {display:none}
+
+@media(min-width:801px) {
+ .card .card-facts-origin,.card .leader-role-mobile {display:none}
+ .cards>.card,.rare-pair .card,.auction-card>.card {margin-inline-end:22px}
+ .card.has-bookmarks {overflow:visible}
+ .card-core {position:relative}
+ .card-bookmarks {
+  position:absolute;
+  inset:-11px auto auto calc(100% + 20px);
+  z-index:3;
+  display:flex;
+  flex-direction:column;
+  width:22px;
+  height:calc(100% + 11px);
+  pointer-events:none;
+ }
+ .rare-pair .card-bookmarks {inset-inline-start:calc(100% + 20px)}
+ .card-bookmark {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:7px 1px 9px;
+  border-radius:0 8px 8px 0;
+  color:white;
+  font-size:10px;
+  font-weight:700;
+  line-height:1;
+  clip-path:polygon(0 0,100% 6px,100% calc(100% - 6px),0 100%);
+  pointer-events:auto;
+ }
+ .card-bookmark>span {
+  display:block;
+  writing-mode:vertical-rl;
+  text-orientation:sideways;
+  max-inline-size:100%;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+ }
+ .card-bookmark-state {position:relative;z-index:1;flex:0 0 58px;background:var(--bookmark-state)}
+ .card-bookmark-office {min-height:0;background:#406247}
+ .card-bookmark-office>span {white-space:normal;overflow-wrap:anywhere;overflow:visible;text-overflow:clip}
+ .card-bookmark-state+.card-bookmark-office {margin-top:-16px;padding-top:20px}
+ .card::before {
+  content:'';
+  position:absolute;
+  inset:auto 0 0 auto;
+  width:min(55%,154px);
+  height:110px;
+  background:radial-gradient(circle,var(--muted) 1px,transparent 1.3px) 0 0/6px 6px;
+  mask-image:radial-gradient(ellipse at bottom right,#000 8%,transparent 73%);
+  opacity:.32;
+  border-end-end-radius:calc(var(--card-radius) - 1px);
+  pointer-events:none;
+ }
+}

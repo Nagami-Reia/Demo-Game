@@ -1,5 +1,5 @@
 import {is_neutral_chair} from './roles.js';
-import {alliance_preview} from './alliances.js';
+import {alliance_preview,alliance_passive_generic} from './alliances.js';
 const hidden_number=n=>Number.isFinite(n)?Math.max(0,n):0;
 function hidden_team(game,player,ids){const wanted=new Set(ids||[]);return [...new Map((game.players[player]?.owned||[]).filter(c=>wanted.has(c.id)&&!is_neutral_chair(c)).map(c=>[c.id,c])).values()].slice(0,5);}
 export function hidden_preview(game,player,ids){
@@ -19,6 +19,7 @@ function hidden_topic(runtime,ctx,topic){
  return {law:/法律|司法|Recht|Gesetz|Legal|Law/i,health:/卫生|医疗|健康|Gesund|Kranken|Health/i,digital:/数字|digital|Digitalisierung/i}[topic]?.test(text)||false;
 }
 function hidden_matches(runtime,route,selector){
+ if(alliance_passive_generic(route))return false;
  const byId=new Map(runtime.team.map(c=>[c.id,c])),members=(route.members||[]).map(id=>byId.get(id)).filter(Boolean),text=JSON.stringify(route.name);
  if(selector==='csu')return members.some(c=>c.party==='CSU');if(selector==='cdu')return members.some(c=>c.party==='CDU');if(selector==='spd')return members.some(c=>c.party==='SPD');
  if(selector==='merz')return members.some(c=>c.id==='Merz');if(selector==='amthor')return members.some(c=>c.id==='mdb_Philipp_Amthor');if(selector==='state')return route.category==='state';
@@ -66,7 +67,7 @@ export function hidden_settle(game,player,ids,normalSettlement={},trace=[],round
  const result={...empty,organization:rt.organization-(owner.organization||0),score:rt.score,events:[...rt.events]},queue=[],once=new Set();
  const csuCount=rt.team.filter(c=>c.party==='CSU').length,bavaria=active.some(r=>r.id==='csu_bavaria'),csuRoutes=rt.normal.filter(r=>hidden_matches(rt,r,'csu'));
  const money=(source,amount,ancestry=[])=>{if(amount>0)queue.push({id:`${round}:${player}:${queue.length}:${source}`,source,amount,ancestry:[...ancestry,source]});};
- const layers=(route,amount,source)=>{if(!amount)return;owner.alliances??={layers:{}};owner.alliances.layers??={};const from=owner.alliances.layers[route.id]||0,to=Math.min(route.layerCap??999,from+amount);owner.alliances.layers[route.id]=to;if(to>from)result.gains.push({id:route.id,name:route.name,from,to,add:to-from,source});};
+ const layers=(route,amount,source)=>{if(!amount||route.layerCap===0)return;owner.alliances??={layers:{}};owner.alliances.layers??={};const from=owner.alliances.layers[route.id]||0,to=Math.min(route.layerCap??999,from+amount);owner.alliances.layers[route.id]=to;if(to>from)result.gains.push({id:route.id,name:route.name,from,to,add:to-from,source});};
  for(const row of active){const e=row.effects||{};money(row.id,e.cashRound||0);result.organization+=e.organizationRound||0;if(e.organizationRound)result.events.push({source:row.id,kind:'organization',amount:e.organizationRound});
   const hooks=[...(e.onNormal?[e.onNormal]:[]),...(e.onNormals||[])];
   for(const route of rt.normal){

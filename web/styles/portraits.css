@@ -5,7 +5,10 @@
 .portrait-ambient{position:absolute;inset:0;background-image:var(--portrait-url);background-position:center;background-size:cover}
 .portrait-photo{position:absolute;background-image:var(--portrait-url);background-repeat:no-repeat;background-size:cover}
 .card-content{position:relative;z-index:1}.card.has-portrait.chosen{--card-bg:var(--soft)}
-/* The existing top border is already above its clipped background; this inboard
-   strip keeps its original 4px party colour visibly over any photo pixels. */
-.card.has-portrait::after{content:'';position:absolute;left:0;right:0;top:-4px;height:4px;background:var(--party,var(--accent));z-index:2;pointer-events:none}
+/* The photo begins at the inside edge of the rounded party border. */
+.card .card-portrait {
+ --portrait-inner-x:calc(var(--card-radius) - 1px);
+ --portrait-inner-y:calc(var(--card-radius) - var(--card-stripe));
+ border-radius:var(--portrait-inner-x) var(--portrait-inner-x) 0 0 / var(--portrait-inner-y) var(--portrait-inner-y) 0 0;
+}
 @media(max-width:600px){.rare-pair .card-portrait{height:calc(var(--card-header-height,270px) + 10px)}}

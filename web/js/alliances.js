@@ -8,11 +8,13 @@ const alliance_value=n=>Number.isFinite(n)&&n>0?n:0;
 const alliance_definitions=game=>Array.isArray(game.data?.allianceDefinitions)?game.data.allianceDefinitions:[];
 const alliance_tagRows=game=>Array.isArray(game.data?.allianceTags)?game.data.allianceTags:[];
 const alliance_ledger=(game,player)=>game.players?.[player]?.alliances||{};
-const alliance_modern=def=>!!def.category||!!def.effectKind;
+const alliance_modern=def=>def.growthMode!=='action'&&(!!def.category||!!def.effectKind);
+const alliance_generic=def=>def.category==='professional'||(def.category==='policy_domain'&&def.layerCap===0);
+export const alliance_passive_generic=def=>alliance_generic(def)&&def.layerCap===0;
+const ALLIANCE_GENERIC_ACTION_CAP=.32;
 const alliance_tierValue=(values,tier,fallback=0)=>tier<1?0:Array.isArray(values)?(values[Math.min(tier,values.length)-1]??fallback):Number.isFinite(values)?values:fallback;
 const alliance_capLayers=(n,def)=>Math.min(def.layerCap??(alliance_modern(def)?999:24),Math.floor(alliance_value(n)));
 const alliance_stateLayers=(game,player,def)=>alliance_capLayers(alliance_ledger(game,player).layers?.[def.id],def);
-function alliance_tagsOf(game,card){return new Set(alliance_tagRows(game).filter(r=>r.id===card.id).flatMap(r=>r.tags||[]));}
 function alliance_selected(game,ids,player){
  const own=game.players?.[player]?.owned||[],wanted=new Set((ids||[]).map(x=>typeof x==='string'?x:x?.id));
  return [...new Map(own.filter(c=>wanted.has(c.id)&&!is_neutral_chair(c)).map(c=>[c.id,c])).values()].slice(0,5);
@@ -61,14 +63,18 @@ function alliance_actionSnapshot(game,deployedIds,player){
 }
 function alliance_powerFor(routes,actorId,type,agenda,cap){
  const effects=routes.filter(b=>b.active&&(b.target==='team'||b.members.includes(actorId)))
-  .map(b=>({id:b.id,name:b.name,layers:b.layers,count:b.count,tier:b.tier,power:b.effect*alliance_relevant(b,type,agenda)})).filter(b=>b.power>0);
+  .map(b=>({id:b.id,name:b.name,layers:b.layers,count:b.count,tier:b.tier,power:b.effect*alliance_relevant(b,type,agenda),generic:alliance_generic(b)})).filter(b=>b.power>0);
+ const genericPower=effects.reduce((n,e)=>n+(e.generic?e.power:0),0);
+ if(genericPower>ALLIANCE_GENERIC_ACTION_CAP){
+  for(const e of effects)if(e.generic)e.power*=ALLIANCE_GENERIC_ACTION_CAP/genericPower;
+ }
  const total=effects.reduce((n,e)=>n+e.power,0),scale=total>cap?cap/total:1;
  for(const e of effects)e.power*=scale;
  return {power:Math.min(cap,total),effects};
 }
-export function alliance_action_bonus(game,player,actorId,type,agenda,deployedIds){
+export function alliance_action_bonus(game,player,actorId,type,agenda,deployedIds,snapshot){
  if(!alliance_selected(game,deployedIds,player).some(c=>c.id===actorId))return {power:0,effects:[]};
- return alliance_powerFor(alliance_actionSnapshot(game,deployedIds,player),actorId,type,agenda,alliance_definitions(game).some(alliance_modern)?3:.8);
+ return alliance_powerFor(snapshot??alliance_actionSnapshot(game,deployedIds,player),actorId,type,agenda,alliance_definitions(game).some(alliance_modern)?3:.8);
 }
 function alliance_growthRate(def,tier){
  const kinds=Array.isArray(def.effectKind)?def.effectKind:[def.effectKind];
@@ -82,10 +88,11 @@ function alliance_paidIncome(game,player,route){
  return Math.floor(amount/(route.incomePerMilestone||1));
 }
 // Pure round-end forecast shared by preview, opponent valuation and real settlement.
-export function alliance_economy_preview(game,player,deployedIds,round=game.round,economicEvents=game.logs||[]){
+export function alliance_economy_preview(game,player,deployedIds,round=game.round,economicEvents=game.logs||[],snapshot){
  const gains=[],milestones=[],payouts=[],before={},settled=!!alliance_ledger(game,player).settlements?.[String(round)];
  if(settled)return {gains,milestones,payouts,cash:0,income:0,before};
- const active=alliance_snapshot(game,deployedIds,player).filter(b=>b.active);
+ const active=(snapshot??alliance_snapshot(game,deployedIds,player)).filter(b=>b.active);
+ const economicAllianceCount=active.filter(b=>!alliance_passive_generic(b)).length;
  const upgrade=economicEvents.find(row=>(row.kind||row.type)==='upgrade'&&row.round===round&&row.player===player&&Number.isFinite(row.amount)&&row.amount>0);
  let refundable=upgrade?Math.floor(upgrade.amount):0;
  for(const def of alliance_definitions(game))if(alliance_modern(def))before[def.id]=alliance_stateLayers(game,player,def);
@@ -98,7 +105,7 @@ export function alliance_economy_preview(game,player,deployedIds,round=game.roun
   const qualified=step>0&&route.tier>=(route.incomeMinTier||1);
   const incomeMilestones=qualified?Math.max(0,due-paid):0;
   const income=incomeMilestones*(route.incomePerMilestone??1);
-  const activeBonus=route.cashPerActiveAlliances>0?Math.floor(active.length/route.cashPerActiveAlliances)*(route.cashPerActiveAllianceGroup??1):0;
+  const activeBonus=route.cashPerActiveAlliances>0?Math.floor(economicAllianceCount/route.cashPerActiveAlliances)*(route.cashPerActiveAllianceGroup??1):0;
   const refund=upgrade?Math.min(refundable,Math.floor(upgrade.amount*alliance_value(alliance_tierValue(route.refundUpgradeByTier,route.tier)))):0;
   refundable-=refund;
   const cash=Math.floor(alliance_value(alliance_tierValue(route.cashByTier,route.tier))+activeBonus+refund);
@@ -106,12 +113,12 @@ export function alliance_economy_preview(game,player,deployedIds,round=game.roun
  }
  return {gains,milestones,payouts,before,cash:payouts.reduce((n,p)=>n+p.cash,0),income:payouts.reduce((n,p)=>n+p.income,0)};
 }
-export function alliance_settle(game,player,deployedIds,actions,round=game.round,economicEvents=game.logs||[]){
+export function alliance_settle(game,player,deployedIds,actions,round=game.round,economicEvents=game.logs||[],snapshot){
  const owner=game.players?.[player];if(!owner)return {gains:[],milestones:[],payouts:[],cash:0,income:0};
- const forecast=alliance_economy_preview(game,player,deployedIds,round,economicEvents);
+ const forecast=alliance_economy_preview(game,player,deployedIds,round,economicEvents,snapshot);
  const store=owner.alliances??={layers:{},credited:{},milestones:{}};
  store.layers??={};store.credited??={};store.milestones??={};
- const routes=alliance_snapshot(game,deployedIds,player).filter(b=>b.active&&!alliance_modern(b)),gains=[...forecast.gains],milestones=[...forecast.milestones];
+ const routes=(snapshot??alliance_snapshot(game,deployedIds,player)).filter(b=>b.active&&!alliance_modern(b)),gains=[...forecast.gains],milestones=[...forecast.milestones];
  store.settlements??={};
  if(!store.settlements[String(round)]){
   for(const gain of forecast.gains)store.layers[gain.id]=gain.to;

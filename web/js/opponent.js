@@ -1,3 +1,4 @@
+import {faction_lineup_value,faction_recruit_refund} from './factions.js';
 import {news_recruit_value,news_action_effect} from './news-effects.js';
 import {opposition_active} from './opposition-skills.js';
 import {can_recruit} from './party-relations.js';
@@ -183,6 +184,7 @@ export function auction_decision(card,owned,party,round_no,cash,opponent_owned=[
   if(owned.some(c=>identity(c)===identity(card)))return result(0,'duplicate','already_owned');
   const price=context.startPrice??starting_price(card);
   if(funds<price)return result(0,'unaffordable','below_starting_price');
+  const refund=context.factionPlayer?faction_recruit_refund(context.factionPlayer,card,round_no,context.bonusAuction):0;
   const value=card_value(card,owned,party,round_no,context);evaluatedValue=value;
   const roster=unique(owned,party),coverage=new Map();
   for(const c of roster)for(const d of domains(c))coverage.set(d,(coverage.get(d)??0)+1);
@@ -247,7 +249,8 @@ export function auction_decision(card,owned,party,round_no,cash,opponent_owned=[
   if(round_no<=2&&roster.length<MAX_DEPLOYMENT&&!defendLeader){const missingAfter=Math.max(0,MAX_DEPLOYMENT-1-roster.length);ceiling=Math.min(ceiling,Math.max(price,funds-missingAfter*3),price+3);reasons.push('protect_early_deployment_budget');}
   if(finalAuction){ceiling=funds;willingness+=Math.min(1.5,Math.max(.5,value*.15));reasons.push('final_game_auction_no_future_budget_value');if(branch==='incremental_upgrade')branch='final_auction';}
   else reasons.push('carry_cash_without_interest');
-  const limit=Math.min(ceiling,Math.floor(willingness));
+  if(refund)reasons.push('regional_recruit_refund');
+  const limit=Math.min(ceiling+refund,Math.floor(willingness)+refund);
   if(limit<price)return result(0,'price_exceeds_value',...reasons,'save_for_better_card');
   return result(limit,branch,...reasons);
 }
@@ -276,6 +279,8 @@ export function choose_deployment(owned,agenda,limit=MAX_DEPLOYMENT,party='',rol
     const offTopicBreadth=1.1*coverage.size+[...coverage.values()].reduce((sum,n)=>sum+.8*Math.min(2,n-1),0);
     let score=0;for(const [domain,weight] of Object.entries(weights)){score+=weight*(lineupValue(lineup,domain,party,role)-offTopicBreadth+lineup.reduce((sum,c)=>sum+(domains(c).has(domain)?4:0)+(ministerMatches(c,domain)?1:0)+policyFit(c,party,domain,agenda.policy?.axis,policyContext),0));}
     if(policyContext.allianceGame?.data.tacticalEffects?.enabled)score+=opposition_active(lineup,agenda).reduce((sum,s)=>sum+s.value,0);
+    const factionPlayer=policyContext.allianceGame?.players[policyContext.alliancePlayer??1]||{party};
+    score+=faction_lineup_value(factionPlayer,lineup,agenda,policyContext.allianceGame?.round??3);
     if(policyContext.allianceGame)score+=hidden_lineup_value(policyContext.allianceGame,policyContext.alliancePlayer??1,lineup.map(c=>c.id));
     if(policyContext.allianceGame)score+=alliance_lineup_value(policyContext.allianceGame,policyContext.alliancePlayer??1,lineup.map(c=>c.id),agenda);
     if(policyContext.allianceGame)score+=lineup.reduce((n,c)=>n+news_action_effect(policyContext.allianceGame,policyContext.alliancePlayer??1,c,'amend',agenda,lineup).rate*2,0);

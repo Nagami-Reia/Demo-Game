@@ -1,10 +1,11 @@
 import {tactical_prepare,tactical_commit,tactical_validate} from './tactical-state.js';
+import {faction_negotiation_fee} from './factions.js';
 import {news_modifier} from './news-effects.js';
 import {agenda_weights} from './agenda-domains.js';
 import {hidden_begin,hidden_before_action} from './hidden-relations.js';
 const negotiation_clamp=(n,lo,hi)=>Math.max(lo,Math.min(hi,Number.isFinite(n)?n:0));
 function negotiation_cross(game,ids,player){return game.players[player].owned.some(c=>ids.includes(c.id)&&c.party!==game.players[player].party&&!(['CDU','CSU'].includes(c.party)&&['CDU','CSU'].includes(game.players[player].party)));}
-function negotiation_fee(game,ids,player,baseCost){const runtime=hidden_begin(game,player,ids);return hidden_before_action(runtime,{id:`negotiation:${game.round}:${player}`,stage:-1,action:'negotiate',isExecution:false,baseCashCost:baseCost,baseOrgCost:0,crossParty:negotiation_cross(game,ids,player),agenda:game.agenda,cash:game.players[player].cash}).cashCost;}
+function negotiation_fee(game,ids,player,baseCost){const runtime=hidden_begin(game,player,ids);const hiddenFee=hidden_before_action(runtime,{id:`negotiation:${game.round}:${player}`,stage:-1,action:'negotiate',isExecution:false,baseCashCost:baseCost,baseOrgCost:0,crossParty:negotiation_cross(game,ids,player),agenda:game.agenda,cash:game.players[player].cash}).cashCost;return faction_negotiation_fee(game.players[player],game.players[player].owned.filter(c=>ids.includes(c.id)),hiddenFee);}
 export function prepare_negotiation(game,ids,player=0){
  const scenes=game.data.negotiationScenes||[],weights=agenda_weights(game.agenda),cross=negotiation_cross(game,ids,player);
  const eligible=scenes.filter(s=>!s.domains?.length||s.domains.some(d=>(weights[d]||0)>0));

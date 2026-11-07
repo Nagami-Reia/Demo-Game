@@ -1,0 +1,5050 @@
+[
+  {
+    "id": "mdb_Knut_Friedrich_Alexander_Abraham",
+    "name": "Knut Friedrich Alexander Abraham",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Koordinator der Bundesregierung für die deutsch-polnische zwischengesellschaftliche u. grenznahe Zusammenarbeit",
+    "profession": "Geboren in Hamburg\nVolljurist, Diplomat",
+    "source": "https://www.cducsu.de/abgeordnete/knut-friedrich-alexander-abraham",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Anna_Elisabeth_Christine_Sophie_Aeikens",
+    "name": "Anna Elisabeth Christine Sophie Aeikens",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/anna-aeikens",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Stephan_Theodor_Johannes_Albani",
+    "name": "Stephan Theodor Johannes Albani",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Forschung, Technologie und Raumfahrt | Obmann im Ausschuss für Forschung, Technologie und Raumfahrt",
+    "profession": "Geboren am 3. Juni 1968 in Göttingen\nDipl.-Physiker, Geschäftsführer",
+    "source": "https://www.cducsu.de/abgeordnete/stephan-albani",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Norbert_Maria_Altenkamp",
+    "name": "Norbert Maria Altenkamp",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Beauftragter der Fraktion für Kirchen und Religionsgemeinschaften | Sprecher & Vorsitzender der Arbeitsgruppe Menschenrechte und humanitäre Hilfe",
+    "profession": "Geboren am 27. Juli 1972 in Marl/Westf.\nDipl.-Volkswirt",
+    "source": "https://www.cducsu.de/abgeordnete/norbert-altenkamp",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "security",
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Philipp_Amthor",
+    "name": "Philipp Amthor",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "用户指定T3；真实职务独立保留",
+    "role": "Staatsminister für Bund‑Länder‑Zusammenarbeit im Bundeskanzleramt | Vorsitzender der Landesgruppe Mecklenburg-Vorpommern",
+    "profession": "Geboren am 10. November 1992 in Ueckermünde",
+    "source": "https://www.cducsu.de/abgeordnete/philipp-amthor",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital",
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Tijen_Ataoglu",
+    "name": "Tijen Ataoğlu",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/llm-tijen-ataoglu",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Artur_Friedrich_Auernhammer",
+    "name": "Artur Friedrich Auernhammer",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Sport und Ehrenamt | Obmann im Ausschuss für Sport und Ehrenamt",
+    "profession": "Geboren am 9. März 1963 in Oberhochstatt\nLandwirtschaftsmeister",
+    "source": "https://www.cducsu.de/abgeordnete/artur-auernhammer",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Peter_Aumer",
+    "name": "Peter Aumer",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 17. April 1976 in Regensburg\nDipl.-Betriebswirt",
+    "source": "https://www.cducsu.de/abgeordnete/peter-aumer",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Cornell_Anette_Babendererde",
+    "name": "Cornell-Anette Babendererde",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/dr-cornell-anette-babendererde",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Thomas_Barei",
+    "name": "Thomas Bareiß",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 15. Februar 1975 in Albstadt-Ebingen\nDipl.-Betriebswirt (BA)",
+    "source": "https://www.cducsu.de/abgeordnete/thomas-bareiss",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Gunter_Baumgartner",
+    "name": "Günter Baumgartner",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/guenter-baumgartner",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Sascha_van_Beek",
+    "name": "Sascha van Beek",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/sascha-van-beek",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Melanie_Bernstein",
+    "name": "Melanie Bernstein",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 28. September 1976\nGeschäftsführerin, Kulturwissenschaftlerin",
+    "source": "https://www.cducsu.de/abgeordnete/melanie-bernstein",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Peter_Beyer",
+    "name": "Peter Beyer",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 25. Dezember 1970 in Ratingen\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/peter-beyer",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Marc_Josef_Biadacz",
+    "name": "Marc Josef Biadacz",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Arbeit und Soziales",
+    "profession": "Geboren am 3. September 1979 in Böblingen",
+    "source": "https://www.cducsu.de/abgeordnete/marc-biadacz",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Steffen_Rudi_Bilger",
+    "name": "Steffen Rudi Bilger",
+    "tier": 4,
+    "previousTier": 2,
+    "reason": "内阁部长或议会主持层级",
+    "role": "Bundesminister für Verkehr",
+    "profession": "Geboren am 16. Februar 1979 in Schongau\nVolljurist",
+    "source": "https://www.cducsu.de/abgeordnete/steffen-bilger",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Florian_Bilic",
+    "name": "Florian Bilic",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/florian-bilic",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Leif_Erik_Bodin",
+    "name": "Leif Erik Bodin",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/leif-erik-bodin",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Simone_Borchardt",
+    "name": "Simone Borchardt",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecherin & Vorsitzende der Arbeitsgruppe Gesundheit",
+    "profession": "Geboren am 11. September 1967",
+    "source": "https://www.cducsu.de/abgeordnete/simone-borchardt",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Caroline_Bosbach",
+    "name": "Caroline Bosbach",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/caroline-bosbach",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Frederik_Bouffier",
+    "name": "Frederik Bouffier",
+    "tier": 3,
+    "previousTier": 1,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarischer Geschäftsführer",
+    "profession": "Parlamentarischer Geschäftsführer\nParlamentarischer Geschäftsführer",
+    "source": "https://www.cducsu.de/abgeordnete/frederik-bouffier",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Michael_Karl_Brand",
+    "name": "Michael Karl Brand",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarischer Staatssekretär bei der Bundesministerin für Bildung, Familie, Senioren, Frauen und Jugend | Vorsitzender der Landesgruppe Hessen",
+    "profession": "Geboren am 19. November 1973 in Fulda\nAngestellter",
+    "source": "https://www.cducsu.de/abgeordnete/michael-brand",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Reinhard_Brandl",
+    "name": "Reinhard Brandl",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarischer Geschäftsführer der CSU-Landesgruppe",
+    "profession": "Geboren am 1. August 1977 in Ingolstadt\nDipl.-Wirtschaftsingenieur, Unternehmensberater",
+    "source": "https://www.cducsu.de/abgeordnete/dr-reinhard-brandl",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Silvia_Maria_Breher",
+    "name": "Silvia Maria Breher",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarische Staatssekretärin beim Bundesminister für Landwirtschaft, Ernährung und Heimat",
+    "profession": "Geboren am 23. Juli 1973 in Löningen\nVolljuristin",
+    "source": "https://www.cducsu.de/abgeordnete/silvia-breher",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "security",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Ralph_Brinkhaus",
+    "name": "Ralph Brinkhaus",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Digitales und Staatsmodernisierung",
+    "profession": "Geboren am 15. Juni 1968 in Wiedenbrück",
+    "source": "https://www.cducsu.de/abgeordnete/ralph-brinkhaus",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Lutz_Brinkmann",
+    "name": "Lutz Brinkmann",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/lutz-brinkmann",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Carsten_Brodesser",
+    "name": "Carsten Brodesser",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Finanzen | Obmann im Finanzausschuss",
+    "profession": "Geboren am 5. September 1967 in Lindlar\nDipl.-Volkswirt, Prokurist",
+    "source": "https://www.cducsu.de/abgeordnete/dr-carsten-brodesser",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Marlon_Andreas_Paul_Brohr",
+    "name": "Marlon Andreas Paul Bröhr",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Petitionen | Obmann im Petitionsausschuss",
+    "profession": "Geboren am 3. April 1974 in Geilenkirchen",
+    "source": "https://www.cducsu.de/abgeordnete/dr-marlon-broehr",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Yannick_Bury",
+    "name": "Yannick Bury",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 11. März 1990",
+    "source": "https://www.cducsu.de/abgeordnete/dr-yannick-bury",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "Baer",
+    "name": "Dorothee Bär",
+    "tier": 4,
+    "previousTier": 4,
+    "reason": "内阁部长或议会主持层级",
+    "role": "Bundesministerin für Forschung, Technologie und Raumfahrt",
+    "profession": "Geboren am 19. April 1978 in Bamberg\nDipl.-Politologin",
+    "source": "https://www.cducsu.de/abgeordnete/dorothee-baer",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital",
+      "social"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Benedikt_Budenbender",
+    "name": "Benedikt Büdenbender",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren in Siegen",
+    "source": "https://www.cducsu.de/abgeordnete/benedikt-buedenbender",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "climate",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Sandra_Carstensen",
+    "name": "Sandra Carstensen",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/sandra-carstensen",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Gitta_Connemann",
+    "name": "Gitta Connemann",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Beauftragte der Bundesregierung für den Mittelstand | Parlamentarische Staatssekretärin beim Bundesminister für Digitales und Staatsmodernisierung",
+    "profession": "Geboren am 10. Mai 1964 in Leer\nVolljuristin",
+    "source": "https://www.cducsu.de/abgeordnete/gitta-connemann",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital",
+      "security",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Wolfgang_Jochen_Dahler",
+    "name": "Wolfgang Jochen Dahler",
+    "tier": 3,
+    "previousTier": 1,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Bildung, Familie, Senioren, Frauen und Jugend | Obmann im Ausschuss für Bildung, Familie, Senioren, Frauen und Jugend",
+    "profession": "Stellvertretender Vorsitzender der Arbeitsgruppe Bildung, Familie, Senioren, Frauen und Jugend\n|\nObmann im Ausschuss für Bildung, Familie, Senioren, Frauen und Jugend\nStellvertretender Vorsitzender der Arbeitsgruppe Bildung, Familie, Senioren, Frauen und Jugend\n|\nObmann im Ausschuss für Bildung, Familie, Senioren, Frauen und Jugend",
+    "source": "https://www.cducsu.de/abgeordnete/wolfgang-dahler",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Ellen_Demuth",
+    "name": "Ellen Demuth",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/ellen-demuth",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "Dobrindt",
+    "name": "Alexander Dobrindt",
+    "tier": 4,
+    "previousTier": 4,
+    "reason": "内阁部长或议会主持层级",
+    "role": "Bundesminister des Innern",
+    "profession": "Geboren am 7. Juni 1970 in Peißenberg\nDipl.-Soziologe",
+    "source": "https://www.cducsu.de/abgeordnete/alexander-dobrindt",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Michael_Donth",
+    "name": "Michael Donth",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Tourismus | Stellvertretender Vorsitzender der Arbeitsgruppe Verkehr | Obmann im Ausschuss für Tourismus | Obmann im Verkehrsausschuss",
+    "profession": "Geboren am 8. Juni 1967 in Metzingen\nBürgermeister a.D., Dipl.-Verwaltungswirt (FH)",
+    "source": "https://www.cducsu.de/abgeordnete/michael-donth",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Florian_Johannes_Dorn",
+    "name": "Florian Johannes Dorn",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Volkswirt",
+    "source": "https://www.cducsu.de/abgeordnete/dr-florian-dorn",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Hansjorg_Durz",
+    "name": "Hansjörg Durz",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzender des Ausschusses für Digitales und Staatsmodernisierung",
+    "profession": "Geboren am 29. Juli 1971 in Augsburg\nDiplom-Kaufmann, Bankkaufmann",
+    "source": "https://www.cducsu.de/abgeordnete/hansjoerg-durz",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital",
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Hulya_Duber",
+    "name": "Hülya Düber",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/dr-huelya-dueber",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Joachim_Simon_Ebmeyer",
+    "name": "Joachim Simon Ebmeyer",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren in Bielefeld\nVolkswirt",
+    "source": "https://www.cducsu.de/abgeordnete/joachim-ebmeyer",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "digital"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Ralph_Rene_Edelhauer",
+    "name": "Ralph René Edelhäußer",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren in Roth\nBankkaufmann, Dipl.-Betriebswirt (FH), Erster Bürgermeister a.D.",
+    "source": "https://www.cducsu.de/abgeordnete/ralph-edelhaeusser",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Lars_Andre_Ehm",
+    "name": "Lars Andre Ehm",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Volljurist",
+    "source": "https://www.cducsu.de/abgeordnete/lars-andre-ehm",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Alexander_Karl_Engelhard",
+    "name": "Alexander Karl Engelhard",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Landwirtschaft, Ernährung und Heimat | Obmann im Ausschuss für Landwirtschaft, Ernährung und Heimat",
+    "profession": "Dipl.-Wirtschaftsingenieur (FH), Müller",
+    "source": "https://www.cducsu.de/abgeordnete/alexander-engelhard",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Martina_Englhardt_Kopf",
+    "name": "Martina Englhardt-Kopf",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarische Staatssekretärin beim Bundesminister für Landwirtschaft, Ernährung und Heimat",
+    "profession": "Parlamentarische Staatssekretärin beim Bundesminister für Landwirtschaft, Ernährung und Heimat\nParlamentarische Staatssekretärin beim Bundesminister für Landwirtschaft, Ernährung und Heimat",
+    "source": "https://www.cducsu.de/abgeordnete/dipl-hdl-univ-martina-englhardt-kopf",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Thomas_Maximilian_Erndl",
+    "name": "Thomas Maximilian Erndl",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Verteidigung",
+    "profession": "Geboren am 22. Juli 1974 in Osterhofen\nDipl.-Ingenieur (FH) Elektrotechnik / Mikroelektronik",
+    "source": "https://www.cducsu.de/abgeordnete/thomas-erndl",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "digital"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Bastian_Alfons_Ernst",
+    "name": "Bastian Alfons Ernst",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren in Delmenhorst\nBetriebswirt (FSH), Fachinformatiker (IHK)",
+    "source": "https://www.cducsu.de/abgeordnete/bastian-alfons-ernst",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "digital",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Uwe_Wolfgang_Werner_Feiler",
+    "name": "Uwe Wolfgang Werner Feiler",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 2. November 1965 in Winsen / Luhe\nDipl.-Finanzwirt, Parl. Staatssekretär",
+    "source": "https://www.cducsu.de/abgeordnete/uwe-feiler",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Christoph_Frauenprei",
+    "name": "Christoph Frauenpreiß",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "diplomierter Bankbetriebswirt (FS)",
+    "source": "https://www.cducsu.de/abgeordnete/christoph-frauenpreiss",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "Frei",
+    "name": "Thorsten Frei",
+    "tier": 4,
+    "previousTier": 4,
+    "reason": "现任共同党团主席",
+    "role": "Fraktionsvorsitzender",
+    "profession": "Geboren am 8. August 1973 in Bad Säckingen\nVolljurist",
+    "source": "https://www.cducsu.de/abgeordnete/thorsten-frei",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Michael_Edwin_Frieser",
+    "name": "Michael Edwin Frieser",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 30. März 1964 in Nürnberg\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/michael-frieser",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Hermann_Klaus_Farber",
+    "name": "Hermann Klaus Färber",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzender des Ausschusses für Landwirtschaft, Ernährung und Heimat",
+    "profession": "Geboren am 26. März 1963 in Böhmenkirch\nLandwirtschaftsmeister",
+    "source": "https://www.cducsu.de/abgeordnete/hermann-faerber",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Wilhelm_Gebhard",
+    "name": "Wilhelm Gebhard",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren in Eschwege\nBürgermeister, Dipl.-Kaufmann",
+    "source": "https://www.cducsu.de/abgeordnete/wilhelm-gebhard",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "foreign",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Thomas_Gebhart",
+    "name": "Thomas Gebhart",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Umwelt, Klimaschutz, Naturschutz, nukleare Sicherheit | Obmann im Ausschuss für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit",
+    "profession": "Geboren am 20. Dezember 1971 in Kandel\nMagister (Politikwissenschaft, Betriebswirtschaftslehre)",
+    "source": "https://www.cducsu.de/abgeordnete/dr-thomas-gebhart",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "climate",
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Jonas_Alexander_Tecumseh_Geissler",
+    "name": "Jonas Alexander Tecumseh Geissler",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Menschenrechte und humanitäre Hilfe | Obmann im Ausschuss für Menschenrechte und humanitäre Hilfe",
+    "profession": "Stellvertretender Vorsitzender der Arbeitsgruppe Menschenrechte und humanitäre Hilfe\n|\nObmann im Ausschuss für Menschenrechte und humanitäre Hilfe\nStellvertretender Vorsitzender der Arbeitsgruppe Menschenrechte und humanitäre Hilfe\n|\nObmann im Ausschuss für Menschenrechte und humanitäre Hilfe",
+    "source": "https://www.cducsu.de/abgeordnete/dr-jonas-geissler",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "security",
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Fabian_Benedikt_Meinrad_Gramling",
+    "name": "Fabian Benedikt Meinrad Gramling",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 5. April 1987\nBankkaufmann, Landtagsabgeordneter a.D., Master of Arts - Auditing, Business and Law, Prüfungsleiter in der Wirtschaftsprüfung",
+    "source": "https://www.cducsu.de/abgeordnete/fabian-gramling",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "digital",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Adrian_Grasse",
+    "name": "Adrian Grasse",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Dipl.-Kaufmann",
+    "source": "https://www.cducsu.de/abgeordnete/adrian-grasse",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "digital"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_David_Gregosz",
+    "name": "David Gregosz",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/dipl-pol-bs-sc-david-gregosz",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Ingeborg_Gabriele_Grale",
+    "name": "Ingeborg Gabriele Gräßle",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretende Fraktionsvorsitzende für Forschung, Technologie und Raumfahrt, Digitales und Staatsmodernisierung",
+    "profession": "Geboren am 2. März 1961 in Großkuchen ( Landkreis Heidenheim )",
+    "source": "https://www.cducsu.de/abgeordnete/dr-inge-graessle",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital",
+      "social"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Olav_Steffen_Gutting",
+    "name": "Olav Steffen Gutting",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "官方记录显示长期议会经验（至少自2002年起）",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 14. Oktober 1970 in Karlsruhe\nFachanwalt für Erbrecht, Rechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/olav-gutting",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Serap_Guler",
+    "name": "Serap Güler",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Staatsministerin für Europa im Auswärtigen Amt",
+    "profession": "Staatsministerin für Europa im Auswärtigen Amt\nStaatsministerin für Europa im Auswärtigen Amt",
+    "source": "https://www.cducsu.de/abgeordnete/serap-gueler",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Georg_Gunther",
+    "name": "Georg Günther",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Dipl.-Finanzwirt (FH)",
+    "source": "https://www.cducsu.de/abgeordnete/georg-guenther",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Fritz_Guntzler",
+    "name": "Fritz Güntzler",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Finanzen",
+    "profession": "Geboren am 6. Mai 1966 in Cuxhaven\nWirtschaftsprüfer, Steuerberater",
+    "source": "https://www.cducsu.de/abgeordnete/fritz-guentzler",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Christian_Karl_Friedhelm_Haase",
+    "name": "Christian Karl Friedhelm Haase",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Haushalt",
+    "profession": "Geboren am 6. Mai 1966 in Höxter\nDipl.-Verwaltungswirt",
+    "source": "https://www.cducsu.de/abgeordnete/christian-haase",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Florian_Peter_Hahn",
+    "name": "Florian Peter Hahn",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Staatsminister im Auswärtigen Amt",
+    "profession": "Geboren am 14. März 1974 in München\nGeschäftsführer, Dipl.-Marketing-Fachwirt (BAW)",
+    "source": "https://www.cducsu.de/abgeordnete/florian-hahn",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Heiko_Hain",
+    "name": "Heiko Hain",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/heiko-hain",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Jurgen_Hardt",
+    "name": "Jürgen Hardt",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Auswärtiges",
+    "profession": "Geboren am 30. Mai 1963",
+    "source": "https://www.cducsu.de/abgeordnete/juergen-hardt",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Matthias_Hauer",
+    "name": "Matthias Hauer",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarischer Staatssekretär bei der Bundesministerin für Forschung, Technologie und Raumfahrt",
+    "profession": "Geboren am 18. Dezember 1977\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/matthias-hauer",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Mechthild_Heil",
+    "name": "Mechthild Heil",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzende der Gruppe der Frauen | Vorsitzende des Ausschusses für Menschenrechte und humanitäre Hilfe",
+    "profession": "Geboren am 23. August 1961 in Andernach\nselbständige Architektin, Dipl.-Ing.",
+    "source": "https://www.cducsu.de/abgeordnete/mechthild-heil",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "foreign",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Mark_Helfrich",
+    "name": "Mark Helfrich",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Umwelt, Klimaschutz, Naturschutz, nukleare Sicherheit | Vorsitzender der Landesgruppe Schleswig-Holstein",
+    "profession": "Geboren am 8. September 1978 in Itzehoe\nBetriebswirt (FH)",
+    "source": "https://www.cducsu.de/abgeordnete/mark-helfrich",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "climate",
+      "economy"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Marc_Henrichmann",
+    "name": "Marc Henrichmann",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 1. Juni 1976 in Münster\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/marc-henrichmann",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Diana_Herbstreuth",
+    "name": "Diana Herbstreuth",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/diana-herbstreuth",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Ansgar_Guido_Karl_Johannes_Heveling",
+    "name": "Ansgar Guido Karl Johannes Heveling",
+    "status": "not_matched_current_directory",
+    "reason": "当前官方目录无法唯一匹配；保留历史卡，不虚构现职。"
+  },
+  {
+    "id": "mdb_Susanne_Hierl",
+    "name": "Susanne Hierl",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecherin & Vorsitzende der Arbeitsgruppe Recht und Verbraucherschutz",
+    "profession": "Geboren am 29. September 1973",
+    "source": "https://www.cducsu.de/abgeordnete/susanne-hierl",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Matthias_Fabian_Hiller",
+    "name": "Matthias Fabian Hiller",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/prof-dr-matthias-hiller",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Christian_Hirte",
+    "name": "Christian Hirte",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Beauftragter der Bundesregierung für die neuen Bundesländer | Parlamentarischer Staatssekretär beim Bundesminister für Verkehr | Vorsitzender der Landesgruppe Thüringen",
+    "profession": "Geboren am 23. Mai 1976 in Bad Salzungen\nRechtsanwalt und Fachanwalt für Steuerrecht",
+    "source": "https://www.cducsu.de/abgeordnete/christian-hirte",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Alexander_Hoffmann",
+    "name": "Alexander Hoffmann",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "用户指定T3；真实职务独立保留",
+    "role": "Erster Stellvertretender Fraktionsvorsitzender | Vorsitzender der CSU-Landesgruppe",
+    "profession": "Geboren am 6. März 1975 in Würzburg\nJurist",
+    "source": "https://www.cducsu.de/abgeordnete/alexander-hoffmann",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Philip_Maria_Albert_Hoffmann",
+    "name": "Philip Maria Albert Hoffmann",
+    "status": "not_matched_current_directory",
+    "reason": "当前官方目录无法唯一匹配；保留历史卡，不虚构现职。"
+  },
+  {
+    "id": "mdb_Hendrik_Hoppenstedt",
+    "name": "Hendrik Hoppenstedt",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarischer Geschäftsführer | Obmann im Ausschuss für Wahlprüfung, Immunität und Geschäftsordnung",
+    "profession": "Geboren am 14. Juni 1972 in Großburgwedel",
+    "source": "https://www.cducsu.de/abgeordnete/dr-hendrik-hoppenstedt",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Franziska_Christina_Brigitte_Hoppermann",
+    "name": "Franziska Christina Brigitte Hoppermann",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretende Vorsitzende der Arbeitsgruppe Digitales und Staatsmodernisierung | Obfrau im Ausschuss für Digitales und Staatsmodernisierung",
+    "profession": "Geboren am 8. Januar 1982\nAmtsleiterin der Behörde für Justiz und Verbraucherschutz Hamburg, Diplom-Kauffrau",
+    "source": "https://www.cducsu.de/abgeordnete/franziska-hoppermann",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital",
+      "security",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Michael_Hose",
+    "name": "Michael Hose",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren in Weimar",
+    "source": "https://www.cducsu.de/abgeordnete/michael-hose",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Anne_Janssen",
+    "name": "Anne Janssen",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 31. August 1982",
+    "source": "https://www.cducsu.de/abgeordnete/anne-janssen",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Thomas_Jarzombek",
+    "name": "Thomas Jarzombek",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarischer Staatssekretär beim Bundesminister für Digitales und Staatsmodernisierung",
+    "profession": "Geboren am 28. April 1973 in Düsseldorf",
+    "source": "https://www.cducsu.de/abgeordnete/thomas-jarzombek",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Alexander_Jordan",
+    "name": "Alexander Jordan",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/alexander-jordan",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Andreas_Jung",
+    "name": "Andreas Jung",
+    "status": "not_matched_current_directory",
+    "reason": "当前官方目录无法唯一匹配；保留历史卡，不虚构现职。"
+  },
+  {
+    "id": "mdb_Nicklas_Kappe",
+    "name": "Nicklas Kappe",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/nicklas-kappe",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "climate",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Anja_Maria_Antonia_Karliczek",
+    "name": "Anja Maria-Antonia Karliczek",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzende des Ausschusses für Tourismus",
+    "profession": "Geboren am 29. April 1971 in Ibbenbüren",
+    "source": "https://www.cducsu.de/abgeordnete/anja-karliczek",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Ronja_Helene_Kemmer",
+    "name": "Ronja Helene Kemmer",
+    "status": "not_matched_current_directory",
+    "reason": "当前官方目录无法唯一匹配；保留历史卡，不虚构现职。"
+  },
+  {
+    "id": "mdb_Roderich_Kiesewetter",
+    "name": "Roderich Kiesewetter",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Auswärtiges | Obmann im Auswärtigen Ausschuss",
+    "profession": "Geboren am 11. September 1963 in Pfullendorf/Baden\nOberst a.D., Dipl.-Kaufmann",
+    "source": "https://www.cducsu.de/abgeordnete/roderich-kiesewetter",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Michael_Hannes_Kieling",
+    "name": "Michael Hannes Kießling",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Tourismus",
+    "profession": "Geboren am 29. Mai 1973 in Rüti, Schweiz\nDipl.-Bauingenieur (FH)",
+    "source": "https://www.cducsu.de/abgeordnete/dipl-ing-fh-michael-kiessling",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Rudolf_Georg_Kippels",
+    "name": "Rudolf Georg Kippels",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarischer Staatssekretär bei der Bundesministerin für Gesundheit",
+    "profession": "Geboren am 21. September 1959 in Bedburg\nVolljurist, Rechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/dr-georg-kippels",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Ottilie_Paola_Klein",
+    "name": "Ottilie Paola Klein",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecherin & Vorsitzende der Arbeitsgruppe Kultur und Medien",
+    "profession": "Sprecherin & Vorsitzende der Arbeitsgruppe Kultur und Medien\nSprecherin & Vorsitzende der Arbeitsgruppe Kultur und Medien",
+    "source": "https://www.cducsu.de/abgeordnete/dr-ottilie-paola-klein",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "Kloeckner",
+    "name": "Julia Klöckner",
+    "tier": 4,
+    "previousTier": 4,
+    "reason": "内阁部长或议会主持层级",
+    "role": "Präsidentin des Deutschen Bundestages",
+    "profession": "Geboren am 16. Dezember 1972 in Bad Kreuznach\nM.A. und Staatsexamen in Theologie, Politikwissenschaft und Pädagogik, Bundesministerin a. D., Chefredakteurin/Journalistin",
+    "source": "https://www.cducsu.de/abgeordnete/julia-kloeckner",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Axel_Knoerig",
+    "name": "Axel Knoerig",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 1. März 1967 in Bassum\nKommunal- und Politikwissenschaftler",
+    "source": "https://www.cducsu.de/abgeordnete/axel-knoerig",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Johann_Georg_Koller",
+    "name": "Johann Georg Koller",
+    "status": "not_matched_current_directory",
+    "reason": "当前官方目录无法唯一匹配；保留历史卡，不虚构现职。"
+  },
+  {
+    "id": "mdb_Markus_Benjamin_Koob",
+    "name": "Markus Benjamin Koob",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 5. Dezember 1977 in Kronberg im Taunus",
+    "source": "https://www.cducsu.de/abgeordnete/markus-koob",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Stefan_Korbach",
+    "name": "Stefan Korbach",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/dr-stefan-korbach",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Gunther_Krichbaum",
+    "name": "Gunther Krichbaum",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Beauftragter der Bundesregierung für die deutsch-französische Zusammenarbeit | Staatsminister im Auswärtigen Amt",
+    "profession": "Geboren am 4. Mai 1964 in Korntal\nWirtschaftsjurist",
+    "source": "https://www.cducsu.de/abgeordnete/gunther-krichbaum",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "economy",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Lukas_Albrecht_Krieger",
+    "name": "Lukas Albrecht Krieger",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Rechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/lukas-krieger",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Gunter_Krings",
+    "name": "Günter Krings",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Fraktionsvorsitzender für Recht und Verbraucherschutz, Innen, Vertriebene, Aussiedler und deutsche Minderheiten, Petitionen | Vorsitzender der Landesgruppe Nordrhein-Westfalen",
+    "profession": "Geboren am 7. August 1969 in Mönchengladbach-Rheydt\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/dr-guenter-krings",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Tilman_Moritz_Kuban",
+    "name": "Tilman Moritz Kuban",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Angelegenheiten der Europäischen Union",
+    "profession": "Sprecher & Vorsitzender der Arbeitsgruppe Angelegenheiten der Europäischen Union\nSprecher & Vorsitzender der Arbeitsgruppe Angelegenheiten der Europäischen Union",
+    "source": "https://www.cducsu.de/abgeordnete/tilman-kuban",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "economy",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Daniel_Kolbl",
+    "name": "Daniel Kölbl",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Master of Science in Global Management & Governance",
+    "source": "https://www.cducsu.de/abgeordnete/daniel-koelbl",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Anne_Konig",
+    "name": "Anne König",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecherin & Vorsitzende der Arbeitsgruppe Bildung, Familie, Senioren, Frauen und Jugend",
+    "profession": "Geboren am 4. Dezember 1984",
+    "source": "https://www.cducsu.de/abgeordnete/anne-koenig",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Carsten_Korber",
+    "name": "Carsten Körber",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzender der Landesgruppe Sachsen",
+    "profession": "Geboren am 11. Juni 1979 in Zwickau\nBetriebswirt, Unternehmensberater",
+    "source": "https://www.cducsu.de/abgeordnete/carsten-koerber",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Konrad_Korner",
+    "name": "Konrad Körner",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Rechtsanwalt, Master of Laws LL.M.",
+    "source": "https://www.cducsu.de/abgeordnete/dr-konrad-koerner",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "social",
+      "digital"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Ulrich_Josef_Lange",
+    "name": "Ulrich Josef Lange",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarischer Staatssekretär beim Bundesminister für Verkehr",
+    "profession": "Geboren am 6. Juni 1969 in Meran (Südtirol)\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/ulrich-lange",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Armin_Laschet",
+    "name": "Armin Laschet",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzender des Auswärtigen Ausschusses",
+    "profession": "Geboren am 18. Februar 1961 in Aachen",
+    "source": "https://www.cducsu.de/abgeordnete/armin-laschet",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Silke_Launert",
+    "name": "Silke Launert",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarische Staatssekretärin bei der Bundesministerin für Forschung, Technologie und Raumfahrt",
+    "profession": "Geboren am 27. Dezember 1976 in Stadtsteinach\nRichterin",
+    "source": "https://www.cducsu.de/abgeordnete/dr-silke-launert",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital",
+      "security",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Jens_Lehmann",
+    "name": "Jens Lehmann",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 19. Dezember 1967 in Stolberg/Harz\nErzieher",
+    "source": "https://www.cducsu.de/abgeordnete/jens-lehmann",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Andreas_Lenz",
+    "name": "Andreas Lenz",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Wirtschaft und Energie",
+    "profession": "Geboren am 23. April 1981 in Ebersberg\nDipl.-Betriebswirt (FH)",
+    "source": "https://www.cducsu.de/abgeordnete/dr-andreas-lenz",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Andrea_Lindholz",
+    "name": "Andrea Lindholz",
+    "tier": 4,
+    "previousTier": 2,
+    "reason": "内阁部长或议会主持层级",
+    "role": "Vizepräsidentin des Deutschen Bundestages",
+    "profession": "Geboren am 25. September 1970 in Bonn\nRechtsanwältin",
+    "source": "https://www.cducsu.de/abgeordnete/andrea-lindholz",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "social"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "Linnemann",
+    "name": "Carsten Linnemann",
+    "tier": 4,
+    "previousTier": 3,
+    "reason": "内阁部长或议会主持层级",
+    "role": "Bundesminister für Gesundheit",
+    "profession": "Geboren am 10. August 1977 in Paderborn\nDipl.-Volkswirt",
+    "source": "https://www.cducsu.de/abgeordnete/dr-carsten-linnemann",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "economy"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Patricia_Ingrid_Lips",
+    "name": "Patricia Ingrid Lips",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretende Fraktionsvorsitzende für Europapolitik, Europa-Koord., Parl. Zusammenarbeit in EU, VB-Brüssel",
+    "profession": "Geboren am 21. Dezember 1963 in Mailand, Italien\nHandelsfachwirtin",
+    "source": "https://www.cducsu.de/abgeordnete/patricia-lips",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "social"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Jan_Marco_Luczak",
+    "name": "Jan-Marco Luczak",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Wohnen, Stadtentwicklung, Bauwesen | Vorsitzender der Landesgruppe Berlin",
+    "profession": "Geboren am 2. Oktober 1975 in Berlin\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/dr-jan-marco-luczak",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "foreign",
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Daniela_Ludwig",
+    "name": "Daniela Ludwig",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarische Staatssekretärin beim Bundesminister des Innern",
+    "profession": "Geboren am 7. Juli 1975 in München\nDipl.-Juristin",
+    "source": "https://www.cducsu.de/abgeordnete/daniela-ludwig",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Saskia_Ludwig",
+    "name": "Saskia Ludwig",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 23. Mai 1968",
+    "source": "https://www.cducsu.de/abgeordnete/dr-saskia-ludwig",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Klaus_Jurgen_Mack",
+    "name": "Klaus Jürgen Mack",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Fraktionsvorsitzender für Umwelt, Klimaschutz, Naturschutz u. nukleare Sicherheit, Wirtschaftliche Zusammenarbeit & Entwicklung, Nachhaltigkeit",
+    "profession": "Geboren am 28. April 1973 in Günzburg\nBürgermeister, Diplom-Verwaltungswirt (FH)",
+    "source": "https://www.cducsu.de/abgeordnete/klaus-mack",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "foreign",
+      "climate"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Andreas_Mattfeldt",
+    "name": "Andreas Mattfeldt",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Petitionen",
+    "profession": "Geboren am 28. September 1969 in Langwedel- Völkersen\nBürgermeister, Industriekaufmann",
+    "source": "https://www.cducsu.de/abgeordnete/andreas-mattfeldt",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Stephan_Mayer",
+    "name": "Stephan Mayer",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Sport und Ehrenamt",
+    "profession": "Geboren am 15. Dezember 1973 in Burghausen\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/stephan-mayer",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "security",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Volker_Fred_Mayer_Lay",
+    "name": "Volker Fred Mayer-Lay",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 22. Juni 1981",
+    "source": "https://www.cducsu.de/abgeordnete/volker-mayer-lay",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "climate",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Michael_Gunther_Meister",
+    "name": "Michael Günther Meister",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "官方记录显示长期议会经验（至少自2002年起）",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 9. Juni 1961 in Lorsch\nDipl.-Mathematiker",
+    "source": "https://www.cducsu.de/abgeordnete/dr-michael-meister",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "Merz",
+    "name": "Friedrich Merz",
+    "tier": 5,
+    "previousTier": 5,
+    "reason": "总理或党主席",
+    "role": "Bundeskanzler",
+    "profession": "Geboren am 11. November 1955 in Brilon",
+    "source": "https://www.cducsu.de/abgeordnete/friedrich-merz",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 5,
+      "leadership": 5,
+      "negotiation": 4,
+      "oratory": 4,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Jan_Metzler",
+    "name": "Jan Metzler",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 5. Juli 1981 in Worms\nDipl.-Betriebswirt (FH), Winzer",
+    "source": "https://www.cducsu.de/abgeordnete/jan-metzler",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Mathias_Middelberg",
+    "name": "Mathias Middelberg",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Fraktionsvorsitzender für Haushalt, Finanzen, Kommunalpolitik | Vorsitzender der Landesgruppe Niedersachsen",
+    "profession": "Geboren am 14. Dezember 1964 in Osnabrück\nVolljurist",
+    "source": "https://www.cducsu.de/abgeordnete/dr-mathias-middelberg",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Christian_Anton_Moser",
+    "name": "Christian Anton Moser",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/christian-moser",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "climate",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Axel_Karl_Muller",
+    "name": "Axel Karl Müller",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 24. Juli 1963 in Esslingen\nVorsitzender Richter am Landgericht a.D.",
+    "source": "https://www.cducsu.de/abgeordnete/axel-mueller",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Carsten_Muller",
+    "name": "Carsten Müller",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 8. Mai 1970 in Braunschweig\nBankkaufmann, Jurist, Rechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/carsten-mueller",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Florian_Matthias_Muller",
+    "name": "Florian Matthias Müller",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Forschung, Technologie und Raumfahrt",
+    "profession": "Sprecher & Vorsitzender der Arbeitsgruppe Forschung, Technologie und Raumfahrt\nSprecher & Vorsitzender der Arbeitsgruppe Forschung, Technologie und Raumfahrt",
+    "source": "https://www.cducsu.de/abgeordnete/florian-mueller",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Sepp_Muller",
+    "name": "Sepp Müller",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Fraktionsvorsitzender für Wirtschaft und Energie, Mittelstand, Tourismus, Neue Länder | Vorsitzender der Landesgruppe Sachsen-Anhalt",
+    "profession": "Geboren am 22. Januar 1989 in Lutherstadt Wittenberg\nBankfachwirt, Bankkaufmann",
+    "source": "https://www.cducsu.de/abgeordnete/sepp-mueller",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Stefan_Nacke",
+    "name": "Stefan Nacke",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzender der Arbeitnehmergruppe",
+    "profession": "Geboren am 27. Januar 1976 in Münster",
+    "source": "https://www.cducsu.de/abgeordnete/dr-stefan-nacke",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Wilfried_Oellers",
+    "name": "Wilfried Oellers",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Beauftragter des Fraktionsvorsitzenden für die Teilhabe von Menschen mit Behinderungen",
+    "profession": "Geboren am 16. September 1975 in Mönchengladbach\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/wilfried-oellers",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Florian_Oest",
+    "name": "Florian Oest",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/florian-oest",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Harald_Stefan_Orthey",
+    "name": "Harald Stefan Orthey",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/harald-orthey",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Josef_Oster",
+    "name": "Josef Oster",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzender der Arbeitsgemeinschaft Kommunalpolitik",
+    "profession": "Geboren am 4. Januar 1971 in Zell (Mosel)\nBürgermeister a.D., Dipl.-Verwaltungswirt (FH)",
+    "source": "https://www.cducsu.de/abgeordnete/josef-oster",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Henning_Rudolf_Helmut_Otte",
+    "name": "Henning Rudolf Helmut Otte",
+    "status": "not_matched_current_directory",
+    "reason": "当前官方目录无法唯一匹配；保留历史卡，不虚构现职。"
+  },
+  {
+    "id": "mdb_Florian_Oner",
+    "name": "Florian Oßner",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Haushalt | Obmann im Haushaltsausschuss",
+    "profession": "Geboren am 5. Juli 1980 in Vilsbiburg\nDipl.-Volkswirt (Univ.)",
+    "source": "https://www.cducsu.de/abgeordnete/florian-ossner",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Thomas_Pauls",
+    "name": "Thomas Pauls",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/dr-thomas-pauls",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "digital"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Stephan_Nikolaus_Pilsinger",
+    "name": "Stephan Nikolaus Pilsinger",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 17. Februar 1987 in München\nArzt",
+    "source": "https://www.cducsu.de/abgeordnete/dr-med-stephan-pilsinger",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Christoph_Johannes_Plo",
+    "name": "Christoph Johannes Ploß",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Koordinator der Bundesregierung für Maritime Wirtschaft und Tourismus | Vorsitzender der Landesgruppe Hamburg",
+    "profession": "Geboren am 19. Juli 1985 in Hamburg\nHistoriker",
+    "source": "https://www.cducsu.de/abgeordnete/dr-christoph-ploss",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Martin_Plum",
+    "name": "Martin Plum",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Justiziar",
+    "profession": "Geboren am 26. Februar 1982\nRichter",
+    "source": "https://www.cducsu.de/abgeordnete/dr-martin-plum",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Jan_Wilhelm_Pohlmann",
+    "name": "Jan-Wilhelm Pohlmann",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/jan-wilhelm-pohlmann",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_David_Sebastian_Preisendanz",
+    "name": "David Sebastian Preisendanz",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/dr-david-preisendanz",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Oliver_Reinhold_Popsel",
+    "name": "Oliver Reinhold Pöpsel",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/oliver-reinhold-poepsel",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Thomas_Walther_Rachel",
+    "name": "Thomas Walther Rachel",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Beauftragter der Bundesregierung für Religions- und Weltanschauungsfreiheit | Stellvertretender Vorsitzender der Arbeitsgruppe Wirtschaftliche Zusammenarbeit und Entwicklung | Obmann im Ausschuss für wirtschaftliche Zusammenarbeit und Entwicklung",
+    "profession": "Geboren am 17. Mai 1962 in Düren-Birkesdorf\nPolitikwissenschaftler",
+    "source": "https://www.cducsu.de/abgeordnete/thomas-rachel",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Kerstin_Christiane_Radomski",
+    "name": "Kerstin Christiane Radomski",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 1. November 1974 in Krefeld\nStudienrätin",
+    "source": "https://www.cducsu.de/abgeordnete/kerstin-radomski",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Alexander_Gamal_Radwan",
+    "name": "Alexander Gamal Radwan",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 30. August 1964 in München\nRechtsanwalt, Dipl.-Ingenieur (FH)",
+    "source": "https://www.cducsu.de/abgeordnete/alexander-radwan",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Alois_Georg_Josef_Rainer",
+    "name": "Alois Georg Josef Rainer",
+    "tier": 4,
+    "previousTier": 2,
+    "reason": "内阁部长或议会主持层级",
+    "role": "Bundesminister für Landwirtschaft, Ernährung und Heimat",
+    "profession": "Geboren am 7. Januar 1965 in Straubing\nBürgermeister a.D.",
+    "source": "https://www.cducsu.de/abgeordnete/alois-rainer",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Pascal_Reddig",
+    "name": "Pascal Reddig",
+    "tier": 3,
+    "previousTier": 1,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzender der Jungen Gruppe | Stellvertretender Vorsitzender der Arbeitsgruppe Arbeit und Soziales | Obmann im Ausschuss für Arbeit und Soziales",
+    "profession": "Vorsitzender der Jungen Gruppe\n|\nStellvertretender Vorsitzender der Arbeitsgruppe Arbeit und Soziales\n|\nObmann im Ausschuss für Arbeit und Soziales\nVorsitzender der Jungen Gruppe\n|\nStellvertretender Vorsitzender der Arbeitsgruppe Arbeit und Soziales\n|\nObmann im Ausschuss für Arbeit und Soziales",
+    "source": "https://www.cducsu.de/abgeordnete/pascal-reddig",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Henning_Rehbaum",
+    "name": "Henning Rehbaum",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Dipl.-Betriebswirt (FH), Industriekaufmann, Landtagsabgeordneter NRW",
+    "source": "https://www.cducsu.de/abgeordnete/henning-rehbaum",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Markus_Alexander_Reichel",
+    "name": "Markus Alexander Reichel",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 15. Juli 1968 in München",
+    "source": "https://www.cducsu.de/abgeordnete/dr-markus-alexander-reichel",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "digital"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Lars_Rohwer",
+    "name": "Lars Rohwer",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzender des Stephanuskreises | Stellvertretender Vorsitzender der Arbeitsgruppe Wohnen, Stadtentwicklung, Bauwesen | Obmann im Ausschuss für Wohnen, Stadtentwicklung, Bauwesen und Kommunen",
+    "profession": "Geboren in Dresden\nBankkaufmann",
+    "source": "https://www.cducsu.de/abgeordnete/lars-rohwer",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "foreign",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Johannes_Rothenberger",
+    "name": "Johannes Rothenberger",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/johannes-rothenberger",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "foreign",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Stefan_Rouenhoff",
+    "name": "Stefan Rouenhoff",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarischer Staatssekretär bei der Bundesministerin für Wirtschaft und Energie",
+    "profession": "Geboren am 23. Dezember 1978 in Goch, Kreis Kleve",
+    "source": "https://www.cducsu.de/abgeordnete/stefan-rouenhoff",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Albert_Robert_Rupprecht",
+    "name": "Albert Robert Rupprecht",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "官方记录显示长期议会经验（至少自2002年起）",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 10. Juni 1968 in Vohenstrauß\nDipl.-Volkswirt",
+    "source": "https://www.cducsu.de/abgeordnete/albert-rupprecht",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Norbert_Alois_Rottgen",
+    "name": "Norbert Alois Röttgen",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Fraktionsvorsitzender für Auswärtiges, Verteidigung, Gemeinsame Außen- und Sicherheitspolitik, Europarat, Menschenrechte",
+    "profession": "Geboren am 2. Juli 1965 in Meckenheim\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/dr-norbert-roettgen",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Thomas_Rowekamp",
+    "name": "Thomas Röwekamp",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzender der Landesgruppe Bremen | Vorsitzender des Verteidigungsausschusses",
+    "profession": "Geboren am 18. September 1966",
+    "source": "https://www.cducsu.de/abgeordnete/thomas-roewekamp",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Catarina_dos_Santos_Wintz",
+    "name": "Catarina dos Santos-Wintz",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Erste Parlamentarische Geschäftsführerin",
+    "profession": "Geboren in Lissabon, Portugal\nRechtsanwältin",
+    "source": "https://www.cducsu.de/abgeordnete/catarina-dos-santos-wintz",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Carl_Philipp_Martin_Gerhard_Sassenrath",
+    "name": "Carl-Philipp Martin Gerhard Sassenrath",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren in Neuss\nVolljurist",
+    "source": "https://www.cducsu.de/abgeordnete/carl-philipp-sassenrath",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Christiane_Schenderlein",
+    "name": "Christiane Schenderlein",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarische Staatssekretärin bei der Bundesministerin für Gesundheit",
+    "profession": "Geboren am 17. Oktober 1981",
+    "source": "https://www.cducsu.de/abgeordnete/dr-christiane-schenderlein",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Henri_Schmidt",
+    "name": "Henri Schmidt",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/henri-schmidt",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "digital"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Sebastian_Schmidt",
+    "name": "Sebastian Schmidt",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/sebastian-schmidt",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Patrick_Schnieder",
+    "name": "Patrick Schnieder",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 1. Mai 1968 in Kyllburg\nVolljurist, Bürgermeister a.D.",
+    "source": "https://www.cducsu.de/abgeordnete/patrick-schnieder",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Felix_Schreiner",
+    "name": "Felix Schreiner",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarischer Geschäftsführer | Vorsitzender der Landesgruppe Baden-Württemberg",
+    "profession": "Geboren am 29. Januar 1986 in Waldshut-Tiengen",
+    "source": "https://www.cducsu.de/abgeordnete/felix-schreiner",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Marvin_Schulz",
+    "name": "Marvin Schulz",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/marvin-schulz",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "digital"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Detlef_Seif",
+    "name": "Detlef Seif",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Beauftragter des Fraktionsvorsitzenden für die Umsetzung der europäischen Asyl- und Migrationswende | Stellvertretender Vorsitzender der Arbeitsgruppe Innen | Obmann im Innenausschuss",
+    "profession": "Geboren am 15. August 1962 in Euskirchen\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/detlef-seif",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Nora_Seitz",
+    "name": "Nora Seitz",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/nora-seitz",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Thomas_Silberhorn",
+    "name": "Thomas Silberhorn",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Justiziar",
+    "profession": "Geboren am 12. November 1968 in Kemmern\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/thomas-silberhorn",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Bjorn_Manuel_Simon",
+    "name": "Björn Manuel Simon",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Verkehr",
+    "profession": "Geboren am 18. Mai 1981 in Offenbach am Main\nPolitikwissenschaftler",
+    "source": "https://www.cducsu.de/abgeordnete/bjoern-simon",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Tino_Sorge",
+    "name": "Tino Sorge",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 4. März 1975 in Ilmenau\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/tino-sorge",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "digital"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "Spahn",
+    "name": "Jens Spahn",
+    "tier": 3,
+    "previousTier": 4,
+    "reason": "前高级职务的经验保留，不恢复已卸任组织权限",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 16. Mai 1980 in Ahaus\nBankkaufmann, Politikwissenschaftler",
+    "source": "https://www.cducsu.de/abgeordnete/jens-spahn",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Katrin_Staffler",
+    "name": "Katrin Staffler",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Pflegebevollmächtigte der Bundesregierung",
+    "profession": "Geboren am 4. November 1981 in Dachau",
+    "source": "https://www.cducsu.de/abgeordnete/katrin-staffler",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Wolfgang_Dieter_Stefinger",
+    "name": "Wolfgang Dieter Stefinger",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzender des Ausschusses für wirtschaftliche Zusammenarbeit und Entwicklung",
+    "profession": "Geboren am 20. April 1985 in München\nDipl.-Betriebswirt (FH), Referent",
+    "source": "https://www.cducsu.de/abgeordnete/prof-dr-wolfgang-stefinger",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Albert_Stegeman",
+    "name": "Albert Stegeman",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Fraktionsvorsitzender für Landwirtschaft, Ernährung und Heimat, Gesundheit",
+    "profession": "Geboren am 9. März 1976 in Nordhorn\nLandwirtschaftsmeister",
+    "source": "https://www.cducsu.de/abgeordnete/albert-stegemann",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Sebastian_Steineke",
+    "name": "Sebastian Steineke",
+    "tier": 3,
+    "previousTier": 1,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Beauftragter des Fraktionsvorsitzenden für Fragen des Verbraucherschutzes | Stellvertretender Vorsitzender der Arbeitsgruppe Recht und Verbraucherschutz | Obmann im Ausschuss für Recht und Verbraucherschutz | Vorsitzender der Landesgruppe Brandenburg",
+    "profession": "Geboren am 19. Juni 1973",
+    "source": "https://www.cducsu.de/abgeordnete/sebastian-steineke",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Johannes_Eberhard_Steiniger",
+    "name": "Johannes Eberhard Steiniger",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzender der Landesgruppe Rheinland-Pfalz",
+    "profession": "Geboren am 18. Juni 1987 in Bad Dürkheim\nGymnasiallehrer für Mathematik und Politik",
+    "source": "https://www.cducsu.de/abgeordnete/johannes-steiniger",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Christian_Alexander_Freiherr_von_Stetten",
+    "name": "Christian Alexander Freiherr von Stetten",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzender des Parlamentskreis Mittelstand (PKM) | Vorsitzender des Ausschusses für Wirtschaft und Energie",
+    "profession": "Geboren am 24. Juli 1970 in Stuttgart\nDipl.-Betriebswirt (FH), Selbständiger Unternehmer",
+    "source": "https://www.cducsu.de/abgeordnete/christian-frhr-von-stetten",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Dieter_Stier",
+    "name": "Dieter Stier",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 29. Juni 1964 in Weißenfels / S.\nDipl.-Ing. agr., Pferdewirtschaftsmeister, Zootechniker/Mechanisator",
+    "source": "https://www.cducsu.de/abgeordnete/dieter-stier",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Stephan_Stracke",
+    "name": "Stephan Stracke",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Fraktionsvorsitzender für Verkehr, Wohnen, Stadtentwicklung und Bauwesen",
+    "profession": "Geboren am 1. April 1974 in Marktoberdorf\nVolljurist",
+    "source": "https://www.cducsu.de/abgeordnete/stephan-stracke",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "foreign",
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Katja_Strauss_Koster",
+    "name": "Katja Strauss-Köster",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/dr-katja-strauss-koester",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Hendrik_Streeck",
+    "name": "Hendrik Streeck",
+    "tier": 3,
+    "previousTier": 1,
+    "reason": "联邦专项事务负责人及卫生专业背景",
+    "role": "Beauftragter der Bundesregierung für Sucht- und Drogenfragen",
+    "profession": "Beauftragter der Bundesregierung für Sucht- und Drogenfragen\nBeauftragter der Bundesregierung für Sucht- und Drogenfragen",
+    "source": "https://www.cducsu.de/abgeordnete/prof-dr-hendrik-streeck",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Christina_Daniela_Stumpp",
+    "name": "Christina Daniela Stumpp",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecherin & Vorsitzende der Arbeitsgruppe Landwirtschaft, Ernährung und Heimat",
+    "profession": "Sprecherin & Vorsitzende der Arbeitsgruppe Landwirtschaft, Ernährung und Heimat\nSprecherin & Vorsitzende der Arbeitsgruppe Landwirtschaft, Ernährung und Heimat",
+    "source": "https://www.cducsu.de/abgeordnete/christina-stumpp",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Vivian_Tauschwitz",
+    "name": "Vivian Tauschwitz",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Offizierin",
+    "source": "https://www.cducsu.de/abgeordnete/vivian-tauschwitz",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "social",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Roland_Theis",
+    "name": "Roland Theis",
+    "tier": 3,
+    "previousTier": 1,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Angelegenheiten der Europäischen Union | Obmann im Ausschuss für die Angelegenheiten der Europäischen Union | Vorsitzender der Landesgruppe Saarland",
+    "profession": "Stellvertretender Vorsitzender der Arbeitsgruppe Angelegenheiten der Europäischen Union\n|\nObmann im Ausschuss für die Angelegenheiten der Europäischen Union\n|\nVorsitzender der Landesgruppe Saarland\nStellvertretender Vorsitzender der Arbeitsgruppe Angelegenheiten der Europäischen Union\n|\nObmann im Ausschuss für die Angelegenheiten der Europäischen Union\n|\nVorsitzender der Landesgruppe Saarland",
+    "source": "https://www.cducsu.de/abgeordnete/roland-theis",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Hans_Diogenes_Theiss",
+    "name": "Hans Diogenes Theiss",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/prof-dr-med-hans-theiss",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "digital"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Alexander_Richard_Throm",
+    "name": "Alexander Richard Throm",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Innen",
+    "profession": "Geboren am 8. September 1968 in Heilbronn\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/alexander-throm",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Astrid_Timmermann_Fechter",
+    "name": "Astrid Timmermann-Fechter",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 22. Juni 1963 in Marl",
+    "source": "https://www.cducsu.de/abgeordnete/astrid-timmermann-fechter",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Kerstin_Vieregge",
+    "name": "Kerstin Vieregge",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretende Vorsitzende der Arbeitsgruppe Verteidigung | Obfrau im Verteidigungsausschuss",
+    "profession": "Geboren am 6. September 1976 in Rinteln\nBetriebswirtin",
+    "source": "https://www.cducsu.de/abgeordnete/kerstin-vieregge",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Oliver_Vogt",
+    "name": "Oliver Vogt",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 15. Juli 1977",
+    "source": "https://www.cducsu.de/abgeordnete/dr-oliver-vogt",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Johannes_Volkmann",
+    "name": "Johannes Volkmann",
+    "tier": 3,
+    "previousTier": 1,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Kultur und Medien | Obmann im Ausschuss für Kultur und Medien",
+    "profession": "Sinologe, Volkswirt",
+    "source": "https://www.cducsu.de/abgeordnete/johannes-volkmann",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Christoph_Bernhard_de_Vries",
+    "name": "Christoph Bernhard de Vries",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarischer Staatssekretär beim Bundesminister des Innern",
+    "profession": "Geboren am 4. Dezember 1974 in Hamburg\nDipl.-Soziologe, ltd. Angestellter (Haushalt)",
+    "source": "https://www.cducsu.de/abgeordnete/christoph-de-vries",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "Wadephul",
+    "name": "Johann Wadephul",
+    "tier": 4,
+    "previousTier": 4,
+    "reason": "内阁部长或议会主持层级",
+    "role": "Bundesminister des Auswärtigen",
+    "profession": "Geboren am 10. Februar 1963 in Husum\nRechtsanwalt",
+    "source": "https://www.cducsu.de/abgeordnete/dr-johann-david-wadephul",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign",
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Siegfried_Sebastian_Walch",
+    "name": "Siegfried Sebastian Walch",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/siegfried-sebastian-walch",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "Warken",
+    "name": "Nina Warken",
+    "tier": 3,
+    "previousTier": 4,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Bundesministerin für besondere Aufgaben und Chefin des Bundeskanzleramts | Beauftragte der Bundesregierung für die Nachrichtendienste des Bundes",
+    "profession": "Geboren am 15. Mai 1979 in Bad Mergentheim",
+    "source": "https://www.cducsu.de/abgeordnete/nina-warken",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Anja_Weisgerber",
+    "name": "Anja Weisgerber",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretende Fraktionsvorsitzende für Bildung, Familie, Senioren, Frauen und Jugend, Kultur und Medien",
+    "profession": "Geboren am 11. März 1976 in Schweinfurt\nRechtsanwältin",
+    "source": "https://www.cducsu.de/abgeordnete/dr-anja-weisgerber",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Maria_Lena_Weiss",
+    "name": "Maria-Lena Weiss",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/dr-jur-maria-lena-weiss",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Kai_Thorsten_Whittaker",
+    "name": "Kai Thorsten Whittaker",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 10. April 1985 in Baden-Baden\nWirtschaftswissenschaftler",
+    "source": "https://www.cducsu.de/abgeordnete/kai-whittaker",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Johannes_Thomas_Maria_Wiegelmann",
+    "name": "Johannes Thomas Maria Wiegelmann",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "",
+    "source": "https://www.cducsu.de/abgeordnete/johannes-thomas-maria-wiegelmann",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Klaus_Wiener",
+    "name": "Klaus Wiener",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Vorsitzender der Arbeitsgruppe Wirtschaft und Energie | Obmann im Ausschuss für Wirtschaft und Energie",
+    "profession": "Geboren am 21. August 1962",
+    "source": "https://www.cducsu.de/abgeordnete/dr-klaus-wiener",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Klaus_Peter_Willsch",
+    "name": "Klaus-Peter Willsch",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Vorsitzender der Gruppe der Vertriebenen, Aussiedler und deutschen Minderheiten",
+    "profession": "Geboren am 28. Februar 1961 in Bad Schwalbach\nDipl.-Volkswirt",
+    "source": "https://www.cducsu.de/abgeordnete/klaus-peter-willsch",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Johannes_Winkel",
+    "name": "Johannes Winkel",
+    "tier": 3,
+    "previousTier": 1,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretender Fraktionsvorsitzender für Arbeit und Soziales, Arbeitnehmer, Sport und Ehrenamt",
+    "profession": "Geboren in Olpe\nVolljurist",
+    "source": "https://www.cducsu.de/abgeordnete/johannes-winkel",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "security"
+    ],
+    "stats": {
+      "resources": 4,
+      "leadership": 4,
+      "negotiation": 4,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Elisabeth_Winkelmeier_Becker",
+    "name": "Elisabeth Winkelmeier-Becker",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 15. September 1962 in Troisdorf\nRichterin",
+    "source": "https://www.cducsu.de/abgeordnete/elisabeth-winkelmeier-becker",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "security",
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Tobias_Winkler",
+    "name": "Tobias Winkler",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Lehrbeauftragter an der Technischen Hochschule Nürnberg - Georg Simon Ohm, Leiter des Verbindungsbüros des Europäischen Parlaments in München",
+    "source": "https://www.cducsu.de/abgeordnete/tobias-winkler",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Mechthilde_Wittmann",
+    "name": "Mechthilde Wittmann",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 12. Dezember 1967",
+    "source": "https://www.cducsu.de/abgeordnete/mechthilde-wittmann",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Mareike_Lotte_Wulf",
+    "name": "Mareike Lotte Wulf",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Parlamentarische Staatssekretärin bei der Bundesministerin für Bildung, Familie, Senioren, Frauen und Jugend",
+    "profession": "Parlamentarische Staatssekretärin bei der Bundesministerin für Bildung, Familie, Senioren, Frauen und Jugend\nParlamentarische Staatssekretärin bei der Bundesministerin für Bildung, Familie, Senioren, Frauen und Jugend",
+    "source": "https://www.cducsu.de/abgeordnete/mareike-lotte-wulf",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Emmi_Zeulner",
+    "name": "Emmi Zeulner",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Stellvertretende Vorsitzende der Arbeitsgruppe Gesundheit | Obfrau im Ausschuss für Gesundheit",
+    "profession": "Geboren am 27. März 1987 in Lichtenfels\nExaminierte Gesundheits- und Krankenpflegerin",
+    "source": "https://www.cducsu.de/abgeordnete/emmi-zeulner",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "social",
+      "economy",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Paul_Ziemiak",
+    "name": "Paul Ziemiak",
+    "tier": 2,
+    "previousTier": 2,
+    "reason": "已有议会经验的专业成员",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Geboren am 6. September 1985 in Stettin",
+    "source": "https://www.cducsu.de/abgeordnete/paul-ziemiak",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Nicolas_Benjamin_Zippelius",
+    "name": "Nicolas Benjamin Zippelius",
+    "tier": 3,
+    "previousTier": 2,
+    "reason": "有可核查的组织、议会事务或专业协调职责",
+    "role": "Sprecher & Vorsitzender der Arbeitsgruppe Wirtschaftliche Zusammenarbeit und Entwicklung",
+    "profession": "Sprecher & Vorsitzender der Arbeitsgruppe Wirtschaftliche Zusammenarbeit und Entwicklung\nSprecher & Vorsitzender der Arbeitsgruppe Wirtschaftliche Zusammenarbeit und Entwicklung",
+    "source": "https://www.cducsu.de/abgeordnete/nicolas-zippelius",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social",
+      "foreign"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 3,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 4,
+      "resilience": 3
+    }
+  },
+  {
+    "id": "mdb_Vanessa_Kim_Zobel",
+    "name": "Vanessa-Kim Zobel",
+    "tier": 1,
+    "previousTier": 1,
+    "reason": "本届新进入议会的基础人物",
+    "role": "官方人物页未列额外领导职务",
+    "profession": "Bankkauffrau",
+    "source": "https://www.cducsu.de/abgeordnete/vanessa-zobel",
+    "checked_on": "2026-11-06",
+    "status": "official_profile_reviewed",
+    "attribute_basis": "游戏设计估值；职务协调责任与专业工作，不是实测个人能力",
+    "domains": [
+      "economy",
+      "social",
+      "climate"
+    ],
+    "stats": {
+      "resources": 3,
+      "leadership": 2,
+      "negotiation": 3,
+      "oratory": 3,
+      "expertise": 3,
+      "resilience": 3
+    }
+  }
+]

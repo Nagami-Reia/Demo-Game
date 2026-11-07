@@ -1,3 +1,5 @@
+import {faction_poll_change} from './factions.js';
+
 // Fictional live opinion within the match; never real-time electoral polling.
 const POLL_BASE={CDU:22,CSU:6,SPD:16,AfD:21,'Grüne':12,Linke:9,Other:14};
 export function initial_polls(){return {shares:{...POLL_BASE},history:[],changes:[],processed:[]};}
@@ -31,8 +33,8 @@ export function begin_environment(game){
  update_polls(game.polls,{[gov]:shift,[opp]:-shift*.6},`social:${game.round}`);refresh_poll_pressure(game);
  game.log('social_event',{title:event.title});
 }
-export function settle_public_opinion(game,scores,firewall=[]){
- const changes={};for(let i=0;i<2;i++){let p=game.players[i];changes[p.party]=(scores[i]-5)*.22;}
+export function settle_public_opinion(game,scores,firewall=[],factions=null){
+ const changes={};for(let i=0;i<2;i++){let p=game.players[i];const change=(scores[i]-5)*.22;changes[p.party]=factions?faction_poll_change(p,game.round,change)+(factions[i]?.poll||0):change;}
  update_polls(game.polls,changes,`result:${game.round}`);
  const penalties={};game.players.forEach((p,i)=>{if(firewall[i])penalties[p.party]=-firewall[i];});if(Object.keys(penalties).length)update_polls(game.polls,penalties,`firewall:${game.round}`);refresh_poll_pressure(game);
 }

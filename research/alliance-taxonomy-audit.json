@@ -1,0 +1,3305 @@
+{
+  "mapping": {
+    "policy_domain_5f43ef557bec": {
+      "name": {
+        "zh": "外交谈判",
+        "en": "Diplomatic Negotiations",
+        "de": "Diplomatische Verhandlungen"
+      },
+      "targets": [
+        "policy_domain_30e7a99741ce"
+      ]
+    },
+    "policy_domain_ef03d25a3396": {
+      "name": {
+        "zh": "司法",
+        "en": "Justice",
+        "de": "Justiz"
+      },
+      "targets": [
+        "legal"
+      ]
+    },
+    "policy_domain_b37ee1f809cd": {
+      "name": {
+        "zh": "法律",
+        "en": "Law",
+        "de": "Recht"
+      },
+      "targets": [
+        "legal"
+      ]
+    },
+    "policy_domain_114b4bd09def": {
+      "name": {
+        "zh": "预算政策",
+        "en": "Budgetary Policy",
+        "de": "Haushaltspolitik"
+      },
+      "targets": [
+        "policy_domain_7167fd668079"
+      ]
+    },
+    "personal_b6eecb080038": {
+      "name": {
+        "zh": "工商管理学专业毕业",
+        "en": "Business administration graduate",
+        "de": "Diplom-Betriebswirt (BA)"
+      },
+      "targets": [
+        "business_management"
+      ]
+    },
+    "policy_domain_061e02dbc08e": {
+      "name": {
+        "zh": "医疗保健",
+        "en": "Healthcare",
+        "de": "Gesundheitsversorgung"
+      },
+      "targets": [
+        "policy_domain_e8b3df3d9790"
+      ]
+    },
+    "personal_5b1fc763e984": {
+      "name": {
+        "zh": "法学专业人士",
+        "en": "Lawyer",
+        "de": "Jurist"
+      },
+      "targets": [
+        "legal"
+      ]
+    },
+    "policy_domain_5d25f47454dc": {
+      "name": {
+        "zh": "党团管理",
+        "en": "Parliamentary Group Management",
+        "de": "Fraktionsmanagement"
+      },
+      "targets": [
+        "policy_domain_1ce8553d4f6b"
+      ]
+    },
+    "personal_41c76126bd0c": {
+      "name": {
+        "zh": "法律专业人士",
+        "en": "Qualified lawyer",
+        "de": "Volljuristin"
+      },
+      "targets": [
+        "legal"
+      ]
+    },
+    "personal_6070fbe768cd": {
+      "name": {
+        "zh": "律师／税法专业律师",
+        "en": "Lawyer, tax-law specialist",
+        "de": "Rechtsanwalt und Fachanwalt für Steuerrecht"
+      },
+      "targets": [
+        "legal"
+      ]
+    },
+    "personal_466f693e7e79": {
+      "name": {
+        "zh": "记者／神学和政治学专业背景",
+        "en": "Journalist; theology and political science",
+        "de": "Journalistin, Theologie und Politikwissenschaft"
+      },
+      "targets": [
+        "social_science"
+      ]
+    },
+    "personal_0a069c762d10": {
+      "name": {
+        "zh": "经济法专业人士",
+        "en": "Business lawyer",
+        "de": "Wirtschaftsjurist"
+      },
+      "targets": [
+        "legal"
+      ]
+    },
+    "personal_9053e0f2aa3b": {
+      "name": {
+        "zh": "法官",
+        "en": "Judge",
+        "de": "Richterin"
+      },
+      "targets": [
+        "legal"
+      ]
+    },
+    "personal_be39f815ef5f": {
+      "name": {
+        "zh": "经济学专业毕业",
+        "en": "Economics graduate",
+        "de": "Diplom-Volkswirt"
+      },
+      "targets": [
+        "finance_economics"
+      ]
+    },
+    "personal_1ab3438dc7cf": {
+      "name": {
+        "zh": "法学专业毕业",
+        "en": "Law graduate",
+        "de": "Diplom-Juristin"
+      },
+      "targets": [
+        "legal"
+      ]
+    },
+    "personal_3b6d9a9cb0c0": {
+      "name": {
+        "zh": "法律专业人士／前市长",
+        "en": "Lawyer and former mayor",
+        "de": "Volljurist, Bürgermeister a.D."
+      },
+      "targets": [
+        "legal",
+        "local_administration"
+      ]
+    },
+    "personal_2dc9fd5e42f2": {
+      "name": {
+        "zh": "银行从业者／政治学背景",
+        "en": "Bank clerk, political scientist",
+        "de": "Bankkaufmann, Politikwissenschaftler"
+      },
+      "targets": [
+        "finance_economics",
+        "social_science"
+      ]
+    },
+    "personal_75e9cdfde837": {
+      "name": {
+        "zh": "中学数学与政治教师",
+        "en": "Secondary-school teacher of maths and politics",
+        "de": "Gymnasiallehrer für Mathematik und Politik"
+      },
+      "targets": [
+        "education"
+      ]
+    },
+    "personal_482e9fd6ee9f": {
+      "name": {
+        "zh": "社会学专业毕业",
+        "en": "Sociology graduate",
+        "de": "Diplom-Soziologe"
+      },
+      "targets": [
+        "social_science"
+      ]
+    },
+    "personal_5a832fb5d77b": {
+      "name": {
+        "zh": "企业咨询顾问",
+        "en": "Management Consultant",
+        "de": "Unternehmensberater"
+      },
+      "targets": [
+        "business_management"
+      ]
+    },
+    "personal_70db20662734": {
+      "name": {
+        "zh": "刑事警察",
+        "en": "Criminal Police Officer",
+        "de": "Kriminalbeamter"
+      },
+      "targets": [
+        "public_safety"
+      ]
+    },
+    "personal_89a69c21cfe7": {
+      "name": {
+        "zh": "警察／历史学家／军人",
+        "en": "Police Officer, Historian, Soldier",
+        "de": "Polizeibeamter, Historiker, Soldat"
+      },
+      "targets": [
+        "public_safety"
+      ]
+    },
+    "personal_854c78ebc013": {
+      "name": {
+        "zh": "科研管理人员",
+        "en": "Research Administrator",
+        "de": "Wissenschaftsmanagerin"
+      },
+      "targets": []
+    },
+    "personal_ba97698351eb": {
+      "name": {
+        "zh": "医生",
+        "en": "Physician",
+        "de": "Arzt"
+      },
+      "targets": [
+        "healthcare"
+      ]
+    },
+    "personal_f3fc79952846": {
+      "name": {
+        "zh": "政治学研究人员",
+        "en": "Political Scientist",
+        "de": "Politologe"
+      },
+      "targets": [
+        "social_science"
+      ]
+    },
+    "personal_ec46583d2e08": {
+      "name": {
+        "zh": "组织管理顾问",
+        "en": "Organisational Consultant",
+        "de": "Organisationsberater"
+      },
+      "targets": [
+        "business_management"
+      ]
+    },
+    "personal_2c69666ad29c": {
+      "name": {
+        "zh": "历史学家",
+        "en": "Historian",
+        "de": "Historikerin"
+      },
+      "targets": []
+    },
+    "personal_8f75213b75cf": {
+      "name": {
+        "zh": "心理学专业毕业",
+        "en": "Psychologist",
+        "de": "Diplom-Psychologin"
+      },
+      "targets": []
+    },
+    "personal_2a09e2765137": {
+      "name": {
+        "zh": "教师",
+        "en": "Teacher",
+        "de": "Lehrerin"
+      },
+      "targets": [
+        "education"
+      ]
+    },
+    "personal_46df12b56f0f": {
+      "name": {
+        "zh": "法律专业人士／律师",
+        "en": "Qualified Lawyer and Attorney",
+        "de": "Volljurist / Rechtsanwalt"
+      },
+      "targets": [
+        "legal"
+      ]
+    },
+    "personal_d2b089a845a7": {
+      "name": {
+        "zh": "地球科学家／行政管理专业人员",
+        "en": "Geoscientist and Public Administration Specialist",
+        "de": "Geowissenschaftlerin, Verwaltungsfachwirtin"
+      },
+      "targets": [
+        "stem",
+        "public_administration"
+      ]
+    },
+    "personal_4470f2bda99e": {
+      "name": {
+        "zh": "教育工作者",
+        "en": "Education Professional",
+        "de": "Pädagogische Fachkraft"
+      },
+      "targets": [
+        "education"
+      ]
+    },
+    "personal_089021342cf8": {
+      "name": {
+        "zh": "工业商务专业人员",
+        "en": "Industrial Business Administrator",
+        "de": "Industriekauffrau"
+      },
+      "targets": [
+        "business_management"
+      ]
+    },
+    "personal_7f415dfbef15": {
+      "name": {
+        "zh": "银行从业人员",
+        "en": "Bank Clerk",
+        "de": "Bankkaufmann"
+      },
+      "targets": [
+        "finance_economics"
+      ]
+    },
+    "personal_79af1a577a75": {
+      "name": {
+        "zh": "政治学硕士",
+        "en": "Master’s Degree in Political Science",
+        "de": "Masterabschluss in Politikwissenschaften"
+      },
+      "targets": [
+        "social_science"
+      ]
+    },
+    "personal_aff6fd4c0881": {
+      "name": {
+        "zh": "工商管理专业人士",
+        "en": "Business Administrator",
+        "de": "Betriebswirtin (VWA)"
+      },
+      "targets": [
+        "business_management"
+      ]
+    },
+    "personal_83681545c9dc": {
+      "name": {
+        "zh": "政治与行政学背景",
+        "en": "Political and Administrative Sciences",
+        "de": "Politik- und Verwaltungswissenschaften"
+      },
+      "targets": []
+    },
+    "personal_fedbc0a5db24": {
+      "name": {
+        "zh": "行政管理学毕业／前市长",
+        "en": "Public Administration Graduate and Former Mayor",
+        "de": "Dipl.-Verwaltungswirt (FH)"
+      },
+      "targets": [
+        "local_administration",
+        "public_administration"
+      ]
+    },
+    "personal_7eb9d65a98b5": {
+      "name": {
+        "zh": "中学教师／批发及外贸从业人员",
+        "en": "Secondary School Teacher and Foreign Trade Clerk",
+        "de": "Gymnasiallehrer, Groß- und Außenhandelskaufmann"
+      },
+      "targets": [
+        "education"
+      ]
+    },
+    "personal_c656144e08e9": {
+      "name": {
+        "zh": "政治学家（德国传统文凭）",
+        "en": "Political scientist (Diplom)",
+        "de": "Diplom-Politologe"
+      },
+      "targets": [
+        "social_science"
+      ]
+    },
+    "personal_319949bcb1c0": {
+      "name": {
+        "zh": "政治学／公民可再生能源领域",
+        "en": "Political Science / community renewable energy",
+        "de": "Politikwissenschaft / Bürgerenergie"
+      },
+      "targets": [
+        "social_science"
+      ]
+    },
+    "personal_b5e30807584c": {
+      "name": {
+        "zh": "社会文化人类学／政治学学士",
+        "en": "Social and Cultural Anthropology / Political Science (BA)",
+        "de": "Sozial- und Kulturanthropologie / Politikwissenschaft (B.A.)"
+      },
+      "targets": [
+        "social_science"
+      ]
+    },
+    "personal_fa5ce8a4aecd": {
+      "name": {
+        "zh": "金融企业管理专才（IWW）",
+        "en": "Finance business administrator (IWW)",
+        "de": "Finanzbetriebswirtin (IWW)"
+      },
+      "targets": [
+        "business_management",
+        "finance_economics"
+      ]
+    },
+    "personal_89074674d6cf": {
+      "name": {
+        "zh": "政治学研究者（联合国改革博士研究）",
+        "en": "Political scientist (PhD on UN reform)",
+        "de": "Politikwissenschaftlerin (Promotion über UN-Reformen)"
+      },
+      "targets": [
+        "social_science"
+      ]
+    },
+    "personal_2ffb229649b6": {
+      "name": {
+        "zh": "政治学与公法研究经历",
+        "en": "Studies in Political Science and Public Law",
+        "de": "Studium Politikwissenschaft und öffentliches Recht"
+      },
+      "targets": [
+        "legal",
+        "social_science"
+      ]
+    },
+    "personal_a3cb98465c44": {
+      "name": {
+        "zh": "创伤外科与急诊医学专科医生",
+        "en": "Physician specialising in trauma surgery and emergency medicine",
+        "de": "Facharzt für Unfallchirurgie und Notfallmedizin"
+      },
+      "targets": [
+        "healthcare"
+      ]
+    },
+    "personal_d140838bfaad": {
+      "name": {
+        "zh": "经济学家（德国传统硕士文凭）",
+        "en": "Economist (Diplom)",
+        "de": "Diplom-Volkswirtin"
+      },
+      "targets": [
+        "finance_economics"
+      ]
+    },
+    "personal_27538e4264d2": {
+      "name": {
+        "zh": "政治与公共行政硕士；曾任广播记者",
+        "en": "Political Science and Public Administration (MA); former radio journalist",
+        "de": "Politik- und Verwaltungswissenschaften (M.A.); früher Radiojournalist"
+      },
+      "targets": [
+        "social_science"
+      ]
+    },
+    "policy_domain_c9aa977bb23c": {
+      "name": {
+        "zh": "东部德国",
+        "en": "Eastern Germany",
+        "de": "Ostdeutschland"
+      },
+      "targets": []
+    },
+    "personal_37279cdd7def": {
+      "name": {
+        "zh": "社会工作者（德国传统文凭）",
+        "en": "Social worker (Diplom)",
+        "de": "Diplom-Sozialarbeiterin"
+      },
+      "targets": []
+    },
+    "personal_8c4b2132a2f8": {
+      "name": {
+        "zh": "生物学家（博士）",
+        "en": "Biologist (PhD)",
+        "de": "Biologe (Promotion)"
+      },
+      "targets": [
+        "stem"
+      ]
+    },
+    "personal_3601c0a799a1": {
+      "name": {
+        "zh": "政治学研究经历",
+        "en": "Studies in Political Science",
+        "de": "Studium Politikwissenschaft"
+      },
+      "targets": [
+        "social_science"
+      ]
+    },
+    "personal_a27e7f8d5b87": {
+      "name": {
+        "zh": "法学学士（LL.B.）",
+        "en": "Bachelor of Laws (LLB)",
+        "de": "Bachelor of Laws (LL.B.)"
+      },
+      "targets": [
+        "legal"
+      ]
+    },
+    "personal_d6cf9e8fbf10": {
+      "name": {
+        "zh": "政治学、罗曼语研究与教育学硕士",
+        "en": "Political Science, Romance Studies and Education (MA)",
+        "de": "Studium Politikwissenschaft, Romanistik und Pädagogik (M.A.)"
+      },
+      "targets": [
+        "social_science"
+      ]
+    },
+    "personal_379ad9def8a6": {
+      "name": {
+        "zh": "法律学（第一次国家考试、法学硕士）",
+        "en": "Law studies (first state examination, LLM)",
+        "de": "Rechtswissenschaft (1. Staatsexamen, LL.M.)"
+      },
+      "targets": [
+        "legal"
+      ]
+    },
+    "personal_27a8f8b06647": {
+      "name": {
+        "zh": "政治学家（博士）",
+        "en": "Political scientist (PhD)",
+        "de": "Politikwissenschaftlerin (Promotion)"
+      },
+      "targets": [
+        "social_science"
+      ]
+    },
+    "personal_bab680e1a288": {
+      "name": {
+        "zh": "警官／犯罪学（硕士、法学博士）",
+        "en": "Police officer / Criminology (MA, doctorate in law)",
+        "de": "Polizeibeamtin / Kriminologie (M.A., Dr. iur.)"
+      },
+      "targets": [
+        "legal",
+        "public_safety"
+      ]
+    },
+    "personal_efdf8498ca52": {
+      "name": {
+        "zh": "兽医（兽医学博士）",
+        "en": "Veterinarian (Dr med vet)",
+        "de": "Tierärztin (Dr. med. vet.)"
+      },
+      "targets": []
+    },
+    "personal_7974d4d729f7": {
+      "name": {
+        "zh": "曾任独立咨询顾问；大学学习未取得学位",
+        "en": "Former self-employed consultant; university studies without degree",
+        "de": "Selbstständiger Berater (bis 2006); Studium ohne Abschluss"
+      },
+      "targets": []
+    },
+    "personal_e6b7ca94145e": {
+      "name": {
+        "zh": "放射科专科医生",
+        "en": "Radiologist",
+        "de": "Fachärztin für Radiologie"
+      },
+      "targets": [
+        "healthcare"
+      ]
+    },
+    "policy_domain_517308d0f010": {
+      "name": {
+        "zh": "性少数群体政策",
+        "en": "Queer Policy",
+        "de": "Queerpolitik"
+      },
+      "targets": []
+    },
+    "personal_cd89c151e391": {
+      "name": {
+        "zh": "环境科学家（能源效率政策博士）",
+        "en": "Environmental scientist (PhD on energy efficiency)",
+        "de": "Umweltwissenschaftlerin (Promotion über Energieeffizienz)"
+      },
+      "targets": [
+        "stem"
+      ]
+    },
+    "personal_3ddfc3156ac8": {
+      "name": {
+        "zh": "医生（医学第三次国家考试）",
+        "en": "Medical doctor (final state medical examination)",
+        "de": "Arzt (Humanmedizin, 3. Staatsexamen)"
+      },
+      "targets": [
+        "healthcare"
+      ]
+    }
+  },
+  "affectedCharacters": {
+    "mdb_Knut_Friedrich_Alexander_Abraham": {
+      "name": "Knut Friedrich Alexander Abraham",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Adis_Ahmetovic": {
+      "name": "Adis Ahmetović",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Tarek_Al_Wazir": {
+      "name": "Tarek Al-Wazir",
+      "party": "Grüne",
+      "added": [
+        "social_science"
+      ],
+      "removed": [
+        "personal_c656144e08e9"
+      ]
+    },
+    "mdb_Stephan_Theodor_Johannes_Albani": {
+      "name": "Stephan Albani",
+      "party": "CDU",
+      "added": [
+        "business_management",
+        "stem"
+      ],
+      "removed": []
+    },
+    "mdb_Norbert_Maria_Altenkamp": {
+      "name": "Norbert Altenkamp",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": []
+    },
+    "mdb_Luise_Amtsberg": {
+      "name": "Luise Amtsberg",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Tijen_Ataoglu": {
+      "name": "Tijen Ataoğlu",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Andreas_Audretsch": {
+      "name": "Andreas Audretsch",
+      "party": "Grüne",
+      "added": [
+        "policy_domain_1ce8553d4f6b"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Artur_Friedrich_Auernhammer": {
+      "name": "Artur Auernhammer",
+      "party": "CSU",
+      "added": [
+        "agriculture"
+      ],
+      "removed": []
+    },
+    "mdb_Peter_Aumer": {
+      "name": "Peter Aumer",
+      "party": "CSU",
+      "added": [
+        "business_management"
+      ],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Lisa_Hildegard_Badum": {
+      "name": "Lisa Badum",
+      "party": "Grüne",
+      "added": [
+        "social_science"
+      ],
+      "removed": [
+        "personal_319949bcb1c0"
+      ]
+    },
+    "mdb_Felix_Banaszak": {
+      "name": "Felix Banaszak",
+      "party": "Grüne",
+      "added": [
+        "social_science"
+      ],
+      "removed": [
+        "personal_b5e30807584c"
+      ]
+    },
+    "mdb_Thomas_Barei": {
+      "name": "Thomas Bareiß",
+      "party": "CDU",
+      "added": [
+        "business_management"
+      ],
+      "removed": [
+        "personal_b6eecb080038",
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Katharina_Barbara_Maria_Beck": {
+      "name": "Katharina Beck",
+      "party": "Grüne",
+      "added": [
+        "business_management",
+        "finance_economics"
+      ],
+      "removed": [
+        "personal_fa5ce8a4aecd"
+      ]
+    },
+    "mdb_Sascha_van_Beek": {
+      "name": "Sascha van Beek",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Jens_Behrens": {
+      "name": "Jens Behrens",
+      "party": "SPD",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": [
+        "personal_7f415dfbef15"
+      ]
+    },
+    "mdb_Lukas_Benner": {
+      "name": "Lukas Benner",
+      "party": "Grüne",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Melanie_Bernstein": {
+      "name": "Melanie Bernstein",
+      "party": "CDU",
+      "added": [
+        "business_management"
+      ],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Daniel_Bettermann": {
+      "name": "Daniel Bettermann",
+      "party": "SPD",
+      "added": [
+        "social_science"
+      ],
+      "removed": [
+        "personal_79af1a577a75"
+      ]
+    },
+    "mdb_Peter_Beyer": {
+      "name": "Peter Beyer",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Steffen_Rudi_Bilger": {
+      "name": "Steffen Bilger",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_5b1fc763e984"
+      ]
+    },
+    "mdb_Simone_Borchardt": {
+      "name": "Simone Borchardt",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Frederik_Bouffier": {
+      "name": "Frederik Bouffier",
+      "party": "CDU",
+      "added": [
+        "business_management"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Michael_Karl_Brand": {
+      "name": "Michael Brand",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Reinhard_Brandl": {
+      "name": "Reinhard Brandl",
+      "party": "CSU",
+      "added": [
+        "business_management",
+        "stem"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "Brantner": {
+      "name": "Franziska Brantner",
+      "party": "Grüne",
+      "added": [
+        "social_science"
+      ],
+      "removed": [
+        "personal_89074674d6cf"
+      ]
+    },
+    "mdb_Silvia_Maria_Breher": {
+      "name": "Silvia Breher",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_41c76126bd0c",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Carsten_Brodesser": {
+      "name": "Carsten Brodesser",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": []
+    },
+    "mdb_Agnes_Monika_Brugger": {
+      "name": "Agnieszka Brugger",
+      "party": "Grüne",
+      "added": [
+        "legal",
+        "policy_domain_1ce8553d4f6b",
+        "social_science"
+      ],
+      "removed": [
+        "personal_2ffb229649b6",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Yannick_Bury": {
+      "name": "Yannick Bury",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "Baer": {
+      "name": "Dorothee Bär",
+      "party": "CSU",
+      "added": [
+        "social_science"
+      ],
+      "removed": []
+    },
+    "mdb_Gitta_Connemann": {
+      "name": "Gitta Connemann",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_41c76126bd0c",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Janosch_Dahmen": {
+      "name": "Janosch Dahmen",
+      "party": "Grüne",
+      "added": [
+        "healthcare"
+      ],
+      "removed": [
+        "personal_a3cb98465c44",
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Hakan_Demir": {
+      "name": "Hakan Demir",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Ellen_Demuth": {
+      "name": "Ellen Demuth",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Esther_Dilcher": {
+      "name": "Esther Dilcher",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_114b4bd09def",
+        "policy_domain_b37ee1f809cd"
+      ]
+    },
+    "Dobrindt": {
+      "name": "Alexander Dobrindt",
+      "party": "CSU",
+      "added": [
+        "social_science"
+      ],
+      "removed": []
+    },
+    "mdb_Michael_Donth": {
+      "name": "Michael Donth",
+      "party": "CDU",
+      "added": [
+        "local_administration",
+        "public_administration"
+      ],
+      "removed": []
+    },
+    "mdb_Florian_Johannes_Dorn": {
+      "name": "Florian Dorn",
+      "party": "CSU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": []
+    },
+    "mdb_Falko_Dromann": {
+      "name": "Falko Droßmann",
+      "party": "SPD",
+      "added": [
+        "public_safety"
+      ],
+      "removed": [
+        "personal_89a69c21cfe7"
+      ]
+    },
+    "Droege": {
+      "name": "Katharina Dröge",
+      "party": "Grüne",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": [
+        "personal_d140838bfaad",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Hansjorg_Durz": {
+      "name": "Hansjörg Durz",
+      "party": "CSU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": []
+    },
+    "mdb_Deborah_Saskia_During": {
+      "name": "Deborah Düring",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Joachim_Simon_Ebmeyer": {
+      "name": "Joachim Ebmeyer",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": []
+    },
+    "mdb_Leon_Eckert": {
+      "name": "Leon Eckert",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Ralph_Rene_Edelhauer": {
+      "name": "Ralph Edelhäußer",
+      "party": "CSU",
+      "added": [
+        "business_management",
+        "finance_economics"
+      ],
+      "removed": []
+    },
+    "mdb_Lars_Andre_Ehm": {
+      "name": "Lars Andre Ehm",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": []
+    },
+    "mdb_Sonja_Katharina_Eichwede": {
+      "name": "Sonja Katharina Eichwede",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_9053e0f2aa3b",
+        "policy_domain_b37ee1f809cd"
+      ]
+    },
+    "mdb_Marcel_Emmerich": {
+      "name": "Marcel Emmerich",
+      "party": "Grüne",
+      "added": [
+        "social_science"
+      ],
+      "removed": [
+        "personal_27538e4264d2"
+      ]
+    },
+    "mdb_Alexander_Karl_Engelhard": {
+      "name": "Alexander Engelhard",
+      "party": "CSU",
+      "added": [
+        "stem"
+      ],
+      "removed": []
+    },
+    "mdb_Martina_Englhardt_Kopf": {
+      "name": "Martina Englhardt-Kopf",
+      "party": "CSU",
+      "added": [],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Thomas_Maximilian_Erndl": {
+      "name": "Thomas Erndl",
+      "party": "CSU",
+      "added": [
+        "stem"
+      ],
+      "removed": []
+    },
+    "mdb_Bastian_Alfons_Ernst": {
+      "name": "Bastian Alfons Ernst",
+      "party": "CDU",
+      "added": [
+        "business_management",
+        "stem"
+      ],
+      "removed": []
+    },
+    "mdb_Wiebke_Esdar": {
+      "name": "Wiebke Esdar",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "personal_8f75213b75cf"
+      ]
+    },
+    "mdb_Nancy_Faeser": {
+      "name": "Nancy Faeser",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Johannes_Fechner": {
+      "name": "Johannes Fechner",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Uwe_Wolfgang_Werner_Feiler": {
+      "name": "Uwe Feiler",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Sebastian_Fiedler": {
+      "name": "Sebastian Fiedler",
+      "party": "SPD",
+      "added": [
+        "legal",
+        "public_safety"
+      ],
+      "removed": [
+        "personal_70db20662734",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Simone_Fischer": {
+      "name": "Simone Fischer",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Christoph_Frauenprei": {
+      "name": "Christoph Frauenpreiß",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": []
+    },
+    "Frei": {
+      "name": "Thorsten Frei",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Michael_Edwin_Frieser": {
+      "name": "Michael Frieser",
+      "party": "CSU",
+      "added": [
+        "legal"
+      ],
+      "removed": []
+    },
+    "mdb_Hermann_Klaus_Farber": {
+      "name": "Hermann Färber",
+      "party": "CDU",
+      "added": [
+        "agriculture"
+      ],
+      "removed": []
+    },
+    "mdb_Wilhelm_Gebhard": {
+      "name": "Wilhelm Gebhard",
+      "party": "CDU",
+      "added": [
+        "business_management",
+        "local_administration"
+      ],
+      "removed": []
+    },
+    "mdb_Thomas_Gebhart": {
+      "name": "Thomas Gebhart",
+      "party": "CDU",
+      "added": [
+        "business_management",
+        "social_science"
+      ],
+      "removed": []
+    },
+    "mdb_Martin_Gerster": {
+      "name": "Martin Gerster",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Fabian_Benedikt_Meinrad_Gramling": {
+      "name": "Fabian Gramling",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": []
+    },
+    "mdb_Adrian_Grasse": {
+      "name": "Adrian Grasse",
+      "party": "CDU",
+      "added": [
+        "business_management"
+      ],
+      "removed": []
+    },
+    "mdb_Ingeborg_Gabriele_Grale": {
+      "name": "Inge Gräßle",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Lena_Maria_Gumnior": {
+      "name": "Lena Gumnior",
+      "party": "Grüne",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Olav_Steffen_Gutting": {
+      "name": "Olav Gutting",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Katrin_Dagmar_Goring_Eckardt": {
+      "name": "Katrin Göring-Eckardt",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_c9aa977bb23c"
+      ]
+    },
+    "mdb_Serap_Guler": {
+      "name": "Serap Güler",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Georg_Gunther": {
+      "name": "Georg Günther",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": []
+    },
+    "mdb_Fritz_Guntzler": {
+      "name": "Fritz Güntzler",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": []
+    },
+    "mdb_Christian_Karl_Friedhelm_Haase": {
+      "name": "Christian Haase",
+      "party": "CDU",
+      "added": [
+        "public_administration"
+      ],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Florian_Peter_Hahn": {
+      "name": "Florian Hahn",
+      "party": "CSU",
+      "added": [
+        "business_management"
+      ],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Jurgen_Hardt": {
+      "name": "Jürgen Hardt",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Sebastian_Hartmann": {
+      "name": "Sebastian Hartmann",
+      "party": "SPD",
+      "added": [
+        "business_management"
+      ],
+      "removed": [
+        "personal_ec46583d2e08"
+      ]
+    },
+    "mdb_Matthias_Hauer": {
+      "name": "Matthias Hauer",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_5b1fc763e984",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "Hasselmann": {
+      "name": "Britta Haßelmann",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "personal_37279cdd7def",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Mechthild_Heil": {
+      "name": "Mechthild Heil",
+      "party": "CDU",
+      "added": [
+        "stem"
+      ],
+      "removed": []
+    },
+    "mdb_Wolfgang_Hubertus_Ernst_Ulrich_Heil": {
+      "name": "Wolfgang-Hubertus Ernst Ulrich Heil",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Gabriela_Heinrich": {
+      "name": "Gabriela Heinrich",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Linda_Heitmann": {
+      "name": "Linda Heitmann",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Mark_Helfrich": {
+      "name": "Mark Helfrich",
+      "party": "CDU",
+      "added": [
+        "business_management"
+      ],
+      "removed": []
+    },
+    "mdb_Marc_Henrichmann": {
+      "name": "Marc Henrichmann",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": []
+    },
+    "mdb_Nadine_Heselhaus": {
+      "name": "Nadine Heselhaus",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Heike_Heubach": {
+      "name": "Heike Heubach",
+      "party": "SPD",
+      "added": [
+        "business_management"
+      ],
+      "removed": [
+        "personal_089021342cf8"
+      ]
+    },
+    "mdb_Susanne_Hierl": {
+      "name": "Susanne Hierl",
+      "party": "CSU",
+      "added": [],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Matthias_Fabian_Hiller": {
+      "name": "Matthias Hiller",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Christian_Hirte": {
+      "name": "Christian Hirte",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_6070fbe768cd",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Alexander_Hoffmann": {
+      "name": "Alexander Hoffmann",
+      "party": "CSU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Anton_Hofreiter": {
+      "name": "Anton Hofreiter",
+      "party": "Grüne",
+      "added": [
+        "stem"
+      ],
+      "removed": [
+        "personal_8c4b2132a2f8"
+      ]
+    },
+    "mdb_Hendrik_Hoppenstedt": {
+      "name": "Hendrik Hoppenstedt",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Anne_Janssen": {
+      "name": "Anne Janssen",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Thomas_Jarzombek": {
+      "name": "Thomas Jarzombek",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Elisabeth_Kaiser": {
+      "name": "Elisabeth Kaiser",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "personal_83681545c9dc"
+      ]
+    },
+    "mdb_Kirsten_Kappert_Gonther": {
+      "name": "Kirsten Kappert-Gonther",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Macit_Karaahmetoglu": {
+      "name": "Macit Karaahmetoğlu",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_b37ee1f809cd"
+      ]
+    },
+    "mdb_Michael_Kellner": {
+      "name": "Michael Kellner",
+      "party": "Grüne",
+      "added": [
+        "social_science"
+      ],
+      "removed": [
+        "personal_3601c0a799a1",
+        "policy_domain_c9aa977bb23c"
+      ]
+    },
+    "Khan": {
+      "name": "Misbah Khan",
+      "party": "Grüne",
+      "added": [
+        "policy_domain_1ce8553d4f6b"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Roderich_Kiesewetter": {
+      "name": "Roderich Kiesewetter",
+      "party": "CDU",
+      "added": [
+        "business_management",
+        "public_safety"
+      ],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Michael_Hannes_Kieling": {
+      "name": "Michael Kießling",
+      "party": "CSU",
+      "added": [
+        "stem"
+      ],
+      "removed": []
+    },
+    "mdb_Rudolf_Georg_Kippels": {
+      "name": "Georg Kippels",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_5b1fc763e984",
+        "policy_domain_061e02dbc08e",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "Kloeckner": {
+      "name": "Julia Klöckner",
+      "party": "CDU",
+      "added": [
+        "social_science"
+      ],
+      "removed": [
+        "personal_466f693e7e79"
+      ]
+    },
+    "mdb_Axel_Knoerig": {
+      "name": "Axel Knoerig",
+      "party": "CDU",
+      "added": [
+        "social_science"
+      ],
+      "removed": []
+    },
+    "mdb_Markus_Benjamin_Koob": {
+      "name": "Markus Koob",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Gunther_Krichbaum": {
+      "name": "Gunther Krichbaum",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_0a069c762d10",
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Lukas_Albrecht_Krieger": {
+      "name": "Lukas Krieger",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": []
+    },
+    "mdb_Gunter_Krings": {
+      "name": "Günter Krings",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Carsten_Korber": {
+      "name": "Carsten Körber",
+      "party": "CDU",
+      "added": [
+        "business_management"
+      ],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Konrad_Korner": {
+      "name": "Konrad Körner",
+      "party": "CSU",
+      "added": [],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Ricarda_Lang": {
+      "name": "Ricarda Lang",
+      "party": "Grüne",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_a27e7f8d5b87"
+      ]
+    },
+    "mdb_Ulrich_Josef_Lange": {
+      "name": "Ulrich Lange",
+      "party": "CSU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_5b1fc763e984",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Armin_Laschet": {
+      "name": "Armin Laschet",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Silke_Launert": {
+      "name": "Silke Launert",
+      "party": "CSU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_9053e0f2aa3b",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Jens_Lehmann": {
+      "name": "Jens Lehmann",
+      "party": "CDU",
+      "added": [
+        "education"
+      ],
+      "removed": []
+    },
+    "mdb_Sven_Lehmann": {
+      "name": "Sven Lehmann",
+      "party": "Grüne",
+      "added": [
+        "social_science"
+      ],
+      "removed": [
+        "personal_d6cf9e8fbf10"
+      ]
+    },
+    "mdb_Steffi_Lemke": {
+      "name": "Steffi Lemke",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_c9aa977bb23c"
+      ]
+    },
+    "mdb_Andreas_Lenz": {
+      "name": "Andreas Lenz",
+      "party": "CSU",
+      "added": [
+        "business_management"
+      ],
+      "removed": []
+    },
+    "mdb_Esra_Leon_Ruben_Limbacher": {
+      "name": "Esra-Leon Ruben Limbacher",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_46df12b56f0f",
+        "policy_domain_b37ee1f809cd"
+      ]
+    },
+    "mdb_Helge_Stefan_Limburg": {
+      "name": "Helge Limburg",
+      "party": "Grüne",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_379ad9def8a6",
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Helge_Frederik_Lindh": {
+      "name": "Helge Frederik Lindh",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Andrea_Lindholz": {
+      "name": "Andrea Lindholz",
+      "party": "CSU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_5b1fc763e984",
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "Linnemann": {
+      "name": "Carsten Linnemann",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": [
+        "personal_be39f815ef5f",
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Patricia_Ingrid_Lips": {
+      "name": "Patricia Lips",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Jan_Marco_Luczak": {
+      "name": "Jan-Marco Luczak",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": []
+    },
+    "mdb_Daniela_Ludwig": {
+      "name": "Daniela Ludwig",
+      "party": "CSU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_1ab3438dc7cf",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Bettina_Lugk": {
+      "name": "Bettina Lugk",
+      "party": "SPD",
+      "added": [
+        "public_administration",
+        "stem"
+      ],
+      "removed": [
+        "personal_d2b089a845a7"
+      ]
+    },
+    "mdb_Anna_Luhrmann": {
+      "name": "Anna Lührmann",
+      "party": "Grüne",
+      "added": [
+        "social_science"
+      ],
+      "removed": [
+        "personal_27a8f8b06647"
+      ]
+    },
+    "mdb_Tanja_Machalet": {
+      "name": "Tanja Machalet",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Klaus_Jurgen_Mack": {
+      "name": "Klaus Mack",
+      "party": "CDU",
+      "added": [
+        "local_administration",
+        "public_administration"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Andreas_Mattfeldt": {
+      "name": "Andreas Mattfeldt",
+      "party": "CDU",
+      "added": [
+        "business_management",
+        "local_administration"
+      ],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Stephan_Mayer": {
+      "name": "Stephan Mayer",
+      "party": "CSU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Michael_Gunther_Meister": {
+      "name": "Michael Meister",
+      "party": "CDU",
+      "added": [
+        "stem"
+      ],
+      "removed": []
+    },
+    "mdb_Jan_Metzler": {
+      "name": "Jan Metzler",
+      "party": "CDU",
+      "added": [
+        "agriculture",
+        "business_management"
+      ],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Susanne_Kathrin_Michel": {
+      "name": "Susanne Kathrin Michel",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Mathias_Middelberg": {
+      "name": "Mathias Middelberg",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "Miersch": {
+      "name": "Matthias Miersch",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_5b1fc763e984",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Matthias_David_Mieves": {
+      "name": "Matthias David Mieves",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Irene_Mihalic": {
+      "name": "Irene Mihalic",
+      "party": "Grüne",
+      "added": [
+        "legal",
+        "public_safety"
+      ],
+      "removed": [
+        "personal_bab680e1a288",
+        "policy_domain_5d25f47454dc",
+        "policy_domain_b37ee1f809cd"
+      ]
+    },
+    "mdb_Boris_Mijatovic": {
+      "name": "Boris Mijatović",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Claudia_Moll": {
+      "name": "Claudia Moll",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Christian_Anton_Moser": {
+      "name": "Christian Moser",
+      "party": "CSU",
+      "added": [],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Siemtje_Victoria_Regine_Ilse_Santjer_Moller": {
+      "name": "Siemtje Victoria Regine Ilse Santjer Möller",
+      "party": "SPD",
+      "added": [
+        "education"
+      ],
+      "removed": [
+        "personal_2a09e2765137"
+      ]
+    },
+    "mdb_Axel_Karl_Muller": {
+      "name": "Axel Müller",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e",
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Carsten_Muller": {
+      "name": "Carsten Müller",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Claudia_Heike_Muller": {
+      "name": "Claudia Müller",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_5d25f47454dc",
+        "policy_domain_c9aa977bb23c"
+      ]
+    },
+    "mdb_Sepp_Muller": {
+      "name": "Sepp Müller",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Rolf_Heinrich_Mutzenich": {
+      "name": "Rolf Heinrich Mützenich",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Ophelia_Johanna_Nick": {
+      "name": "Ophelia Nick",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "personal_efdf8498ca52"
+      ]
+    },
+    "mdb_Konstantin_von_Notz": {
+      "name": "Konstantin von Notz",
+      "party": "Grüne",
+      "added": [
+        "policy_domain_1ce8553d4f6b"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "Nouripour": {
+      "name": "Omid Nouripour",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "personal_7974d4d729f7",
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Wilfried_Oellers": {
+      "name": "Wilfried Oellers",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": []
+    },
+    "mdb_Josef_Oster": {
+      "name": "Josef Oster",
+      "party": "CDU",
+      "added": [
+        "local_administration",
+        "public_administration"
+      ],
+      "removed": []
+    },
+    "mdb_Florian_Oner": {
+      "name": "Florian Oßner",
+      "party": "CSU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Christos_Pantazis": {
+      "name": "Christos Pantazis",
+      "party": "SPD",
+      "added": [
+        "healthcare"
+      ],
+      "removed": [
+        "personal_ba97698351eb",
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Thomas_Pauls": {
+      "name": "Thomas Pauls",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Elisabeth_Maria_Paus": {
+      "name": "Lisa Paus",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Paula_Piechotta": {
+      "name": "Paula Piechotta",
+      "party": "Grüne",
+      "added": [
+        "healthcare"
+      ],
+      "removed": [
+        "personal_e6b7ca94145e",
+        "policy_domain_114b4bd09def",
+        "policy_domain_c9aa977bb23c"
+      ]
+    },
+    "mdb_Stephan_Nikolaus_Pilsinger": {
+      "name": "Stephan Pilsinger",
+      "party": "CSU",
+      "added": [
+        "healthcare"
+      ],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Martin_Plum": {
+      "name": "Martin Plum",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5d25f47454dc",
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Filiz_Polat": {
+      "name": "Filiz Polat",
+      "party": "Grüne",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc",
+        "policy_domain_b37ee1f809cd"
+      ]
+    },
+    "mdb_Sabine_Poschmann": {
+      "name": "Sabine Poschmann",
+      "party": "SPD",
+      "added": [
+        "business_management"
+      ],
+      "removed": [
+        "personal_aff6fd4c0881"
+      ]
+    },
+    "mdb_David_Sebastian_Preisendanz": {
+      "name": "David Preisendanz",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Thomas_Walther_Rachel": {
+      "name": "Thomas Rachel",
+      "party": "CDU",
+      "added": [
+        "social_science"
+      ],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Kerstin_Christiane_Radomski": {
+      "name": "Kerstin Radomski",
+      "party": "CDU",
+      "added": [
+        "education"
+      ],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Alexander_Gamal_Radwan": {
+      "name": "Alexander Radwan",
+      "party": "CSU",
+      "added": [
+        "legal",
+        "stem"
+      ],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Alois_Georg_Josef_Rainer": {
+      "name": "Alois Rainer",
+      "party": "CSU",
+      "added": [
+        "local_administration"
+      ],
+      "removed": []
+    },
+    "mdb_Henning_Rehbaum": {
+      "name": "Henning Rehbaum",
+      "party": "CDU",
+      "added": [
+        "business_management"
+      ],
+      "removed": []
+    },
+    "mdb_Anja_Margrit_Reinalter": {
+      "name": "Anja Reinalter",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Daniel_Rinkert": {
+      "name": "Daniel Rinkert",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Dennis_Rohde": {
+      "name": "Dennis Rohde",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_5b1fc763e984"
+      ]
+    },
+    "mdb_Lars_Rohwer": {
+      "name": "Lars Rohwer",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": []
+    },
+    "mdb_Claudia_Benedikta_Roth": {
+      "name": "Claudia Roth",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Johannes_Rothenberger": {
+      "name": "Johannes Rothenberger",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Stefan_Rouenhoff": {
+      "name": "Stefan Rouenhoff",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Thorsten_Rudolph": {
+      "name": "Thorsten Rudolph",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Albert_Robert_Rupprecht": {
+      "name": "Albert Rupprecht",
+      "party": "CSU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": [
+        "personal_be39f815ef5f"
+      ]
+    },
+    "mdb_Norbert_Alois_Rottgen": {
+      "name": "Norbert Röttgen",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Johann_Saathoff": {
+      "name": "Johann Saathoff",
+      "party": "SPD",
+      "added": [
+        "local_administration",
+        "public_administration"
+      ],
+      "removed": [
+        "personal_fedbc0a5db24"
+      ]
+    },
+    "mdb_Kassem_Taher_Saleh": {
+      "name": "Kassem Taher Saleh",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_c9aa977bb23c"
+      ]
+    },
+    "mdb_Catarina_dos_Santos_Wintz": {
+      "name": "Catarina dos Santos-Wintz",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Carl_Philipp_Martin_Gerhard_Sassenrath": {
+      "name": "Carl-Philipp Sassenrath",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Christiane_Schenderlein": {
+      "name": "Christiane Schenderlein",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Dagmar_Schmidt": {
+      "name": "Dagmar Schmidt",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "personal_2c69666ad29c"
+      ]
+    },
+    "mdb_Sebastian_Schmidt": {
+      "name": "Sebastian Schmidt",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Uwe_Schmidt": {
+      "name": "Uwe Schmidt",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Julia_Schneider": {
+      "name": "Julia Schneider",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_c9aa977bb23c"
+      ]
+    },
+    "mdb_Patrick_Schnieder": {
+      "name": "Patrick Schnieder",
+      "party": "CDU",
+      "added": [
+        "legal",
+        "local_administration"
+      ],
+      "removed": [
+        "personal_3b6d9a9cb0c0"
+      ]
+    },
+    "mdb_Felix_Schreiner": {
+      "name": "Felix Schreiner",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Michael_Schrodi": {
+      "name": "Michael Schrodi",
+      "party": "SPD",
+      "added": [
+        "education"
+      ],
+      "removed": [
+        "personal_7eb9d65a98b5"
+      ]
+    },
+    "mdb_Svenja_Schulze": {
+      "name": "Svenja Schulze",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Stefan_Schwartze": {
+      "name": "Stefan Schwartze",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "Schaefer": {
+      "name": "Jamila Schäfer",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Sebastian_Schafer": {
+      "name": "Sebastian Schäfer",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Detlef_Seif": {
+      "name": "Detlef Seif",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": []
+    },
+    "mdb_Nora_Seitz": {
+      "name": "Nora Seitz",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Lina_Seitzl": {
+      "name": "Lina Seitzl",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Thomas_Silberhorn": {
+      "name": "Thomas Silberhorn",
+      "party": "CSU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Bjorn_Manuel_Simon": {
+      "name": "Björn Simon",
+      "party": "CDU",
+      "added": [
+        "social_science"
+      ],
+      "removed": []
+    },
+    "mdb_Nyke_Slawik": {
+      "name": "Nyke Slawik",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_517308d0f010"
+      ]
+    },
+    "mdb_Tino_Sorge": {
+      "name": "Tino Sorge",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": []
+    },
+    "Spahn": {
+      "name": "Jens Spahn",
+      "party": "CDU",
+      "added": [
+        "finance_economics",
+        "social_science"
+      ],
+      "removed": [
+        "personal_2dc9fd5e42f2",
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Svenja_Stadler": {
+      "name": "Svenja Stadler",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Katrin_Staffler": {
+      "name": "Katrin Staffler",
+      "party": "CSU",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Till_Benjamin_Steffen": {
+      "name": "Till Steffen",
+      "party": "Grüne",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Wolfgang_Dieter_Stefinger": {
+      "name": "Wolfgang Stefinger",
+      "party": "CSU",
+      "added": [
+        "business_management"
+      ],
+      "removed": []
+    },
+    "mdb_Albert_Stegeman": {
+      "name": "Albert Stegemann",
+      "party": "CDU",
+      "added": [
+        "agriculture"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Ralf_Alexander_Stegner": {
+      "name": "Ralf Alexander Stegner",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Sebastian_Steineke": {
+      "name": "Sebastian Steineke",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Johannes_Eberhard_Steiniger": {
+      "name": "Johannes Steiniger",
+      "party": "CDU",
+      "added": [
+        "education"
+      ],
+      "removed": [
+        "personal_75e9cdfde837",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Christian_Alexander_Freiherr_von_Stetten": {
+      "name": "Christian von Stetten",
+      "party": "CDU",
+      "added": [
+        "business_management"
+      ],
+      "removed": []
+    },
+    "mdb_Dieter_Stier": {
+      "name": "Dieter Stier",
+      "party": "CDU",
+      "added": [
+        "agriculture",
+        "stem"
+      ],
+      "removed": []
+    },
+    "mdb_Stephan_Stracke": {
+      "name": "Stephan Stracke",
+      "party": "CSU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Hendrik_Streeck": {
+      "name": "Hendrik Streeck",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Vivian_Tauschwitz": {
+      "name": "Vivian Tauschwitz",
+      "party": "CDU",
+      "added": [
+        "public_safety"
+      ],
+      "removed": []
+    },
+    "mdb_Awet_Tesfaiesus": {
+      "name": "Awet Tesfaiesus",
+      "party": "Grüne",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Hans_Diogenes_Theiss": {
+      "name": "Hans Theiss",
+      "party": "CSU",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Alexander_Richard_Throm": {
+      "name": "Alexander Throm",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": []
+    },
+    "mdb_Markus_Tons": {
+      "name": "Markus Töns",
+      "party": "SPD",
+      "added": [
+        "social_science"
+      ],
+      "removed": [
+        "personal_f3fc79952846"
+      ]
+    },
+    "mdb_Derya_Turk_Nachbaur": {
+      "name": "Derya Türk-Nachbaur",
+      "party": "SPD",
+      "added": [
+        "education"
+      ],
+      "removed": [
+        "personal_4470f2bda99e",
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Katrin_Babette_Uhlig": {
+      "name": "Katrin Uhlig",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Julia_Maria_Kornelia_Verlinden": {
+      "name": "Julia Verlinden",
+      "party": "Grüne",
+      "added": [
+        "policy_domain_1ce8553d4f6b",
+        "stem"
+      ],
+      "removed": [
+        "personal_cd89c151e391",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Kerstin_Vieregge": {
+      "name": "Kerstin Vieregge",
+      "party": "CDU",
+      "added": [
+        "business_management"
+      ],
+      "removed": []
+    },
+    "mdb_Oliver_Vogt": {
+      "name": "Oliver Vogt",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Johannes_Volkmann": {
+      "name": "Johannes Volkmann",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Christoph_Bernhard_de_Vries": {
+      "name": "Christoph de Vries",
+      "party": "CDU",
+      "added": [
+        "social_science"
+      ],
+      "removed": [
+        "personal_482e9fd6ee9f",
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "Wadephul": {
+      "name": "Johann David Wadephul",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Robin_Till_Nils_Johannes_Wagener": {
+      "name": "Robin Wagener",
+      "party": "Grüne",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Johannes_Wagner": {
+      "name": "Johannes Wagner",
+      "party": "Grüne",
+      "added": [
+        "healthcare"
+      ],
+      "removed": [
+        "personal_3ddfc3156ac8",
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Maja_Scarlett_Wallstein": {
+      "name": "Maja Scarlett Wallstein",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "personal_854c78ebc013"
+      ]
+    },
+    "mdb_Daniel_Walter": {
+      "name": "Daniel Walter",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "Warken": {
+      "name": "Nina Warken",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_5b1fc763e984"
+      ]
+    },
+    "Wegge": {
+      "name": "Carmen Wegge",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Anja_Weisgerber": {
+      "name": "Anja Weisgerber",
+      "party": "CSU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Maria_Lena_Weiss": {
+      "name": "Maria-Lena Weiss",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Kai_Thorsten_Whittaker": {
+      "name": "Kai Whittaker",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": []
+    },
+    "mdb_Johannes_Thomas_Maria_Wiegelmann": {
+      "name": "Johannes Thomas Maria Wiegelmann",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Dirk_Wiese": {
+      "name": "Dirk Wiese",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "personal_5b1fc763e984",
+        "policy_domain_5d25f47454dc",
+        "policy_domain_b37ee1f809cd"
+      ]
+    },
+    "mdb_Klaus_Peter_Willsch": {
+      "name": "Klaus-Peter Willsch",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Johannes_Winkel": {
+      "name": "Johannes Winkel",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Elisabeth_Winkelmeier_Becker": {
+      "name": "Elisabeth Winkelmeier-Becker",
+      "party": "CDU",
+      "added": [
+        "legal"
+      ],
+      "removed": []
+    },
+    "mdb_Tobias_Winkler": {
+      "name": "Tobias Winkler",
+      "party": "CSU",
+      "added": [
+        "education"
+      ],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Mechthilde_Wittmann": {
+      "name": "Mechthilde Wittmann",
+      "party": "CSU",
+      "added": [],
+      "removed": [
+        "policy_domain_114b4bd09def"
+      ]
+    },
+    "mdb_Mareike_Lotte_Wulf": {
+      "name": "Mareike Lotte Wulf",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5d25f47454dc"
+      ]
+    },
+    "mdb_Serdar_Yuksel": {
+      "name": "Serdar Yüksel",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Emmi_Zeulner": {
+      "name": "Emmi Zeulner",
+      "party": "CSU",
+      "added": [
+        "healthcare"
+      ],
+      "removed": [
+        "policy_domain_061e02dbc08e"
+      ]
+    },
+    "mdb_Paul_Ziemiak": {
+      "name": "Paul Ziemiak",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Nicolas_Benjamin_Zippelius": {
+      "name": "Nicolas Zippelius",
+      "party": "CDU",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    },
+    "mdb_Vanessa_Kim_Zobel": {
+      "name": "Vanessa Zobel",
+      "party": "CDU",
+      "added": [
+        "finance_economics"
+      ],
+      "removed": []
+    },
+    "mdb_Armand_Zorn": {
+      "name": "Armand Zorn",
+      "party": "SPD",
+      "added": [
+        "business_management"
+      ],
+      "removed": [
+        "personal_5a832fb5d77b"
+      ]
+    },
+    "mdb_Mahmut_Ozdemir": {
+      "name": "Mahmut Özdemir",
+      "party": "SPD",
+      "added": [
+        "legal"
+      ],
+      "removed": [
+        "policy_domain_b37ee1f809cd",
+        "policy_domain_ef03d25a3396"
+      ]
+    },
+    "mdb_Saliha_Aydan_Ozoguz": {
+      "name": "Saliha Aydan Özoğuz",
+      "party": "SPD",
+      "added": [],
+      "removed": [
+        "policy_domain_5f43ef557bec"
+      ]
+    }
+  },
+  "unmappedProfileLabels": [
+    {
+      "id": "mdb_Michael_Karl_Brand",
+      "label": "Angestellter",
+      "source": "https://www.cducsu.de/abgeordnete/michael-brand"
+    },
+    {
+      "id": "mdb_Wolfgang_Jochen_Dahler",
+      "label": "Stellvertretender Vorsitzender der Arbeitsgruppe Bildung, Familie, Senioren, Frauen und Jugend",
+      "source": "https://www.cducsu.de/abgeordnete/wolfgang-dahler"
+    },
+    {
+      "id": "mdb_Wolfgang_Jochen_Dahler",
+      "label": "|",
+      "source": "https://www.cducsu.de/abgeordnete/wolfgang-dahler"
+    },
+    {
+      "id": "mdb_Wolfgang_Jochen_Dahler",
+      "label": "Obmann im Ausschuss für Bildung, Familie, Senioren, Frauen und Jugend",
+      "source": "https://www.cducsu.de/abgeordnete/wolfgang-dahler"
+    },
+    {
+      "id": "mdb_Martina_Englhardt_Kopf",
+      "label": "Parlamentarische Staatssekretärin beim Bundesminister für Landwirtschaft, Ernährung und Heimat",
+      "source": "https://www.cducsu.de/abgeordnete/dipl-hdl-univ-martina-englhardt-kopf"
+    },
+    {
+      "id": "mdb_Jonas_Alexander_Tecumseh_Geissler",
+      "label": "Stellvertretender Vorsitzender der Arbeitsgruppe Menschenrechte und humanitäre Hilfe",
+      "source": "https://www.cducsu.de/abgeordnete/dr-jonas-geissler"
+    },
+    {
+      "id": "mdb_Jonas_Alexander_Tecumseh_Geissler",
+      "label": "|",
+      "source": "https://www.cducsu.de/abgeordnete/dr-jonas-geissler"
+    },
+    {
+      "id": "mdb_Jonas_Alexander_Tecumseh_Geissler",
+      "label": "Obmann im Ausschuss für Menschenrechte und humanitäre Hilfe",
+      "source": "https://www.cducsu.de/abgeordnete/dr-jonas-geissler"
+    },
+    {
+      "id": "mdb_Serap_Guler",
+      "label": "Staatsministerin für Europa im Auswärtigen Amt",
+      "source": "https://www.cducsu.de/abgeordnete/serap-gueler"
+    },
+    {
+      "id": "mdb_Franziska_Christina_Brigitte_Hoppermann",
+      "label": "Amtsleiterin der Behörde für Justiz und Verbraucherschutz Hamburg, Diplom-Kauffrau",
+      "source": "https://www.cducsu.de/abgeordnete/franziska-hoppermann"
+    },
+    {
+      "id": "mdb_Ottilie_Paola_Klein",
+      "label": "Sprecherin & Vorsitzende der Arbeitsgruppe Kultur und Medien",
+      "source": "https://www.cducsu.de/abgeordnete/dr-ottilie-paola-klein"
+    },
+    {
+      "id": "mdb_Tilman_Moritz_Kuban",
+      "label": "Sprecher & Vorsitzender der Arbeitsgruppe Angelegenheiten der Europäischen Union",
+      "source": "https://www.cducsu.de/abgeordnete/tilman-kuban"
+    },
+    {
+      "id": "mdb_Daniel_Kolbl",
+      "label": "Master of Science in Global Management & Governance",
+      "source": "https://www.cducsu.de/abgeordnete/daniel-koelbl"
+    },
+    {
+      "id": "mdb_Patricia_Ingrid_Lips",
+      "label": "Handelsfachwirtin",
+      "source": "https://www.cducsu.de/abgeordnete/patricia-lips"
+    },
+    {
+      "id": "mdb_Florian_Matthias_Muller",
+      "label": "Sprecher & Vorsitzender der Arbeitsgruppe Forschung, Technologie und Raumfahrt",
+      "source": "https://www.cducsu.de/abgeordnete/florian-mueller"
+    },
+    {
+      "id": "mdb_Christoph_Johannes_Plo",
+      "label": "Historiker",
+      "source": "https://www.cducsu.de/abgeordnete/dr-christoph-ploss"
+    },
+    {
+      "id": "mdb_Pascal_Reddig",
+      "label": "Vorsitzender der Jungen Gruppe",
+      "source": "https://www.cducsu.de/abgeordnete/pascal-reddig"
+    },
+    {
+      "id": "mdb_Pascal_Reddig",
+      "label": "|",
+      "source": "https://www.cducsu.de/abgeordnete/pascal-reddig"
+    },
+    {
+      "id": "mdb_Pascal_Reddig",
+      "label": "Stellvertretender Vorsitzender der Arbeitsgruppe Arbeit und Soziales",
+      "source": "https://www.cducsu.de/abgeordnete/pascal-reddig"
+    },
+    {
+      "id": "mdb_Pascal_Reddig",
+      "label": "Obmann im Ausschuss für Arbeit und Soziales",
+      "source": "https://www.cducsu.de/abgeordnete/pascal-reddig"
+    },
+    {
+      "id": "mdb_Hendrik_Streeck",
+      "label": "Beauftragter der Bundesregierung für Sucht- und Drogenfragen",
+      "source": "https://www.cducsu.de/abgeordnete/prof-dr-hendrik-streeck"
+    },
+    {
+      "id": "mdb_Christina_Daniela_Stumpp",
+      "label": "Sprecherin & Vorsitzende der Arbeitsgruppe Landwirtschaft, Ernährung und Heimat",
+      "source": "https://www.cducsu.de/abgeordnete/christina-stumpp"
+    },
+    {
+      "id": "mdb_Roland_Theis",
+      "label": "Stellvertretender Vorsitzender der Arbeitsgruppe Angelegenheiten der Europäischen Union",
+      "source": "https://www.cducsu.de/abgeordnete/roland-theis"
+    },
+    {
+      "id": "mdb_Roland_Theis",
+      "label": "|",
+      "source": "https://www.cducsu.de/abgeordnete/roland-theis"
+    },
+    {
+      "id": "mdb_Roland_Theis",
+      "label": "Obmann im Ausschuss für die Angelegenheiten der Europäischen Union",
+      "source": "https://www.cducsu.de/abgeordnete/roland-theis"
+    },
+    {
+      "id": "mdb_Roland_Theis",
+      "label": "Vorsitzender der Landesgruppe Saarland",
+      "source": "https://www.cducsu.de/abgeordnete/roland-theis"
+    },
+    {
+      "id": "mdb_Mareike_Lotte_Wulf",
+      "label": "Parlamentarische Staatssekretärin bei der Bundesministerin für Bildung, Familie, Senioren, Frauen und Jugend",
+      "source": "https://www.cducsu.de/abgeordnete/mareike-lotte-wulf"
+    },
+    {
+      "id": "mdb_Nicolas_Benjamin_Zippelius",
+      "label": "Sprecher & Vorsitzender der Arbeitsgruppe Wirtschaftliche Zusammenarbeit und Entwicklung",
+      "source": "https://www.cducsu.de/abgeordnete/nicolas-zippelius"
+    }
+  ],
+  "retainedAllianceIds": [
+    "fiscal",
+    "legal",
+    "local",
+    "oversight",
+    "state_6de2d937fca8",
+    "working_group_cc6f195f882f",
+    "working_group_2a530baec6d2",
+    "social_group_531ecf281e8d",
+    "policy_domain_30e7a99741ce",
+    "policy_domain_54909ec8ea42",
+    "policy_domain_d826886797ae",
+    "policy_domain_7781c282990c",
+    "state_a215bd3fe529",
+    "working_group_ed7a2e23ab87",
+    "working_group_159f49f610f4",
+    "social_group_77d1f446ae27",
+    "social_group_c65897bb1f41",
+    "policy_domain_7d19405b191e",
+    "policy_domain_299da0e498fe",
+    "policy_domain_e459290747fa",
+    "policy_domain_01d8501fdae8",
+    "policy_domain_d64c0931af44",
+    "policy_domain_ab417accad43",
+    "policy_domain_b76e11b0d1a9",
+    "state_7ba426a25003",
+    "working_group_cb521ac80e1b",
+    "working_group_27c55dc1cbd1",
+    "social_group_27c693abe265",
+    "policy_domain_629c0404575d",
+    "policy_domain_bb20fd2d3cce",
+    "policy_domain_551c3a5d6b8a",
+    "policy_domain_494d1a609a27",
+    "policy_domain_f8db8e7d1e91",
+    "policy_domain_30dbb5674ba3",
+    "policy_domain_e39e1a1fe39f",
+    "policy_domain_02fbbb7bffd6",
+    "policy_domain_00b257fe461b",
+    "state_20f3b25ec4bf",
+    "state_6dc0cd39d9ba",
+    "social_group_be95189f46e7",
+    "social_group_7650c2219854",
+    "policy_domain_10e47108247d",
+    "policy_domain_da733a6a264f",
+    "policy_domain_cbe9d834a31d",
+    "policy_domain_2192703ebd5e",
+    "state_b31f283d701f",
+    "working_group_a2bf2d75c59e",
+    "policy_domain_52ad27ab6280",
+    "state_75d3a71c4bfb",
+    "working_group_9368d5b99901",
+    "policy_domain_9984c073a222",
+    "policy_domain_21de6a9304cb",
+    "working_group_4f114af6def4",
+    "working_group_8b1868e922cb",
+    "policy_domain_85aabdfce5c3",
+    "policy_domain_9e3715c12245",
+    "policy_domain_7167fd668079",
+    "policy_domain_42a2a3e03742",
+    "policy_domain_d076230fac90",
+    "policy_domain_474b946f73a7",
+    "working_group_1b0c239db0fd",
+    "working_group_fd802e3cb4be",
+    "policy_domain_158106bd0b52",
+    "policy_domain_33c6502a68f9",
+    "policy_domain_edf26aeb06be",
+    "policy_domain_c63ef1d87337",
+    "policy_domain_423143101405",
+    "state_2fc5c6fcdccc",
+    "policy_domain_8334e67f0383",
+    "policy_domain_85fc280596ce",
+    "policy_domain_b17fffbcfb93",
+    "policy_domain_76f80007d8ae",
+    "working_group_abe2b11ee105",
+    "working_group_eb3623fb396b",
+    "policy_domain_bd104beaecce",
+    "policy_domain_ec12f95ec739",
+    "working_group_e2e33b98a03e",
+    "policy_domain_e8b3df3d9790",
+    "policy_domain_150645946f3d",
+    "state_0f6f0ad90d2a",
+    "state_3826c3e0c9d3",
+    "working_group_2180c606f6ce",
+    "policy_domain_0f8696c0cef4",
+    "policy_domain_7cef86ef9d4c",
+    "policy_domain_1ce8553d4f6b",
+    "working_group_59d17bbf1ed5",
+    "working_group_a1844cf9e08a",
+    "policy_domain_c941469d1a31",
+    "policy_domain_09b752b1a5b2",
+    "policy_domain_108d11b634e7",
+    "working_group_758e06a4058e",
+    "policy_domain_fc92f0511888",
+    "policy_domain_7ab82dfeda1d",
+    "policy_domain_e52b700858fc",
+    "working_group_3ae1a45fe7aa",
+    "policy_domain_e8d83a6fd73c",
+    "policy_domain_ce4428896106",
+    "policy_domain_22339c78b7c8",
+    "working_group_3f94df42729f",
+    "policy_domain_4a03dc260da0",
+    "policy_domain_0d5bb4839bff",
+    "state_bf05bc8e41df",
+    "state_4887023adf28",
+    "working_group_3a1360e954c0",
+    "policy_domain_c0546ce5dcfd",
+    "policy_domain_251d2de00c16",
+    "state_ed6511f23a2f",
+    "working_group_502bf706a3f9",
+    "policy_domain_088bba270f4c",
+    "policy_domain_49d51ad9f97c",
+    "state_4e1d64be2e7e",
+    "state_9b34e26eb58b",
+    "social_group_09e2862f1429",
+    "state_31d25d22f9bf",
+    "working_group_efc8689ed9f8",
+    "working_group_eed2c2505196",
+    "working_group_e3f90311177b",
+    "working_group_7abf88eb4a22",
+    "working_group_8f66c73e1ad5",
+    "working_group_5d193049201c",
+    "working_group_49e47bf2c41d",
+    "working_group_61c230d9364b",
+    "working_group_b15c18931c20",
+    "working_group_2c7ba000df5b",
+    "working_group_ecbab470c631",
+    "working_group_5cafa078a98b",
+    "working_group_edec2f20a556",
+    "working_group_51c4c46571ae",
+    "working_group_dfd483f631e4",
+    "working_group_4484fc492516",
+    "working_group_dc452beb4a74",
+    "working_group_8d1192f10f80",
+    "working_group_f792faf5fc0f",
+    "working_group_77b8682f6abe",
+    "working_group_92a98cef5f07",
+    "working_group_e6264eea08e7",
+    "working_group_8e4e66bf7481",
+    "working_group_3eff8947be7b",
+    "working_group_00bfdcce2ddc",
+    "working_group_86bad8fa971d",
+    "working_group_b83aee49501e",
+    "working_group_f52eb53a12e4",
+    "working_group_8846446217d6",
+    "working_group_2c7249d82d68",
+    "working_group_e2f2067b8108",
+    "working_group_2343201e02b7",
+    "working_group_013e5077ee1f",
+    "working_group_42cc5758ac61",
+    "working_group_cf62c73c40b3",
+    "working_group_f9abfd0847ba",
+    "working_group_10986cacfa53",
+    "working_group_269f8db332f3",
+    "working_group_fbe096b8c383",
+    "working_group_b0f31bd8bd36",
+    "working_group_6944ca369a2f",
+    "working_group_f96ffa308970",
+    "working_group_fc11e044caea",
+    "working_group_58233fe81ee5",
+    "working_group_6a4cd83f5796",
+    "working_group_34a40005c20a",
+    "working_group_f6924f81187b",
+    "working_group_65414fac8c1a",
+    "foresight",
+    "organizational_majority",
+    "local_administration",
+    "business_management",
+    "finance_economics",
+    "education",
+    "healthcare",
+    "public_safety",
+    "stem",
+    "agriculture",
+    "social_science",
+    "public_administration"
+  ]
+}

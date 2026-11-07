@@ -20,7 +20,12 @@ export function animate_policy_scores(container){
   function advance(now){
    if(!ring.isConnected)return;
    const elapsed=Math.min(1,Math.max(0,(now-started)/duration));
-   const score=elapsed===1?total:previous+gain*elapsed;
+   // Keep the first turns moving, then brake smoothly over the final third.
+   const brakingTime=.35;
+   const brakingElapsed=Math.max(0,elapsed-(1-brakingTime));
+   const distance=elapsed-brakingElapsed**2/(2*brakingTime);
+   const progress=distance/(1-brakingTime/2);
+   const score=elapsed===1?total:previous+gain*progress;
    number.textContent=elapsed===1?String(total):score.toFixed(1);
    arc.setAttribute('stroke-dashoffset',String(policy_score_offset(score,elapsed===1)));
    if(elapsed<1)requestAnimationFrame(advance);
