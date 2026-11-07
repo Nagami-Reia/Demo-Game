@@ -1,0 +1,26 @@
+[data-equipment-party="CDU"]{--equipment-accent:#52b7c1}
+[data-equipment-party="CSU"]{--equipment-accent:#0080c8}
+[data-equipment-party="SPD"]{--equipment-accent:#e3000f}
+[data-equipment-party="AfD"]{--equipment-accent:#00ccff}
+[data-equipment-party="Grüne"]{--equipment-accent:#008939}
+[data-equipment-party="Linke"]{--equipment-accent:#b52b66}
+.card:is([data-equipped="1"],[data-equipped="2"]) .attributes{position:relative;border-top-color:transparent}
+.card:is([data-equipped="1"],[data-equipped="2"]) .attributes::before,
+.card:is([data-equipped="1"],[data-equipped="2"]) .attributes::after{content:'';position:absolute;top:-3px;height:5px;width:calc(50% - 3px);border-radius:2px;pointer-events:none}
+.card[data-equipped] .attributes::before{left:0;background:var(--equipment-accent,var(--accent))}
+.card[data-equipped] .attributes::after{right:0;background:var(--equipment-right,var(--line))}
+.card[data-equipped="2"]{--equipment-right:var(--equipment-accent,var(--accent))}
+.equipment-mask{position:absolute;inset:calc(-1 * var(--card-stripe)) 0 0;z-index:2;display:grid;place-items:center;background:rgb(30 33 37 / .73);border-radius:inherit}
+.equipment-mask[hidden],.equipment-fallback[hidden]{display:none}
+.equipment-slots{display:grid;width:78%;gap:9px}.equipment-slots button{min-height:32px;padding:5px 9px;text-align:left;border:1px dashed #fff;border-radius:5px;background:transparent;color:white;font-size:12px}
+.equipment-slots .filled{background:white;color:#252c36;border-style:solid;opacity:1}.equipment-slots .over{outline:2px solid white}.equipment-slots small{color:white;text-align:center}
+.equipment-shop{padding-bottom:12px;margin-bottom:12px;border-bottom:1px solid var(--line)}.equipment-shop h3,.equipment-shop h4{margin:0 0 8px}.equipment-shop h4{margin-top:10px}.equipment-offer{background:var(--soft);padding:9px;border-radius:7px;font-size:12px}.equipment-offer p{margin:5px 0 0;color:var(--accent)}.equipment-offer div{font-style:italic;color:var(--muted)}.equipment-inventory,.equipment-fallback{display:grid;gap:5px}.equipment-inventory button{text-align:left;cursor:grab}.equipment-inventory button[aria-pressed=true]{outline:2px solid var(--accent)}.equipment-fallback{margin-top:7px}.equipment-fallback select{min-width:0}.equipment-choice form{display:grid;gap:6px}
+@media(min-width:1050px){.workspace>aside:has(.equipment-shop){position:sticky;top:12px;align-self:start}}
+.equipment-hover{position:relative;display:block;min-width:0}
+.equipment-hover>button{width:100%}
+.equipment-tooltip{display:none;position:absolute;z-index:12;inset-inline-end:calc(100% + 9px);top:0;width:min(260px,80vw);padding:11px 13px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);box-shadow:var(--shadow);font-size:12px;font-style:normal;text-align:start;pointer-events:none;line-height:1.5}
+.equipment-hover:is(:hover,:focus-within)>.equipment-tooltip{display:grid;gap:5px}
+.equipment-exclusive{color:var(--accent);font-weight:700;display:block;margin-top:4px}
+.equipment-offer>.equipment-exclusive{margin-top:5px}
+.equipment-slots .equipment-tooltip{inset-inline-end:auto;inset-inline-start:calc(100% + 7px)}
+@media(max-width:700px){.equipment-tooltip,.equipment-slots .equipment-tooltip{inset-inline-start:0;inset-inline-end:auto;top:calc(100% + 4px)}}

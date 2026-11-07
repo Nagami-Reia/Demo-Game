@@ -104,8 +104,14 @@ function shortlist(cards,domain,party,role) {
       ((validMandate(b).influence+(b.party===party?.5:0))-(validMandate(a).influence+(a.party===party?.5:0)))||rank(a,b))[0];
     if(leader)selected.set(identity(leader),leader);
   }
-  // Preserve one specialist per field, even when generalist stats are higher.
-  for(const d of DOMAIN_KEYS)for(const c of pool.filter(c=>domains(c).has(d)).toSorted(rank).slice(0,1))selected.set(identity(c),c);
+  // Keep the three-member grassroots route available in the bounded search.
+  if(party==='Linke')for(const c of pool.filter(c=>c.tier<=2).toSorted(rank).slice(0,3))selected.set(identity(c),c);
+  // Preserve specialists even when generalist stats are higher.
+  for(const d of DOMAIN_KEYS){
+    if(selected.size>=12)break;
+    const specialist=pool.filter(c=>domains(c).has(d)).toSorted(rank)[0];
+    if(specialist)selected.set(identity(specialist),specialist);
+  }
   const byId=new Map(pool.map(c=>[c.id,c]));
   const links=[...new Map(pool.flatMap(c=>c.links||[]).map(r=>[r.id,r])).values()].sort((a,b)=>(b.strength||0)-(a.strength||0));
   for(const link of links){const pair=[byId.get(link.a),byId.get(link.b)];if(pair.some(c=>!c))continue;const missing=pair.filter(c=>!selected.has(identity(c)));if(selected.size+missing.length<=12)for(const c of missing)selected.set(identity(c),c);}

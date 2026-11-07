@@ -6,11 +6,11 @@ import {agenda_weights,domain_weight} from './agenda-domains.js';
 
 export const FACTIONS={
  CDU:{color:'#26323c',title:{zh:'组织积累',en:'Organizational capital',de:'Organisationskapital'},text:{zh:'盟约成员协调成功或跨党谈判成功，可积累组织资本（每轮最多 2，上限 8）。达到 2 / 4 / 7 时，依次强化协调、谈判和专业修正。',en:'Successful alliance coordination or cross-party negotiation earns capital (up to 2 per round, 8 total). At 2 / 4 / 7, unlock bonuses to coordination, negotiation and amendments.',de:'Erfolgreiche Koordination von Bündnismitgliedern oder parteiübergreifende Verhandlungen bringen Kapital (bis zu 2 pro Runde, maximal 8). Bei 2 / 4 / 7 werden Koordination, Verhandlungen und Änderungsanträge verstärkt.'}},
- CSU:{color:'#1688be',title:{zh:'地方财政',en:'Regional finances',de:'Regionalfinanzen'},text:{zh:'拨款后现金不超过 €24 时多领 €2；本轮首张普通招募的 CSU 卡返 €1。缓冲结算民调跌幅。可花 €5 指定经济或交通候选，并加强本轮民调缓冲。',en:'Gain €2 if cash after the regular budget is at most €24. The first CSU recruit in the regular auction each round refunds €1. Cushion settlement poll losses. Spend €5 to target an economy or transport candidate and strengthen this round’s cushion.',de:'Bei höchstens 24 € nach der regulären Auszahlung gibt es 2 € zusätzlich. Für die erste regulär angeworbene CSU-Karte pro Runde gibt es 1 € zurück. Dämpft Umfrageverluste bei der Abrechnung. Für 5 € lässt sich ein Kandidat aus Wirtschaft oder Verkehr suchen und der Verlust stärker dämpfen.'}},
+ CSU:{color:'#1688be',title:{zh:'地方财政',en:'Regional finances',de:'Regionalfinanzen'},text:{zh:'拨款后现金不超过 €24 时多领 €2；本轮首张普通招募的 CSU 卡返 €1。缓冲结算民调跌幅。可花 €5 指定经济或交通候选，并加强本轮民调缓冲。花 €8 为一名已招募的 CSU 成员训练，下轮起对应行动 +0.65。每轮一名，全局三名。',en:'Gain €2 if cash after the regular budget is at most €24. The first CSU recruit in the regular auction each round refunds €1. Cushion settlement poll losses. Spend €5 to target an economy or transport candidate and strengthen this round’s cushion. Train a recruited CSU member for €8 to add 0.65 to one action type from next round. Once per round, three per match.',de:'Bei höchstens 24 € nach der regulären Auszahlung gibt es 2 € zusätzlich. Für die erste regulär angeworbene CSU-Karte pro Runde gibt es 1 € zurück. Dämpft Umfrageverluste bei der Abrechnung. Für 5 € lässt sich ein Kandidat aus Wirtschaft oder Verkehr suchen und der Verlust stärker dämpfen. Für 8 € erhält ein angeworbenes CSU-Mitglied ab der nächsten Runde +0,65 auf einen Aktionstyp. Einmal pro Runde, dreimal pro Partie.'}},
  SPD:{color:'#dd3c42',title:{zh:'联合政府管理',en:'Coalition management',de:'Koalitionsmanagement'},text:{zh:'混合阵容加强谈判，党内压力低时谈判方案减 €1。使用支持谈判的方案后达成跨党协议，返还最多 €2；频繁达成协议会累积压力，选用坚持立场的谈判方案可消解压力。',en:'Mixed teams negotiate better and save €1 on plans at low internal pressure. Cross-party agreements on a negotiation-friendly plan refund up to €2. Repeated agreements build pressure, which eases when you hold your position or go a round without agreements.',de:'Gemischte Teams verhandeln besser. Bei geringem internem Druck kosten Verhandlungspläne 1 € weniger. Parteiübergreifende Einigungen mit einem Verhandlungsplan erstatten bis zu 2 €. Häufige Einigungen erhöhen den Druck, der bei einer festen Verhandlungsposition oder in Runden ohne Einigung wieder sinkt.'}},
- AfD:{color:'#29a2cf',title:{zh:'争议动员',en:'Controversy surge',de:'Kontroversenmobilisierung'},text:{zh:'前两轮监督较强。争议议题的首次监督有随机正负效果，争议越大波动越大。辩论和韧性提高预期收益，结果可能影响民调；跨党谈判较弱。',en:'Stronger scrutiny in rounds 1–2. The first scrutiny on a controversial agenda has a random upside or downside. Higher controversy widens the swing. Oratory and resilience improve the odds, with possible poll effects. Cross-party negotiations are weaker.',de:'Stärkere Kontrolle in Runde 1–2. Die erste Kontrolle bei einem kontroversen Thema kann helfen oder schaden. Mehr Kontroverse erhöht die Schwankung. Rhetorik und Resilienz verbessern die Aussichten, mit möglichen Folgen für Umfragen. Parteiübergreifende Verhandlungen sind schwächer.'}},
+ AfD:{color:'#29a2cf',title:{zh:'争议动员',en:'Controversy surge',de:'Kontroversenmobilisierung'},text:{zh:'前两轮监督较强。争议议题指定一名成员发起争议监督。辩论和争议度越高，正负波动越大；韧性缓冲负面民调。跨党谈判较弱。',en:'Stronger scrutiny in rounds 1–2. One designated member leads scrutiny on a controversial agenda. Oratory and controversy widen both upside and downside. Resilience cushions polling backlash. Cross-party negotiations are weaker.',de:'Stärkere Kontrolle in Runde 1–2. Ein ausgewähltes Mitglied führt bei kontroversen Themen die Kontrolle an. Rhetorik und Kontroverse verstärken positive und negative Ausschläge. Resilienz dämpft negative Umfragefolgen. Parteiübergreifende Verhandlungen sind schwächer.'}},
  'Grüne':{color:'#599248',title:{zh:'气候政策专长',en:'Climate specialization',de:'Klimapolitische Spezialisierung'},text:{zh:'按议题权重强化气候行动，交通和经济有较小加成，能源计入气候领域。气候修正成功可积累最多 3 层势头，偏离气候议题时逐步消退。',en:'Climate actions gain a reliable weighted bonus, with smaller transport and economic bonuses. Energy counts under climate. Successful climate amendments build up to 3 momentum, which fades away from climate agendas.',de:'Aktionen gewinnen nach Themengewicht Stärke für Klima und in geringerem Maß für Verkehr und Wirtschaft. Energie zählt zu Klima. Erfolgreiche Klimaänderungen erzeugen bis zu 3 Schwung, der bei anderen Themen abnimmt.'}},
- Linke:{color:'#ae4481',title:{zh:'基层动员',en:'Grassroots mobilization',de:'Basismobilisierung'},text:{zh:'低阶成员的监督与协调更强，社会政策专家也受益。多名成员行动成功可积累动员，落后时积累更快。已有 3 层动员时，三人成功参与可消耗 3 层换取 0.6 成果。',en:'Lower-tier members gain scrutiny and coordination strength, and social-policy experts benefit too. Successful actions by several members build mobilization faster when behind. With 3 stored, three successful participants can spend 3 for 0.6 outcome points.',de:'Niedrige Kartenstufen stärken Kontrolle und Koordination. Sozialpolitische Fachleute profitieren ebenfalls. Erfolge mehrerer Mitglieder bauen bei Rückstand schneller Mobilisierung auf. Mit 3 gespeicherten Punkten und drei erfolgreichen Beteiligten lassen sich 3 für 0,6 Ergebnispunkte einsetzen.'}}
+ Linke:{color:'#ae4481',title:{zh:'基层动员',en:'Grassroots mobilization',de:'Basismobilisierung'},text:{zh:'低阶成员的监督与协调更强，社会政策专家也受益。多名成员行动成功可积累动员，落后时积累更快。两名 T1/T2 成员成功参与时多积累 1 层；已有 3 层且三名 T1/T2 成功参与时，消耗 3 层换取 0.6 成果。',en:'Lower-tier members gain scrutiny and coordination strength, and social-policy experts benefit too. Successful actions by several members build mobilization faster when behind. Two successful T1/T2 members earn an extra stack. Three successful T1/T2 members spend 3 stored stacks for 0.6 outcome points.',de:'Niedrige Kartenstufen stärken Kontrolle und Koordination. Sozialpolitische Fachleute profitieren ebenfalls. Erfolge mehrerer Mitglieder bauen bei Rückstand schneller Mobilisierung auf. Zwei erfolgreiche T1/T2-Mitglieder bringen einen zusätzlichen Punkt. Drei erfolgreiche T1/T2-Mitglieder setzen 3 gespeicherte Punkte für 0,6 Ergebnispunkte ein.'}}
 };
 
 // A saved debate already underway completes with its original action formula.
@@ -62,19 +62,40 @@ function faction_base(player,team,card,agenda,action,stage,round){
  }
 }
 
-export function faction_action(game,player,team,card,agenda,action,stage,integrity,trace,skip){
+function faction_controversy_level(game,player,agenda){
+ const distance=policy_relation(game.players[player].party,game.players[1-player].party,agenda,game.data?.platforms).distance;
+ const baseline=agenda.procedure==='budget'?.58:agenda.procedure==='question'?.46:.34;
+ return faction_clamp(agenda.discipline?.controversy??baseline+.45*distance,0,1);
+}
+
+export function faction_burst_lead(game,player,team,agenda){
+ const owner=game.players[player];
+ if(owner.party!=='AfD'||faction_controversy_level(game,player,agenda)<.5)return null;
+ const aggressive=owner.score<=game.players[1-player].score;
+ const value=c=>(c.oratory??3)*(aggressive?1.2:.25)+(c.resilience??3)*(aggressive?.35:1);
+ return team.toSorted((a,b)=>value(b)-value(a)||String(a.id).localeCompare(String(b.id),'en'))[0]||null;
+}
+
+export function faction_action(game,player,team,card,agenda,action,stage,integrity,trace,skip,version=2,burstLead){
  if(skip)return {power:0,controversy:null};
  const owner=game.players[player];
- const power=faction_base(owner,team,card,agenda,action,stage,game.round)*integrity;
+ const training=version>=2?faction_training_bonus(owner,card,action,game.round):0;
+ const power=(faction_base(owner,team,card,agenda,action,stage,game.round)+training)*integrity;
  if(owner.party!=='AfD'||action!=='scrutinize'||trace.some(row=>row.player===player&&row.controversy))return {power,controversy:null};
- const distance=policy_relation(owner.party,game.players[1-player].party,agenda,game.data?.platforms).distance;
- const baseline=agenda.procedure==='budget'?.58:agenda.procedure==='question'?.46:.34;
- const level=faction_clamp(agenda.discipline?.controversy??baseline+.45*distance,0,1);
+ const level=faction_controversy_level(game,player,agenda);
  if(level<.5)return {power,controversy:null};
- const aptitude=((card.oratory??3)-3)*.18+((card.resilience??3)-3)*.12;
- const swing=(game.random()*2-1)*(1+level*2)+aptitude;
- const modifier=+(faction_clamp(swing,-3.4,3.4)*integrity).toFixed(2);
- return {power:power+modifier,controversy:{level,modifier}};
+ const roll=()=>game.random()*2-1;
+ const oratory=card.oratory??3,resilience=card.resilience??3;
+ if(version===1){
+  const swing=roll()*(1+level*2)+(oratory-3)*.18+(resilience-3)*.12;
+  const modifier=+(faction_clamp(swing,-3.4,3.4)*integrity).toFixed(2);
+  return {power:power+modifier,controversy:{level,modifier}};
+ }
+ const lead=burstLead===undefined?faction_burst_lead(game,player,team,agenda)?.id:burstLead;
+ if(card.id!==lead)return {power,controversy:null};
+ const amplitude=(1+level*2)*(.7+.1*oratory);
+ const modifier=+(roll()*amplitude*integrity).toFixed(2);
+ return {power:power+modifier,controversy:{level,modifier,resilience,amplitude}};
 }
 
 // Heuristic expectations only. Evaluating a lineup or a plan never advances the RNG.
@@ -87,7 +108,11 @@ export function faction_lineup_value(player,team,agenda,round){
   return strength+(capital<8&&team.length>=2?Math.min(2,partners)*.38:0);
  }
  if(player.party==='SPD')return strength+(faction_mixed(player.party,team)?(player.faction?.pressure>=3?.25:1.2):0);
- if(player.party==='Linke')return strength+Math.min(3,team.length)*.2;
+ if(player.party==='Linke'){
+  const low=team.filter(c=>c.tier<=2).length;
+  return strength+(low>=3?2.5:low>=2?.85:0);
+ }
+ if(player.party==='CSU')return team.reduce((sum,c)=>sum+CSU_TRAIN_ACTIONS.reduce((best,type)=>Math.max(best,faction_training_bonus(player,c,type,round)),0),0);
  return strength;
 }
 
@@ -135,7 +160,40 @@ export function faction_ai_invest(game,player){
  if(domain)faction_invest(game,player,domain);
 }
 
-export function faction_settle(game,player,team,trace,alliances){
+export const CSU_TRAIN_COST=8;
+export const CSU_TRAIN_ACTIONS=['coordinate','amend','negotiate'];
+const CSU_TRAIN_BONUS=.65;
+const CSU_TRAIN_LIMIT=3;
+
+export function faction_trainable(game,player){
+ const p=game.players[player],training=p.faction?.training||[];
+ if(game.phase!=='UPGRADE'||game.round>=8||p.party!=='CSU'||p.cash<CSU_TRAIN_COST||
+    training.length>=CSU_TRAIN_LIMIT||training.some(e=>e.readyRound===game.round+1))return [];
+ return p.owned.filter(c=>c.party==='CSU'&&!is_neutral_chair(c)&&!training.some(e=>e.id===c.id));
+}
+
+export function faction_train(game,player,id,action){
+ const card=faction_trainable(game,player).find(c=>c.id===id);
+ if(!card||!CSU_TRAIN_ACTIONS.includes(action))throw Error('faction_training_unavailable');
+ const p=game.players[player];p.cash-=CSU_TRAIN_COST;
+ ((p.faction??={}).training??=[]).push({id,action,readyRound:game.round+1});
+ game.log('faction_csu_train',{player,id,action,name:card.displayName||card.name,amount:CSU_TRAIN_COST});
+}
+
+export function faction_training_bonus(player,card,action,round){
+ return player.party==='CSU'&&player.faction?.training?.some(e=>e.id===card.id&&e.action===action&&e.readyRound<=round)?CSU_TRAIN_BONUS:0;
+}
+
+export function faction_ai_train(game,player){
+ const p=game.players[player];
+ if(p.cash<(p.owned.length<5?28:21))return;
+ const candidates=faction_trainable(game,player);
+ const value=c=>Math.max(c.leadership??3,c.expertise??3)+(c.domains?.length||0)*.2;
+ const card=candidates.toSorted((a,b)=>value(b)-value(a))[0];
+ if(card)faction_train(game,player,card.id,card.leadership>card.expertise?'coordinate':'amend');
+}
+
+export function faction_settle(game,player,team,trace,alliances,version=2){
  const p=game.players[player],state=p.faction??={};
  const rows=trace.filter(r=>r.kind==='action'&&r.player===player&&!r.skipped&&!r.oppositionFree);
  const good=rows.filter(r=>r.success),distinct=actions=>new Set(actions.map(r=>r.cardId)).size;
@@ -168,7 +226,8 @@ export function faction_settle(game,player,team,trace,alliances){
    const burst=rows.find(r=>r.controversy);
    if(burst){
     const modifier=burst.controversy.modifier;
-    if(modifier<0||burst.success)poll=+(modifier*.12).toFixed(2);
+    const pollRate=modifier<0&&version>=2?.12-((burst.controversy.resilience??3)-3)*.02:.12;
+    if(modifier<0||burst.success)poll=+(modifier*pollRate).toFixed(2);
     events.push({key:modifier<0?'controversy_down':modifier>0?'controversy_up':'controversy_even',value:modifier,poll});
    }
    break;
@@ -180,11 +239,16 @@ export function faction_settle(game,player,team,trace,alliances){
    break;
   }
   case 'Linke':{
-   const eligible=good.filter(r=>r.action==='scrutinize'||team.some(c=>c.id===r.cardId&&domain_weight(c.domains,game.agenda)>=.25&&c.domains?.includes('social')));
+   const lowIds=new Set(team.filter(c=>c.tier<=2).map(c=>c.id));
+   const eligible=good.filter(r=>r.action==='scrutinize'||(version>=2&&r.action==='coordinate'&&lowIds.has(r.cardId))||
+    team.some(c=>c.id===r.cardId&&domain_weight(c.domains,game.agenda)>=.25&&c.domains?.includes('social')));
    const participants=distinct(eligible),stored=state.mobilization||0;
    const trailing=p.score<game.players[1-player].score;
-   if(participants>=3&&stored>=3)score=.6;
-   const gain=participants>=2?(participants>=3?2:1)+(trailing?1:0):0;
+   const low=distinct(eligible.filter(r=>lowIds.has(r.cardId)));
+   if((version>=2?low:participants)>=3&&stored>=3)score=.6;
+   const extra=version>=2&&low>=2?1:0;
+   if(extra)events.push({key:'grassroots_low_t',value:extra});
+   const gain=participants>=2?(participants>=3?2:1)+(trailing?1:0)+extra:0;
    set('mobilization',faction_clamp(stored+gain-(score?3:0),0,5));
    break;
   }

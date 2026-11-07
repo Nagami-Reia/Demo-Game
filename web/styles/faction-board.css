@@ -1,0 +1,109 @@
+/* Horizontal counterpart of the opening identity card. */
+.faction-board > section {
+ --faction-cut:10px;
+ position:relative;
+ isolation:isolate;
+ display:grid;
+ grid-template-columns:clamp(86px,9vw,126px) minmax(0,1fr);
+ gap:12px;
+ min-width:0;
+ padding:0;
+ border-radius:0;
+ border-top:2px solid var(--party-accent);
+ background:transparent;
+ box-shadow:2px 5px 9px #1a26321f;
+}
+.faction-board > section::before {
+ content:'';
+ position:absolute;
+ z-index:-2;
+ inset:5px -5px -5px 6px;
+ background:color-mix(in srgb,var(--line),transparent 35%);
+ clip-path:polygon(0 0,100% 0,100% calc(100% - 8px),calc(100% - 9px) 100%,0 100%);
+ pointer-events:none;
+}
+.faction-board > section::after {
+ content:'';
+ position:absolute;
+ inset:0;
+ z-index:-1;
+ background:var(--paper);
+ pointer-events:none;
+}
+.faction-board-label {
+ position:relative;
+ isolation:isolate;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ gap:3px;
+ padding:12px 16px 12px 12px;
+ color:#f2f6fa;
+ background:linear-gradient(145deg,#39434b 0 38%,#303940 38% 60%,#252b30 60%);
+ clip-path:polygon(0 0,100% 0,calc(100% - 10px) 100%,var(--faction-cut) 100%,0 calc(100% - var(--faction-cut)));
+}
+.faction-board-label::before {
+ content:'';
+ position:absolute;
+ z-index:-1;
+ inset:auto 0 0 12px;
+ height:51%;
+ background:var(--party-accent);
+ opacity:.5;
+ mix-blend-mode:screen;
+ clip-path:polygon(12% 0,100% 33%,100% 100%,0 100%);
+}
+.faction-board-label::after {
+ content:'';
+ position:absolute;
+ inset:0 auto var(--faction-cut) 0;
+ width:3px;
+ background:linear-gradient(to bottom,#151719 0 33.333%,#d41922 33.333% 66.667%,#f9c640 66.667%);
+}
+.faction-board-label span {font-size:11px;line-height:1.25;overflow-wrap:anywhere}
+.faction-board-label b {
+ color:var(--party-ci);
+ font-size:clamp(18px,2.35vw,32px);
+ line-height:1.06;
+ letter-spacing:-.04em;
+ overflow-wrap:anywhere;
+}
+.faction-board-readout {
+ position:relative;
+ isolation:isolate;
+ min-width:0;
+ padding:12px 13px 10px 0;
+}
+.faction-board-readout::before {
+ content:'';
+ position:absolute;
+ z-index:-1;
+ inset:auto 4px 4px auto;
+ width:64px;
+ height:40px;
+ background:radial-gradient(circle,var(--party-accent) 1px,transparent 1.3px) 0 0/8px 8px;
+ clip-path:polygon(62% 0,100% 0,100% 100%,0 100%,0 60%,30% 60%,30% 30%,62% 30%);
+ opacity:.34;
+ pointer-events:none;
+}
+.faction-board .metrics {
+ display:grid;
+ grid-template-columns:repeat(3,minmax(0,1fr));
+ gap:7px;
+ margin:0;
+}
+.faction-board .metrics span {overflow-wrap:anywhere}
+.faction-board .metrics b {
+ margin-top:3px;
+ color:var(--ink);
+ font:700 clamp(17px,2vw,28px)/1.15 ui-monospace,monospace;
+ font-variant-numeric:tabular-nums;
+ letter-spacing:-.065em;
+}
+.faction-board .ability {margin:8px 0 0;line-height:1.5;overflow-wrap:anywhere}
+@media(max-width:700px) {
+ .faction-board {grid-template-columns:minmax(0,1fr)}
+ .faction-board > section {grid-template-columns:clamp(78px,23vw,112px) minmax(0,1fr);gap:8px}
+ .faction-board-readout {padding:9px 8px 8px 0}
+ .faction-board .metrics {gap:5px}
+}
