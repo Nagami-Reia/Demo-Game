@@ -1,5 +1,6 @@
-# Koalitionsprotokoll
+# Koalitionsprotokoll https://nagami-reia.github.io/Demo-Game/
 
+现在是2.1.0a UI做的我有点想死
 一款八回合的德国联邦议院策略游戏。你扮演执政党，与电脑控制的反对党较量。
 
 ## 怎么打开
