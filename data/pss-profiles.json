@@ -1,0 +1,220 @@
+{
+  "Merz": {
+    "source": "actors/Merz/pss.json",
+    "profile": {
+      "stress_resistance": 0.9,
+      "recovery_rate": 0.82,
+      "sensitivity_map": {
+        "media_attack": 0.0,
+        "loss_of_authority": 1.0,
+        "authority_challenge": 1.0,
+        "failure": 0.5,
+        "indecision": 0.9,
+        "implementation_drift": 0.6,
+        "national_decline": 0.7
+      },
+      "state_modulation": {
+        "pressure_ambition_target": 1.0,
+        "pressure_ambition_strength": 0.6,
+        "pressure_risk_target": 1.0,
+        "pressure_risk_strength": 0.5,
+        "low_energy_ambition_target": 0.35,
+        "low_energy_ambition_strength": 0.2,
+        "low_energy_risk_target": 0.4,
+        "low_energy_risk_strength": 0.1,
+        "low_confidence_risk_target": 0.45,
+        "low_confidence_risk_strength": 0.1,
+        "low_control_control_strength": 0.35
+      }
+    }
+  },
+  "Frei": {
+    "source": "actors/Frei/pss.json",
+    "profile": {
+      "stress_resistance": 0.82,
+      "recovery_rate": 0.74,
+      "sensitivity_map": {
+        "uncounted_votes": 1.0,
+        "faction_fragmentation": 0.9,
+        "unclear_responsibility": 0.7,
+        "leader_surprise": 0.9,
+        "media_attack": 0.0
+      },
+      "state_modulation": {
+        "pressure_ambition_target": 0.72,
+        "pressure_ambition_strength": 0.25,
+        "pressure_risk_target": 0.28,
+        "pressure_risk_strength": 0.4,
+        "low_energy_ambition_target": 0.3,
+        "low_energy_ambition_strength": 0.25,
+        "low_confidence_risk_target": 0.24,
+        "low_confidence_risk_strength": 0.18,
+        "low_control_control_strength": 0.75
+      }
+    }
+  },
+  "Linnemann": {
+    "source": "actors/Linnemann/pss.json",
+    "profile": {
+      "stress_resistance": 0.76,
+      "recovery_rate": 0.48,
+      "sensitivity_map": {
+        "implementation_failure": 1.0,
+        "bureaucratic_delay": 0.9,
+        "symbolic_only": 0.9,
+        "no_levers": 0.8,
+        "media_attack": 0.0
+      },
+      "state_modulation": {
+        "pressure_ambition_target": 0.85,
+        "pressure_ambition_strength": 0.35,
+        "pressure_risk_target": 0.68,
+        "pressure_risk_strength": 0.22,
+        "low_energy_ambition_target": 0.3,
+        "low_energy_ambition_strength": 0.24,
+        "low_control_control_strength": 0.65
+      }
+    }
+  },
+  "Wadephul": {
+    "source": "actors/Wadephul/pss.json",
+    "profile": {
+      "stress_resistance": 0.79,
+      "recovery_rate": 0.7,
+      "sensitivity_map": {
+        "alliance_fragmentation": 1.0,
+        "legal_ambiguity": 0.9,
+        "field_evidence_conflict": 0.86,
+        "chancellery_conflict": 0.82,
+        "media_attack": 0.25
+      },
+      "state_modulation": {
+        "pressure_ambition_target": 0.47,
+        "pressure_ambition_strength": 0.24,
+        "pressure_risk_target": 0.38,
+        "pressure_risk_strength": 0.4,
+        "low_energy_ambition_target": 0.27,
+        "low_energy_ambition_strength": 0.22,
+        "low_control_control_strength": 0.62
+      }
+    }
+  },
+  "Dobrindt": {
+    "source": "actors/Dobrindt/pss.json",
+    "profile": {
+      "stress_resistance": 0.84,
+      "recovery_rate": 0.74,
+      "sensitivity_map": {
+        "legal_uncertainty": 0.9,
+        "implementation_failure": 0.94,
+        "loss_of_leverage": 0.9,
+        "coalition_blockage": 0.76,
+        "media_attack": 0.3
+      },
+      "state_modulation": {
+        "pressure_ambition_target": 0.88,
+        "pressure_ambition_strength": 0.28,
+        "pressure_risk_target": 0.76,
+        "pressure_risk_strength": 0.22,
+        "low_energy_ambition_target": 0.42,
+        "low_energy_ambition_strength": 0.24,
+        "low_control_control_strength": 0.7
+      }
+    }
+  },
+  "Warken": {
+    "source": "actors/Warken/pss.json",
+    "profile": {
+      "stress_resistance": 0.85,
+      "recovery_rate": 0.73,
+      "sensitivity_map": {
+        "coordination_failure": 1.0,
+        "reform_blockage": 0.9,
+        "unfunded_promise": 0.88,
+        "leader_conflict": 0.76,
+        "media_attack": 0.3
+      },
+      "state_modulation": {
+        "pressure_ambition_target": 0.72,
+        "pressure_ambition_strength": 0.22,
+        "pressure_risk_target": 0.5,
+        "pressure_risk_strength": 0.3,
+        "low_energy_ambition_target": 0.32,
+        "low_energy_ambition_strength": 0.23,
+        "low_control_control_strength": 0.72
+      }
+    }
+  },
+  "Baer": {
+    "source": "actors/Baer/pss.json",
+    "profile": {
+      "stress_resistance": 0.8,
+      "recovery_rate": 0.81,
+      "sensitivity_map": {
+        "innovation_blockage": 0.96,
+        "implementation_gap": 0.9,
+        "public_ridicule": 0.58,
+        "csu_fragmentation": 0.68,
+        "media_attack": 0.35
+      },
+      "state_modulation": {
+        "pressure_ambition_target": 0.82,
+        "pressure_ambition_strength": 0.22,
+        "pressure_risk_target": 0.78,
+        "pressure_risk_strength": 0.18,
+        "low_energy_ambition_target": 0.42,
+        "low_energy_ambition_strength": 0.22,
+        "low_control_control_strength": 0.6
+      }
+    }
+  },
+  "mdb_Philipp_Amthor": {
+    "source": "actors/Amthor/pss.json",
+    "profile": {
+      "stress_resistance": 0.79,
+      "recovery_rate": 0.72,
+      "sensitivity_map": {
+        "organization_collapse": 1.0,
+        "regional_irrelevance": 1.0,
+        "implementation_failure": 0.88,
+        "loss_of_differentiation": 0.9,
+        "personal_credibility": 0.85,
+        "media_attack": 0.4
+      },
+      "state_modulation": {
+        "pressure_ambition_target": 0.88,
+        "pressure_ambition_strength": 0.32,
+        "pressure_risk_target": 0.7,
+        "pressure_risk_strength": 0.24,
+        "low_energy_ambition_target": 0.38,
+        "low_energy_ambition_strength": 0.26,
+        "low_confidence_risk_target": 0.42,
+        "low_confidence_risk_strength": 0.18,
+        "low_control_control_strength": 0.76
+      }
+    }
+  },
+  "mdb_Franziska_Christina_Brigitte_Hoppermann": {
+    "source": "actors/Hoppermann/pss.json",
+    "profile": {
+      "stress_resistance": 0.79,
+      "recovery_rate": 0.71,
+      "sensitivity_map": {
+        "trust_loss": 1.0,
+        "party_defeat": 0.9,
+        "financial_disorder": 0.94,
+        "base_alienation": 0.9,
+        "media_attack": 0.28
+      },
+      "state_modulation": {
+        "pressure_ambition_target": 0.76,
+        "pressure_ambition_strength": 0.26,
+        "pressure_risk_target": 0.45,
+        "pressure_risk_strength": 0.34,
+        "low_energy_ambition_target": 0.3,
+        "low_energy_ambition_strength": 0.26,
+        "low_control_control_strength": 0.76
+      }
+    }
+  }
+}

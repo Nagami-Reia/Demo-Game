@@ -1,0 +1,600 @@
+[
+  {
+    "id": "crisis_steel",
+    "domain": "economy",
+    "domainWeights": {
+      "economy": 0.55,
+      "foreign": 0.3,
+      "social": 0.15
+    },
+    "procedure": "budget",
+    "policy": {
+      "axis": "investment",
+      "proposalDirection": 1
+    },
+    "news": {
+      "id": "crisis_steel",
+      "category": "economy",
+      "region": "Washington / Brüssel",
+      "title": {
+        "zh": "美国拟对更多钢制品加征关税，欧盟争取过渡期",
+        "en": "US plans to extend steel tariffs; EU seeks transition period",
+        "de": "USA planen weitere Stahlzölle – EU drängt auf Übergangsfrist"
+      },
+      "body": {
+        "zh": "华盛顿——美国商务部公布拟加税清单，起重机部件和工业紧固件均在其中。德国机械设备制造商协会称，部分合同已进入发货阶段，企业来不及重新议价。欧盟委员会正汇总已签订单，准备向美方申请过渡安排。",
+        "en": "WASHINGTON — The US Commerce Department lists crane components and industrial fasteners for additional duties. German machinery makers say some orders are already shipping. The European Commission is collecting contracts to seek a transition period.",
+        "de": "WASHINGTON — Das US-Handelsministerium setzt Kranteile und Verbindungselemente auf eine neue Zollliste. Deutsche Maschinenbauer verweisen auf laufende Lieferungen. Die EU-Kommission bereitet einen Antrag auf Übergangsregeln vor."
+      },
+      "brief": {
+        "zh": "华盛顿——美国商务部公布拟加税清单，起重机部件和工业紧固件均在其中。",
+        "en": "WASHINGTON — The US Commerce Department lists crane components and industrial fasteners for additional duties.",
+        "de": "WASHINGTON — Das US-Handelsministerium setzt Kranteile und Verbindungselemente auf eine neue Zollliste."
+      },
+      "domains": [
+        "economy",
+        "foreign",
+        "social"
+      ],
+      "durationRounds": 1,
+      "effects": []
+    },
+    "objectives": [
+      {
+        "id": "waiver",
+        "title": {
+          "zh": "提交过渡期申请",
+          "en": "Submit a transition request",
+          "de": "Übergangsfrist beantragen"
+        },
+        "domains": [
+          "foreign",
+          "economy"
+        ],
+        "target": 3,
+        "deadline": 0,
+        "actions": [
+          "negotiate",
+          "coordinate",
+          "amend",
+          "scrutinize"
+        ]
+      },
+      {
+        "id": "orders",
+        "title": {
+          "zh": "保住已签订单",
+          "en": "Protect signed orders",
+          "de": "Bestehende Aufträge absichern"
+        },
+        "domains": [
+          "economy",
+          "social"
+        ],
+        "target": 4,
+        "deadline": 2,
+        "actions": [
+          "negotiate",
+          "coordinate",
+          "amend",
+          "scrutinize"
+        ]
+      }
+    ],
+    "verdicts": {
+      "contained": {
+        "zh": "过渡期获批，重点订单继续交付。",
+        "en": "A grace period and order support are secured.",
+        "de": "Übergangsfrist und Auftragsabsicherung stehen."
+      },
+      "partial": {
+        "zh": "部分订单得到缓冲。",
+        "en": "Some orders are protected.",
+        "de": "Ein Teil der Aufträge ist abgesichert."
+      },
+      "unresolved": {
+        "zh": "过渡安排未定，订单面临新税率。",
+        "en": "Orders face the new duties without a transition period.",
+        "de": "Ohne Übergangsregel drohen die neuen Zölle."
+      }
+    }
+  },
+  {
+    "id": "crisis_magnets",
+    "domain": "economy",
+    "domainWeights": {
+      "economy": 0.5,
+      "foreign": 0.3,
+      "research": 0.2
+    },
+    "procedure": "budget",
+    "policy": {
+      "axis": "investment",
+      "proposalDirection": 1
+    },
+    "news": {
+      "id": "crisis_magnets",
+      "category": "economy",
+      "region": "Peking / Stuttgart",
+      "title": {
+        "zh": "永磁材料出口许可积压，德国车企盘点库存",
+        "en": "German carmakers review stocks as magnet licences stall",
+        "de": "Autohersteller prüfen Bestände nach Verzögerungen bei Magnetlizenzen"
+      },
+      "body": {
+        "zh": "斯图加特——多家电机供应商仍未收到稀土永磁材料出口许可。德国汽车工业协会称，现有库存须在整车生产和维修业务之间重新分配。联邦经济部要求企业报送可替代规格，并与欧盟商讨紧急许可清单。",
+        "en": "STUTTGART — Motor suppliers are still waiting for rare-earth magnet licences. Germany’s automotive association says stocks must be shared between production and repairs. The Economy Ministry is collecting substitute specifications and consulting the EU.",
+        "de": "STUTTGART — Mehrere Zulieferer warten auf Ausfuhrlizenzen für Seltene-Erden-Magnete. Laut VDA müssen Bestände zwischen Produktion und Reparatur verteilt werden. Das Wirtschaftsministerium sammelt Ersatzspezifikationen und berät mit der EU."
+      },
+      "brief": {
+        "zh": "斯图加特——多家电机供应商仍未收到稀土永磁材料出口许可。",
+        "en": "STUTTGART — Motor suppliers are still waiting for rare-earth magnet licences.",
+        "de": "STUTTGART — Mehrere Zulieferer warten auf Ausfuhrlizenzen für Seltene-Erden-Magnete."
+      },
+      "domains": [
+        "economy",
+        "foreign",
+        "research"
+      ],
+      "durationRounds": 1,
+      "effects": []
+    },
+    "objectives": [
+      {
+        "id": "stock",
+        "title": {
+          "zh": "调拨现货库存",
+          "en": "Reallocate stock",
+          "de": "Bestände umverteilen"
+        },
+        "domains": [
+          "economy",
+          "research"
+        ],
+        "target": 3,
+        "deadline": 1,
+        "actions": [
+          "negotiate",
+          "coordinate",
+          "amend",
+          "scrutinize"
+        ]
+      },
+      {
+        "id": "supply",
+        "title": {
+          "zh": "落实后续货源",
+          "en": "Secure replacement supply",
+          "de": "Ersatzlieferungen sichern"
+        },
+        "domains": [
+          "economy",
+          "foreign",
+          "research"
+        ],
+        "target": 5,
+        "deadline": 2,
+        "actions": [
+          "negotiate",
+          "coordinate",
+          "amend",
+          "scrutinize"
+        ]
+      }
+    ],
+    "verdicts": {
+      "contained": {
+        "zh": "现货完成调拨，后续货源接上。",
+        "en": "Stocks and replacement supply are secured.",
+        "de": "Bestände sind verteilt, Ersatzlieferungen gesichert."
+      },
+      "partial": {
+        "zh": "部分产线维持运转，其余仍等材料。",
+        "en": "Some production lines are running; others await supplies.",
+        "de": "Einige Fertigungslinien laufen, andere warten auf Material."
+      },
+      "unresolved": {
+        "zh": "库存耗尽，多条产线暂停。",
+        "en": "Stocks run out and several lines stop.",
+        "de": "Bestände gehen aus, mehrere Fertigungslinien stehen still."
+      }
+    }
+  },
+  {
+    "id": "crisis_airlift",
+    "domain": "foreign",
+    "domainWeights": {
+      "foreign": 0.45,
+      "security": 0.4,
+      "economy": 0.15
+    },
+    "procedure": "law",
+    "policy": {
+      "axis": "defence",
+      "proposalDirection": 1
+    },
+    "news": {
+      "id": "crisis_airlift",
+      "category": "international",
+      "region": "Brüssel / Berlin",
+      "title": {
+        "zh": "美国暂缓一批对乌防空备件交付，欧盟协调补位",
+        "en": "US pauses air-defence spares shipment to Ukraine",
+        "de": "USA setzen Lieferung von Flugabwehr-Ersatzteilen an die Ukraine aus"
+      },
+      "body": {
+        "zh": "布鲁塞尔——美国通知欧洲盟国，一批原定本月交付乌克兰的防空设备备件暂缓发运。德国和荷兰开始清点可供调拨的库存，欧盟成员国将讨论如何分担补充采购的费用。首批备件的交付时间尚未确定。",
+        "en": "BRUSSELS — Washington has paused a shipment of air-defence spares due in Ukraine this month. Germany and the Netherlands are checking inventories. EU governments will discuss sharing the cost of replacement orders.",
+        "de": "BRÜSSEL — Washington verschiebt eine Lieferung von Flugabwehr-Ersatzteilen an die Ukraine. Deutschland und die Niederlande prüfen ihre Bestände. Die EU-Staaten beraten über die Kosten einer Ersatzbeschaffung."
+      },
+      "brief": {
+        "zh": "布鲁塞尔——美国通知欧洲盟国，一批原定本月交付乌克兰的防空设备备件暂缓发运。",
+        "en": "BRUSSELS — Washington has paused a shipment of air-defence spares due in Ukraine this month.",
+        "de": "BRÜSSEL — Washington verschiebt eine Lieferung von Flugabwehr-Ersatzteilen an die Ukraine."
+      },
+      "domains": [
+        "foreign",
+        "security",
+        "economy"
+      ],
+      "durationRounds": 1,
+      "effects": []
+    },
+    "objectives": [
+      {
+        "id": "pledges",
+        "title": {
+          "zh": "落实盟友分担",
+          "en": "Secure allied commitments",
+          "de": "Beiträge der Partner sichern"
+        },
+        "domains": [
+          "foreign"
+        ],
+        "target": 2,
+        "deadline": 1,
+        "actions": [
+          "negotiate",
+          "coordinate",
+          "amend",
+          "scrutinize"
+        ]
+      },
+      {
+        "id": "delivery",
+        "title": {
+          "zh": "排定首批交付",
+          "en": "Schedule the first shipment",
+          "de": "Erste Lieferung terminieren"
+        },
+        "domains": [
+          "security",
+          "economy"
+        ],
+        "target": 3,
+        "deadline": 2,
+        "actions": [
+          "negotiate",
+          "coordinate",
+          "amend",
+          "scrutinize"
+        ],
+        "requires": "pledges"
+      }
+    ],
+    "verdicts": {
+      "contained": {
+        "zh": "分担方案敲定，首批备件已排定交付。",
+        "en": "Partners commit and the first shipment is scheduled.",
+        "de": "Beiträge stehen, die erste Lieferung ist terminiert."
+      },
+      "partial": {
+        "zh": "成员国作出承诺，交付日期仍未确定。",
+        "en": "Pledges are in place but dispatch is unscheduled.",
+        "de": "Zusagen liegen vor, der Liefertermin bleibt offen."
+      },
+      "unresolved": {
+        "zh": "替代供货未落实。",
+        "en": "No replacement supply is secured.",
+        "de": "Eine Ersatzlieferung ist nicht gesichert."
+      }
+    }
+  },
+  {
+    "id": "crisis_freight",
+    "domain": "foreign",
+    "domainWeights": {
+      "foreign": 0.5,
+      "economy": 0.35,
+      "transport": 0.15
+    },
+    "procedure": "law",
+    "policy": {
+      "axis": "defence",
+      "proposalDirection": 1
+    },
+    "news": {
+      "id": "crisis_freight",
+      "category": "international",
+      "region": "Berlin / Brüssel",
+      "title": {
+        "zh": "红海航线再遭袭扰，德国航运公司延长绕行安排",
+        "en": "German carriers extend Red Sea diversions",
+        "de": "Reedereien verlängern Umleitungen im Roten Meer"
+      },
+      "body": {
+        "zh": "柏林——两家德国航运公司通知客户，部分亚欧航次将继续绕行好望角。承运人称，航程延长已压缩可用舱位，化工原料和零部件可能推迟交付。欧盟正在与沿岸国家磋商海上通行保障。",
+        "en": "BERLIN — Two German carriers will keep routing some Asia–Europe sailings around the Cape of Good Hope. Longer voyages are tightening capacity for chemicals and components. The EU is consulting coastal states on safe passage.",
+        "de": "BERLIN — Zwei Reedereien führen einen Teil ihrer Asien-Europa-Verbindungen weiter um das Kap der Guten Hoffnung. Der Umweg bindet Frachtraum für Chemierohstoffe und Bauteile. Die EU berät mit Anrainerstaaten über sichere Passage."
+      },
+      "brief": {
+        "zh": "柏林——两家德国航运公司通知客户，部分亚欧航次将继续绕行好望角。",
+        "en": "BERLIN — Two German carriers will keep routing some Asia–Europe sailings around the Cape of Good Hope.",
+        "de": "BERLIN — Zwei Reedereien führen einen Teil ihrer Asien-Europa-Verbindungen weiter um das Kap der Guten Hoffnung."
+      },
+      "domains": [
+        "foreign",
+        "economy",
+        "transport"
+      ],
+      "durationRounds": 1,
+      "effects": []
+    },
+    "objectives": [
+      {
+        "id": "capacity",
+        "title": {
+          "zh": "抢订应急舱位",
+          "en": "Secure emergency freight space",
+          "de": "Ersatzfrachtraum sichern"
+        },
+        "domains": [
+          "transport",
+          "economy"
+        ],
+        "target": 3,
+        "deadline": 1,
+        "actions": [
+          "negotiate",
+          "coordinate",
+          "amend",
+          "scrutinize"
+        ]
+      },
+      {
+        "id": "passage",
+        "title": {
+          "zh": "协调海上通行",
+          "en": "Coordinate safe passage",
+          "de": "Sichere Passage koordinieren"
+        },
+        "domains": [
+          "foreign"
+        ],
+        "target": 3,
+        "deadline": 2,
+        "actions": [
+          "negotiate",
+          "coordinate",
+          "amend",
+          "scrutinize"
+        ]
+      }
+    ],
+    "verdicts": {
+      "contained": {
+        "zh": "应急舱位与通行安排均已落实。",
+        "en": "Backup capacity and safe passage are secured.",
+        "de": "Ersatzkapazität und Passage sind abgesichert."
+      },
+      "partial": {
+        "zh": "部分供货获得保障，其他货物仍将延迟。",
+        "en": "Some supply is protected; delays continue elsewhere.",
+        "de": "Ein Teil der Versorgung ist gesichert, weitere Lieferungen verspäten sich."
+      },
+      "unresolved": {
+        "zh": "绕行造成的延误继续扩大。",
+        "en": "Diversion delays continue to grow.",
+        "de": "Die Umleitungen führen zu weiteren Verzögerungen."
+      }
+    }
+  },
+  {
+    "id": "crisis_cable",
+    "domain": "security",
+    "domainWeights": {
+      "security": 0.45,
+      "digital": 0.35,
+      "foreign": 0.2
+    },
+    "procedure": "law",
+    "policy": {
+      "axis": "defence",
+      "proposalDirection": 1
+    },
+    "news": {
+      "id": "crisis_cable",
+      "category": "unexpected",
+      "region": "Kiel / Kopenhagen",
+      "title": {
+        "zh": "波罗的海通信电缆受损，德国和丹麦联合调查",
+        "en": "Germany and Denmark investigate damage to Baltic data cable",
+        "de": "Deutschland und Dänemark untersuchen Schaden an Ostsee-Datenkabel"
+      },
+      "body": {
+        "zh": "基尔——一条连接德国北部和丹麦的通信电缆中断，运营商已将大部分流量切换至备用线路。德国联邦警察和丹麦有关部门正在核查附近船只的航迹。维修船尚未抵达，电缆断裂原因仍在调查。",
+        "en": "KIEL — A data cable linking northern Germany and Denmark is offline. Most traffic has been rerouted. Authorities are checking nearby ships’ tracks while a repair vessel is still on its way. The cause is under investigation.",
+        "de": "KIEL — Ein Datenkabel zwischen Norddeutschland und Dänemark ist ausgefallen. Der Betreiber hat einen Großteil des Verkehrs umgeleitet. Die Behörden prüfen Schiffsbewegungen. Ein Reparaturschiff ist unterwegs, die Ursache bleibt offen."
+      },
+      "brief": {
+        "zh": "基尔——一条连接德国北部和丹麦的通信电缆中断，运营商已将大部分流量切换至备用线路。",
+        "en": "KIEL — A data cable linking northern Germany and Denmark is offline.",
+        "de": "KIEL — Ein Datenkabel zwischen Norddeutschland und Dänemark ist ausgefallen."
+      },
+      "domains": [
+        "security",
+        "digital",
+        "foreign"
+      ],
+      "durationRounds": 1,
+      "effects": []
+    },
+    "objectives": [
+      {
+        "id": "evidence",
+        "title": {
+          "zh": "保全航迹与海底证据",
+          "en": "Preserve tracks and seabed evidence",
+          "de": "Schiffsdaten und Spuren sichern"
+        },
+        "domains": [
+          "security",
+          "foreign"
+        ],
+        "target": 3,
+        "deadline": 1,
+        "actions": [
+          "scrutinize",
+          "coordinate",
+          "negotiate"
+        ]
+      },
+      {
+        "id": "repair",
+        "title": {
+          "zh": "保障备用线路与抢修",
+          "en": "Maintain backup lines and repairs",
+          "de": "Ersatzverbindungen und Reparatur sichern"
+        },
+        "domains": [
+          "digital",
+          "security"
+        ],
+        "target": 4,
+        "deadline": 2,
+        "actions": [
+          "negotiate",
+          "coordinate",
+          "amend",
+          "scrutinize"
+        ]
+      }
+    ],
+    "verdicts": {
+      "contained": {
+        "zh": "通信保持稳定，联合调查取得关键证据。",
+        "en": "Traffic is stable and investigators have secured key evidence.",
+        "de": "Der Datenverkehr ist stabil, wichtige Beweise sind gesichert."
+      },
+      "partial": {
+        "zh": "部分风险已控制，调查或维修仍在进行。",
+        "en": "One part of the response is complete; work continues.",
+        "de": "Ein Teil der Maßnahmen greift, weitere Arbeiten laufen."
+      },
+      "unresolved": {
+        "zh": "备用线路仍承压，抢修与调查均未完成。",
+        "en": "Backup lines remain strained; repairs and investigation continue.",
+        "de": "Ersatzleitungen bleiben belastet, Reparatur und Ermittlung sind offen."
+      }
+    }
+  },
+  {
+    "id": "crisis_dispatch",
+    "domain": "security",
+    "domainWeights": {
+      "security": 0.45,
+      "digital": 0.35,
+      "health": 0.2
+    },
+    "procedure": "law",
+    "policy": {
+      "axis": "digital",
+      "proposalDirection": 1
+    },
+    "news": {
+      "id": "crisis_dispatch",
+      "category": "unexpected",
+      "region": "Hannover",
+      "title": {
+        "zh": "软件更新导致调度异常，数地急救中心改用人工派车",
+        "en": "Software update forces emergency dispatch centres onto manual systems",
+        "de": "Leitstellen schalten nach Softwarefehler auf Handbetrieb um"
+      },
+      "body": {
+        "zh": "汉诺威——下萨克森州和邻近地区数个急救中心报告，更新后的软件无法正常同步救护车状态。急救电话仍可接通，派车改用无线电和纸质记录。各地正在增派调度员，软件供应商已暂停向其他中心推送更新。",
+        "en": "HANOVER — Emergency centres say a software update stopped synchronising ambulance status. Calls still connect, but dispatchers use radio and paper logs. Authorities are adding staff and the vendor has suspended the rollout.",
+        "de": "HANNOVER — Nach einem Update werden Fahrzeugstatus mehrerer Rettungsleitstellen nicht mehr korrekt synchronisiert. Notrufe kommen an, disponiert wird per Funk und Papier. Die Kommunen verstärken Schichten, der Anbieter stoppt das Update."
+      },
+      "brief": {
+        "zh": "汉诺威——下萨克森州和邻近地区数个急救中心报告，更新后的软件无法正常同步救护车状态。",
+        "en": "HANOVER — Emergency centres say a software update stopped synchronising ambulance status.",
+        "de": "HANNOVER — Nach einem Update werden Fahrzeugstatus mehrerer Rettungsleitstellen nicht mehr korrekt synchronisiert."
+      },
+      "domains": [
+        "security",
+        "digital",
+        "health"
+      ],
+      "durationRounds": 1,
+      "effects": []
+    },
+    "objectives": [
+      {
+        "id": "fallback",
+        "title": {
+          "zh": "维持人工调度",
+          "en": "Keep manual dispatch operating",
+          "de": "Handbetrieb aufrechterhalten"
+        },
+        "domains": [
+          "health",
+          "security"
+        ],
+        "target": 3,
+        "deadline": 1,
+        "actions": [
+          "negotiate",
+          "coordinate",
+          "amend",
+          "scrutinize"
+        ]
+      },
+      {
+        "id": "restore",
+        "title": {
+          "zh": "验证并恢复电子调度",
+          "en": "Validate and restore software",
+          "de": "Digitale Leitstellenfunktion prüfen"
+        },
+        "domains": [
+          "digital",
+          "security"
+        ],
+        "target": 4,
+        "deadline": 2,
+        "actions": [
+          "amend",
+          "scrutinize"
+        ],
+        "requires": "fallback"
+      }
+    ],
+    "verdicts": {
+      "contained": {
+        "zh": "积压已清理，调度系统分批恢复。",
+        "en": "Backlogs are cleared and software is restored in stages.",
+        "de": "Rückstände sind abgebaut, das System kehrt schrittweise zurück."
+      },
+      "partial": {
+        "zh": "人工调度继续，软件恢复尚未通过验证。",
+        "en": "Manual dispatch continues pending software validation.",
+        "de": "Der Handbetrieb läuft weiter, die Softwareprüfung ist offen."
+      },
+      "unresolved": {
+        "zh": "派车积压加重，各地继续增援。",
+        "en": "Dispatch backlogs grow and regions call in reinforcements.",
+        "de": "Die Rückstände wachsen, weitere Kräfte werden angefordert."
+      }
+    }
+  }
+]
