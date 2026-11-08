@@ -141,7 +141,7 @@ export function opposition_after(rt,row,future){
     return true;
    }
    if(enabled('silberruecken')&&first('silberruecken'))bonus('silberruecken',members('silberruecken'),.25,'coordinate');
-   if(enabled('funkloch')&&rt.round<8&&first('funkloch')){
+   if(enabled('funkloch')&&rt.round<(rt.roundLimit??8)&&first('funkloch')){
     op.carry=true;opposition_event(rt,'funkloch',{actor});
    }
    if(enabled('eckkneipe')&&first('eckkneipe')&&opposition_offer(rt,row,future,'eckkneipe',other('eckkneipe'),.35))return true;

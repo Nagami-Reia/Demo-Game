@@ -1,8 +1,11 @@
+import {active_crisis,match_round_limit} from './crisis.js';
+import {crisis_clue,crisis_objective_view} from './crisis-view.js';
+import {round_recruitment_notice} from './recruitment.js';
 const news_effect_units={income:'€',auctionCost:'€',negotiationCost:'€',executionCost:'€',policyEfficiency:'%',negotiationEfficiency:'%',coordinationEfficiency:'%',policyScore:'%',risk:'%',stability:'%',poll:'pp',allianceLayers:'layers',allianceCash:'%',allianceRepeat:'times',conditionalCash:'€',conditionalScore:'points',recruitWeight:'%'};
 const news_lower_is_better=new Set(['auctionCost','negotiationCost','executionCost','risk']);
 export function news_page(game,t,loc,esc,reopen=false){
  const edition=game.news?.edition;if(!edition)return '';
- const owner=game.players[0],entries=edition.entries;
+ const owner=game.players[0],entries=edition.entries,crisis=active_crisis(game);
  const issue=String(game.round).padStart(3,'0'),round=String(game.round).padStart(2,'0');
  const date=new Date(edition.publishedAt||Date.now()).toLocaleDateString('de-DE',{day:'2-digit',month:'long',year:'numeric'}).toUpperCase();
  const article=(entry,headline)=>{
@@ -15,6 +18,7 @@ export function news_page(game,t,loc,esc,reopen=false){
   return `<article class="${headline?'front-page news-main':'news-brief'}" data-news-id="${esc(e.id)}"><div class="news-dateline"><span>${category}</span><span>${metadata}</span></div>${story}</article>`;
  };
  const analysis=entries.map((entry,index)=>{
+  if(crisis&&index===0)return '';
   const effects=(entry.event.effects||[]).filter(e=>!e.target?.parties||e.target.parties.includes(owner.party)).filter(e=>!e.target?.role||e.target.role==='government');
   const rows=effects.map(e=>{
    const unit=news_effect_units[e.kind]||'',percentage=unit==='%',value=e.kind==='allianceRepeat'?(e.value>0?1:0):e.kind==='poll'&&entry.startedRound<game.round?0:e.value*entry.strength*(percentage?100:1)*(e.axis?(1-Math.abs((game.data.platforms?.[owner.party]?.positions?.[e.axis]??e.position)-e.position)):1);
@@ -31,7 +35,7 @@ export function news_page(game,t,loc,esc,reopen=false){
    </div>
   </section>`;
  }).join('');
- return `<section class="news-page"><div class="news-system-header"><div><strong>${round}</strong><span>/ NACHRICHTEN</span></div><div class="news-header-actions"><span>RUNDE ${round} / 08</span><div class="actions newspaper-controls"><button data-action="${reopen?'close_news':'ack_news'}">${t(reopen?'backToRound':'readContinue')}</button></div></div></div><div class="newspaper-paper"><div class="newspaper-content"><div class="newspaper-masthead">Das Parlament</div><div class="newspaper-edition-line">BERLIN · AUSGABE ${issue} · ${esc(date)}</div><div class="newspaper-status">${t(edition.startApplied?'newsApplied':'newsExpected')}</div><div class="news-edition">${article(entries[0],true)}<div class="news-briefs"><div class="eyebrow">${t('newsBriefs')}</div>${entries.slice(1).map(e=>article(e,false)).join('')}</div></div><section class="news-analysis"><div class="newspaper-effects-heading"><h2>POLITISCHE AUSWIRKUNGEN</h2><span>${esc(owner.party)} / ${t('newsAnalysis')}</span></div><p class="muted">${t('newsAnalysisNote')}</p><div class="news-impact-grid">${analysis}</div>${edition.startApplied?`<p>${t('newsApplied')}: ${t('cash')} ${edition.start?.[0]?.cash>=0?'+':''}${edition.start?.[0]?.cash||0}€</p>`:''}</section></div></div></section>`;
+ return `<section class="news-page${crisis?' news-crisis-edition':''}"><div class="news-system-header"><div><strong>${round}</strong><span>/ ${crisis?t('crisisEdition'):'NACHRICHTEN'}</span></div><div class="news-header-actions"><span>RUNDE ${round} / ${String(match_round_limit(game)).padStart(2,'0')}</span><div class="actions newspaper-controls"><button data-action="${reopen?'close_news':'ack_news'}">${t(reopen?'backToRound':'readContinue')}</button></div></div></div><div class="newspaper-paper"><div class="newspaper-content"><div class="newspaper-masthead">Das Parlament</div><div class="newspaper-edition-line">BERLIN · AUSGABE ${issue} · ${esc(date)}</div><div class="newspaper-status">${t(edition.startApplied?'newsApplied':'newsExpected')}</div>${round_recruitment_notice(game,t,esc,loc)}${game.round===1?crisis_clue(game,t,esc):''}${crisis?`<div class="crisis-front-page">${article(entries[0],true)}${crisis_objective_view(crisis,t,loc,esc)}</div>`:''}<div class="news-edition">${crisis?'':article(entries[0],true)}<div class="news-briefs"><div class="eyebrow">${t('newsBriefs')}</div>${entries.slice(1).map(e=>article(e,false)).join('')}</div></div><section class="news-analysis"><div class="newspaper-effects-heading"><h2>POLITISCHE AUSWIRKUNGEN</h2><span>${esc(owner.party)} / ${t('newsAnalysis')}</span></div><p class="muted">${t('newsAnalysisNote')}</p><div class="news-impact-grid">${analysis}</div>${edition.startApplied?`<p>${t('newsApplied')}: ${t('cash')} ${edition.start?.[0]?.cash>=0?'+':''}${edition.start?.[0]?.cash||0}€</p>`:''}</section></div></div></section>`;
 }
 export function news_result_view(result,t,loc,esc){
  if(!result.newsEffects?.some(r=>r.cash||r.score||r.gains.length))return '';

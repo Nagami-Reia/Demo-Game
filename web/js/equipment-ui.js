@@ -1,10 +1,20 @@
 import {EQUIPMENT_ITEMS} from './equipment-data.js';
 import {equipment_phase,equipment_open,equipment_target,equipment_cash,equipment_compatible} from './equipment-shop.js';
 
-function equipment_tooltip(id,t,esc){
+function equipment_effect(id,t,level=0){
+ const rates=EQUIPMENT_ITEMS[id].rates;
+ if(!rates)return t('item_effect_'+id);
+ const entries=Object.entries(rates);
+ const percent=rate=>`${rate<0?'−':'+'}${Math.round(Math.abs(rate)*100)}%`;
+ if(entries.length===4&&entries.every(([,values])=>values[level]===entries[0][1][level]))return `${t('equipmentAllActions')} ${percent(entries[0][1][level])}`;
+ return entries.map(([action,values])=>`${t('equipmentAction_'+action)} ${percent(values[level])}`).join(' · ');
+}
+
+function equipment_tooltip(id,t,esc,upgraded=false){
  const item=EQUIPMENT_ITEMS[id];
- const effect=t('item_effect_'+id),details=t('item_detail_'+id),special=t('item_exclusive_'+id);
- return `<span class="equipment-tooltip" role="tooltip"><b>${esc(t('item_'+id))}</b><span>${esc(effect)}</span>
+ const details=t('item_detail_'+id),special=t('item_exclusive_'+id);
+ const effects=item.rates?`<span>${esc(t('equipmentNormal'))} · ${esc(equipment_effect(id,t))}</span><span>${esc(t('equipmentUpgraded'))} · ${esc(equipment_effect(id,t,1))}</span><span>${esc(t('equipmentRateDetail'))}</span>${upgraded?'':`<span>${esc(t('equipmentUpgradeHint'))}</span>`}`:`<span>${esc(equipment_effect(id,t))}</span>`;
+ return `<span class="equipment-tooltip" role="tooltip"><b>${esc(t('item_'+id))}${upgraded?' · '+esc(t('equipmentUpgraded')):''}</b>${effects}
  ${details!=='item_detail_'+id?`<span>${esc(details)}</span>`:''}
  ${item.exclusive&&special!=='item_exclusive_'+id?`<strong class="equipment-exclusive">${esc(special)}</strong>`:''}</span>`;
 }
@@ -15,7 +25,7 @@ export function equipment_card(game,c,t,esc){
  const target=owner===game?.players[0]&&owner&&equipment_phase(game);
  return {
   attrs:`data-equipped="${slots.filter(Boolean).length}" data-equipment-party="${esc(c.party)}" ${target?`data-equipment-card="${esc(c.id)}"`:''}`,
-  mask:target?`<div class="equipment-mask" hidden><div class="equipment-slots">${slots.map((piece,index)=>`<span class="equipment-hover"><button type="button" data-equipment-slot="${index}" class="${piece?'filled':''}">${piece?esc(t('item_'+piece.id)):t('equipmentSlot')+' '+(index+1)}</button>${piece?equipment_tooltip(piece.id,t,esc):''}</span>`).join('')}<small></small></div></div>`:''
+  mask:target?`<div class="equipment-mask" hidden><div class="equipment-slots">${slots.map((piece,index)=>`<span class="equipment-hover"><button type="button" data-equipment-slot="${index}" class="${piece?'filled':''}">${piece?esc(t('item_'+piece.id))+(piece.upgraded?' · '+esc(t('equipmentUpgraded')):''):t('equipmentSlot')+' '+(index+1)}</button>${piece?equipment_tooltip(piece.id,t,esc,piece.upgraded):''}</span>`).join('')}<small></small></div></div>`:''
  };
 }
 
@@ -23,7 +33,7 @@ export function equipment_sidebar(game,t,esc){
  if(!equipment_phase(game))return '';
  const state=equipment_open(game,0),item=EQUIPMENT_ITEMS[state.offer],p=game.players[0];
  return `<section class="equipment-shop"><h3>${t('equipmentShop')}</h3>
- <div class="equipment-offer equipment-hover" tabindex="0">${item?`<strong>${esc(t('item_'+state.offer))}</strong><div>${esc(t('item_flavor_'+state.offer))}</div><p>${esc(t('item_effect_'+state.offer))}</p>${item.exclusive?`<strong class="equipment-exclusive">${esc(t('item_exclusive_'+state.offer))}</strong>`:''}${equipment_tooltip(state.offer,t,esc)}`:t('equipmentSold')}</div>
+ <div class="equipment-offer equipment-hover" tabindex="0">${item?`<strong>${esc(t('item_'+state.offer))}</strong><div>${esc(t('item_flavor_'+state.offer))}</div><p>${esc(equipment_effect(state.offer,t))}</p>${item.exclusive?`<strong class="equipment-exclusive">${esc(t('item_exclusive_'+state.offer))}</strong>`:''}${equipment_tooltip(state.offer,t,esc)}`:t('equipmentSold')}</div>
  <div class="actions"><button data-equipment-action="equipment_buy" ${!item||equipment_cash(game,0)<item.price?'disabled':''}>${t('equipmentBuy')}${item?' · €'+item.price:''}</button><button data-equipment-action="equipment_refresh" ${state.refreshed||equipment_cash(game,0)<1?'disabled':''}>${state.refreshed?t('equipmentRefreshed'):t('equipmentRefresh')+' · €1'}</button></div>
  <h4>${t('equipmentInventory')}</h4><div class="equipment-inventory">${state.inventory.map(piece=>`<span class="equipment-hover"><button draggable="true" data-equipment-item="${piece.uid}">${esc(t('item_'+piece.id))}</button>${equipment_tooltip(piece.id,t,esc)}</span>${equipment_compatible(game,0,EQUIPMENT_ITEMS[piece.id])?'':`<button data-equipment-action="equipment_refund" data-uid="${piece.uid}">${t('equipment_refund')} · €${EQUIPMENT_ITEMS[piece.id].price}</button>`}`).join('')||'—'}</div>
  <div class="equipment-fallback" hidden><select aria-label="${t('equipmentTarget')}">${p.owned.filter(c=>!c.neutralChair).map(c=>`<option value="${esc(c.id)}">${esc(c.displayName||c.name)}</option>`).join('')}</select><button data-equipment-action="equipment_pick">${t('equipmentTarget')}</button></div>
@@ -67,9 +77,10 @@ export function equipment_bind({getGame,getIds,render,t,loc,esc}){
   const target=equipment_target(getGame(),0,dragging??picked,card.dataset.equipmentCard,getIds());
   const mask=card.querySelector('.equipment-mask');
   mask.hidden=!target.item;
-  mask.querySelector('small').textContent=target.valid?(target.slots?'':t('equipmentUse')):t('equipment_unavailable');
+  const upgrading=target.availableSlots?.some(index=>target.slots[index]);
+  mask.querySelector('small').textContent=target.valid?(upgrading?t('equipmentUpgrade'):target.slots?'':t('equipmentUse')):t('equipment_unavailable');
   mask.querySelectorAll('[data-equipment-slot]').forEach(el=>{
-   el.disabled=!target.valid||Boolean(target.slots?.[Number(el.dataset.equipmentSlot)]);
+   el.disabled=!target.valid||(target.slots&&!target.availableSlots.includes(Number(el.dataset.equipmentSlot)));
    el.classList.toggle('over',el===slot&&!el.disabled);
   });
   return target;
@@ -82,7 +93,7 @@ export function equipment_bind({getGame,getIds,render,t,loc,esc}){
    choice=args;
    openChoices(target.routes.map(r=>[r.id,`${loc(r.name)} +${r.amount}`]),'route');
   }else if(target.slots&&slot===undefined){
-   choice=args;openChoices([0,1].filter(n=>!target.slots[n]).map(n=>[n,t('equipmentSlot')+' '+(n+1)]),'slot');
+   choice=args;openChoices(target.availableSlots.map(n=>[n,target.slots[n]?t('equipmentUpgrade'):t('equipmentSlot')+' '+(n+1)]),'slot');
   }else execute('equipment_assign',args);
  }
  function openChoices(options,key){

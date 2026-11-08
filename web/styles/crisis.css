@@ -1,0 +1,89 @@
+.crisis-objectives{
+ margin-block:1rem;
+ padding:.7rem 1rem;
+ border:1px solid var(--line);
+ border-inline-start:3px solid var(--accent);
+ border-radius:6px;
+}
+.crisis-objectives h3{margin:.25rem 0}
+.crisis-objectives ol,.crisis-verdict ul{padding-inline-start:1.3rem;margin-block:.5rem}
+.crisis-objectives li+li,.crisis-verdict li+li{margin-top:.45rem}
+.crisis-objectives small,.crisis-verdict small{display:block;color:var(--muted)}
+
+.crisis-clue{
+ display:flex;align-items:center;gap:10px;position:relative;isolation:isolate;
+ padding:8px 12px;margin:0 0 14px;border-inline-start:3px solid var(--accent);
+ background:var(--soft);color:var(--ink);overflow:hidden;
+}
+.crisis-clue::after{
+ content:'';position:absolute;inset:0 0 0 auto;width:86px;z-index:-1;opacity:.18;
+ background:radial-gradient(circle,currentColor .8px,transparent 1px) 0 0/6px 6px;
+ clip-path:polygon(42% 0,100% 0,100% 100%,0 100%);
+}
+.crisis-clue .alliance-ring{width:33px;height:33px;flex:none;--alliance-color:var(--accent)}
+.crisis-clue span,.crisis-clue-round{display:block;font-size:.72rem;color:var(--muted)}
+.crisis-clue strong{display:block;font-size:.95rem}
+.crisis-clue-round{margin-inline-start:auto;white-space:nowrap}
+.newspaper-paper .crisis-clue{
+ --accent:#805733;--muted:#5e4a39;--ink:#31251b;--soft:#e7ddcd;
+}
+.news-crisis-edition .news-system-header>div:first-child>span{
+ border-inline-start:2px solid var(--accent);padding-inline-start:8px;
+}
+
+.crisis-front-page{
+ padding:clamp(18px,4vw,40px) clamp(14px,4vw,42px);
+ border-block:3px double #918c80;
+}
+.newspaper-paper .crisis-front-page .front-page{max-width:760px;margin:auto;text-align:center}
+.newspaper-paper .crisis-front-page .news-headline{
+ font-size:clamp(28px,4vw,48px);text-align:center;text-wrap:balance;
+}
+.newspaper-paper .crisis-front-page .news-dateline{justify-content:center}
+.newspaper-paper .crisis-front-page .news-deck{margin-inline:auto;max-width:66ch;text-align:start}
+.news-crisis-edition .news-edition{display:block;margin-top:20px}
+.news-crisis-edition .newspaper-paper .news-briefs{
+ display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 20px;
+ padding:0;border:0;
+}
+.news-crisis-edition .news-briefs>.eyebrow{grid-column:1/-1;padding:0}
+.news-crisis-edition .newspaper-paper .news-brief{
+ padding:0 0 0 12px;margin:0;border:0;border-inline-start:1px solid #b4aea1;
+}
+.crisis-front-page .crisis-objectives{
+ --accent:#805733;--muted:#5e4a39;--line:#c4b9a7;
+ max-width:760px;margin:18px auto 0;background:#e7ddcd;
+}
+
+.crisis-world-desk{grid-template-columns:minmax(0,1fr);gap:12px}
+.crisis-world-desk .polls{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:0 20px}
+.crisis-event-strip{
+ position:relative;isolation:isolate;overflow:hidden;text-align:center;
+ padding:15px 20px;background:var(--paper);border-block:1px solid var(--line);
+ box-shadow:var(--shadow);
+}
+.crisis-event-strip::before{
+ content:'';position:absolute;inset:0 0 0 auto;width:130px;opacity:.13;z-index:-1;
+ background:radial-gradient(circle,currentColor 1px,transparent 1.2px) 0 0/7px 7px;
+ clip-path:polygon(42% 0,100% 0,100% 100%,0 100%);
+}
+.crisis-event-strip h2{font-size:clamp(19px,3vw,28px);margin:4px 0;text-wrap:balance}
+.crisis-event-strip p{margin:6px auto 10px;max-width:68ch;font-size:.86rem;color:var(--muted)}
+.crisis-objectives ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:0;list-style:none}
+.crisis-objectives li,.crisis-next-step{display:flex;align-items:flex-start;gap:9px;min-width:0}
+.crisis-objectives li+li{margin:0}
+.crisis-step-number{
+ flex:none;padding:3px 8px;background:#303940;color:white;
+ font:750 .85rem ui-monospace,monospace;
+ clip-path:polygon(0 0,100% 0,calc(100% - 4px) 100%,0 100%);
+}
+.crisis-checkpoint{max-width:760px;margin:20px auto;text-align:center}
+.crisis-checkpoint-result{font-weight:750;color:var(--accent);font-variant-numeric:tabular-nums}
+.crisis-next-step{
+ margin:20px auto;padding:12px;text-align:start;border-block:1px solid var(--line);background:var(--soft);
+}
+.crisis-next-step h2{font-size:1.1rem;margin:0 0 4px}
+.crisis-next-step p{margin:0}
+@media(max-width:650px){
+ .news-crisis-edition .newspaper-paper .news-briefs,.crisis-objectives ol{grid-template-columns:minmax(0,1fr)}
+}

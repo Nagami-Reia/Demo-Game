@@ -1,3 +1,4 @@
+import {match_round_limit} from './crisis.js';
 import {tactical_enabled,tactical_store,tactical_team,tactical_abilities,tactical_grown,tactical_pending} from './tactical-state.js';
 import {hidden_preview} from './hidden-relations.js';
 import {opposition_begin,opposition_default_duo,opposition_before,opposition_after,opposition_retry_decision} from './opposition-skills.js';
@@ -6,7 +7,7 @@ const tactical_slot=s=>`${s.stage}:${s.cardId}`;
 export function tactical_begin(game,player,ids){
  const enabled=tactical_enabled(game),store=enabled?tactical_store(game,player):{pending:[]};
  const team=tactical_team(game,player,ids);
- return {enabled,player,round:game.round,team,opposition:enabled?opposition_begin(team,game.agenda,game.tacticalPlans?.[player]?.weidelChrupalla??opposition_default_duo(game.agenda,player)):null,abilities:tactical_abilities(game,player,ids),hidden:enabled?hidden_preview(game,player,ids).filter(r=>r.active).map(r=>r.id):[],plan:game.tacticalPlans?.[player]||{},once:{},overrides:{},events:[],decision:null,reuse:null,ping:null,cosign:[],projectSuccess:false,lawApproved:null,lawMoneyDone:false,bundleParts:[],pending:store.pending.filter(p=>p.due<=game.round&&p.expires>=game.round).map(p=>({...p}))};
+ return {enabled,player,round:game.round,roundLimit:match_round_limit(game),team,opposition:enabled?opposition_begin(team,game.agenda,game.tacticalPlans?.[player]?.weidelChrupalla??opposition_default_duo(game.agenda,player)):null,abilities:tactical_abilities(game,player,ids),hidden:enabled?hidden_preview(game,player,ids).filter(r=>r.active).map(r=>r.id):[],plan:game.tacticalPlans?.[player]||{},once:{},overrides:{},events:[],decision:null,reuse:null,ping:null,cosign:[],projectSuccess:false,lawApproved:null,lawMoneyDone:false,bundleParts:[],pending:store.pending.filter(p=>p.due<=game.round&&p.expires>=game.round).map(p=>({...p}))};
 }
 function tactical_event(rt,kind,data={}){rt.events.push({id:`${rt.round}:${rt.player}:${rt.events.length}`,kind,...data});}
 function tactical_helper(rt,future,ability,source,nextStage=false,exactId=null){
@@ -40,12 +41,12 @@ export function tactical_before(game,rt,slot,future){
 export function tactical_after_roll(game,rt,pack){
  if(!rt.enabled||pack.tacticalChecked)return false;pack.tacticalChecked=true;
  if(pack.success&&pack.action==='negotiate'&&rt.hidden.includes('principle_agreed')&&!rt.once.signature){
-  const choices=[];if(game.players[rt.player].cash>=2)choices.push({id:'pay',title:'立即支付2资金，履行协议'});if(game.round<8)choices.push({id:'delay',title:'延期到下一轮，届时先履约'});if(!choices.length)choices.push({id:'withdraw',title:'无法履行，撤回本次协议'});
+  const choices=[];if(game.players[rt.player].cash>=2)choices.push({id:'pay',title:'立即支付2资金，履行协议'});if(game.round<match_round_limit(game))choices.push({id:'delay',title:'延期到下一轮，届时先履约'});if(!choices.length)choices.push({id:'withdraw',title:'无法履行，撤回本次协议'});
   return tactical_decision(rt,'signature','最后的签名：签字前的小字',choices,{actionId:pack.id});
  }
  if(!pack.success&&pack.action==='negotiate'&&pack.crossParty){
   if(rt.hidden.includes('both_lawyers')&&!rt.once.exchange)return tactical_decision(rt,'exchange','异议，部分成立。',[{id:'accept',title:'让出20%政策范围，交换较小共同文本'},{id:'decline',title:'保留本党目标，接受本次谈判失败'}],{actionId:pack.id});
-  if(rt.hidden.includes('groups_first')&&!rt.once.disagreement&&!rt.pending.some(p=>p.kind==='disagreement')&&!rt.plan.handledDisagreement&&game.round<8)return tactical_decision(rt,'disagreement','请党团先协调：带回去谈',[{id:'defer',title:'暂缓分歧，下轮必须处理'},{id:'decline',title:'现在接受谈判失败'}],{actionId:pack.id,party:pack.party});
+  if(rt.hidden.includes('groups_first')&&!rt.once.disagreement&&!rt.pending.some(p=>p.kind==='disagreement')&&!rt.plan.handledDisagreement&&game.round<match_round_limit(game))return tactical_decision(rt,'disagreement','请党团先协调：带回去谈',[{id:'defer',title:'暂缓分歧，下轮必须处理'},{id:'decline',title:'现在接受谈判失败'}],{actionId:pack.id,party:pack.party});
  }
  return false;
 }

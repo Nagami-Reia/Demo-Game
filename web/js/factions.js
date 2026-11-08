@@ -1,3 +1,5 @@
+import {match_round_limit} from './crisis.js';
+import {round_recruitment_excluded} from './recruitment.js';
 // Faction passives are fictional game rules, separate from real party platforms.
 import {policy_relation} from './policy.js';
 import {can_recruit} from './party-relations.js';
@@ -139,9 +141,9 @@ export function faction_recruit_refund(player,card,round,bonus=false){
 export const FACTION_INVEST_COST=5;
 const faction_regional_domains=['economy','transport'];
 export function faction_can_invest(game,player,domain){
- const p=game.players[player];
+ const p=game.players[player],excluded=round_recruitment_excluded(game);
  return game.phase==='UPGRADE'&&p.party==='CSU'&&p.cash>=FACTION_INVEST_COST&&p.faction?.investmentRound!==game.round&&
-  faction_regional_domains.includes(domain)&&game.data.roster.some(c=>c.party==='CSU'&&!c.inactive&&!is_neutral_chair(c)&&!game.used.includes(c.id)&&c.tier<=game.level&&c.domains?.includes(domain));
+  faction_regional_domains.includes(domain)&&game.data.roster.some(c=>c.party==='CSU'&&!c.inactive&&!is_neutral_chair(c)&&!excluded.includes(c.id)&&c.tier<=game.level&&c.domains?.includes(domain));
 }
 
 export function faction_invest(game,player,domain){
@@ -167,7 +169,7 @@ const CSU_TRAIN_LIMIT=3;
 
 export function faction_trainable(game,player){
  const p=game.players[player],training=p.faction?.training||[];
- if(game.phase!=='UPGRADE'||game.round>=8||p.party!=='CSU'||p.cash<CSU_TRAIN_COST||
+ if(game.phase!=='UPGRADE'||game.round>=match_round_limit(game)||p.party!=='CSU'||p.cash<CSU_TRAIN_COST||
     training.length>=CSU_TRAIN_LIMIT||training.some(e=>e.readyRound===game.round+1))return [];
  return p.owned.filter(c=>c.party==='CSU'&&!is_neutral_chair(c)&&!training.some(e=>e.id===c.id));
 }

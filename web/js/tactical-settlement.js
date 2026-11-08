@@ -1,7 +1,8 @@
+import {match_round_limit} from './crisis.js';
 import {tactical_enabled,tactical_store,tactical_pending,tactical_grown} from './tactical-state.js';
 import {agenda_weights} from './agenda-domains.js';
 export function tactical_defer_grant(game,rt,settlement){
- if(!rt.enabled||game.round>=8||!rt.abilities.finance||rt.plan.finance!=='delay'||rt.once.grantDeferred)return;
+ if(!rt.enabled||game.round>=match_round_limit(game)||!rt.abilities.finance||rt.plan.finance!=='delay'||rt.once.grantDeferred)return;
  const payout=(settlement.payouts||[]).find(p=>p.id===rt.abilities.finance.id&&p.cash>0);if(!payout)return;
  const amount=payout.cash,domain=tactical_grown(rt.abilities.finance)?rt.plan.grantDomain:Object.entries(agenda_weights(game.agenda)).sort((a,b)=>b[1]-a[1])[0]?.[0]||'economy';
  payout.deferredCash=amount;payout.cash=0;settlement.cash-=amount;settlement.deferredCash=amount;rt.once.grantDeferred=true;
@@ -24,17 +25,17 @@ export function tactical_settle(game,rt,trace,passed){
  }
  for(const a of result.oppositionAwards)result.score+=a.score;
  const retained=rt.pending.find(p=>p.kind==='opposition_funkloch'&&p.used);if(retained)finish(retained);
- if(rt.opposition?.carry&&game.round<8)tactical_pending(game,rt.player,'opposition_funkloch',{});
- if(rt.hidden.includes('law_money')&&!rt.once.lawMoneyAwarded){if(rt.lawMoneyDone)award('law_then_finance',0,5);else if(rt.lawApproved&&game.round<8)tactical_pending(game,rt.player,'law_money',{approved:rt.lawApproved.id});}
- if(rt.hidden.includes('two_chairs')&&!rt.once.bundleAwarded){if(rt.bundleParts.includes('labor')&&rt.bundleParts.includes('finance'))award('bundled_proposal_completed',0,5);else if(rt.bundleParts.length&&game.round<8)tactical_pending(game,rt.player,'bundle',{parts:rt.bundleParts});}
- if(rt.once.retainLaw&&game.round<8)tactical_pending(game,rt.player,'law_retained',rt.once.retainLaw);
- if(rt.once.foreignBridge&&game.round<8)tactical_pending(game,rt.player,'foreign_bridge',{});
- if(rt.plan.cosign&&rt.cosign.length>=2){award('common_signature',0,1);if(tactical_grown(rt.abilities.labor)&&game.round<8)tactical_pending(game,rt.player,'cosign_text',{parties:rt.cosign.slice(0,2)});}
- if(rt.abilities.energy&&passed&&rt.player===0&&(agenda_weights(game.agenda).economy||0)>0&&actions.some(r=>r.action==='amend')&&game.round<8){
+ if(rt.opposition?.carry&&game.round<match_round_limit(game))tactical_pending(game,rt.player,'opposition_funkloch',{});
+ if(rt.hidden.includes('law_money')&&!rt.once.lawMoneyAwarded){if(rt.lawMoneyDone)award('law_then_finance',0,5);else if(rt.lawApproved&&game.round<match_round_limit(game))tactical_pending(game,rt.player,'law_money',{approved:rt.lawApproved.id});}
+ if(rt.hidden.includes('two_chairs')&&!rt.once.bundleAwarded){if(rt.bundleParts.includes('labor')&&rt.bundleParts.includes('finance'))award('bundled_proposal_completed',0,5);else if(rt.bundleParts.length&&game.round<match_round_limit(game))tactical_pending(game,rt.player,'bundle',{parts:rt.bundleParts});}
+ if(rt.once.retainLaw&&game.round<match_round_limit(game))tactical_pending(game,rt.player,'law_retained',rt.once.retainLaw);
+ if(rt.once.foreignBridge&&game.round<match_round_limit(game))tactical_pending(game,rt.player,'foreign_bridge',{});
+ if(rt.plan.cosign&&rt.cosign.length>=2){award('common_signature',0,1);if(tactical_grown(rt.abilities.labor)&&game.round<match_round_limit(game))tactical_pending(game,rt.player,'cosign_text',{parties:rt.cosign.slice(0,2)});}
+ if(rt.abilities.energy&&passed&&rt.player===0&&(agenda_weights(game.agenda).economy||0)>0&&actions.some(r=>r.action==='amend')&&game.round<match_round_limit(game)){
   const choices=['digital','social','climate'],domain=tactical_grown(rt.abilities.energy)&&choices.includes(rt.plan.projectDomain)?rt.plan.projectDomain:choices[(game.initialSeed+game.round)%choices.length];
   tactical_pending(game,rt.player,'project',{domain,producer:rt.abilities.energy.members[0],csu:rt.team.some(c=>rt.abilities.energy.members.includes(c.id)&&c.party==='CSU')});
  }
- if(rt.plan.local&&rt.abilities.local&&passed&&rt.player===0){award('local_package',2,0);if(tactical_grown(rt.abilities.local)&&game.round<8)tactical_pending(game,rt.player,'local_project',{state:rt.abilities.local.name.de,producer:rt.abilities.local.members[0],csu:rt.team.some(c=>rt.abilities.local.members.includes(c.id)&&c.party==='CSU')});}
+ if(rt.plan.local&&rt.abilities.local&&passed&&rt.player===0){award('local_package',2,0);if(tactical_grown(rt.abilities.local)&&game.round<match_round_limit(game))tactical_pending(game,rt.player,'local_project',{state:rt.abilities.local.name.de,producer:rt.abilities.local.members[0],csu:rt.team.some(c=>rt.abilities.local.members.includes(c.id)&&c.party==='CSU')});}
  // A file can be entrusted once when the original office leaves the lineup.
  const current=new Set(rt.team.map(c=>c.id)),oldTeam=store.lastTeam||[];
  if(oldTeam.includes('Dobrindt')&&oldTeam.includes('mdb_Alexander_Hoffmann'))for(const p of store.pending){

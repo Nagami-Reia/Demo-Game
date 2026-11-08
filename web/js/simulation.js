@@ -1,4 +1,5 @@
-import {equipment_ai,equipment_power} from './equipment-shop.js';
+import {active_crisis,crisis_first_deadline,settle_crisis} from './crisis.js';
+import {equipment_ai,equipment_power,equipment_rate} from './equipment-shop.js';
 import {tactical_begin,tactical_before,tactical_after_roll,tactical_after_action,tactical_resolve} from './tactical-actions.js';
 import {tactical_policy} from './tactical-state.js';
 import {tactical_defer_grant,tactical_settle} from './tactical-settlement.js';
@@ -8,7 +9,7 @@ import {prepare_negotiation,resolve_negotiation,negotiation_action_bonus} from '
 import {MAX_DEPLOYMENT} from './deployment-rules.js';
 import {alliance_preview,alliance_action_bonus,alliance_settle} from './alliances.js';
 import {combined_relations,link_action_bonus} from './combination-groups.js';
-import {settle_scores} from './scoring.js';
+import {ROUND_SCORE_MODEL,settle_round_scoring} from './scoring.js';
 import {institution_effect} from './institution-effects.js';
 import {agenda_weights,domain_weight,weighted_effect} from './agenda-domains.js';
 import {team_cohesion,special_effect,firewall_penalty} from './team-effects.js';
@@ -60,21 +61,30 @@ export function simulate_round(game,ids){
  // Public incident pressure is applied once when the world event starts.
  trace.push({kind:'event',event,world:{...world}});
  const slots=[];for(let stage=0;stage<3;stage++)for(let player=0;player<2;player++)for(const card of teams[player])slots.push({stage,player,cardId:card.id});
+ const newsEntries=game.news?.edition?.entries?.length?game.news.edition.entries:
+  event?[{event,startedRound:game.activeWorld?.startedRound??game.round,strength:1}]:[];
+ const pssEvents=teams.map(team=>team.flatMap(c=>game.sandbox.expose(c,newsEntries,game.round)));
  const burstLeads=teams.map((team,i)=>{const lead=faction_burst_lead(game,i,team,agenda);return lead?{id:lead.id,name:lead.displayName||lead.name}:null;});
- frame=game.roundRuntime={round:game.round,factionVersion:2,equipmentVersion:1,burstLeads,ids:[...ids],cursor:0,slots,teams,organizations,links,deployedIds,allianceBefore,allianceTriggers:[...allianceTriggers],newsExecutionPaid,hiddenRuntime,tactical,agenda,domain,weights,power,trace,attempts,event,world,pendingPack:null,finished:false};
+ frame=game.roundRuntime={round:game.round,scoreModel:ROUND_SCORE_MODEL,factionVersion:2,equipmentVersion:2,pssVersion:1,pssEvents,burstLeads,ids:[...ids],cursor:0,slots,teams,organizations,links,deployedIds,allianceBefore,allianceTriggers:[...allianceTriggers],newsExecutionPaid,hiddenRuntime,tactical,agenda,domain,weights,power,trace,attempts,event,world,pendingPack:null,finished:false};
  }
  const {teams,organizations,links,deployedIds,allianceBefore,newsExecutionPaid,hiddenRuntime,agenda,domain,weights,power,trace,attempts,event,world}=frame;
+ const crisis=active_crisis(game);
  const allianceTriggers=new Set(frame.allianceTriggers);
  for(const rt of hiddenRuntime)if(!(rt.seen instanceof Set))rt.seen=new Set((rt.actions||[]).map(a=>a.id));
  while(frame.cursor<frame.slots.length){
   const slot=frame.slots[frame.cursor],stage=slot.stage,i=slot.player,c=teams[i].find(card=>card.id===slot.cardId),future=frame.slots.slice(frame.cursor+1);
+  if(crisis&&stage>crisis_first_deadline(crisis)&&!frame.crisisCheckpoint){
+   frame.crisisCheckpoint=settle_crisis(crisis,trace,teams).objectives[0];
+   game.phase='CRISIS_CHECKPOINT';
+   return;
+  }
   let pack=frame.pendingPack;
   if(!pack){
 
-  if(stage===1&&!slot.oppositionFree)game.sandbox.event(c,event,`${game.round}:${c.id}:event`);
+  if(!frame.pssVersion&&stage===1&&!slot.oppositionFree)game.sandbox.event(c,event,`${game.round}:${c.id}:event`);
   let match=domain_weight(c.domains,agenda);const background=background_effect(c,agenda);
   const synergy=.3*teams[i].filter(o=>o.id!==c.id).reduce((sum,o)=>sum+domain_weight(o.domains.filter(d=>c.domains.includes(d)),agenda),0);
-  const environment=weighted_effect(agenda,d=>(world[d]||0)*.12),condition=game.sandbox.condition(c)+(c.resilience??3)*.04;
+  const environment=weighted_effect(agenda,d=>(world[d]||0)*.12),condition=game.sandbox.condition(c,{legacy:!frame.pssVersion});
   const profile=leader_profile(c,game.data.leadership||[]);
   const groupRole=links[i].active.some(r=>r.typed&&r.memberIds.includes(c.id)&&['working_group','regional'].includes(r.category));
   const organizationRole=(c.offices||[]).some(o=>['party','fraktion'].includes(o.scope)&&(!o.status||o.status==='verified_current'));
@@ -111,10 +121,14 @@ export function simulate_round(game,ids){
   const organizationReserve=['coordinate','negotiate'].includes(resolvedAction)?Math.min(1.2,Math.max(0,game.players[i].organization||0)*.04):0;
   const legislativeReserve=resolvedAction==='amend'?Math.min(1.2,Math.max(0,game.players[i].legislativeEfficiency||0)*.05):0;
   const negotiationChoice=negotiation_action_bonus(game,resolvedAction,stage,i);
-  const equipment=frame.equipmentVersion&&!tactic.skip?equipment_power(game.players[i],c.id,resolvedAction,allianceBefore[i]):0;
+  const equipment=frame.equipmentVersion&&!tactic.skip?equipment_power(game.players[i],c.id,resolvedAction,allianceBefore[i],frame.equipmentVersion):0;
   const explanation={...(equipment?{equipment}:{}),tactical:tactic.power,hidden,organizationReserve,legislativeReserve,negotiationChoice,alliance:allianceEffect.power,government:institution.government,committee:institution.committee,cohesion,specialEffect,priority,alignment:alignment.bonus,personal,background,minister:office.minister,partyCaucus:office.partyCaucus,cabinet:office.cabinet,relationship:relationship.bonus,pollPenalty:pollPenalty?-pollPenalty:0,resources:c.resources*.13,leadership:c.leadership*.16,expertise,synergy,environment,skill,faction,condition};
   const preNews=Object.values(explanation).reduce((sum,v)=>sum+v,0);explanation.newsEnvironment=preNews*newsEnvironment.rate;explanation.newsFunding=basePaid<(hiddenBefore.cashCost||0)?-.4:0;
-  const value=Object.values(explanation).reduce((sum,v)=>sum+v,0),successChance=Math.max(.15,Math.min(.94,.4+value*.045-newsEnvironment.risk));
+  const baseValue=Object.values(explanation).reduce((sum,v)=>sum+v,0);
+  const rate=frame.equipmentVersion>=2&&!tactic.skip?equipment_rate(game.players[i],c.id,resolvedAction):0;
+  const contribution=rate*Math.max(0,baseValue);
+  if(contribution)explanation.equipmentContribution=contribution;
+  const value=baseValue+contribution,successChance=Math.max(.15,Math.min(.94,.4+baseValue*.045-newsEnvironment.risk));
   const roll=tactic.skip?1:game.random(),success=!tactic.skip&&(!!hiddenBefore.forceSuccess||roll<successChance);
   pack={id:actionId,c,i,stage,controversy:factionEffect.controversy,profile,relationship,resolvedAction,hiddenContext,basePaid,hiddenBefore,newsEnvironment,allianceEffect,explanation,value,successChance,success,contributionScale:tactic.skip?0:success?1:.35,skipped:tactic.skip,reuse:tactic.reuse,supports:tactic.supports,focus:tactic.focus,replacementReason:tactic.reason||null,oppositionRetry:tactic.oppositionRetry,oppositionBonuses:tactic.oppositionBonuses,action:resolvedAction,cardId:c.id,party:c.party,crossParty:c.party!==game.players[i].party};
 
@@ -132,7 +146,11 @@ export function simulate_round(game,ids){
   const successPaid=Math.min(Math.max(0,game.players[i].cash||0),(slot.oppositionFree?0:Math.max(0,hiddenAfter.cashCost||0)));game.players[i].cash=(game.players[i].cash||0)-successPaid;
   if(!pack.skipped&&relationship.kind==='crossBench'&&['negotiate','coordinate'].includes(resolvedAction))game.cooperation[c.id]=Math.max(0,Math.min(1,(game.cooperation[c.id]||0)+(success?.3:-.1)));
   if(!pack.skipped&&!slot.oppositionFree&&profile&&stage===0)attempts.push({player:i,card:c,profile,success});
-  const target=teams[i].find(o=>o.id!==c.id)?.id,feedback=pack.skipped?structuredClone(game.sandbox.state(c.id)):game.sandbox.settle(c,success,target,`${game.round}:${stage}:${c.id}${slot.oppositionFree?':opposition-free':''}`,{skipPreparation:pack.reuse||slot.oppositionFree});
+  const target=teams[i].find(o=>o.id!==c.id)?.id,feedback=pack.skipped?game.sandbox.snapshot(c):game.sandbox.settle(c,success,target,`${game.round}:${stage}:${c.id}${slot.oppositionFree?':opposition-free':''}`,{
+   legacy:!frame.pssVersion,round:game.round,action:resolvedAction,tags:Object.keys(weights),
+   expected:successChance,partial:!!pack.partialAgreement,forced:!!hiddenBefore.forceSuccess,contributed:powerContribution>0,
+   skipPreparation:pack.reuse||slot.oppositionFree
+  });
   const row={kind:'action',id:pack.id,cardId:c.id,party:c.party,player:i,stage,name:c.name,action:resolvedAction,relationship:relationship.kind,success,successChance,expertiseMatch:hiddenContext.expertiseMatch??domain_weight(c.domains,agenda),value:+value.toFixed(2),rawValue:value,powerContribution,contributionScale:scale,explanation,hiddenScore:hiddenAfter.scoreAdd||0,hiddenEvents:hiddenAfter.events||[],cashPaid:basePaid+successPaid+(pack.extraPaid||0),forcedSuccess:!!hiddenBefore.forceSuccess,newsEffects:newsEnvironment.contributions,allianceEffects:allianceEffect.effects,feedback,skipped:pack.skipped,partialAgreement:!!pack.partialAgreement,supports:pack.supports||null,preparationReused:!!pack.reuse,tacticalFocus:pack.focus||null,replacementReason:pack.replacementReason,...(pack.oppositionRetry?{oppositionRetry:pack.oppositionRetry}:{}),...(pack.oppositionBonuses?{oppositionBonuses:pack.oppositionBonuses}:{}),...(slot.oppositionFree?{oppositionFree:true}:{})};
   if(pack.controversy)row.controversy=pack.controversy;
   trace.push(row);if(success&&pack.replacementReason==='office_takeover'){const original=trace.find(r=>r.id===pack.supports);const attempt=attempts.find(a=>a.player===i&&a.card.id===original?.cardId);if(attempt){attempt.success=true;attempt.recoveredBy=c.id;}}tactical_after_action(game,rt,row,future);if(rt.opposition?.free){frame.slots.splice(frame.cursor+1,0,rt.opposition.free);rt.opposition.free=null;}frame.cursor++;frame.pendingPack=null;frame.allianceTriggers=[...allianceTriggers];
@@ -152,7 +170,8 @@ export function simulate_round(game,ids){
  });
  trace.push(...discipline.trace);
  const policy=policy_outcome(game,power,trace);
- const scoreBreakdown=settle_scores({power,trace,teams,policy,procedure:game.agenda.procedure,discipline});tactical_policy(game,policy,scoreBreakdown);const scores=scoreBreakdown.map(b=>b.total);
+ const scoreModel=frame.scoreModel??'independent-performance-v1';
+ const {breakdown:scoreBreakdown,questionResponse}=settle_round_scoring({power,trace,teams,policy,procedure:game.agenda.procedure,discipline,scoreModel});tactical_policy(game,policy,scoreBreakdown);const scores=scoreBreakdown.map(b=>b.total);
  const allianceSettlements=deployedIds.map((team,i)=>{
   const settlement=alliance_settle(game,i,team,trace,game.round,game.logs,allianceBefore[i]);tactical_defer_grant(game,frame.tactical[i],settlement);game.players[i].cash+=settlement.cash||0;game.players[i].income+=settlement.income||0;
   return {before:allianceBefore[i],...settlement};
@@ -171,8 +190,14 @@ export function simulate_round(game,ids){
  factionResults?.forEach(({score},i)=>{
   if(score){scoreBreakdown[i].faction=score;scoreBreakdown[i].total=scores[i]=Math.round((scores[i]+score)*10)/10;}
  });
+ const crisisResult=crisis?settle_crisis(crisis,trace,teams):null;
+ if(crisisResult)crisisResult.scores.forEach((score,i)=>{
+  scoreBreakdown[i].crisis=score;
+  scoreBreakdown[i].total=scores[i]=Math.round((scores[i]+score)*10)/10;
+ });
  game.players.forEach((p,i)=>p.score=Math.round((p.score+scores[i])*10)/10);const firewall=teams.map((team,i)=>firewall_penalty(game.players[i].party,team));settle_public_opinion(game,scores,firewall,factionResults);for(let i=0;i<2;i++)if(firewall[i])game.log('firewall',{player:i,amount:firewall[i]});
- game.result={scoreModel:'independent-performance-v1',scoringVersion:game.data.hiddenRelations?.length?'hidden-relations-v2':'linked-effects-v1',scoreBreakdown,effectLedger,pollShares:structuredClone(game.polls.shares),domainWeights:weights,firewall,trace,power:power.map(x=>+x.toFixed(2)),scores,passed:power[0]>=power[1],procedure:game.agenda.procedure,teams,polls:structuredClone(game.polls.changes),discipline,organizations,policy,links:links.map(l=>l.active)};
+ game.result={...(crisisResult?{crisis:crisisResult}:{}),scoreModel,scoringVersion:game.data.hiddenRelations?.length?'hidden-relations-v2':'linked-effects-v1',scoreBreakdown,...(questionResponse?{questionResponse}:{}),effectLedger,pollShares:structuredClone(game.polls.shares),domainWeights:weights,firewall,trace,power:power.map(x=>+x.toFixed(2)),scores,passed:policy.passed,procedure:game.agenda.procedure,teams,polls:structuredClone(game.polls.changes),discipline,organizations,policy,links:links.map(l=>l.active)};
+ if(frame.pssVersion)game.result.pss={version:frame.pssVersion,exposures:frame.pssEvents};
  game.result.factionEffects=factionResults;game.result.burstLeads=frame.burstLeads;game.result.tactics=tacticalResults;game.result.news=structuredClone(game.news?.edition||null);game.result.newsEffects=newsResults;game.result.alliances=allianceSettlements;game.result.hiddenRelations=hiddenRelations;game.result.negotiation=structuredClone(game.negotiation||null);game.result.cpuNegotiation=structuredClone(game.cpuNegotiation||null);
  game.history.push({round:game.round,agenda:game.agenda,result:structuredClone(game.result)});game.phase='RESULT';frame.finished=true;game.tacticalDecision=null;
 }

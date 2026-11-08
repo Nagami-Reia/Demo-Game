@@ -131,11 +131,11 @@ function mount_opening(host,{language='zh',oppositionEnabled=false,resolveOppone
 
  async function match(card, opponentId) {
   const thisMatch = ++revision;
-  setScene('match');
-  status.textContent = words.search;
   const rejects = [...deck.children].filter(el=>el!==card)
    .map(el=>({el,rect:el.getBoundingClientRect()}));
   const from = card.getBoundingClientRect();
+  setScene('match');
+  status.textContent = words.search;
   lockCard(card,words.you,'player');
   deck.className = 'opening-deck matching';
   const bounds = deck.getBoundingClientRect();
@@ -151,17 +151,7 @@ function mount_opening(host,{language='zh',oppositionEnabled=false,resolveOppone
   const to = card.getBoundingClientRect();
   card.classList.add('moving');
   const dx = from.left-to.left,dy = from.top-to.top;
-  await Promise.all([
-   play(card,[
-    {transform:'translate3d('+dx+'px,'+dy+'px,0)'},
-    {transform:'translate3d(0,0,0)'},
-   ],Math.min(670,410+Math.abs(dx)*.38)),
-   ...rejects.map(({el})=>play(el,[
-    {opacity:1,transform:'translateY(0)'},{opacity:0,transform:'translateY(-20px) scale(.97)'},
-   ],245).then(()=>el.remove())),
-  ]);
-  card.classList.remove('moving');
-  if(thisMatch!==revision) return;
+  const shiftTime = Math.min(610,360+Math.abs(dx)*.28);
 
   const enemy = identity(opponentId,camps[camp==='government'?'opposition':'government'].indexOf(opponentId));
   lockCard(enemy,words.enemy,'opponent');
@@ -171,13 +161,21 @@ function mount_opening(host,{language='zh',oppositionEnabled=false,resolveOppone
   versus.innerHTML = '<span>VS</span>';
   deck.append(versus,enemy);
   await Promise.all([
-   play(versus,[{transform:'rotate(45deg) scale(.55)',opacity:0},{transform:'rotate(45deg) scale(1)',opacity:1}],250,95),
+   play(card,[
+    {transform:'translate3d('+dx+'px,'+dy+'px,0)'},
+    {transform:'translate3d(0,0,0)'},
+   ],shiftTime),
+   ...rejects.map(({el})=>play(el,[
+    {opacity:1,transform:'translateY(0)'},{opacity:0,transform:'translateY(-20px) scale(.97)'},
+   ],220).then(()=>el.remove())),
+   play(versus,[{transform:'rotate(45deg) scale(.55)',opacity:0},{transform:'rotate(45deg) scale(1)',opacity:1}],250,shiftTime-120),
    play(enemy,[{transform:'translateY(100px)',clipPath:'inset(100% -15px 0 -12px)',opacity:0},
-    {transform:'translateY(0)',clipPath:'inset(-12px -15px -18px -12px)',opacity:1}],450,35),
+    {transform:'translateY(0)',clipPath:'inset(-12px -15px -18px -12px)',opacity:1}],380,shiftTime-185),
   ]);
+  card.classList.remove('moving');
   if(thisMatch!==revision) return;
   status.textContent = player+' '+words.versus+' '+opponentId+' · '+words.ready;
-  if(onReady)readyTimer=setTimeout(()=>{if(thisMatch===revision)onReady();},1000);
+  if(onReady)readyTimer=setTimeout(()=>{if(thisMatch===revision)onReady();},reducedMotion.matches?0:460);
   else replay.hidden = false;
  }
 
