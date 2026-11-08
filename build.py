@@ -21,6 +21,8 @@ parts.insert(parts.index('web/js/app.js'),'web/js/deployment-preview.js')
 parts.insert(parts.index('web/js/app.js'),'web/js/deployment-view.js')
 parts.insert(parts.index('web/js/app.js'),'web/js/state-colors.js')
 parts.insert(parts.index('web/js/app.js'),'web/js/card-facts.js')
+parts.insert(parts.index('web/js/app.js'),'web/opening-preview/opening.js')
+parts[0:0]=['web/js/equipment-data.js','web/js/equipment-shop.js','web/js/equipment-ui.js']
 data={k:json.loads((ROOT/'data'/f'{k}.json').read_text()) for k in ['roster','agendas','events','leadership','offices','relationships','backgrounds','policy-platforms','policy-relations','working-groups','regional-links','alliance-definitions','alliance-tags','hidden-relations','negotiation-scenes','news-events','tactical-effects']}
 data['tacticalEffects']=data.pop('tactical-effects')
 data['newsEvents']=data.pop('news-events')
@@ -34,7 +36,7 @@ for name in parts:
  s=(ROOT/name).read_text();s=re.sub(r'^import .*?;\s*$','',s,flags=re.M);s=re.sub(r'\bexport (?=(const|function|class|let)\b)','',s)
  js+='\n'+s
  if name=='web/js/profiles.js': js+='\nCONTENT=apply_offices(CONTENT);\n'
-style_paths=['web/styles/theme.css','web/style.css','web/styles/news.css','web/styles/portraits.css','web/styles/preparation.css','web/styles/cards.css']
+style_paths=['web/styles/theme.css','web/style.css','web/styles/news.css','web/styles/portraits.css','web/styles/preparation.css','web/styles/cards.css','web/styles/equipment.css','web/opening-preview/opening.css','web/styles/faction-board.css']
 styles=[]
 for name in style_paths:
  css=(ROOT/name).read_text()
