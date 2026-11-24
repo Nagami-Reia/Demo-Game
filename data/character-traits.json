@@ -1,0 +1,468 @@
+{
+  "version": 1,
+  "enabled": true,
+  "definitions": [
+    {
+      "id": "Merz",
+      "trigger": "准备结束时",
+      "description": "指定搭档每次通过特质产层额外+3，最多3次；盟约包含本人时再+3，每轮一次。",
+      "kind": "amplify",
+      "amount": 3,
+      "limit": 3,
+      "shared": 3,
+      "target": "member",
+      "text": {
+        "zh": "指定搭档每次通过特质产层额外+3，最多3次；盟约包含本人时再+3，每轮一次。",
+        "en": "Choose a partner. Their trait layer gains receive +3, at most three times per round. If Merz belongs to that alliance, add another 3 once.",
+        "de": "Partner wählen. Dessen Eigenschaft erhält dreimal je Runde +3 zusätzliche Stufen. Gehört Merz zum Bündnis, einmal weitere +3."
+      },
+      "triggerText": {
+        "zh": "准备结束时",
+        "en": "At preparation end",
+        "de": "Am Vorbereitungsende"
+      }
+    },
+    {
+      "id": "Klingbeil",
+      "trigger": "触发已有盟约时",
+      "description": "指定盟约本轮每新增10层获得3资金，最多3次；首次兑现返还本轮已支付协商费1。",
+      "kind": "finance",
+      "target": "route",
+      "text": {
+        "zh": "指定盟约本轮每新增10层获得3资金，最多3次；首次兑现返还本轮已支付协商费1。",
+        "en": "Choose an alliance. Every 10 layers gained this round pays 3 funds, up to three times. The first payout refunds 1 paid negotiation fee.",
+        "de": "Bündnis wählen. Je 10 neue Stufen gibt es 3 Geld, höchstens dreimal. Die erste Zahlung erstattet 1 bezahlte Verhandlungsgebühr."
+      },
+      "triggerText": {
+        "zh": "触发已有盟约时",
+        "en": "When an active alliance triggers",
+        "de": "Bei Auslösung eines aktiven Bündnisses"
+      }
+    },
+    {
+      "id": "Weidel",
+      "trigger": "监督成功时",
+      "description": "监督后由另一名同领域人物修正成功，为已激活盟约+6层，返还该行动实付费用最多2，每轮一次。",
+      "kind": "chain",
+      "start": "scrutinize",
+      "end": "amend",
+      "amount": 6,
+      "refund": 2,
+      "text": {
+        "zh": "监督后由另一名同领域人物修正成功，为已激活盟约+6层，返还该行动实付费用最多2，每轮一次。",
+        "en": "After successful scrutiny, another specialist’s matching amendment adds 6 layers and refunds up to 2 of that action’s paid cost. Once per round.",
+        "de": "Nach wirksamer Kontrolle fügt der passende Änderungsantrag einer anderen Person 6 Stufen hinzu und erstattet bis zu 2 tatsächlich bezahlte Kosten. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "监督成功时",
+        "en": "After successful scrutiny",
+        "de": "Nach erfolgreicher Kontrolle"
+      }
+    },
+    {
+      "id": "Chrupalla",
+      "trigger": "准备结束时",
+      "description": "再次触发指定搭档的获得时效果，每轮一次。",
+      "kind": "retrigger",
+      "target": "member",
+      "text": {
+        "zh": "再次触发指定搭档的获得时效果，每轮一次。",
+        "en": "At preparation end, repeat the chosen partner’s acquisition effect once.",
+        "de": "Am Vorbereitungsende die Erhalt-Eigenschaft des gewählten Partners einmal erneut auslösen."
+      },
+      "triggerText": {
+        "zh": "准备结束时",
+        "en": "At preparation end",
+        "de": "Am Vorbereitungsende"
+      }
+    },
+    {
+      "id": "mdb_Felix_Banaszak",
+      "trigger": "触发已有盟约时",
+      "description": "指定盟约被其他人物特质增加层数时额外+2，每轮最多5次。",
+      "kind": "amplify",
+      "amount": 2,
+      "limit": 5,
+      "target": "route",
+      "text": {
+        "zh": "指定盟约被其他人物特质增加层数时额外+2，每轮最多5次。",
+        "en": "Choose an alliance. Other characters’ trait layer gains receive +2, up to five times per round.",
+        "de": "Bündnis wählen. Stufengewinne anderer Personeneigenschaften erhalten +2, höchstens fünfmal je Runde."
+      },
+      "triggerText": {
+        "zh": "触发已有盟约时",
+        "en": "When an active alliance triggers",
+        "de": "Bei Auslösung eines aktiven Bündnisses"
+      }
+    },
+    {
+      "id": "Brantner",
+      "trigger": "谈判成功时",
+      "description": "外交谈判成功后，同领域修正失败可由指定搭档占用下一次行动接手，每轮一次。",
+      "kind": "rescue",
+      "start": "negotiate",
+      "domains": [
+        "foreign"
+      ],
+      "target": "member",
+      "text": {
+        "zh": "外交谈判成功后，同领域修正失败可由指定搭档占用下一次行动接手，每轮一次。",
+        "en": "After a successful foreign negotiation, a failed matching amendment may be taken over by the chosen partner using their next action. Once per round.",
+        "de": "Nach erfolgreicher Außenverhandlung kann der Partner einen gescheiterten passenden Änderungsantrag mit seiner nächsten Aktion übernehmen. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "谈判成功时",
+        "en": "After successful negotiation",
+        "de": "Nach erfolgreicher Verhandlung"
+      }
+    },
+    {
+      "id": "Schwerdtner",
+      "trigger": "准备结束时",
+      "description": "复制指定搭档直接产层的准备结束时特质，完整执行一次；每轮一次。",
+      "kind": "copy",
+      "target": "member",
+      "text": {
+        "zh": "复制指定搭档直接产层的准备结束时特质，完整执行一次；每轮一次。",
+        "en": "Copy the chosen partner’s direct preparation-end layer effect at full value, once per round.",
+        "de": "Die direkt Stufen erzeugende Vorbereitungseigenschaft des Partners einmal vollständig kopieren."
+      },
+      "triggerText": {
+        "zh": "准备结束时",
+        "en": "At preparation end",
+        "de": "Am Vorbereitungsende"
+      }
+    },
+    {
+      "id": "mdb_Luigi_Pantisano",
+      "trigger": "触发已有盟约时",
+      "description": "地区盟约触发后，指定盟约由两名不同人物有效行动，获得+8层，每轮一次。",
+      "kind": "regional_chain",
+      "target": "route",
+      "amount": 8,
+      "text": {
+        "zh": "地区盟约触发后，指定盟约由两名不同人物有效行动，获得+8层，每轮一次。",
+        "en": "After a regional alliance triggers, two different members contributing to the chosen alliance add 8 layers. Once per round.",
+        "de": "Nach einem Regionalbündnis bringen wirksame Aktionen zweier verschiedener Mitglieder dem gewählten Bündnis 8 Stufen. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "触发已有盟约时",
+        "en": "When an active alliance triggers",
+        "de": "Bei Auslösung eines aktiven Bündnisses"
+      }
+    },
+    {
+      "id": "Frei",
+      "trigger": "协调成功时",
+      "description": "本人协调成功后，指定搭档有效行动，为两人共同激活的盟约+6层，每轮一次。",
+      "kind": "partner_chain",
+      "target": "member",
+      "amount": 6,
+      "text": {
+        "zh": "本人协调成功后，指定搭档有效行动，为两人共同激活的盟约+6层，每轮一次。",
+        "en": "After Frei coordinates successfully, the chosen partner’s effective action adds 6 layers to a shared active alliance. Once per round.",
+        "de": "Nach erfolgreicher Koordination durch Frei bringt die wirksame Partneraktion einem gemeinsamen Bündnis 6 Stufen. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "协调成功时",
+        "en": "After successful coordination",
+        "de": "Nach erfolgreicher Koordination"
+      }
+    },
+    {
+      "id": "Linnemann",
+      "trigger": "准备结束时",
+      "description": "本轮每获得一名同党人物，为本人参与激活的指定盟约+4层，最多计算3人。",
+      "kind": "recruits",
+      "target": "own_route",
+      "text": {
+        "zh": "本轮每获得一名同党人物，为本人参与激活的指定盟约+4层，最多计算3人。",
+        "en": "At preparation end, each retained same-party recruit this round adds 4 layers to the chosen alliance Linnemann belongs to; at most three recruits.",
+        "de": "Am Vorbereitungsende je behaltenem neuen Parteimitglied +4 Stufen für das gewählte eigene Bündnis, höchstens drei Personen."
+      },
+      "triggerText": {
+        "zh": "准备结束时",
+        "en": "At preparation end",
+        "de": "Am Vorbereitungsende"
+      }
+    },
+    {
+      "id": "Wadephul",
+      "trigger": "谈判成功时",
+      "description": "外交谈判后同领域行动成功，为本人参与激活的盟约+8层，每轮一次。",
+      "kind": "chain",
+      "start": "negotiate",
+      "end": "any",
+      "domains": [
+        "foreign"
+      ],
+      "amount": 8,
+      "own": true,
+      "text": {
+        "zh": "外交谈判后同领域行动成功，为本人参与激活的盟约+8层，每轮一次。",
+        "en": "After successful foreign negotiation and a subsequent matching action, add 8 layers to an active alliance Wadephul belongs to. Once per round.",
+        "de": "Nach erfolgreicher Außenverhandlung und passender Folgeaktion +8 Stufen für ein eigenes aktives Bündnis. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "谈判成功时",
+        "en": "After successful negotiation",
+        "de": "Nach erfolgreicher Verhandlung"
+      }
+    },
+    {
+      "id": "mdb_Steffen_Rudi_Bilger",
+      "trigger": "准备结束时",
+      "description": "同州搭档修正成功后，本人下一次协调复用准备，州盟约+8层，每轮一次。",
+      "kind": "state_chain",
+      "target": "member",
+      "amount": 8,
+      "text": {
+        "zh": "同州搭档修正成功后，本人下一次协调复用准备，州盟约+8层，每轮一次。",
+        "en": "After a same-state partner amends successfully, Bilger reuses that preparation for his next coordination and adds 8 state layers. Once per round.",
+        "de": "Nach erfolgreichem Änderungsantrag des Landespartners verwendet Bilgers nächste Koordination die Vorbereitung erneut und bringt 8 Landesstufen."
+      },
+      "triggerText": {
+        "zh": "准备结束时",
+        "en": "At preparation end",
+        "de": "Am Vorbereitungsende"
+      }
+    },
+    {
+      "id": "Dobrindt",
+      "trigger": "监督成功时",
+      "description": "本轮首次有效监督追回本轮新闻实际资金净损失，最多3资金。",
+      "kind": "news_refund",
+      "text": {
+        "zh": "本轮首次有效监督追回本轮新闻实际资金净损失，最多3资金。",
+        "en": "The first effective scrutiny recovers up to 3 funds actually lost to this round’s news, after other protection.",
+        "de": "Die erste wirksame Kontrolle erstattet bis zu 3 Geld aus tatsächlichen Nachrichtenverlusten nach sonstigem Schutz."
+      },
+      "triggerText": {
+        "zh": "监督成功时",
+        "en": "After successful scrutiny",
+        "de": "Nach erfolgreicher Kontrolle"
+      }
+    },
+    {
+      "id": "Baer",
+      "trigger": "修正成功时",
+      "description": "科研或数字化修正后，同领域搭档有效行动，为其参与激活的盟约+8层，每轮一次。",
+      "kind": "chain",
+      "start": "amend",
+      "end": "any",
+      "domains": [
+        "research",
+        "digital"
+      ],
+      "amount": 8,
+      "receiver": true,
+      "text": {
+        "zh": "科研或数字化修正后，同领域搭档有效行动，为其参与激活的盟约+8层，每轮一次。",
+        "en": "After a research or digital amendment, a matching partner’s effective action adds 8 layers to an alliance they belong to. Once per round.",
+        "de": "Nach Forschungs- oder Digitaländerung bringt eine passende Partneraktion einem eigenen aktiven Bündnis 8 Stufen. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "修正成功时",
+        "en": "After successful amendment",
+        "de": "Nach erfolgreichem Änderungsantrag"
+      }
+    },
+    {
+      "id": "mdb_Alois_Georg_Josef_Rainer",
+      "trigger": "触发已有盟约时",
+      "description": "本人参与的地区盟约触发后，农业、经济或交通修正成功获得2资金，并为州盟约+6层，每轮一次。",
+      "kind": "rural",
+      "amount": 6,
+      "text": {
+        "zh": "本人参与的地区盟约触发后，农业、经济或交通修正成功获得2资金，并为州盟约+6层，每轮一次。",
+        "en": "After Rainer’s regional alliance triggers, an agriculture, economy or transport amendment pays 2 funds and adds 6 state layers. Once per round.",
+        "de": "Nach dem eigenen Landesbündnis bringen Änderungen in Landwirtschaft, Wirtschaft oder Verkehr 2 Geld und 6 Landesstufen. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "触发已有盟约时",
+        "en": "When an active alliance triggers",
+        "de": "Bei Auslösung eines aktiven Bündnisses"
+      }
+    },
+    {
+      "id": "Miersch",
+      "trigger": "触发已有盟约时",
+      "description": "两条不同盟约分别通过人物特质产层后，两条各+4层，每轮一次。",
+      "kind": "spread",
+      "amount": 4,
+      "text": {
+        "zh": "两条不同盟约分别通过人物特质产层后，两条各+4层，每轮一次。",
+        "en": "Once two different alliances receive trait layers, add 4 layers to each. Once per round.",
+        "de": "Sobald zwei Bündnisse Eigenschaftsstufen erhalten, jeweils +4 Stufen. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "触发已有盟约时",
+        "en": "When an active alliance triggers",
+        "de": "Bei Auslösung eines aktiven Bündnisses"
+      }
+    },
+    {
+      "id": "Pistorius",
+      "trigger": "准备结束时",
+      "description": "本人和安全领域搭档各完成有效修正，为指定盟约+8层，并保存一次执行接力准备。",
+      "kind": "defence",
+      "target": "member",
+      "amount": 8,
+      "text": {
+        "zh": "本人和安全领域搭档各完成有效修正，为指定盟约+8层，并保存一次执行接力准备。",
+        "en": "After Pistorius and the chosen security partner each amend effectively, add 8 layers and store one execution handover.",
+        "de": "Nach wirksamen Änderungen von Pistorius und seinem Sicherheitspartner +8 Stufen und eine gespeicherte Ausführungsübergabe."
+      },
+      "triggerText": {
+        "zh": "准备结束时",
+        "en": "At preparation end",
+        "de": "Am Vorbereitungsende"
+      }
+    },
+    {
+      "id": "mdb_Reem_Alabali_Radovan",
+      "trigger": "谈判成功时",
+      "description": "本人外交谈判后，指定的另一党外交搭档有效行动，合作信任+0.3，共同盟约+8层，每轮一次。",
+      "kind": "cross_chain",
+      "target": "member",
+      "amount": 8,
+      "text": {
+        "zh": "本人外交谈判后，指定的另一党外交搭档有效行动，合作信任+0.3，共同盟约+8层，每轮一次。",
+        "en": "After foreign negotiation, the chosen other-party foreign partner’s effective action raises trust by 0.3 and adds 8 shared alliance layers. Once per round.",
+        "de": "Nach Außenverhandlung bringt die Partneraktion einer anderen Partei +0,3 Vertrauen und 8 gemeinsame Bündnisstufen. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "谈判成功时",
+        "en": "After successful negotiation",
+        "de": "Nach erfolgreicher Verhandlung"
+      }
+    },
+    {
+      "id": "mdb_Verena_Ute_Hubertz",
+      "trigger": "修正成功时",
+      "description": "此前另一人协调成功，且议题含住房或经济时，本人有效修正为已激活州盟约+8层，每轮一次。",
+      "kind": "housing",
+      "amount": 8,
+      "text": {
+        "zh": "此前另一人协调成功，且议题含住房或经济时，本人有效修正为已激活州盟约+8层，每轮一次。",
+        "en": "After another character coordinates, Hubertz’s housing or economy amendment adds 8 active state layers. Once per round.",
+        "de": "Nach fremder Koordination bringt Hubertz mit Wohnungs- oder Wirtschaftsänderung 8 Landesstufen. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "修正成功时",
+        "en": "After successful amendment",
+        "de": "Nach erfolgreichem Änderungsantrag"
+      }
+    },
+    {
+      "id": "mdb_Carsten_Schneider",
+      "trigger": "修正成功时",
+      "description": "气候修正后，另一名经济或交通人物修正成功，盟约+6层，返还本轮实付执行费用最多2，每轮一次。",
+      "kind": "chain",
+      "start": "amend",
+      "end": "amend",
+      "domains": [
+        "climate"
+      ],
+      "followDomains": [
+        "economy",
+        "transport"
+      ],
+      "amount": 6,
+      "executionRefund": 2,
+      "text": {
+        "zh": "气候修正后，另一名经济或交通人物修正成功，盟约+6层，返还本轮实付执行费用最多2，每轮一次。",
+        "en": "After a climate amendment, another economy or transport specialist’s amendment adds 6 layers and refunds up to 2 paid execution costs. Once per round.",
+        "de": "Nach Klimaänderung bringt eine Wirtschafts- oder Verkehrsänderung einer anderen Person 6 Stufen und bis zu 2 Kostenerstattung. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "修正成功时",
+        "en": "After successful amendment",
+        "de": "Nach erfolgreichem Änderungsantrag"
+      }
+    },
+    {
+      "id": "Hasselmann",
+      "trigger": "协调成功时",
+      "description": "本人协调后，另一名成员触发指定盟约，为该盟约+8层，每轮一次。",
+      "kind": "coordinate_route",
+      "target": "route",
+      "amount": 8,
+      "text": {
+        "zh": "本人协调后，另一名成员触发指定盟约，为该盟约+8层，每轮一次。",
+        "en": "After coordination, another member triggering the chosen alliance adds 8 layers to it. Once per round.",
+        "de": "Nach Koordination bringt ein weiteres Mitglied durch Auslösung des gewählten Bündnisses 8 Stufen. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "协调成功时",
+        "en": "After successful coordination",
+        "de": "Nach erfolgreicher Koordination"
+      }
+    },
+    {
+      "id": "Droege",
+      "trigger": "监督成功时",
+      "description": "经济或气候监督后，另一人同领域修正成功，为已激活盟约+8层，每轮一次。",
+      "kind": "chain",
+      "start": "scrutinize",
+      "end": "amend",
+      "domains": [
+        "economy",
+        "climate"
+      ],
+      "amount": 8,
+      "text": {
+        "zh": "经济或气候监督后，另一人同领域修正成功，为已激活盟约+8层，每轮一次。",
+        "en": "After economy or climate scrutiny, another specialist’s matching amendment adds 8 active alliance layers. Once per round.",
+        "de": "Nach Wirtschafts- oder Klimakontrolle bringt ein passender fremder Änderungsantrag 8 Bündnisstufen. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "监督成功时",
+        "en": "After successful scrutiny",
+        "de": "Nach erfolgreicher Kontrolle"
+      }
+    },
+    {
+      "id": "Reichinnek",
+      "trigger": "监督成功时",
+      "description": "社会、住房或教育监督后，同领域谈判成功，为已激活盟约+8层，每轮一次。",
+      "kind": "chain",
+      "start": "scrutinize",
+      "end": "negotiate",
+      "domains": [
+        "social",
+        "housing",
+        "education"
+      ],
+      "amount": 8,
+      "text": {
+        "zh": "社会、住房或教育监督后，同领域谈判成功，为已激活盟约+8层，每轮一次。",
+        "en": "After social, housing or education scrutiny, a matching negotiation adds 8 active alliance layers. Once per round.",
+        "de": "Nach Sozial-, Wohnungs- oder Bildungskontrolle bringt eine passende Verhandlung 8 Bündnisstufen. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "监督成功时",
+        "en": "After successful scrutiny",
+        "de": "Nach erfolgreicher Kontrolle"
+      }
+    },
+    {
+      "id": "Pellmann",
+      "trigger": "触发已有盟约时",
+      "description": "指定盟约获得普通成长后，本轮另一名同党人物有有效行动，为它+8层，每轮一次。",
+      "kind": "party_growth",
+      "target": "route",
+      "amount": 8,
+      "text": {
+        "zh": "指定盟约获得普通成长后，本轮另一名同党人物有有效行动，为它+8层，每轮一次。",
+        "en": "When the chosen alliance gains ordinary growth, another same-party member’s effective action grants 8 extra layers. Once per round.",
+        "de": "Nach regulärem Wachstum bringen wirksame Aktionen eines anderen Parteimitglieds dem gewählten Bündnis 8 zusätzliche Stufen. Einmal je Runde."
+      },
+      "triggerText": {
+        "zh": "触发已有盟约时",
+        "en": "When an active alliance triggers",
+        "de": "Bei Auslösung eines aktiven Bündnisses"
+      }
+    }
+  ]
+}
